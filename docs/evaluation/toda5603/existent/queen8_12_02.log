@@ -1,0 +1,189 @@
+c model ISR_TJ
+c  /home/toda/src/NuSMV-2.6.0-Linux_untouched/binary/bin/NuSMV -bmc -bmc_length 20 -n 0 /home/toda/2022solver/bin/../tmp/queen8_12_02.smv > queen8_12_02.log
+c ECC Heuristic Algorithm by Alessio Conte, Roberto Grossi and Andrea Marino. University of Pisa.
+c This code is compiled using Java 1.8
+c Parsing: 96
+c Reading graph from file..
+c Removing duplicates.................
+c Done.
+c Algotithm object created, class=it.unipi.di.clq.eps.lists.EPSc
+c Edges: 1368
+c 0 cliques
+c 2 cliques
+c 4 cliques
+c 8 cliques
+c 16 cliques
+c 32 cliques
+c 64 cliques
+c The solution is correct.
+c Cliques: 65
+c Sum: 431
+c MaxSize: 0
+c Time: 32
+c Aborted: false
+c ML = 95
+c SIZE = 96
+c Removed 8 cliques to minimalize solution.
+c Result saved!
+c Clique size distribution: {[2,4][3,6][4,3][5,6][6,4][7,4][8,22][12,8]}
+c NODE covering index distribution:{[3,4][4,81][5,10][6,1]}
+c EDGE covering index distrubution:{[1,1348][2,20]}
+c Total edges:1368
+c Distributions saved!
+c *** This is NuSMV 2.6.0 (compiled on Wed Oct 14 15:36:56 2015)
+c *** Enabled addons are: compass
+c *** For more information on NuSMV see <http://nusmv.fbk.eu>
+c *** or email to <nusmv-users@list.fbk.eu>.
+c *** Please report bugs to <Please report bugs to <nusmv-users@fbk.eu>>
+c 
+c *** Copyright (c) 2010-2014, Fondazione Bruno Kessler
+c 
+c *** This version of NuSMV is linked to the CUDD library version 2.4.1
+c *** Copyright (c) 1995-2004, Regents of the University of Colorado
+c 
+c *** This version of NuSMV is linked to the MiniSat SAT solver. 
+c *** See http://minisat.se/MiniSat.html
+c *** Copyright (c) 2003-2006, Niklas Een, Niklas Sorensson
+c *** Copyright (c) 2007-2010, Niklas Sorensson
+c 
+c -- no counterexample found with bound 0
+c -- no counterexample found with bound 1
+c -- no counterexample found with bound 2
+c -- specification  G (((((((state.token[1] = v9 & state.token[2] = v24) & state.token[3] = v28) & state.token[4] = v37) & state.token[5] = v58) & state.token[6] = v62) & state.token[7] = v83) ->  G !((((((((((((state.token[1] = v9 | state.token[1] = v16) | state.token[1] = v37) | state.token[1] = v58) | state.token[1] = v62) | state.token[1] = v83) | state.token[1] = v90) & ((((((state.token[2] = v9 | state.token[2] = v16) | state.token[2] = v37) | state.token[2] = v58) | state.token[2] = v62) | state.token[2] = v83) | state.token[2] = v90)) & ((((((state.token[3] = v9 | state.token[3] = v16) | state.token[3] = v37) | state.token[3] = v58) | state.token[3] = v62) | state.token[3] = v83) | state.token[3] = v90)) & ((((((state.token[4] = v9 | state.token[4] = v16) | state.token[4] = v37) | state.token[4] = v58) | state.token[4] = v62) | state.token[4] = v83) | state.token[4] = v90)) & ((((((state.token[5] = v9 | state.token[5] = v16) | state.token[5] = v37) | state.token[5] = v58) | state.token[5] = v62) | state.token[5] = v83) | state.token[5] = v90)) & ((((((state.token[6] = v9 | state.token[6] = v16) | state.token[6] = v37) | state.token[6] = v58) | state.token[6] = v62) | state.token[6] = v83) | state.token[6] = v90)) & ((((((state.token[7] = v9 | state.token[7] = v16) | state.token[7] = v37) | state.token[7] = v58) | state.token[7] = v62) | state.token[7] = v83) | state.token[7] = v90)))    is false
+c -- as demonstrated by the following execution sequence
+c Trace Description: BMC Counterexample 
+c Trace Type: Counterexample 
+c   -> State: 1.1 <-
+c     state.token[1] = 0ud57_9011597301645312
+c     state.token[2] = 0ud57_9070979317761
+c     state.token[3] = 0ud57_141974438937088
+c     state.token[4] = 0ud57_2251799831513088
+c     state.token[5] = 0ud57_8592052224
+c     state.token[6] = 0ud57_36099165763240064
+c     state.token[7] = 0ud57_72057596185419840
+c     state.tid = 1
+c     state.vid = 90
+c     state.target = 0ud57_0
+c     v96 = 0ud57_73183768822677504
+c     v95 = 0ud57_1125968626327568
+c     v94 = 0ud57_1125904203907136
+c     v93 = 0ud57_1126999422926848
+c     v92 = 0ud57_19456957765124096
+c     v91 = 0ud57_1125934333693952
+c     v90 = 0ud57_1143493175017472
+c     v89 = 0ud57_1126449932140544
+c     v88 = 0ud57_1691048917139968
+c     v87 = 0ud57_5629499534738432
+c     v86 = 0ud57_1200666697531394
+c     v85 = 0ud57_1125917103489024
+c     v84 = 0ud57_277025406992
+c     v83 = 0ud57_72057596185419840
+c     v82 = 0ud57_70873251840
+c     v81 = 0ud57_18014404952195072
+c     v80 = 0ud57_282576635826176
+c     v79 = 0ud57_35220887699456
+c     v78 = 0ud57_3556769792
+c     v77 = 0ud57_581094076317696
+c     v76 = 0ud57_562952102478336
+c     v75 = 0ud57_5070949774786688
+c     v74 = 0ud57_70388071531520
+c     v73 = 0ud57_2164293634
+c     v72 = 0ud57_36029071896871232
+c     v71 = 0ud57_36028797023182848
+c     v70 = 0ud57_126100789568471040
+c     v69 = 0ud57_36028865738706944
+c     v68 = 0ud57_36310276299030528
+c     v67 = 0ud57_36029931158765568
+c     v66 = 0ud57_36063982498349056
+c     v65 = 0ud57_36029346842411008
+c     v64 = 0ud57_36613737204941312
+c     v63 = 0ud57_40532413827252224
+c     v62 = 0ud57_36099165763240064
+c     v61 = 0ud57_36028934474695680
+c     v60 = 0ud57_283606253568
+c     v59 = 0ud57_18014407099425024
+c     v58 = 0ud57_8592052224
+c     v57 = 0ud57_72057602636513280
+c     v56 = 0ud57_281552554557440
+c     v55 = 0ud57_2246301450240
+c     v54 = 0ud57_1109175828480
+c     v53 = 0ud57_40140764348416
+c     v52 = 0ud57_2224860168704
+c     v51 = 0ud57_4521200403382272
+c     v50 = 0ud57_70514774114304
+c     v49 = 0ud57_2208166838400
+c     v48 = 0ud57_20266473201205248
+c     v47 = 0ud57_2251799947915264
+c     v46 = 0ud57_2251799824171264
+c     v45 = 0ud57_2251800082399232
+c     v44 = 0ud57_74590868861878272
+c     v43 = 0ud57_2251902893424640
+c     v42 = 0ud57_2256203228905472
+c     v41 = 0ud57_2253466260996096
+c     v40 = 0ud57_2286984185872896
+c     v39 = 0ud57_6755536947118080
+c     v38 = 0ud57_2339761280778240
+c     v37 = 0ud57_2251799831513088
+c     v36 = 0ud57_141012366266376
+c     v35 = 0ud57_140737496883200
+c     v34 = 0ud57_140737893105664
+c     v33 = 0ud57_140737522172160
+c     v32 = 0ud57_422212465606656
+c     v31 = 0ud57_72202763932532736
+c     v30 = 0ud57_140824461443072
+c     v29 = 0ud57_141291539169280
+c     v28 = 0ud57_141974438937088
+c     v27 = 0ud57_4679522024685568
+c     v26 = 0ud57_211106299643904
+c     v25 = 0ud57_158329691176992
+c     v24 = 0ud57_9070979317761
+c     v23 = 0ud57_8796361465864
+c     v22 = 0ud57_8796128804864
+c     v21 = 0ud57_8796228026368
+c     v20 = 0ud57_294669116244224
+c     v19 = 0ud57_8847632646144
+c     v18 = 0ud57_72066391204724736
+c     v17 = 0ud57_9552007266304
+c     v16 = 0ud57_10999948116480
+c     v15 = 0ud57_4513495232022528
+c     v14 = 0ud57_114349209288736
+c     v13 = 0ud57_8796176908292
+c     v12 = 0ud57_9007474401083392
+c     v11 = 0ud57_9007199288303617
+c     v10 = 0ud57_9007199257362440
+c     v9 = 0ud57_9011597301645312
+c     v8 = 0ud57_9288691545538560
+c     v7 = 0ud57_9007233614512384
+c     v6 = 0ud57_9007337767452672
+c     v5 = 0ud57_81065343585353728
+c     v4 = 0ud57_9007267974220288
+c     v3 = 0ud57_13510803177078816
+c     v2 = 0ud57_9078667510546436
+c     v1 = 0ud57_9042383643607040
+c     v0 = 0ud57_0
+c   -> State: 1.2 <-
+c     state.tid = 2
+c     state.vid = 16
+c     state.target = 0ud57_1143493175017472
+c   -> State: 1.3 <-
+c     state.token[2] = 0ud57_1143493175017472
+c     state.tid = 3
+c     state.vid = 36
+c     state.target = 0ud57_10999948116480
+c   -> State: 1.4 <-
+c     state.token[3] = 0ud57_10999948116480
+c     state.tid = 1
+c     state.vid = 1
+c     state.target = 0ud57_141012366266376
+s 1 24 28 45 55 62 87
+t 9 16 37 58 62 83 90
+a YES
+a 1 24 28 45 55 62 87
+a 24 28 45 55 62 83 87
+a 9 24 28 55 62 83 87
+a 9 24 28 37 55 62 87
+a 9 24 28 37 62 83 87
+a 9 24 28 37 58 62 87
+a 9 24 28 37 58 62 83
+a 9 28 37 58 62 83 90
+a 9 16 37 58 62 83 90

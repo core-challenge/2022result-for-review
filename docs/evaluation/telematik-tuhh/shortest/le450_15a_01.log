@@ -1,0 +1,46 @@
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/color04/le450_15a.col
+c Target file: benchmark/color04/le450_15a_01.dat
+c Size of independent set: 75
+c Number of nodes of graph: 450
+c Number of edges of graph: 8168
+c Average degree of graph: 36.30
+s 6 10 25 32 34 37 40 44 51 54 61 64 79 87 90 91 94 100 107 122 124 127 128 130 132 141 160 171 177 181 183 184 187 199 207 214 230 238 252 267 273 276 277 279 280 289 295 309 312 313 316 326 327 331 335 345 350 357 360 366 372 373 375 392 393 394 398 401 411 412 422 429 436 444 445 
+t 6 10 32 34 37 44 51 54 61 64 79 87 90 91 94 100 107 122 124 127 128 130 132 141 149 160 171 177 181 183 184 187 199 207 210 230 238 239 252 267 273 276 277 279 280 289 295 309 312 313 316 326 327 331 335 345 350 357 360 366 372 373 375 392 393 394 398 401 411 412 422 429 436 444 445 
+c BFS found 4 new nodes in level 1 (total 5/157903209)
+c BFS found 8 new nodes in level 2 (total 13/157903209)
+c BFS exiting found=true count=23 max_count=157903209
+c R=3
+c Found with: Breadth First Search
+a YES
+a 6 10 25 32 34 37 40 44 51 54 61 64 79 87 90 91 94 100 107 122 124 127 128 130 132 141 160 171 177 181 183 184 187 199 207 214 230 238 252 267 273 276 277 279 280 289 295 309 312 313 316 326 327 331 335 345 350 357 360 366 372 373 375 392 393 394 398 401 411 412 422 429 436 444 445 
+a 6 10 32 34 37 40 44 51 54 61 64 79 87 90 91 94 100 107 122 124 127 128 130 132 141 160 171 177 181 183 184 187 199 207 214 230 238 239 252 267 273 276 277 279 280 289 295 309 312 313 316 326 327 331 335 345 350 357 360 366 372 373 375 392 393 394 398 401 411 412 422 429 436 444 445 
+a 6 10 32 34 37 44 51 54 61 64 79 87 90 91 94 100 107 122 124 127 128 130 132 141 160 171 177 181 183 184 187 199 207 210 214 230 238 239 252 267 273 276 277 279 280 289 295 309 312 313 316 326 327 331 335 345 350 357 360 366 372 373 375 392 393 394 398 401 411 412 422 429 436 444 445 
+a 6 10 32 34 37 44 51 54 61 64 79 87 90 91 94 100 107 122 124 127 128 130 132 141 149 160 171 177 181 183 184 187 199 207 210 230 238 239 252 267 273 276 277 279 280 289 295 309 312 313 316 326 327 331 335 345 350 357 360 366 372 373 375 392 393 394 398 401 411 412 422 429 436 444 445 
+c Length: 3
+	Command being timed: "src/recon_th benchmark/color04/le450_15a.col benchmark/color04/le450_15a_01.dat"
+	User time (seconds): 0.00
+	System time (seconds): 0.04
+	Percent of CPU this job got: 84%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 264256
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 65643
+	Voluntary context switches: 6
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 168
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

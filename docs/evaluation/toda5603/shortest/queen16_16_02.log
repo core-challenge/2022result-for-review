@@ -1,0 +1,386 @@
+c model ISR_TJ
+c  /home/toda/src/NuSMV-2.6.0-Linux_untouched/binary/bin/NuSMV -bmc -bmc_length 20 -n 0 /home/toda/2022solver/bin/../tmp/queen16_16_02.smv > queen16_16_02.log
+c ECC Heuristic Algorithm by Alessio Conte, Roberto Grossi and Andrea Marino. University of Pisa.
+c This code is compiled using Java 1.8
+c Parsing: 256
+c Reading graph from file..
+c Removing duplicates.................
+c Done.
+c Algotithm object created, class=it.unipi.di.clq.eps.lists.EPSc
+c Edges: 6320
+c 0 cliques
+c 2 cliques
+c 4 cliques
+c 8 cliques
+c 16 cliques
+c 32 cliques
+c 64 cliques
+c The solution is correct.
+c Cliques: 99
+c Sum: 1061
+c MaxSize: 0
+c Time: 73
+c Aborted: false
+c ML = 255
+c SIZE = 256
+c Removed 9 cliques to minimalize solution.
+c Result saved!
+c Clique size distribution: {[2,4][3,4][4,4][5,4][6,4][7,4][8,4][9,4][10,4][11,4][12,4][13,4][14,4][15,4][16,34]}
+c NODE covering index distribution:{[3,4][4,252]}
+c EDGE covering index distrubution:{[1,6320]}
+c Total edges:6320
+c Distributions saved!
+c *** This is NuSMV 2.6.0 (compiled on Wed Oct 14 15:36:56 2015)
+c *** Enabled addons are: compass
+c *** For more information on NuSMV see <http://nusmv.fbk.eu>
+c *** or email to <nusmv-users@list.fbk.eu>.
+c *** Please report bugs to <Please report bugs to <nusmv-users@fbk.eu>>
+c 
+c *** Copyright (c) 2010-2014, Fondazione Bruno Kessler
+c 
+c *** This version of NuSMV is linked to the CUDD library version 2.4.1
+c *** Copyright (c) 1995-2004, Regents of the University of Colorado
+c 
+c *** This version of NuSMV is linked to the MiniSat SAT solver. 
+c *** See http://minisat.se/MiniSat.html
+c *** Copyright (c) 2003-2006, Niklas Een, Niklas Sorensson
+c *** Copyright (c) 2007-2010, Niklas Sorensson
+c 
+c -- no counterexample found with bound 0
+c -- no counterexample found with bound 1
+c -- no counterexample found with bound 2
+c -- no counterexample found with bound 3
+c -- no counterexample found with bound 4
+c -- no counterexample found with bound 5
+c -- no counterexample found with bound 6
+c -- no counterexample found with bound 7
+c -- specification  G (((((((((((((((state.token[1] = v10 & state.token[2] = v22) & state.token[3] = v51) & state.token[4] = v77) & state.token[5] = v88) & state.token[6] = v101) & state.token[7] = v127) & state.token[8] = v140) & state.token[9] = v160) & state.token[10] = v162) & state.token[11] = v183) & state.token[12] = v201) & state.token[13] = v219) & state.token[14] = v225) & state.token[15] = v244) ->  G !((((((((((((((((((((((((((((state.token[1] = v10 | state.token[1] = v32) | state.token[1] = v45) | state.token[1] = v51) | state.token[1] = v76) | state.token[1] = v88) | state.token[1] = v101) | state.token[1] = v113) | state.token[1] = v142) | state.token[1] = v162) | state.token[1] = v183) | state.token[1] = v201) | state.token[1] = v219) | state.token[1] = v239) | state.token[1] = v244) & ((((((((((((((state.token[2] = v10 | state.token[2] = v32) | state.token[2] = v45) | state.token[2] = v51) | state.token[2] = v76) | state.token[2] = v88) | state.token[2] = v101) | state.token[2] = v113) | state.token[2] = v142) | state.token[2] = v162) | state.token[2] = v183) | state.token[2] = v201) | state.token[2] = v219) | state.token[2] = v239) | state.token[2] = v244)) & ((((((((((((((state.token[3] = v10 | state.token[3] = v32) | state.token[3] = v45) | state.token[3] = v51) | state.token[3] = v76) | state.token[3] = v88) | state.token[3] = v101) | state.token[3] = v113) | state.token[3] = v142) | state.token[3] = v162) | state.token[3] = v183) | state.token[3] = v201) | state.token[3] = v219) | state.token[3] = v239) | state.token[3] = v244)) & ((((((((((((((state.token[4] = v10 | state.token[4] = v32) | state.token[4] = v45) | state.token[4] = v51) | state.token[4] = v76) | state.token[4] = v88) | state.token[4] = v101) | state.token[4] = v113) | state.token[4] = v142) | state.token[4] = v162) | state.token[4] = v183) | state.token[4] = v201) | state.token[4] = v219) | state.token[4] = v239) | state.token[4] = v244)) & ((((((((((((((state.token[5] = v10 | state.token[5] = v32) | state.token[5] = v45) | state.token[5] = v51) | state.token[5] = v76) | state.token[5] = v88) | state.token[5] = v101) | state.token[5] = v113) | state.token[5] = v142) | state.token[5] = v162) | state.token[5] = v183) | state.token[5] = v201) | state.token[5] = v219) | state.token[5] = v239) | state.token[5] = v244)) & ((((((((((((((state.token[6] = v10 | state.token[6] = v32) | state.token[6] = v45) | state.token[6] = v51) | state.token[6] = v76) | state.token[6] = v88) | state.token[6] = v101) | state.token[6] = v113) | state.token[6] = v142) | state.token[6] = v162) | state.token[6] = v183) | state.token[6] = v201) | state.token[6] = v219) | state.token[6] = v239) | state.token[6] = v244)) & ((((((((((((((state.token[7] = v10 | state.token[7] = v32) | state.token[7] = v45) | state.token[7] = v51) | state.token[7] = v76) | state.token[7] = v88) | state.token[7] = v101) | state.token[7] = v113) | state.token[7] = v142) | state.token[7] = v162) | state.token[7] = v183) | state.token[7] = v201) | state.token[7] = v219) | state.token[7] = v239) | state.token[7] = v244)) & ((((((((((((((state.token[8] = v10 | state.token[8] = v32) | state.token[8] = v45) | state.token[8] = v51) | state.token[8] = v76) | state.token[8] = v88) | state.token[8] = v101) | state.token[8] = v113) | state.token[8] = v142) | state.token[8] = v162) | state.token[8] = v183) | state.token[8] = v201) | state.token[8] = v219) | state.token[8] = v239) | state.token[8] = v244)) & ((((((((((((((state.token[9] = v10 | state.token[9] = v32) | state.token[9] = v45) | state.token[9] = v51) | state.token[9] = v76) | state.token[9] = v88) | state.token[9] = v101) | state.token[9] = v113) | state.token[9] = v142) | state.token[9] = v162) | state.token[9] = v183) | state.token[9] = v201) | state.token[9] = v219) | state.token[9] = v239) | state.token[9] = v244)) & ((((((((((((((state.token[10] = v10 | state.token[10] = v32) | state.token[10] = v45) | state.token[10] = v51) | state.token[10] = v76) | state.token[10] = v88) | state.token[10] = v101) | state.token[10] = v113) | state.token[10] = v142) | state.token[10] = v162) | state.token[10] = v183) | state.token[10] = v201) | state.token[10] = v219) | state.token[10] = v239) | state.token[10] = v244)) & ((((((((((((((state.token[11] = v10 | state.token[11] = v32) | state.token[11] = v45) | state.token[11] = v51) | state.token[11] = v76) | state.token[11] = v88) | state.token[11] = v101) | state.token[11] = v113) | state.token[11] = v142) | state.token[11] = v162) | state.token[11] = v183) | state.token[11] = v201) | state.token[11] = v219) | state.token[11] = v239) | state.token[11] = v244)) & ((((((((((((((state.token[12] = v10 | state.token[12] = v32) | state.token[12] = v45) | state.token[12] = v51) | state.token[12] = v76) | state.token[12] = v88) | state.token[12] = v101) | state.token[12] = v113) | state.token[12] = v142) | state.token[12] = v162) | state.token[12] = v183) | state.token[12] = v201) | state.token[12] = v219) | state.token[12] = v239) | state.token[12] = v244)) & ((((((((((((((state.token[13] = v10 | state.token[13] = v32) | state.token[13] = v45) | state.token[13] = v51) | state.token[13] = v76) | state.token[13] = v88) | state.token[13] = v101) | state.token[13] = v113) | state.token[13] = v142) | state.token[13] = v162) | state.token[13] = v183) | state.token[13] = v201) | state.token[13] = v219) | state.token[13] = v239) | state.token[13] = v244)) & ((((((((((((((state.token[14] = v10 | state.token[14] = v32) | state.token[14] = v45) | state.token[14] = v51) | state.token[14] = v76) | state.token[14] = v88) | state.token[14] = v101) | state.token[14] = v113) | state.token[14] = v142) | state.token[14] = v162) | state.token[14] = v183) | state.token[14] = v201) | state.token[14] = v219) | state.token[14] = v239) | state.token[14] = v244)) & ((((((((((((((state.token[15] = v10 | state.token[15] = v32) | state.token[15] = v45) | state.token[15] = v51) | state.token[15] = v76) | state.token[15] = v88) | state.token[15] = v101) | state.token[15] = v113) | state.token[15] = v142) | state.token[15] = v162) | state.token[15] = v183) | state.token[15] = v201) | state.token[15] = v219) | state.token[15] = v239) | state.token[15] = v244)))    is false
+c -- as demonstrated by the following execution sequence
+c Trace Description: BMC Counterexample 
+c Trace Type: Counterexample 
+c   -> State: 1.1 <-
+c     state.token[1] = 0ud90_1161928712451523584
+c     state.token[2] = 0ud90_295436170739885015040
+c     state.token[3] = 0ud90_309485009825854165910290432
+c     state.token[4] = 0ud90_604465216776223708938240
+c     state.token[5] = 0ud90_321121064950341130256384
+c     state.token[6] = 0ud90_159578208189201420342263808
+c     state.token[7] = 0ud90_9671406557479983351611392
+c     state.token[8] = 0ud90_618970019642708008808480768
+c     state.token[9] = 0ud90_2427296372476472616583168
+c     state.token[10] = 0ud90_4740813227561830055936
+c     state.token[11] = 0ud90_590298202896074801152
+c     state.token[12] = 0ud90_188894659314786081177600
+c     state.token[13] = 0ud90_77371257103051116987285504
+c     state.token[14] = 0ud90_2361759704386149285889
+c     state.token[15] = 0ud90_1210115634607384514527232
+c     state.tid = 1
+c     state.vid = 46
+c     state.target = 0ud90_0
+c     v256 = 0ud90_19343993705454784206635008
+c     v255 = 0ud90_319157596969882819533733896
+c     v254 = 0ud90_1180609705484664963076
+c     v253 = 0ud90_605643537456829017882624
+c     v252 = 0ud90_1180591638309865783552
+c     v251 = 0ud90_1185205558535654473728
+c     v250 = 0ud90_2419033383771480501780480
+c     v249 = 0ud90_38959523483846371704832
+c     v248 = 0ud90_20070057552196009066496
+c     v247 = 0ud90_1180591761523619659776
+c     v246 = 0ud90_1180591620717423890432
+c     v245 = 0ud90_154743685502293526651602944
+c     v244 = 0ud90_1210115634607384514527232
+c     v243 = 0ud90_1180591621816990040192
+c     v242 = 0ud90_1180592747167073959937
+c     v241 = 0ud90_1180591631712527581184
+c     v240 = 0ud90_2361183241436970123272
+c     v239 = 0ud90_29016580853992535015555076
+c     v238 = 0ud90_309487371022600902057132032
+c     v237 = 0ud90_606824093119118154137856
+c     v236 = 0ud90_2361219287824029712384
+c     v235 = 0ud90_2420217434156711867842560
+c     v234 = 0ud90_2362338414773602877440
+c     v233 = 0ud90_40140115104392135311360
+c     v232 = 0ud90_21250649173050842939392
+c     v231 = 0ud90_2361183382172315287552
+c     v230 = 0ud90_2361183241778428379136
+c     v229 = 0ud90_155953791913528598359707648
+c     v228 = 0ud90_2361183241435963459584
+c     v227 = 0ud90_2370407740471095853056
+c     v226 = 0ud90_2361183250780671443072
+c     v225 = 0ud90_2361759704386149285889
+c     v224 = 0ud90_77371252455336284361097220
+c     v223 = 0ud90_87042659012253302726590464
+c     v222 = 0ud90_96714065587184732485976320
+c     v221 = 0ud90_387460725186488650495426560
+c     v220 = 0ud90_79789104094653486460829696
+c     v219 = 0ud90_77371257103051116987285504
+c     v218 = 0ud90_77371253608257772073254912
+c     v217 = 0ud90_77409031389451024157114368
+c     v216 = 0ud90_77390141921267745900462080
+c     v215 = 0ud90_77371252455477416986411008
+c     v214 = 0ud90_78580178274950896364421120
+c     v213 = 0ud90_232113757366008870330171392
+c     v212 = 0ud90_77371252456462168161783808
+c     v211 = 0ud90_77371252455346162785847296
+c     v210 = 0ud90_77371262255169606095208448
+c     v209 = 0ud90_77371326242314761042657408
+c     v208 = 0ud90_619121135370141966096695296
+c     v207 = 0ud90_9822522284368879224357120
+c     v206 = 0ud90_151115745466229305901056
+c     v205 = 0ud90_22516243390322468378902528
+c     v204 = 0ud90_309636125548814523917402112
+c     v203 = 0ud90_151120339208215835181056
+c     v202 = 0ud90_151116916402130273173504
+c     v201 = 0ud90_188894659314786081177600
+c     v200 = 0ud90_170005195635381919285248
+c     v199 = 0ud90_1360041547207195444117504
+c     v198 = 0ud90_151115727451966161289216
+c     v197 = 0ud90_154893620639250262916202496
+c     v196 = 0ud90_151115727460694533079040
+c     v195 = 0ud90_151116303913680461893632
+c     v194 = 0ud90_151189514428673240860672
+c     v193 = 0ud90_453356405729721818546176
+c     v192 = 0ud90_885443715538058510592
+c     v191 = 0ud90_628642016495417529554960384
+c     v190 = 0ud90_2418441953054032744415232
+c     v189 = 0ud90_605053205617709800226816
+c     v188 = 0ud90_19343403409662017703772160
+c     v187 = 0ud90_309485604728841445858344960
+c     v186 = 0ud90_591448802232060870656
+c     v185 = 0ud90_38369263702387764232192
+c     v184 = 0ud90_1228405581356466729648128
+c     v183 = 0ud90_590298202896074801152
+c     v182 = 0ud90_590296936258755100672
+c     v181 = 0ud90_154743095206491826600017920
+c     v180 = 0ud90_590872271112082948096
+c     v179 = 0ud90_664082787821774962688
+c     v178 = 0ud90_302821750714565755146240
+c     v177 = 0ud90_5312662295427374123008
+c     v176 = 0ud90_55340232221130784768
+c     v175 = 0ud90_12089571790795544809439232
+c     v174 = 0ud90_618970038107448644028334080
+c     v173 = 0ud90_604481356551405493551104
+c     v172 = 0ud90_18446761668043603968
+c     v171 = 0ud90_19342836172264158936432640
+c     v170 = 0ud90_309485029421010921919086592
+c     v169 = 0ud90_1246723198292028790145024
+c     v168 = 0ud90_18907948704349376479232
+c     v167 = 0ud90_18448010711373185024
+c     v166 = 0ud90_18449004669624647680
+c     v165 = 0ud90_154742523933877360509583360
+c     v164 = 0ud90_92233720507060453376
+c     v163 = 0ud90_302249901648830514987008
+c     v162 = 0ud90_4740813227561830055936
+c     v161 = 0ud90_18446746273269682176
+c     v160 = 0ud90_2427296372476472616583168
+c     v159 = 0ud90_9671443450686690153201664
+c     v158 = 0ud90_295166201052855795712
+c     v157 = 0ud90_619574482552778927014150144
+c     v156 = 0ud90_299084346818560
+c     v155 = 0ud90_4611967770429489152
+c     v154 = 0ud90_20551740086651675553562624
+c     v153 = 0ud90_309522788753489500930310144
+c     v152 = 0ud90_18889467409222208585728
+c     v151 = 0ud90_36459805577052160
+c     v150 = 0ud90_576742227556958208
+c     v149 = 0ud90_154742578700182103990992896
+c     v148 = 0ud90_302231455185133478346752
+c     v147 = 0ud90_4722366765581572505600
+c     v146 = 0ud90_282025269526528
+c     v145 = 0ud90_283751309377536
+c     v144 = 0ud90_38654754816
+c     v143 = 0ud90_9680851289882776999821312
+c     v142 = 0ud90_36911502550224076800
+c     v141 = 0ud90_604758057712498239340544
+c     v140 = 0ud90_618970019642708008808480768
+c     v139 = 0ud90_1208930431300669076930560
+c     v138 = 0ud90_1152921511116406784
+c     v137 = 0ud90_19380592046822928158818304
+c     v136 = 0ud90_309503899287285347693625344
+c     v135 = 0ud90_576671862830923776
+c     v134 = 0ud90_73823005096160526336
+c     v133 = 0ud90_155044736365576196219469824
+c     v132 = 0ud90_4722368734674827608064
+c     v131 = 0ud90_1104477683712
+c     v130 = 0ud90_700079669248
+c     v129 = 0ud90_147573954792994766848
+c     v128 = 0ud90_562949971279872
+c     v127 = 0ud90_9671406557479983351611392
+c     v126 = 0ud90_9444751543087757524992
+c     v125 = 0ud90_604499803858686837784576
+c     v124 = 0ud90_1209220968100350666997760
+c     v123 = 0ud90_618970024254939105897480192
+c     v122 = 0ud90_1154610371646980096
+c     v121 = 0ud90_37778932434705355636736
+c     v120 = 0ud90_19361703156789247632998400
+c     v119 = 0ud90_309485083609025051004764160
+c     v118 = 0ud90_302231455536975999664128
+c     v117 = 0ud90_154747227313747150979989504
+c     v116 = 0ud90_562951832469504
+c     v115 = 0ud90_2815857868668928
+c     v114 = 0ud90_147574516089519865856
+c     v113 = 0ud90_565286449184768
+c     v112 = 0ud90_4835703278458516699382784
+c     v111 = 0ud90_14507109835375550101716992
+c     v110 = 0ud90_4835703296473190086230016
+c     v109 = 0ud90_6658536740846199751311360
+c     v108 = 0ud90_4835740171964256371081216
+c     v107 = 0ud90_4836003039175614385881088
+c     v106 = 0ud90_623805724074078954848256000
+c     v105 = 0ud90_4873482786782243343826944
+c     v104 = 0ud90_4854666531366292265369600
+c     v103 = 0ud90_24480747847336978276155392
+c     v102 = 0ud90_314325435466286455077208064
+c     v101 = 0ud90_159578208189201420342263808
+c     v100 = 0ud90_4835703314487323381465088
+c     v99 = 0ud90_4835850852412206155300864
+c     v98 = 0ud90_4835703280710866301878272
+c     v97 = 0ud90_4835703566691092008009728
+c     v96 = 0ud90_38685626371783321670680576
+c     v95 = 0ud90_9671406701032496351413248
+c     v94 = 0ud90_1208925981744215761092608
+c     v93 = 0ud90_604463053922502730334208
+c     v92 = 0ud90_9444878224419459170304
+c     v91 = 0ud90_41649298150015369216
+c     v90 = 0ud90_297021402624338952192
+c     v89 = 0ud90_619007872505644577525334016
+c     v88 = 0ud90_321121064950341130256384
+c     v87 = 0ud90_4722510738797356908544
+c     v86 = 0ud90_19342813257949255416414208
+c     v85 = 0ud90_464227514876132799752962048
+c     v84 = 0ud90_147718138147570188288
+c     v83 = 0ud90_180145084640002048
+c     v82 = 0ud90_432346114251816960
+c     v81 = 0ud90_146373584959307776
+c     v80 = 0ud90_2305843284091699200
+c     v79 = 0ud90_49565960910042805376647168
+c     v78 = 0ud90_2323857407790285824
+c     v77 = 0ud90_604465216776223708938240
+c     v76 = 0ud90_2305869397492776960
+c     v75 = 0ud90_9452226955519234932736
+c     v74 = 0ud90_114139228956077850624
+c     v73 = 0ud90_340307840514803021905920
+c     v72 = 0ud90_618993633780947494889324544
+c     v71 = 0ud90_2305983764418789376
+c     v70 = 0ud90_2305843019959500800
+c     v69 = 0ud90_174085467904302200047796224
+c     v68 = 0ud90_309485012127188079045771264
+c     v67 = 0ud90_2594144853621211136
+c     v66 = 0ud90_2341876754034982912
+c     v65 = 0ud90_2305845208505393152
+c     v64 = 0ud90_1284483687844143125528576
+c     v63 = 0ud90_9671406561420633092194304
+c     v62 = 0ud90_38685626251312031634292736
+c     v61 = 0ud90_604462914319710307746816
+c     v60 = 0ud90_580981944117886976
+c     v59 = 0ud90_78403165912892981248
+c     v58 = 0ud90_311677345294500818321408
+c     v57 = 0ud90_42538196337573853396992
+c     v56 = 0ud90_19184618340258097922048
+c     v55 = 0ud90_618970019647334483155222528
+c     v54 = 0ud90_147578456206492041216
+c     v53 = 0ud90_154742504915176136170799104
+c     v52 = 0ud90_19342813406568043648122880
+c     v51 = 0ud90_309485009825854165910290432
+c     v50 = 0ud90_4574518127370240
+c     v49 = 0ud90_40534595669590080
+c     v48 = 0ud90_72057594105069600
+c     v47 = 0ud90_9746964493826441665839104
+c     v46 = 0ud90_90080788640497664
+c     v45 = 0ud90_39290089785993794519302144
+c     v44 = 0ud90_73859051481062179840
+c     v43 = 0ud90_302236138647269760040960
+c     v42 = 0ud90_4723591461968290004992
+c     v41 = 0ud90_47223736886291026935808
+c     v40 = 0ud90_18926431477228627820544
+c     v39 = 0ud90_442794056100555522048
+c     v38 = 0ud90_618970019714747731529433088
+c     v37 = 0ud90_154742505270960521731899392
+c     v36 = 0ud90_72061995305664512
+c     v35 = 0ud90_19342813185892760344862720
+c     v34 = 0ud90_309485009893403212518522944
+c     v33 = 0ud90_72130161805361664
+c     v32 = 0ud90_1161084278964226
+c     v31 = 0ud90_9671406556961013862760480
+c     v30 = 0ud90_75558458236249508413440
+c     v29 = 0ud90_604536696818793797713920
+c     v28 = 0ud90_38987857682624567442407424
+c     v27 = 0ud90_4726978204072444691456
+c     v26 = 0ud90_1152956689516855296
+c     v25 = 0ud90_37778931898150123749376
+c     v24 = 0ud90_28481772884991919783936
+c     v23 = 0ud90_36893664069313101824
+c     v22 = 0ud90_295436170739885015040
+c     v21 = 0ud90_773712524553402254230552576
+c     v20 = 0ud90_35202625708032
+c     v19 = 0ud90_36286031200320
+c     v18 = 0ud90_19342813113869800923202048
+c     v17 = 0ud90_309485009821382452120125456
+c     v16 = 0ud90_9015995347795968
+c     v15 = 0ud90_9671407142384984955813890
+c     v14 = 0ud90_73813997892602429472
+c     v13 = 0ud90_982252237444085459189760
+c     v12 = 0ud90_4722375507661086064640
+c     v11 = 0ud90_38685630848361351809597440
+c     v10 = 0ud90_1161928712451523584
+c     v9 = 0ud90_37926514822746093912064
+c     v8 = 0ud90_18889474938677869166592
+c     v7 = 0ud90_9445030344052185235456
+c     v6 = 0ud90_36902499744728743936
+c     v5 = 0ud90_154742800067584912969965568
+c     v4 = 0ud90_618970019651697337778044992
+c     v3 = 0ud90_9008315946238464
+c     v2 = 0ud90_9007751158038544
+c     v1 = 0ud90_19342813122843465073295360
+c     v0 = 0ud90_0
+c   -> State: 1.2 <-
+c     state.tid = 14
+c     state.vid = 113
+c     state.target = 0ud90_90080788640497664
+c   -> State: 1.3 <-
+c     state.token[14] = 0ud90_90080788640497664
+c     state.tid = 7
+c     state.vid = 239
+c     state.target = 0ud90_565286449184768
+c   -> State: 1.4 <-
+c     state.token[7] = 0ud90_565286449184768
+c     state.tid = 4
+c     state.vid = 45
+c     state.target = 0ud90_29016580853992535015555076
+c   -> State: 1.5 <-
+c     state.token[4] = 0ud90_29016580853992535015555076
+c     state.tid = 14
+c     state.vid = 142
+c     state.target = 0ud90_39290089785993794519302144
+c   -> State: 1.6 <-
+c     state.token[14] = 0ud90_39290089785993794519302144
+c     state.tid = 8
+c     state.vid = 76
+c     state.target = 0ud90_36911502550224076800
+c   -> State: 1.7 <-
+c     state.token[8] = 0ud90_36911502550224076800
+c     state.tid = 2
+c     state.vid = 32
+c     state.target = 0ud90_2305869397492776960
+c   -> State: 1.8 <-
+c     state.token[2] = 0ud90_2305869397492776960
+c     state.tid = 9
+c     state.vid = 161
+c     state.target = 0ud90_1161084278964226
+c   -> State: 1.9 <-
+c     state.token[9] = 0ud90_1161084278964226
+c     state.tid = 1
+c     state.vid = 1
+c     state.target = 0ud90_18446746273269682176
+s 10 22 51 77 88 101 127 140 160 162 183 201 219 225 244
+t 10 32 45 51 76 88 101 113 142 162 183 201 219 239 244
+a YES
+a 10 22 51 77 88 101 127 140 160 162 183 201 219 225 244
+a 10 22 46 51 77 88 101 127 140 160 162 183 201 219 244
+a 10 22 46 51 77 88 101 113 140 160 162 183 201 219 244
+a 10 22 46 51 88 101 113 140 160 162 183 201 219 239 244
+a 10 22 45 51 88 101 113 140 160 162 183 201 219 239 244
+a 10 22 45 51 88 101 113 142 160 162 183 201 219 239 244
+a 10 45 51 76 88 101 113 142 160 162 183 201 219 239 244
+a 10 32 45 51 76 88 101 113 142 162 183 201 219 239 244

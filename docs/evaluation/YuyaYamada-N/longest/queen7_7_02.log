@@ -1,0 +1,141 @@
+s 6 10 15 25 40 44 
+t 5 9 18 22 35 45
+c UNKNOWN
+a YES
+a 10 15 25 40 44 6
+a 15 25 35 40 44 6
+a 15 25 35 40 45 6
+a 15 2 25 35 40 45
+a 13 15 2 35 40 45
+a 13 15 35 4 40 45
+a 13 15 35 4 40 44
+a 13 15 24 35 4 44
+a 13 15 24 33 4 44
+a 13 15 24 33 42 44
+a 13 15 24 33 42 46
+a 13 15 2 24 33 46
+a 14 15 2 24 33 46
+a 14 15 24 33 37 46
+a 14 15 24 37 46 5
+a 14 15 27 37 46 5
+a 10 15 27 37 46 5
+a 10 15 27 37 49 5
+a 10 27 32 37 49 5
+a 10 15 32 37 49 5
+a 10 15 28 32 37 5
+a 10 15 28 32 41 5
+a 15 28 32 41 45 5
+a 15 28 30 41 45 5
+a 14 15 30 41 45 5
+a 14 15 25 30 45 5
+a 15 25 30 42 45 5
+a 20 25 30 42 45 5
+a 20 30 42 45 5 8
+a 20 25 42 45 5 8
+a 20 25 30 42 45 8
+a 20 25 3 30 42 8
+a 20 25 30 42 47 8
+a 25 3 30 42 47 8
+a 20 25 3 30 42 47
+a 20 3 30 42 47 8
+a 20 25 3 30 47 8
+a 20 25 3 42 47 8
+a 20 25 29 3 42 47
+a 16 25 29 3 42 47
+a 14 16 25 29 3 47
+a 14 16 25 3 36 47
+a 14 16 25 3 34 47
+a 14 16 3 34 36 47
+a 14 16 25 34 36 47
+a 14 16 25 34 36 5
+a 14 16 25 36 45 5
+a 14 16 34 36 45 5
+a 16 25 34 36 45 5
+a 16 25 35 36 45 5
+a 20 25 35 36 45 5
+a 20 35 36 45 5 9
+a 20 22 35 45 5 9
+a 20 22 35 39 5 9
+a 22 35 39 48 5 9
+a 18 22 35 48 5 9
+a 18 22 31 48 5 9
+a 14 18 22 31 48 5
+a 14 18 22 37 48 5
+a 14 18 22 3 37 48
+a 14 18 22 3 37 47
+a 14 22 3 34 37 47
+a 14 17 22 34 37 47
+a 14 17 34 37 4 47
+a 14 17 27 37 4 47
+a 17 27 37 4 47 8
+a 17 27 4 42 47 8
+a 17 27 4 42 44 8
+a 17 27 30 4 42 8
+a 17 27 30 4 47 8
+a 17 27 30 47 7 8
+a 17 27 30 42 47 8
+a 17 30 4 42 47 8
+a 17 27 30 4 42 47
+a 14 17 27 30 4 47
+a 14 17 27 36 4 47
+a 14 17 2 27 36 47
+a 17 2 27 32 36 47
+a 13 17 2 32 36 47
+a 13 2 28 32 36 47
+a 13 17 28 32 36 47
+a 13 17 2 28 32 47
+a 13 17 2 28 36 47
+a 13 17 2 28 32 36
+a 13 2 28 32 36 45
+a 13 15 2 28 32 45
+a 15 2 28 32 41 45
+a 12 15 2 32 41 45
+a 12 15 32 41 45 7
+a 12 22 32 41 45 7
+a 12 2 22 32 41 45
+a 12 2 21 22 32 41
+a 12 21 22 3 32 41
+a 12 21 23 3 32 41
+a 12 23 3 32 41 43
+a 12 21 23 3 41 43
+a 12 21 23 3 41 46
+a 12 21 29 3 41 46
+a 12 2 21 29 41 46
+a 2 21 24 29 41 46
+a 19 2 24 29 41 46
+a 14 19 2 24 29 46
+a 14 19 2 24 29 39
+a 14 19 2 29 39 48
+a 14 19 2 22 39 48
+a 14 17 2 22 39 48
+a 17 2 22 35 39 48
+a 13 17 2 22 35 39
+a 13 17 2 22 35 40
+a 13 2 22 35 40 45
+a 13 18 22 35 40 45
+a 18 22 35 40 45 9
+a 18 22 35 45 5 9
+Command exited with non-zero status 65
+	Command being timed: "/Users/macpro/.pyenv/versions/anaconda3-2021.11/bin/clingo ../solver/core_compet2.lp -c core_stop="UNKNOWN" --stats --quiet=1,0 --time-limit=10800 ../encoding/isrpTJ_exact1_noloop_d1d2.lp ../../benchmark/3rd-benchmark/asp/queen7_7.lp ../../benchmark/3rd-benchmark/asp/queen7_7_02.lp -c core_max=831"
+	User time (seconds): 10795.77
+	System time (seconds): 6.45
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:00:02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4386116
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1145654
+	Voluntary context switches: 1
+	Involuntary context switches: 10591
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 1
+	Page size (bytes): 4096
+	Exit status: 65

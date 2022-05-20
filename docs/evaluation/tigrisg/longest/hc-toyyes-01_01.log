@@ -1,0 +1,7 @@
+c nb_vertices=7 nb_token=3
+c LENGTH 3
+a YES
+a 3 6 7 
+a 1 6 7 
+a 1 4 7 
+a 4 5 7 

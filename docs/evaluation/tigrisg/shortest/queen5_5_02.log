@@ -1,0 +1,11 @@
+c nb_vertices=25 nb_token=4
+c LENGTH 7
+a YES
+a 4 13 20 22 
+a 4 6 20 22 
+a 3 6 20 22 
+a 3 6 19 22 
+a 5 6 19 22 
+a 5 8 19 22 
+a 5 8 11 22 
+a 5 8 11 24 

@@ -1,0 +1,6 @@
+c nb_vertices=11 nb_token=4
+c LENGTH 2
+a YES
+a 6 8 9 10 
+a 3 6 8 9 
+a 3 4 8 9 

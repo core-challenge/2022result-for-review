@@ -1,0 +1,78 @@
+s 5 9 24 34 47 51 62 
+t 7 12 22 32 41 51 61
+c UNKNOWN
+a YES
+a 24 34 47 5 51 62 9
+a 24 34 4 47 51 62 9
+a 32 34 4 47 51 62 9
+a 21 32 34 4 47 51 62
+a 1 21 32 34 47 51 62
+a 1 21 32 36 47 51 62
+a 1 13 32 36 47 51 62
+a 1 13 24 36 47 51 62
+a 13 24 25 36 47 51 62
+a 13 24 25 36 51 62 7
+a 13 24 25 36 46 51 7
+a 13 2 24 25 36 46 51
+a 13 2 24 25 46 51 63
+a 13 2 24 25 35 46 63
+a 13 24 25 35 46 50 63
+a 13 24 25 3 46 50 63
+a 13 24 25 3 44 50 63
+a 13 24 3 33 44 50 63
+a 14 24 3 33 44 50 63
+a 14 24 25 3 44 50 63
+a 14 25 3 40 44 50 63
+a 14 20 25 3 40 50 63
+a 14 20 25 3 37 50 63
+a 14 24 25 3 37 50 63
+a 14 24 25 3 37 47 50
+a 14 24 25 37 47 50 60
+a 14 24 27 37 47 50 60
+a 14 24 3 37 47 50 60
+a 14 24 26 3 37 47 60
+a 24 26 3 37 47 60 9
+a 24 3 37 47 50 60 9
+a 24 3 37 47 50 62 9
+a 24 28 3 47 50 62 9
+a 24 28 47 5 50 62 9
+a 24 28 47 5 51 62 9
+a 24 28 34 5 51 62 9
+a 24 28 39 5 51 62 9
+a 24 28 39 41 5 51 62
+a 2 24 28 39 41 51 62
+a 2 24 28 39 41 51 61
+a 14 2 24 39 41 51 61
+a 14 2 24 36 41 51 61
+a 14 2 24 36 41 55 61
+a 2 24 30 36 41 55 61
+a 2 24 30 35 41 55 61
+a 12 2 24 35 41 55 61
+a 12 2 22 35 41 55 61
+a 12 2 22 32 35 41 61
+a 12 2 22 32 41 51 61
+a 12 22 32 41 51 61 7
+Command exited with non-zero status 65
+	Command being timed: "/Users/macpro/.pyenv/versions/anaconda3-2021.11/bin/clingo ../solver/core_compet2.lp -c core_stop="UNKNOWN" --stats --quiet=1,0 --time-limit=10800 ../encoding/isrpTJ_exact1_noloop_d1d2.lp ../../benchmark/3rd-benchmark/asp/queen8_8.lp ../../benchmark/3rd-benchmark/asp/queen8_8_01.lp -c core_max=3191"
+	User time (seconds): 10796.10
+	System time (seconds): 4.71
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:00:01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1285780
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 321644
+	Voluntary context switches: 6
+	Involuntary context switches: 10959
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 1
+	Page size (bytes): 4096
+	Exit status: 65

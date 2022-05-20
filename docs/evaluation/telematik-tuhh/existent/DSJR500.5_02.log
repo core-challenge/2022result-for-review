@@ -1,0 +1,50 @@
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/color04/DSJR500.5.col
+c Target file: benchmark/color04/DSJR500.5_02.dat
+c Size of independent set: 6
+c Number of nodes of graph: 500
+c Number of edges of graph: 58862
+c Average degree of graph: 235.45
+s 17 27 326 329 464 495 
+t 106 164 222 273 447 464 
+c BFS found 55 new nodes in level 1 (total 56/157903209)
+c BFS found 1023 new nodes in level 2 (total 1079/157903209)
+c BFS found 12437 new nodes in level 3 (total 13516/157903209)
+c R=5
+c R=6
+c Found with: Iterative A*-Search
+a YES
+a 17 27 326 329 464 495 
+a 17 27 326 329 454 464 
+a 27 326 329 447 454 464 
+a 27 273 326 447 454 464 
+a 27 222 273 447 454 464 
+a 106 222 273 447 454 464 
+a 106 164 222 273 447 464 
+c Length: 6
+	Command being timed: "src/recon_th benchmark/color04/DSJR500.5.col benchmark/color04/DSJR500.5_02.dat"
+	User time (seconds): 0.09
+	System time (seconds): 0.04
+	Percent of CPU this job got: 181%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 269424
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 66966
+	Voluntary context switches: 10
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

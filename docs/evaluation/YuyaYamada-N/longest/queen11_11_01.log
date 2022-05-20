@@ -1,0 +1,59 @@
+s 2 15 30 43 49 56 72 88 106 119 
+t 8 17 24 43 49 66 75 91 100 114
+c UNKNOWN
+a YES
+a 106 119 15 2 30 43 49 56 72 88
+a 106 119 15 2 43 49 56 72 88 91
+a 106 119 15 43 49 56 72 8 88 91
+a 106 119 15 24 43 49 56 8 88 91
+a 106 119 17 24 43 49 56 8 88 91
+a 106 17 24 43 49 56 75 8 88 91
+a 106 114 17 24 43 49 75 8 88 91
+a 106 114 17 24 43 45 75 8 88 91
+a 106 17 24 43 45 59 75 8 88 91
+a 106 121 17 24 43 45 59 75 8 91
+a 121 17 24 43 45 59 75 8 82 91
+a 121 17 24 40 45 59 75 8 82 91
+a 121 17 24 40 45 59 75 8 82 98
+a 104 121 17 24 40 45 59 75 8 98
+a 104 113 17 24 40 45 59 75 8 98
+a 104 113 17 24 40 45 66 75 8 98
+a 113 17 24 40 45 66 75 8 82 98
+a 107 113 17 24 40 45 66 75 82 98
+a 107 11 113 17 24 40 45 75 82 98
+a 107 11 113 17 24 40 56 75 82 98
+a 107 11 114 17 24 40 56 75 82 98
+a 107 11 114 17 24 40 49 56 75 98
+a 107 11 114 17 24 40 49 58 75 98
+a 107 11 114 17 24 40 45 58 75 98
+a 107 11 114 17 24 40 45 75 82 98
+a 107 114 17 24 40 45 66 75 82 98
+a 114 17 24 40 45 66 75 8 82 98
+a 114 17 24 40 45 66 75 8 82 91
+a 114 17 24 43 45 66 75 8 82 91
+a 100 114 17 24 43 66 75 8 82 91
+a 100 114 17 24 43 49 66 75 8 91
+Command exited with non-zero status 65
+	Command being timed: "/Users/macpro/.pyenv/versions/anaconda3-2021.11/bin/clingo ../solver/core_compet2.lp -c core_stop="UNKNOWN" --stats --quiet=1,0 --time-limit=10800 ../encoding/isrpTJ_exact1_noloop_d1d2.lp ../../benchmark/3rd-benchmark/asp/queen11_11.lp ../../benchmark/3rd-benchmark/asp/queen11_11_01.lp -c core_max=264543"
+	User time (seconds): 10795.57
+	System time (seconds): 4.97
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:00:01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1236600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 310337
+	Voluntary context switches: 5
+	Involuntary context switches: 12800
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 1
+	Page size (bytes): 4096
+	Exit status: 65

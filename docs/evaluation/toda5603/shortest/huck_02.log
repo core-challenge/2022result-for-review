@@ -1,0 +1,167 @@
+c model ISR_TJ
+c  /home/toda/src/NuSMV-2.6.0-Linux_untouched/binary/bin/NuSMV -bmc -bmc_length 20 -n 0 /home/toda/2022solver/bin/../tmp/huck_02.smv > huck_02.log
+c ECC Heuristic Algorithm by Alessio Conte, Roberto Grossi and Andrea Marino. University of Pisa.
+c This code is compiled using Java 1.8
+c Parsing: 74
+c Reading graph from file..
+c Removing duplicates.................
+c Done.
+c Algotithm object created, class=it.unipi.di.clq.eps.lists.EPSc
+c Edges: 301
+c 0 cliques
+c 2 cliques
+c 4 cliques
+c 8 cliques
+c 16 cliques
+c 32 cliques
+c The solution is correct.
+c Cliques: 34
+c Sum: 151
+c MaxSize: 0
+c Time: 17
+c Aborted: false
+c ML = 73
+c SIZE = 74
+c Removed 0 cliques to minimalize solution.
+c Result saved!
+c Clique size distribution: {[2,9][3,8][4,4][5,3][6,3][7,2][8,2][9,1][10,1][11,1]}
+c NODE covering index distribution:{[1,47][2,16][3,3][5,2][6,3][8,1][10,1][17,1]}
+c EDGE covering index distrubution:{[1,259][2,30][3,3][4,8][6,1]}
+c Total edges:301
+c Distributions saved!
+c *** This is NuSMV 2.6.0 (compiled on Wed Oct 14 15:36:56 2015)
+c *** Enabled addons are: compass
+c *** For more information on NuSMV see <http://nusmv.fbk.eu>
+c *** or email to <nusmv-users@list.fbk.eu>.
+c *** Please report bugs to <Please report bugs to <nusmv-users@fbk.eu>>
+c 
+c *** Copyright (c) 2010-2014, Fondazione Bruno Kessler
+c 
+c *** This version of NuSMV is linked to the CUDD library version 2.4.1
+c *** Copyright (c) 1995-2004, Regents of the University of Colorado
+c 
+c *** This version of NuSMV is linked to the MiniSat SAT solver. 
+c *** See http://minisat.se/MiniSat.html
+c *** Copyright (c) 2003-2006, Niklas Een, Niklas Sorensson
+c *** Copyright (c) 2007-2010, Niklas Sorensson
+c 
+c -- specification  G ((((((((((((((((((((((((((state.token[1] = v3 & state.token[2] = v12) & state.token[3] = v15) & state.token[4] = v18) & state.token[5] = v19) & state.token[6] = v26) & state.token[7] = v28) & state.token[8] = v30) & state.token[9] = v32) & state.token[10] = v33) & state.token[11] = v36) & state.token[12] = v42) & state.token[13] = v45) & state.token[14] = v46) & state.token[15] = v54) & state.token[16] = v58) & state.token[17] = v59) & state.token[18] = v61) & state.token[19] = v63) & state.token[20] = v64) & state.token[21] = v65) & state.token[22] = v66) & state.token[23] = v69) & state.token[24] = v70) & state.token[25] = v72) & state.token[26] = v74) ->  G !((((((((((((((((((((((((((((((((((((((((((((((((((state.token[1] = v3 | state.token[1] = v12) | state.token[1] = v15) | state.token[1] = v18) | state.token[1] = v19) | state.token[1] = v26) | state.token[1] = v28) | state.token[1] = v30) | state.token[1] = v32) | state.token[1] = v33) | state.token[1] = v36) | state.token[1] = v42) | state.token[1] = v45) | state.token[1] = v46) | state.token[1] = v54) | state.token[1] = v58) | state.token[1] = v59) | state.token[1] = v61) | state.token[1] = v63) | state.token[1] = v64) | state.token[1] = v65) | state.token[1] = v66) | state.token[1] = v69) | state.token[1] = v70) | state.token[1] = v72) | state.token[1] = v74) & (((((((((((((((((((((((((state.token[2] = v3 | state.token[2] = v12) | state.token[2] = v15) | state.token[2] = v18) | state.token[2] = v19) | state.token[2] = v26) | state.token[2] = v28) | state.token[2] = v30) | state.token[2] = v32) | state.token[2] = v33) | state.token[2] = v36) | state.token[2] = v42) | state.token[2] = v45) | state.token[2] = v46) | state.token[2] = v54) | state.token[2] = v58) | state.token[2] = v59) | state.token[2] = v61) | state.token[2] = v63) | state.token[2] = v64) | state.token[2] = v65) | state.token[2] = v66) | state.token[2] = v69) | state.token[2] = v70) | state.token[2] = v72) | state.token[2] = v74)) & (((((((((((((((((((((((((state.token[3] = v3 | state.token[3] = v12) | state.token[3] = v15) | state.token[3] = v18) | state.token[3] = v19) | state.token[3] = v26) | state.token[3] = v28) | state.token[3] = v30) | state.token[3] = v32) | state.token[3] = v33) | state.token[3] = v36) | state.token[3] = v42) | state.token[3] = v45) | state.token[3] = v46) | state.token[3] = v54) | state.token[3] = v58) | state.token[3] = v59) | state.token[3] = v61) | state.token[3] = v63) | state.token[3] = v64) | state.token[3] = v65) | state.token[3] = v66) | state.token[3] = v69) | state.token[3] = v70) | state.token[3] = v72) | state.token[3] = v74)) & (((((((((((((((((((((((((state.token[4] = v3 | state.token[4] = v12) | state.token[4] = v15) | state.token[4] = v18) | state.token[4] = v19) | state.token[4] = v26) | state.token[4] = v28) | state.token[4] = v30) | state.token[4] = v32) | state.token[4] = v33) | state.token[4] = v36) | state.token[4] = v42) | state.token[4] = v45) | state.token[4] = v46) | state.token[4] = v54) | state.token[4] = v58) | state.token[4] = v59) | state.token[4] = v61) | state.token[4] = v63) | state.token[4] = v64) | state.token[4] = v65) | state.token[4] = v66) | state.token[4] = v69) | state.token[4] = v70) | state.token[4] = v72) | state.token[4] = v74)) & (((((((((((((((((((((((((state.token[5] = v3 | state.token[5] = v12) | state.token[5] = v15) | state.token[5] = v18) | state.token[5] = v19) | state.token[5] = v26) | state.token[5] = v28) | state.token[5] = v30) | state.token[5] = v32) | state.token[5] = v33) | state.token[5] = v36) | state.token[5] = v42) | state.token[5] = v45) | state.token[5] = v46) | state.token[5] = v54) | state.token[5] = v58) | state.token[5] = v59) | state.token[5] = v61) | state.token[5] = v63) | state.token[5] = v64) | state.token[5] = v65) | state.token[5] = v66) | state.token[5] = v69) | state.token[5] = v70) | state.token[5] = v72) | state.token[5] = v74)) & (((((((((((((((((((((((((state.token[6] = v3 | state.token[6] = v12) | state.token[6] = v15) | state.token[6] = v18) | state.token[6] = v19) | state.token[6] = v26) | state.token[6] = v28) | state.token[6] = v30) | state.token[6] = v32) | state.token[6] = v33) | state.token[6] = v36) | state.token[6] = v42) | state.token[6] = v45) | state.token[6] = v46) | state.token[6] = v54) | state.token[6] = v58) | state.token[6] = v59) | state.token[6] = v61) | state.token[6] = v63) | state.token[6] = v64) | state.token[6] = v65) | state.token[6] = v66) | state.token[6] = v69) | state.token[6] = v70) | state.token[6] = v72) | state.token[6] = v74)) & (((((((((((((((((((((((((state.token[7] = v3 | state.token[7] = v12) | state.token[7] = v15) | state.token[7] = v18) | state.token[7] = v19) | state.token[7] = v26) | state.token[7] = v28) | state.token[7] = v30) | state.token[7] = v32) | state.token[7] = v33) | state.token[7] = v36) | state.token[7] = v42) | state.token[7] = v45) | state.token[7] = v46) | state.token[7] = v54) | state.token[7] = v58) | state.token[7] = v59) | state.token[7] = v61) | state.token[7] = v63) | state.token[7] = v64) | state.token[7] = v65) | state.token[7] = v66) | state.token[7] = v69) | state.token[7] = v70) | state.token[7] = v72) | state.token[7] = v74)) & (((((((((((((((((((((((((state.token[8] = v3 | state.token[8] = v12) | state.token[8] = v15) | state.token[8] = v18) | state.token[8] = v19) | state.token[8] = v26) | state.token[8] = v28) | state.token[8] = v30) | state.token[8] = v32) | state.token[8] = v33) | state.token[8] = v36) | state.token[8] = v42) | state.token[8] = v45) | state.token[8] = v46) | state.token[8] = v54) | state.token[8] = v58) | state.token[8] = v59) | state.token[8] = v61) | state.token[8] = v63) | state.token[8] = v64) | state.token[8] = v65) | state.token[8] = v66) | state.token[8] = v69) | state.token[8] = v70) | state.token[8] = v72) | state.token[8] = v74)) & (((((((((((((((((((((((((state.token[9] = v3 | state.token[9] = v12) | state.token[9] = v15) | state.token[9] = v18) | state.token[9] = v19) | state.token[9] = v26) | state.token[9] = v28) | state.token[9] = v30) | state.token[9] = v32) | state.token[9] = v33) | state.token[9] = v36) | state.token[9] = v42) | state.token[9] = v45) | state.token[9] = v46) | state.token[9] = v54) | state.token[9] = v58) | state.token[9] = v59) | state.token[9] = v61) | state.token[9] = v63) | state.token[9] = v64) | state.token[9] = v65) | state.token[9] = v66) | state.token[9] = v69) | state.token[9] = v70) | state.token[9] = v72) | state.token[9] = v74)) & (((((((((((((((((((((((((state.token[10] = v3 | state.token[10] = v12) | state.token[10] = v15) | state.token[10] = v18) | state.token[10] = v19) | state.token[10] = v26) | state.token[10] = v28) | state.token[10] = v30) | state.token[10] = v32) | state.token[10] = v33) | state.token[10] = v36) | state.token[10] = v42) | state.token[10] = v45) | state.token[10] = v46) | state.token[10] = v54) | state.token[10] = v58) | state.token[10] = v59) | state.token[10] = v61) | state.token[10] = v63) | state.token[10] = v64) | state.token[10] = v65) | state.token[10] = v66) | state.token[10] = v69) | state.token[10] = v70) | state.token[10] = v72) | state.token[10] = v74)) & (((((((((((((((((((((((((state.token[11] = v3 | state.token[11] = v12) | state.token[11] = v15) | state.token[11] = v18) | state.token[11] = v19) | state.token[11] = v26) | state.token[11] = v28) | state.token[11] = v30) | state.token[11] = v32) | state.token[11] = v33) | state.token[11] = v36) | state.token[11] = v42) | state.token[11] = v45) | state.token[11] = v46) | state.token[11] = v54) | state.token[11] = v58) | state.token[11] = v59) | state.token[11] = v61) | state.token[11] = v63) | state.token[11] = v64) | state.token[11] = v65) | state.token[11] = v66) | state.token[11] = v69) | state.token[11] = v70) | state.token[11] = v72) | state.token[11] = v74)) & (((((((((((((((((((((((((state.token[12] = v3 | state.token[12] = v12) | state.token[12] = v15) | state.token[12] = v18) | state.token[12] = v19) | state.token[12] = v26) | state.token[12] = v28) | state.token[12] = v30) | state.token[12] = v32) | state.token[12] = v33) | state.token[12] = v36) | state.token[12] = v42) | state.token[12] = v45) | state.token[12] = v46) | state.token[12] = v54) | state.token[12] = v58) | state.token[12] = v59) | state.token[12] = v61) | state.token[12] = v63) | state.token[12] = v64) | state.token[12] = v65) | state.token[12] = v66) | state.token[12] = v69) | state.token[12] = v70) | state.token[12] = v72) | state.token[12] = v74)) & (((((((((((((((((((((((((state.token[13] = v3 | state.token[13] = v12) | state.token[13] = v15) | state.token[13] = v18) | state.token[13] = v19) | state.token[13] = v26) | state.token[13] = v28) | state.token[13] = v30) | state.token[13] = v32) | state.token[13] = v33) | state.token[13] = v36) | state.token[13] = v42) | state.token[13] = v45) | state.token[13] = v46) | state.token[13] = v54) | state.token[13] = v58) | state.token[13] = v59) | state.token[13] = v61) | state.token[13] = v63) | state.token[13] = v64) | state.token[13] = v65) | state.token[13] = v66) | state.token[13] = v69) | state.token[13] = v70) | state.token[13] = v72) | state.token[13] = v74)) & (((((((((((((((((((((((((state.token[14] = v3 | state.token[14] = v12) | state.token[14] = v15) | state.token[14] = v18) | state.token[14] = v19) | state.token[14] = v26) | state.token[14] = v28) | state.token[14] = v30) | state.token[14] = v32) | state.token[14] = v33) | state.token[14] = v36) | state.token[14] = v42) | state.token[14] = v45) | state.token[14] = v46) | state.token[14] = v54) | state.token[14] = v58) | state.token[14] = v59) | state.token[14] = v61) | state.token[14] = v63) | state.token[14] = v64) | state.token[14] = v65) | state.token[14] = v66) | state.token[14] = v69) | state.token[14] = v70) | state.token[14] = v72) | state.token[14] = v74)) & (((((((((((((((((((((((((state.token[15] = v3 | state.token[15] = v12) | state.token[15] = v15) | state.token[15] = v18) | state.token[15] = v19) | state.token[15] = v26) | state.token[15] = v28) | state.token[15] = v30) | state.token[15] = v32) | state.token[15] = v33) | state.token[15] = v36) | state.token[15] = v42) | state.token[15] = v45) | state.token[15] = v46) | state.token[15] = v54) | state.token[15] = v58) | state.token[15] = v59) | state.token[15] = v61) | state.token[15] = v63) | state.token[15] = v64) | state.token[15] = v65) | state.token[15] = v66) | state.token[15] = v69) | state.token[15] = v70) | state.token[15] = v72) | state.token[15] = v74)) & (((((((((((((((((((((((((state.token[16] = v3 | state.token[16] = v12) | state.token[16] = v15) | state.token[16] = v18) | state.token[16] = v19) | state.token[16] = v26) | state.token[16] = v28) | state.token[16] = v30) | state.token[16] = v32) | state.token[16] = v33) | state.token[16] = v36) | state.token[16] = v42) | state.token[16] = v45) | state.token[16] = v46) | state.token[16] = v54) | state.token[16] = v58) | state.token[16] = v59) | state.token[16] = v61) | state.token[16] = v63) | state.token[16] = v64) | state.token[16] = v65) | state.token[16] = v66) | state.token[16] = v69) | state.token[16] = v70) | state.token[16] = v72) | state.token[16] = v74)) & (((((((((((((((((((((((((state.token[17] = v3 | state.token[17] = v12) | state.token[17] = v15) | state.token[17] = v18) | state.token[17] = v19) | state.token[17] = v26) | state.token[17] = v28) | state.token[17] = v30) | state.token[17] = v32) | state.token[17] = v33) | state.token[17] = v36) | state.token[17] = v42) | state.token[17] = v45) | state.token[17] = v46) | state.token[17] = v54) | state.token[17] = v58) | state.token[17] = v59) | state.token[17] = v61) | state.token[17] = v63) | state.token[17] = v64) | state.token[17] = v65) | state.token[17] = v66) | state.token[17] = v69) | state.token[17] = v70) | state.token[17] = v72) | state.token[17] = v74)) & (((((((((((((((((((((((((state.token[18] = v3 | state.token[18] = v12) | state.token[18] = v15) | state.token[18] = v18) | state.token[18] = v19) | state.token[18] = v26) | state.token[18] = v28) | state.token[18] = v30) | state.token[18] = v32) | state.token[18] = v33) | state.token[18] = v36) | state.token[18] = v42) | state.token[18] = v45) | state.token[18] = v46) | state.token[18] = v54) | state.token[18] = v58) | state.token[18] = v59) | state.token[18] = v61) | state.token[18] = v63) | state.token[18] = v64) | state.token[18] = v65) | state.token[18] = v66) | state.token[18] = v69) | state.token[18] = v70) | state.token[18] = v72) | state.token[18] = v74)) & (((((((((((((((((((((((((state.token[19] = v3 | state.token[19] = v12) | state.token[19] = v15) | state.token[19] = v18) | state.token[19] = v19) | state.token[19] = v26) | state.token[19] = v28) | state.token[19] = v30) | state.token[19] = v32) | state.token[19] = v33) | state.token[19] = v36) | state.token[19] = v42) | state.token[19] = v45) | state.token[19] = v46) | state.token[19] = v54) | state.token[19] = v58) | state.token[19] = v59) | state.token[19] = v61) | state.token[19] = v63) | state.token[19] = v64) | state.token[19] = v65) | state.token[19] = v66) | state.token[19] = v69) | state.token[19] = v70) | state.token[19] = v72) | state.token[19] = v74)) & (((((((((((((((((((((((((state.token[20] = v3 | state.token[20] = v12) | state.token[20] = v15) | state.token[20] = v18) | state.token[20] = v19) | state.token[20] = v26) | state.token[20] = v28) | state.token[20] = v30) | state.token[20] = v32) | state.token[20] = v33) | state.token[20] = v36) | state.token[20] = v42) | state.token[20] = v45) | state.token[20] = v46) | state.token[20] = v54) | state.token[20] = v58) | state.token[20] = v59) | state.token[20] = v61) | state.token[20] = v63) | state.token[20] = v64) | state.token[20] = v65) | state.token[20] = v66) | state.token[20] = v69) | state.token[20] = v70) | state.token[20] = v72) | state.token[20] = v74)) & (((((((((((((((((((((((((state.token[21] = v3 | state.token[21] = v12) | state.token[21] = v15) | state.token[21] = v18) | state.token[21] = v19) | state.token[21] = v26) | state.token[21] = v28) | state.token[21] = v30) | state.token[21] = v32) | state.token[21] = v33) | state.token[21] = v36) | state.token[21] = v42) | state.token[21] = v45) | state.token[21] = v46) | state.token[21] = v54) | state.token[21] = v58) | state.token[21] = v59) | state.token[21] = v61) | state.token[21] = v63) | state.token[21] = v64) | state.token[21] = v65) | state.token[21] = v66) | state.token[21] = v69) | state.token[21] = v70) | state.token[21] = v72) | state.token[21] = v74)) & (((((((((((((((((((((((((state.token[22] = v3 | state.token[22] = v12) | state.token[22] = v15) | state.token[22] = v18) | state.token[22] = v19) | state.token[22] = v26) | state.token[22] = v28) | state.token[22] = v30) | state.token[22] = v32) | state.token[22] = v33) | state.token[22] = v36) | state.token[22] = v42) | state.token[22] = v45) | state.token[22] = v46) | state.token[22] = v54) | state.token[22] = v58) | state.token[22] = v59) | state.token[22] = v61) | state.token[22] = v63) | state.token[22] = v64) | state.token[22] = v65) | state.token[22] = v66) | state.token[22] = v69) | state.token[22] = v70) | state.token[22] = v72) | state.token[22] = v74)) & (((((((((((((((((((((((((state.token[23] = v3 | state.token[23] = v12) | state.token[23] = v15) | state.token[23] = v18) | state.token[23] = v19) | state.token[23] = v26) | state.token[23] = v28) | state.token[23] = v30) | state.token[23] = v32) | state.token[23] = v33) | state.token[23] = v36) | state.token[23] = v42) | state.token[23] = v45) | state.token[23] = v46) | state.token[23] = v54) | state.token[23] = v58) | state.token[23] = v59) | state.token[23] = v61) | state.token[23] = v63) | state.token[23] = v64) | state.token[23] = v65) | state.token[23] = v66) | state.token[23] = v69) | state.token[23] = v70) | state.token[23] = v72) | state.token[23] = v74)) & (((((((((((((((((((((((((state.token[24] = v3 | state.token[24] = v12) | state.token[24] = v15) | state.token[24] = v18) | state.token[24] = v19) | state.token[24] = v26) | state.token[24] = v28) | state.token[24] = v30) | state.token[24] = v32) | state.token[24] = v33) | state.token[24] = v36) | state.token[24] = v42) | state.token[24] = v45) | state.token[24] = v46) | state.token[24] = v54) | state.token[24] = v58) | state.token[24] = v59) | state.token[24] = v61) | state.token[24] = v63) | state.token[24] = v64) | state.token[24] = v65) | state.token[24] = v66) | state.token[24] = v69) | state.token[24] = v70) | state.token[24] = v72) | state.token[24] = v74)) & (((((((((((((((((((((((((state.token[25] = v3 | state.token[25] = v12) | state.token[25] = v15) | state.token[25] = v18) | state.token[25] = v19) | state.token[25] = v26) | state.token[25] = v28) | state.token[25] = v30) | state.token[25] = v32) | state.token[25] = v33) | state.token[25] = v36) | state.token[25] = v42) | state.token[25] = v45) | state.token[25] = v46) | state.token[25] = v54) | state.token[25] = v58) | state.token[25] = v59) | state.token[25] = v61) | state.token[25] = v63) | state.token[25] = v64) | state.token[25] = v65) | state.token[25] = v66) | state.token[25] = v69) | state.token[25] = v70) | state.token[25] = v72) | state.token[25] = v74)) & (((((((((((((((((((((((((state.token[26] = v3 | state.token[26] = v12) | state.token[26] = v15) | state.token[26] = v18) | state.token[26] = v19) | state.token[26] = v26) | state.token[26] = v28) | state.token[26] = v30) | state.token[26] = v32) | state.token[26] = v33) | state.token[26] = v36) | state.token[26] = v42) | state.token[26] = v45) | state.token[26] = v46) | state.token[26] = v54) | state.token[26] = v58) | state.token[26] = v59) | state.token[26] = v61) | state.token[26] = v63) | state.token[26] = v64) | state.token[26] = v65) | state.token[26] = v66) | state.token[26] = v69) | state.token[26] = v70) | state.token[26] = v72) | state.token[26] = v74)))    is false
+c -- as demonstrated by the following execution sequence
+c Trace Description: BMC Counterexample 
+c Trace Type: Counterexample 
+c   -> State: 1.1 <-
+c     state.token[1] = 0ud34_33554432
+c     state.token[2] = 0ud34_3145728
+c     state.token[3] = 0ud34_512
+c     state.token[4] = 0ud34_2151677984
+c     state.token[5] = 0ud34_4294967296
+c     state.token[6] = 0ud34_65536
+c     state.token[7] = 0ud34_8
+c     state.token[8] = 0ud34_524288
+c     state.token[9] = 0ud34_16
+c     state.token[10] = 0ud34_16384
+c     state.token[11] = 0ud34_16777216
+c     state.token[12] = 0ud34_134219776
+c     state.token[13] = 0ud34_268435456
+c     state.token[14] = 0ud34_1024
+c     state.token[15] = 0ud34_4
+c     state.token[16] = 0ud34_256
+c     state.token[17] = 0ud34_1073741824
+c     state.token[18] = 0ud34_1
+c     state.token[19] = 0ud34_262144
+c     state.token[20] = 0ud34_8589934592
+c     state.token[21] = 0ud34_8192
+c     state.token[22] = 0ud34_131072
+c     state.token[23] = 0ud34_536870912
+c     state.token[24] = 0ud34_2
+c     state.token[25] = 0ud34_67141632
+c     state.token[26] = 0ud34_8388608
+c     state.tid = 2
+c     state.vid = 2
+c     state.target = 0ud34_0
+c     v74 = 0ud34_8388608
+c     v73 = 0ud34_4296015872
+c     v72 = 0ud34_67141632
+c     v71 = 0ud34_268435472
+c     v70 = 0ud34_2
+c     v69 = 0ud34_536870912
+c     v68 = 0ud34_4294967296
+c     v67 = 0ud34_3145728
+c     v66 = 0ud34_131072
+c     v65 = 0ud34_8192
+c     v64 = 0ud34_8589934592
+c     v63 = 0ud34_262144
+c     v62 = 0ud34_2098304
+c     v61 = 0ud34_1
+c     v60 = 0ud34_4311744512
+c     v59 = 0ud34_1073741824
+c     v58 = 0ud34_256
+c     v57 = 0ud34_4322235392
+c     v56 = 0ud34_4294967296
+c     v55 = 0ud34_14687053380
+c     v54 = 0ud34_4
+c     v53 = 0ud34_33554432
+c     v52 = 0ud34_2181038080
+c     v51 = 0ud34_8388608
+c     v50 = 0ud34_1073741824
+c     v49 = 0ud34_1677770816
+c     v48 = 0ud34_256
+c     v47 = 0ud34_3145728
+c     v46 = 0ud34_1024
+c     v45 = 0ud34_268435456
+c     v44 = 0ud34_2147483712
+c     v43 = 0ud34_9437184
+c     v42 = 0ud34_134219776
+c     v41 = 0ud34_4322235392
+c     v40 = 0ud34_1073741824
+c     v39 = 0ud34_8589934592
+c     v38 = 0ud34_2147483648
+c     v37 = 0ud34_67108864
+c     v36 = 0ud34_16777216
+c     v35 = 0ud34_256
+c     v34 = 0ud34_8589934592
+c     v33 = 0ud34_16384
+c     v32 = 0ud34_16
+c     v31 = 0ud34_2151677952
+c     v30 = 0ud34_524288
+c     v29 = 0ud34_1073741824
+c     v28 = 0ud34_8
+c     v27 = 0ud34_4294967424
+c     v26 = 0ud34_65536
+c     v25 = 0ud34_1073741824
+c     v24 = 0ud34_138412032
+c     v23 = 0ud34_8590458880
+c     v22 = 0ud34_537336417
+c     v21 = 0ud34_8589934592
+c     v20 = 0ud34_8589934592
+c     v19 = 0ud34_4294967296
+c     v18 = 0ud34_2151677984
+c     v17 = 0ud34_8590458888
+c     v16 = 0ud34_8192
+c     v15 = 0ud34_512
+c     v14 = 0ud34_2147483648
+c     v13 = 0ud34_1073741824
+c     v12 = 0ud34_3145728
+c     v11 = 0ud34_1073741824
+c     v10 = 0ud34_32768
+c     v9 = 0ud34_2718072832
+c     v8 = 0ud34_2147483648
+c     v7 = 0ud34_2
+c     v6 = 0ud34_8589934592
+c     v5 = 0ud34_1073741824
+c     v4 = 0ud34_5103682576
+c     v3 = 0ud34_33554432
+c     v2 = 0ud34_8389632
+c     v1 = 0ud34_1610907712
+c     v0 = 0ud34_0
+s 10 15 26 28 30 32 33 36 37 42 44 45 46 48 53 54 59 61 63 65 66 67 68 69 70 74
+t 3 12 15 18 19 26 28 30 32 33 36 42 45 46 54 58 59 61 63 64 65 66 69 70 72 74
+a YES
+a 10 15 26 28 30 32 33 36 37 42 44 45 46 48 53 54 59 61 63 65 66 67 68 69 70 74
+a 15 26 28 30 32 33 36 37 42 44 45 46 48 53 54 59 61 63 64 65 66 67 68 69 70 74
+a 15 26 28 30 32 33 36 42 44 45 46 48 53 54 59 61 63 64 65 66 67 68 69 70 72 74
+a 15 18 26 28 30 32 33 36 42 45 46 48 53 54 59 61 63 64 65 66 67 68 69 70 72 74
+a 15 18 26 28 30 32 33 36 42 45 46 53 54 58 59 61 63 64 65 66 67 68 69 70 72 74
+a 3 15 18 26 28 30 32 33 36 42 45 46 54 58 59 61 63 64 65 66 67 68 69 70 72 74
+a 3 12 15 18 26 28 30 32 33 36 42 45 46 54 58 59 61 63 64 65 66 68 69 70 72 74
+a 3 12 15 18 19 26 28 30 32 33 36 42 45 46 54 58 59 61 63 64 65 66 69 70 72 74

@@ -1,0 +1,117 @@
+c model ISR_TJ
+c  /home/toda/src/NuSMV-2.6.0-Linux_untouched/binary/bin/NuSMV -bmc -bmc_length 20 -n 0 /home/toda/2022solver/bin/../tmp/2-Insertions_3_02.smv > 2-Insertions_3_02.log
+c ECC Heuristic Algorithm by Alessio Conte, Roberto Grossi and Andrea Marino. University of Pisa.
+c This code is compiled using Java 1.8
+c Parsing: 37
+c Reading graph from file..
+c Removing duplicates.................
+c Done.
+c Algotithm object created, class=it.unipi.di.clq.eps.lists.EPSc
+c Edges: 72
+c 0 cliques
+c 2 cliques
+c 4 cliques
+c 8 cliques
+c 16 cliques
+c 32 cliques
+c 64 cliques
+c The solution is correct.
+c Cliques: 72
+c Sum: 144
+c MaxSize: 0
+c Time: 13
+c Aborted: false
+c ML = 36
+c SIZE = 37
+c Removed 0 cliques to minimalize solution.
+c Result saved!
+c Clique size distribution: {[2,72]}
+c NODE covering index distribution:{[3,9][4,27][9,1]}
+c EDGE covering index distrubution:{[1,72]}
+c Total edges:72
+c Distributions saved!
+c *** This is NuSMV 2.6.0 (compiled on Wed Oct 14 15:36:56 2015)
+c *** Enabled addons are: compass
+c *** For more information on NuSMV see <http://nusmv.fbk.eu>
+c *** or email to <nusmv-users@list.fbk.eu>.
+c *** Please report bugs to <Please report bugs to <nusmv-users@fbk.eu>>
+c 
+c *** Copyright (c) 2010-2014, Fondazione Bruno Kessler
+c 
+c *** This version of NuSMV is linked to the CUDD library version 2.4.1
+c *** Copyright (c) 1995-2004, Regents of the University of Colorado
+c 
+c *** This version of NuSMV is linked to the MiniSat SAT solver. 
+c *** See http://minisat.se/MiniSat.html
+c *** Copyright (c) 2003-2006, Niklas Een, Niklas Sorensson
+c *** Copyright (c) 2007-2010, Niklas Sorensson
+c 
+c -- specification  G (((((((((((((((((state.token[1] = v3 & state.token[2] = v10) & state.token[3] = v12) & state.token[4] = v13) & state.token[5] = v14) & state.token[6] = v16) & state.token[7] = v17) & state.token[8] = v18) & state.token[9] = v28) & state.token[10] = v29) & state.token[11] = v30) & state.token[12] = v31) & state.token[13] = v32) & state.token[14] = v33) & state.token[15] = v34) & state.token[16] = v35) & state.token[17] = v36) ->  G !((((((((((((((((((((((((((((((((state.token[1] = v3 | state.token[1] = v10) | state.token[1] = v12) | state.token[1] = v13) | state.token[1] = v14) | state.token[1] = v16) | state.token[1] = v17) | state.token[1] = v18) | state.token[1] = v28) | state.token[1] = v29) | state.token[1] = v30) | state.token[1] = v31) | state.token[1] = v32) | state.token[1] = v33) | state.token[1] = v34) | state.token[1] = v35) | state.token[1] = v36) & ((((((((((((((((state.token[2] = v3 | state.token[2] = v10) | state.token[2] = v12) | state.token[2] = v13) | state.token[2] = v14) | state.token[2] = v16) | state.token[2] = v17) | state.token[2] = v18) | state.token[2] = v28) | state.token[2] = v29) | state.token[2] = v30) | state.token[2] = v31) | state.token[2] = v32) | state.token[2] = v33) | state.token[2] = v34) | state.token[2] = v35) | state.token[2] = v36)) & ((((((((((((((((state.token[3] = v3 | state.token[3] = v10) | state.token[3] = v12) | state.token[3] = v13) | state.token[3] = v14) | state.token[3] = v16) | state.token[3] = v17) | state.token[3] = v18) | state.token[3] = v28) | state.token[3] = v29) | state.token[3] = v30) | state.token[3] = v31) | state.token[3] = v32) | state.token[3] = v33) | state.token[3] = v34) | state.token[3] = v35) | state.token[3] = v36)) & ((((((((((((((((state.token[4] = v3 | state.token[4] = v10) | state.token[4] = v12) | state.token[4] = v13) | state.token[4] = v14) | state.token[4] = v16) | state.token[4] = v17) | state.token[4] = v18) | state.token[4] = v28) | state.token[4] = v29) | state.token[4] = v30) | state.token[4] = v31) | state.token[4] = v32) | state.token[4] = v33) | state.token[4] = v34) | state.token[4] = v35) | state.token[4] = v36)) & ((((((((((((((((state.token[5] = v3 | state.token[5] = v10) | state.token[5] = v12) | state.token[5] = v13) | state.token[5] = v14) | state.token[5] = v16) | state.token[5] = v17) | state.token[5] = v18) | state.token[5] = v28) | state.token[5] = v29) | state.token[5] = v30) | state.token[5] = v31) | state.token[5] = v32) | state.token[5] = v33) | state.token[5] = v34) | state.token[5] = v35) | state.token[5] = v36)) & ((((((((((((((((state.token[6] = v3 | state.token[6] = v10) | state.token[6] = v12) | state.token[6] = v13) | state.token[6] = v14) | state.token[6] = v16) | state.token[6] = v17) | state.token[6] = v18) | state.token[6] = v28) | state.token[6] = v29) | state.token[6] = v30) | state.token[6] = v31) | state.token[6] = v32) | state.token[6] = v33) | state.token[6] = v34) | state.token[6] = v35) | state.token[6] = v36)) & ((((((((((((((((state.token[7] = v3 | state.token[7] = v10) | state.token[7] = v12) | state.token[7] = v13) | state.token[7] = v14) | state.token[7] = v16) | state.token[7] = v17) | state.token[7] = v18) | state.token[7] = v28) | state.token[7] = v29) | state.token[7] = v30) | state.token[7] = v31) | state.token[7] = v32) | state.token[7] = v33) | state.token[7] = v34) | state.token[7] = v35) | state.token[7] = v36)) & ((((((((((((((((state.token[8] = v3 | state.token[8] = v10) | state.token[8] = v12) | state.token[8] = v13) | state.token[8] = v14) | state.token[8] = v16) | state.token[8] = v17) | state.token[8] = v18) | state.token[8] = v28) | state.token[8] = v29) | state.token[8] = v30) | state.token[8] = v31) | state.token[8] = v32) | state.token[8] = v33) | state.token[8] = v34) | state.token[8] = v35) | state.token[8] = v36)) & ((((((((((((((((state.token[9] = v3 | state.token[9] = v10) | state.token[9] = v12) | state.token[9] = v13) | state.token[9] = v14) | state.token[9] = v16) | state.token[9] = v17) | state.token[9] = v18) | state.token[9] = v28) | state.token[9] = v29) | state.token[9] = v30) | state.token[9] = v31) | state.token[9] = v32) | state.token[9] = v33) | state.token[9] = v34) | state.token[9] = v35) | state.token[9] = v36)) & ((((((((((((((((state.token[10] = v3 | state.token[10] = v10) | state.token[10] = v12) | state.token[10] = v13) | state.token[10] = v14) | state.token[10] = v16) | state.token[10] = v17) | state.token[10] = v18) | state.token[10] = v28) | state.token[10] = v29) | state.token[10] = v30) | state.token[10] = v31) | state.token[10] = v32) | state.token[10] = v33) | state.token[10] = v34) | state.token[10] = v35) | state.token[10] = v36)) & ((((((((((((((((state.token[11] = v3 | state.token[11] = v10) | state.token[11] = v12) | state.token[11] = v13) | state.token[11] = v14) | state.token[11] = v16) | state.token[11] = v17) | state.token[11] = v18) | state.token[11] = v28) | state.token[11] = v29) | state.token[11] = v30) | state.token[11] = v31) | state.token[11] = v32) | state.token[11] = v33) | state.token[11] = v34) | state.token[11] = v35) | state.token[11] = v36)) & ((((((((((((((((state.token[12] = v3 | state.token[12] = v10) | state.token[12] = v12) | state.token[12] = v13) | state.token[12] = v14) | state.token[12] = v16) | state.token[12] = v17) | state.token[12] = v18) | state.token[12] = v28) | state.token[12] = v29) | state.token[12] = v30) | state.token[12] = v31) | state.token[12] = v32) | state.token[12] = v33) | state.token[12] = v34) | state.token[12] = v35) | state.token[12] = v36)) & ((((((((((((((((state.token[13] = v3 | state.token[13] = v10) | state.token[13] = v12) | state.token[13] = v13) | state.token[13] = v14) | state.token[13] = v16) | state.token[13] = v17) | state.token[13] = v18) | state.token[13] = v28) | state.token[13] = v29) | state.token[13] = v30) | state.token[13] = v31) | state.token[13] = v32) | state.token[13] = v33) | state.token[13] = v34) | state.token[13] = v35) | state.token[13] = v36)) & ((((((((((((((((state.token[14] = v3 | state.token[14] = v10) | state.token[14] = v12) | state.token[14] = v13) | state.token[14] = v14) | state.token[14] = v16) | state.token[14] = v17) | state.token[14] = v18) | state.token[14] = v28) | state.token[14] = v29) | state.token[14] = v30) | state.token[14] = v31) | state.token[14] = v32) | state.token[14] = v33) | state.token[14] = v34) | state.token[14] = v35) | state.token[14] = v36)) & ((((((((((((((((state.token[15] = v3 | state.token[15] = v10) | state.token[15] = v12) | state.token[15] = v13) | state.token[15] = v14) | state.token[15] = v16) | state.token[15] = v17) | state.token[15] = v18) | state.token[15] = v28) | state.token[15] = v29) | state.token[15] = v30) | state.token[15] = v31) | state.token[15] = v32) | state.token[15] = v33) | state.token[15] = v34) | state.token[15] = v35) | state.token[15] = v36)) & ((((((((((((((((state.token[16] = v3 | state.token[16] = v10) | state.token[16] = v12) | state.token[16] = v13) | state.token[16] = v14) | state.token[16] = v16) | state.token[16] = v17) | state.token[16] = v18) | state.token[16] = v28) | state.token[16] = v29) | state.token[16] = v30) | state.token[16] = v31) | state.token[16] = v32) | state.token[16] = v33) | state.token[16] = v34) | state.token[16] = v35) | state.token[16] = v36)) & ((((((((((((((((state.token[17] = v3 | state.token[17] = v10) | state.token[17] = v12) | state.token[17] = v13) | state.token[17] = v14) | state.token[17] = v16) | state.token[17] = v17) | state.token[17] = v18) | state.token[17] = v28) | state.token[17] = v29) | state.token[17] = v30) | state.token[17] = v31) | state.token[17] = v32) | state.token[17] = v33) | state.token[17] = v34) | state.token[17] = v35) | state.token[17] = v36)))    is false
+c -- as demonstrated by the following execution sequence
+c Trace Description: BMC Counterexample 
+c Trace Type: Counterexample 
+c   -> State: 1.1 <-
+c     state.token[1] = 0ud72_1328165575506112020480
+c     state.token[2] = 0ud72_2449958197290074116
+c     state.token[3] = 0ud72_576742228354138112
+c     state.token[4] = 0ud72_36894051097376784384
+c     state.token[5] = 0ud72_4504149920055360
+c     state.token[6] = 0ud72_9007242204414208
+c     state.token[7] = 0ud72_275213451266
+c     state.token[8] = 0ud72_4611687122233982984
+c     state.token[9] = 0ud72_288230376153809408
+c     state.token[10] = 0ud72_296336855480978636800
+c     state.token[11] = 0ud72_1134695999864833
+c     state.token[12] = 0ud72_50335744
+c     state.token[13] = 0ud72_17594333544448
+c     state.token[14] = 0ud72_590313824757215166464
+c     state.token[15] = 0ud72_18446744142429028480
+c     state.token[16] = 0ud72_9223372036854775856
+c     state.token[17] = 0ud72_4398054900736
+c     state.tid = 1
+c     state.vid = 1
+c     state.target = 0ud72_0
+c     v37 = 0ud72_18501913171300717072
+c     v36 = 0ud72_4398054900736
+c     v35 = 0ud72_9223372036854775856
+c     v34 = 0ud72_18446744142429028480
+c     v33 = 0ud72_590313824757215166464
+c     v32 = 0ud72_17594333544448
+c     v31 = 0ud72_50335744
+c     v30 = 0ud72_1134695999864833
+c     v29 = 0ud72_296336855480978636800
+c     v28 = 0ud72_288230376153809408
+c     v27 = 0ud72_8589934754
+c     v26 = 0ud72_4611690966229729280
+c     v25 = 0ud72_590367867957038547968
+c     v24 = 0ud72_9007269047959553
+c     v23 = 0ud72_46116860459185340416
+c     v22 = 0ud72_2305860601401835584
+c     v21 = 0ud72_368934916658563153920
+c     v20 = 0ud72_432354360320851968
+c     v19 = 0ud72_1153484592015998976
+c     v18 = 0ud72_4611687122233982984
+c     v17 = 0ud72_275213451266
+c     v16 = 0ud72_9007242204414208
+c     v15 = 0ud72_72094994613141504
+c     v14 = 0ud72_4504149920055360
+c     v13 = 0ud72_36894051097376784384
+c     v12 = 0ud72_576742228354138112
+c     v11 = 0ud72_73786976432278216704
+c     v10 = 0ud72_2449958197290074116
+c     v9 = 0ud72_2361183241469450911744
+c     v8 = 0ud72_2252899862315008
+c     v7 = 0ud72_2361183311820746653704
+c     v6 = 0ud72_1180591972561132192000
+c     v5 = 0ud72_2251799880861696
+c     v4 = 0ud72_4503599762114560
+c     v3 = 0ud72_1328165575506112020480
+c     v2 = 0ud72_148150554079468191748
+c     v1 = 0ud72_140737626775552
+c     v0 = 0ud72_0
+s 10 11 13 14 15 16 17 18 28 29 30 31 32 33 34 35 36
+t 3 10 12 13 14 16 17 18 28 29 30 31 32 33 34 35 36
+a YES
+a 10 11 13 14 15 16 17 18 28 29 30 31 32 33 34 35 36
+a 10 12 13 14 15 16 17 18 28 29 30 31 32 33 34 35 36
+a 3 10 12 13 14 16 17 18 28 29 30 31 32 33 34 35 36

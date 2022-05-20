@@ -1,0 +1,39 @@
+s 3 6 8 12 16 17 22 25 28 29 34 35 40 41 46 48 52 55 56 59 64 67 68 73 76 77 82 85 86 91 94 97 100 
+t 2 3 9 12 15 17 21 25 28 29 34 35 39 41 46 48 52 53 56 59 63 65 68 71 76 77 82 84 86 90 94 97 100
+a YES
+a 100 12 16 17 22 25 28 29 3 34 35 40 41 46 48 52 55 56 59 6 64 67 68 73 76 77 8 82 85 86 91 94 97
+a 100 12 15 17 22 25 28 29 3 34 35 40 41 46 48 52 55 56 59 6 64 67 68 73 76 77 8 82 85 86 91 94 97
+a 100 12 15 17 21 25 28 29 3 34 35 40 41 46 48 52 55 56 59 6 64 67 68 73 76 77 8 82 85 86 91 94 97
+a 100 12 15 17 21 25 28 29 3 34 35 40 41 46 48 52 53 56 59 6 64 67 68 73 76 77 8 82 85 86 91 94 97
+a 100 12 15 17 21 25 28 29 3 34 35 40 41 46 48 52 53 56 59 6 64 67 68 71 76 77 8 82 85 86 91 94 97
+a 100 12 15 17 21 25 28 29 3 34 35 39 41 46 48 52 53 56 59 6 64 67 68 71 76 77 8 82 85 86 91 94 97
+a 100 12 15 17 21 25 28 29 3 34 35 39 41 46 48 52 53 56 59 6 64 65 68 71 76 77 8 82 85 86 91 94 97
+a 100 12 15 17 21 25 28 29 3 34 35 39 41 46 48 52 53 56 59 6 63 65 68 71 76 77 8 82 85 86 91 94 97
+a 100 12 15 17 21 25 28 29 3 34 35 39 41 46 48 52 53 56 59 6 63 65 68 71 76 77 8 82 85 86 90 94 97
+a 100 12 15 17 21 25 28 29 3 34 35 39 41 46 48 52 53 56 59 6 63 65 68 71 76 77 8 82 84 86 90 94 97
+a 100 12 15 17 21 25 28 29 3 34 35 39 41 46 48 52 53 56 59 6 63 65 68 71 76 77 82 84 86 9 90 94 97
+a 100 12 15 17 2 21 25 28 29 3 34 35 39 41 46 48 52 53 56 59 63 65 68 71 76 77 82 84 86 9 90 94 97
+Command exited with non-zero status 10
+	Command being timed: "/Users/macpro/.pyenv/versions/anaconda3-2021.11/bin/clingo ../solver/core_compet2.lp --stats --quiet=1,0 --time-limit=7200 ../encoding/isrpTJ_exact1_allhint_inc.lp --heu=domain ../../benchmark/3rd-benchmark/asp/mug100_1.lp ../../benchmark/3rd-benchmark/asp/mug100_1_01.lp"
+	User time (seconds): 0.08
+	System time (seconds): 0.01
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17012
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4439
+	Voluntary context switches: 2
+	Involuntary context switches: 14
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 10

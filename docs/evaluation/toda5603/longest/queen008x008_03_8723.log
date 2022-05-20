@@ -1,0 +1,219 @@
+c model ISR_TJ
+c  /home/toda/src/NuSMV-2.6.0-Linux_untouched/binary/bin/NuSMV -bmc -bmc_length 20 -n 0 /home/toda/2022solver/bin/../tmp/queen008x008_03_8723.smv > queen008x008_03_8723.log
+c ECC Heuristic Algorithm by Alessio Conte, Roberto Grossi and Andrea Marino. University of Pisa.
+c This code is compiled using Java 1.8
+c Parsing: 64
+c Reading graph from file..
+c Removing duplicates.................
+c Done.
+c Algotithm object created, class=it.unipi.di.clq.eps.lists.EPSc
+c Edges: 728
+c 0 cliques
+c 2 cliques
+c 4 cliques
+c 8 cliques
+c 16 cliques
+c 32 cliques
+c The solution is correct.
+c Cliques: 51
+c Sum: 296
+c MaxSize: 0
+c Time: 24
+c Aborted: false
+c ML = 63
+c SIZE = 64
+c Removed 6 cliques to minimalize solution.
+c Result saved!
+c Clique size distribution: {[2,4][3,4][4,5][5,6][6,4][7,4][8,18]}
+c NODE covering index distribution:{[3,3][4,49][5,11][6,1]}
+c EDGE covering index distrubution:{[1,702][2,26]}
+c Total edges:728
+c Distributions saved!
+c *** This is NuSMV 2.6.0 (compiled on Wed Oct 14 15:36:56 2015)
+c *** Enabled addons are: compass
+c *** For more information on NuSMV see <http://nusmv.fbk.eu>
+c *** or email to <nusmv-users@list.fbk.eu>.
+c *** Please report bugs to <Please report bugs to <nusmv-users@fbk.eu>>
+c 
+c *** Copyright (c) 2010-2014, Fondazione Bruno Kessler
+c 
+c *** This version of NuSMV is linked to the CUDD library version 2.4.1
+c *** Copyright (c) 1995-2004, Regents of the University of Colorado
+c 
+c *** This version of NuSMV is linked to the MiniSat SAT solver. 
+c *** See http://minisat.se/MiniSat.html
+c *** Copyright (c) 2003-2006, Niklas Een, Niklas Sorensson
+c *** Copyright (c) 2007-2010, Niklas Sorensson
+c 
+c -- no counterexample found with bound 0
+c -- no counterexample found with bound 1
+c -- no counterexample found with bound 2
+c -- no counterexample found with bound 3
+c -- no counterexample found with bound 4
+c -- no counterexample found with bound 5
+c -- no counterexample found with bound 6
+c -- no counterexample found with bound 7
+c -- no counterexample found with bound 8
+c -- no counterexample found with bound 9
+c -- no counterexample found with bound 10
+c -- no counterexample found with bound 11
+c -- no counterexample found with bound 12
+c -- specification  G (((((((state.token[1] = v1 & state.token[2] = v13) & state.token[3] = v18) & state.token[4] = v32) & state.token[5] = v47) & state.token[6] = v52) & state.token[7] = v62) ->  G !((((((((((((state.token[1] = v39 | state.token[1] = v1) | state.token[1] = v50) | state.token[1] = v44) | state.token[1] = v24) | state.token[1] = v14) | state.token[1] = v61) & ((((((state.token[2] = v39 | state.token[2] = v1) | state.token[2] = v50) | state.token[2] = v44) | state.token[2] = v24) | state.token[2] = v14) | state.token[2] = v61)) & ((((((state.token[3] = v39 | state.token[3] = v1) | state.token[3] = v50) | state.token[3] = v44) | state.token[3] = v24) | state.token[3] = v14) | state.token[3] = v61)) & ((((((state.token[4] = v39 | state.token[4] = v1) | state.token[4] = v50) | state.token[4] = v44) | state.token[4] = v24) | state.token[4] = v14) | state.token[4] = v61)) & ((((((state.token[5] = v39 | state.token[5] = v1) | state.token[5] = v50) | state.token[5] = v44) | state.token[5] = v24) | state.token[5] = v14) | state.token[5] = v61)) & ((((((state.token[6] = v39 | state.token[6] = v1) | state.token[6] = v50) | state.token[6] = v44) | state.token[6] = v24) | state.token[6] = v14) | state.token[6] = v61)) & ((((((state.token[7] = v39 | state.token[7] = v1) | state.token[7] = v50) | state.token[7] = v44) | state.token[7] = v24) | state.token[7] = v14) | state.token[7] = v61)))    is false
+c -- as demonstrated by the following execution sequence
+c Trace Description: BMC Counterexample 
+c Trace Type: Counterexample 
+c   -> State: 1.1 <-
+c     state.token[1] = 0ud45_17985175552
+c     state.token[2] = 0ud45_17661106847744
+c     state.token[3] = 0ud45_51382272
+c     state.token[4] = 0ud45_786784
+c     state.token[5] = 0ud45_584115576832
+c     state.token[6] = 0ud45_2207613288448
+c     state.token[7] = 0ud45_9070975124480
+c     state.tid = 1
+c     state.vid = 33
+c     state.target = 0ud45_0
+c     v64 = 0ud45_8796630155264
+c     v63 = 0ud45_8830469537793
+c     v62 = 0ud45_9070975124480
+c     v61 = 0ud45_26388279140352
+c     v60 = 0ud45_8800390119456
+c     v59 = 0ud45_13340168421376
+c     v58 = 0ud45_8796126707714
+c     v57 = 0ud45_14293919596544
+c     v56 = 0ud45_2199023534081
+c     v55 = 0ud45_2234993607680
+c     v54 = 0ud45_2473917947904
+c     v53 = 0ud45_19792287236128
+c     v52 = 0ud45_2207613288448
+c     v51 = 0ud45_2340757307392
+c     v50 = 0ud45_7696614948864
+c     v49 = 0ud45_2201439174658
+c     v48 = 0ud45_549756077568
+c     v47 = 0ud45_584115576832
+c     v46 = 0ud45_826244333600
+c     v45 = 0ud45_18150548570112
+c     v44 = 0ud45_549760172032
+c     v43 = 0ud45_6184752971776
+c     v42 = 0ud45_556231819264
+c     v41 = 0ud45_5016790237184
+c     v40 = 0ud45_75767808
+c     v39 = 0ud45_35443966720
+c     v38 = 0ud45_283476246528
+c     v37 = 0ud45_17593805176832
+c     v36 = 0ud45_1099538923520
+c     v35 = 0ud45_139599020032
+c     v34 = 0ud45_68761485312
+c     v33 = 0ud45_4573892608
+c     v32 = 0ud45_786784
+c     v31 = 0ud45_43017306112
+c     v30 = 0ud45_274878562816
+c     v29 = 0ud45_18691698212864
+c     v28 = 0ud45_2684911616
+c     v27 = 0ud45_206175731712
+c     v26 = 0ud45_38277120
+c     v25 = 0ud45_269027328
+c     v24 = 0ud45_8591245440
+c     v23 = 0ud45_34360918336
+c     v22 = 0ud45_1374457692160
+c     v21 = 0ud45_17594334577152
+c     v20 = 0ud45_68720574464
+c     v19 = 0ud45_137976877056
+c     v18 = 0ud45_51382272
+c     v17 = 0ud45_273678352
+c     v16 = 0ud45_134610948
+c     v15 = 0ud45_1134005584000
+c     v14 = 0ud45_277159608384
+c     v13 = 0ud45_17661106847744
+c     v12 = 0ud45_136352256
+c     v11 = 0ud45_137573189632
+c     v10 = 0ud45_704643088
+c     v9 = 0ud45_419430408
+c     v8 = 0ud45_1116691759104
+c     v7 = 0ud45_53687091204
+c     v6 = 0ud45_360777252992
+c     v5 = 0ud45_17609365917760
+c     v4 = 0ud45_17247012864
+c     v3 = 0ud45_154618823184
+c     v2 = 0ud45_17213440008
+c     v1 = 0ud45_17985175552
+c     v0 = 0ud45_0
+c   -> State: 1.2 <-
+c     state.vid = 3
+c     state.target = 0ud45_4573892608
+c   -> State: 1.3 <-
+c     state.token[1] = 0ud45_4573892608
+c     state.tid = 6
+c     state.vid = 50
+c     state.target = 0ud45_154618823184
+c   -> State: 1.4 <-
+c     state.token[6] = 0ud45_154618823184
+c     state.tid = 3
+c     state.vid = 24
+c     state.target = 0ud45_7696614948864
+c   -> State: 1.5 <-
+c     state.token[3] = 0ud45_7696614948864
+c     state.tid = 4
+c     state.vid = 28
+c     state.target = 0ud45_8591245440
+c   -> State: 1.6 <-
+c     state.token[4] = 0ud45_8591245440
+c     state.tid = 5
+c     state.vid = 63
+c     state.target = 0ud45_2684911616
+c   -> State: 1.7 <-
+c     state.token[5] = 0ud45_2684911616
+c     state.tid = 7
+c     state.vid = 44
+c     state.target = 0ud45_8830469537793
+c   -> State: 1.8 <-
+c     state.token[7] = 0ud45_8830469537793
+c     state.tid = 5
+c     state.vid = 14
+c     state.target = 0ud45_549760172032
+c   -> State: 1.9 <-
+c     state.token[5] = 0ud45_549760172032
+c     state.tid = 2
+c     state.vid = 61
+c     state.target = 0ud45_277159608384
+c   -> State: 1.10 <-
+c     state.token[2] = 0ud45_277159608384
+c     state.tid = 7
+c     state.vid = 27
+c     state.target = 0ud45_26388279140352
+c   -> State: 1.11 <-
+c     state.token[7] = 0ud45_26388279140352
+c     state.tid = 6
+c     state.vid = 39
+c     state.target = 0ud45_206175731712
+c   -> State: 1.12 <-
+c     state.token[6] = 0ud45_206175731712
+c     state.tid = 1
+c     state.vid = 1
+c     state.target = 0ud45_35443966720
+c   -> State: 1.13 <-
+c     state.token[1] = 0ud45_35443966720
+c     state.tid = 6
+c     state.target = 0ud45_17985175552
+c   -> State: 1.14 <-
+c     state.token[6] = 0ud45_17985175552
+c     state.tid = 1
+s 52 13 62 3 18 47 32
+t 39 1 50 44 24 14 61
+a YES
+a 3 13 18 32 47 52 62
+a 1 13 18 32 47 52 62
+a 13 18 32 33 47 52 62
+a 3 13 18 32 33 47 62
+a 3 13 32 33 47 50 62
+a 3 13 24 33 47 50 62
+a 13 24 28 33 47 50 62
+a 3 13 24 28 33 47 50
+a 3 13 24 28 33 50 62
+a 3 13 24 28 33 50 63
+a 3 13 24 33 44 50 63
+a 3 14 24 33 44 50 63
+a 3 14 24 33 44 50 61
+a 14 24 27 33 44 50 61
+a 14 24 27 39 44 50 61
+a 1 14 24 39 44 50 61

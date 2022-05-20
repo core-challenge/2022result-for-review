@@ -1,0 +1,59 @@
+s 7 17 27 48 54 68 88 97 117 122 142 
+t 7 23 27 37 58 68 74 88 108 117 125
+c UNKNOWN
+a YES
+a 117 122 142 17 27 48 54 68 7 88 97
+a 117 122 142 17 27 47 54 68 7 88 97
+a 122 142 17 27 47 54 68 7 84 88 97
+a 122 141 17 27 47 54 68 7 84 88 97
+a 116 122 141 17 27 47 54 7 84 88 97
+a 116 122 141 17 47 54 7 70 84 88 97
+a 116 141 17 26 47 54 7 70 84 88 97
+a 116 123 141 17 26 47 54 7 70 84 88
+a 116 123 133 17 26 47 54 7 70 84 88
+a 107 116 123 133 17 26 54 7 70 84 88
+a 107 116 123 133 17 26 54 70 84 88 9
+a 116 123 133 17 26 47 54 70 84 88 9
+a 115 123 133 17 26 47 54 70 84 88 9
+a 105 115 123 133 17 26 47 54 70 84 88
+a 105 123 133 17 26 47 54 7 70 84 88
+a 105 120 123 133 17 26 47 54 7 70 88
+a 105 120 123 133 17 47 54 7 70 74 88
+a 105 120 123 17 25 47 54 7 70 74 88
+a 105 120 128 17 25 47 54 7 70 74 88
+a 105 120 128 137 25 47 54 7 70 74 88
+a 105 120 128 137 23 25 54 7 70 74 88
+a 120 128 137 23 25 39 54 7 70 74 88
+a 108 128 137 23 25 39 54 7 70 74 88
+a 108 118 128 137 23 25 39 54 7 74 88
+a 108 118 137 23 25 39 54 68 7 74 88
+a 108 118 125 23 25 39 54 68 7 74 88
+a 108 118 125 135 23 25 54 68 7 74 88
+a 108 117 125 135 23 25 54 68 7 74 88
+a 108 117 125 135 23 37 54 68 7 74 88
+a 108 117 125 23 27 37 54 68 7 74 88
+a 108 117 125 23 27 37 58 68 7 74 88
+Command exited with non-zero status 65
+	Command being timed: "/Users/macpro/.pyenv/versions/anaconda3-2021.11/bin/clingo ../solver/core_compet2.lp -c core_stop="UNKNOWN" --stats --quiet=1,0 --time-limit=10800 ../encoding/isrpTJ_exact1_noloop_d1d2.lp ../../benchmark/3rd-benchmark/asp/queen12_12.lp ../../benchmark/3rd-benchmark/asp/queen12_12_01.lp -c core_max=1375367"
+	User time (seconds): 10795.20
+	System time (seconds): 5.44
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:00:01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1230104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 389708
+	Voluntary context switches: 5
+	Involuntary context switches: 12331
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 1
+	Page size (bytes): 4096
+	Exit status: 65

@@ -1,0 +1,95 @@
+c model ISR_TJ
+c  /home/toda/src/NuSMV-2.6.0-Linux_untouched/binary/bin/NuSMV -bmc -bmc_length 20 -n 0 /home/toda/2022solver/bin/../tmp/myciel4_02.smv > myciel4_02.log
+c ECC Heuristic Algorithm by Alessio Conte, Roberto Grossi and Andrea Marino. University of Pisa.
+c This code is compiled using Java 1.8
+c Parsing: 23
+c Reading graph from file..
+c Removing duplicates.................
+c Done.
+c Algotithm object created, class=it.unipi.di.clq.eps.lists.EPSc
+c Edges: 71
+c 0 cliques
+c 2 cliques
+c 4 cliques
+c 8 cliques
+c 16 cliques
+c 32 cliques
+c 64 cliques
+c The solution is correct.
+c Cliques: 71
+c Sum: 142
+c MaxSize: 0
+c Time: 13
+c Aborted: false
+c ML = 22
+c SIZE = 23
+c Removed 0 cliques to minimalize solution.
+c Result saved!
+c Clique size distribution: {[2,71]}
+c NODE covering index distribution:{[4,5][5,5][6,6][8,5][10,1][11,1]}
+c EDGE covering index distrubution:{[1,71]}
+c Total edges:71
+c Distributions saved!
+c *** This is NuSMV 2.6.0 (compiled on Wed Oct 14 15:36:56 2015)
+c *** Enabled addons are: compass
+c *** For more information on NuSMV see <http://nusmv.fbk.eu>
+c *** or email to <nusmv-users@list.fbk.eu>.
+c *** Please report bugs to <Please report bugs to <nusmv-users@fbk.eu>>
+c 
+c *** Copyright (c) 2010-2014, Fondazione Bruno Kessler
+c 
+c *** This version of NuSMV is linked to the CUDD library version 2.4.1
+c *** Copyright (c) 1995-2004, Regents of the University of Colorado
+c 
+c *** This version of NuSMV is linked to the MiniSat SAT solver. 
+c *** See http://minisat.se/MiniSat.html
+c *** Copyright (c) 2003-2006, Niklas Een, Niklas Sorensson
+c *** Copyright (c) 2007-2010, Niklas Sorensson
+c 
+c -- specification  G ((((((((((state.token[1] = v12 & state.token[2] = v14) & state.token[3] = v15) & state.token[4] = v16) & state.token[5] = v17) & state.token[6] = v18) & state.token[7] = v19) & state.token[8] = v20) & state.token[9] = v21) & state.token[10] = v22) ->  G !((((((((((((((((((state.token[1] = v12 | state.token[1] = v14) | state.token[1] = v15) | state.token[1] = v16) | state.token[1] = v17) | state.token[1] = v18) | state.token[1] = v19) | state.token[1] = v20) | state.token[1] = v21) | state.token[1] = v22) & (((((((((state.token[2] = v12 | state.token[2] = v14) | state.token[2] = v15) | state.token[2] = v16) | state.token[2] = v17) | state.token[2] = v18) | state.token[2] = v19) | state.token[2] = v20) | state.token[2] = v21) | state.token[2] = v22)) & (((((((((state.token[3] = v12 | state.token[3] = v14) | state.token[3] = v15) | state.token[3] = v16) | state.token[3] = v17) | state.token[3] = v18) | state.token[3] = v19) | state.token[3] = v20) | state.token[3] = v21) | state.token[3] = v22)) & (((((((((state.token[4] = v12 | state.token[4] = v14) | state.token[4] = v15) | state.token[4] = v16) | state.token[4] = v17) | state.token[4] = v18) | state.token[4] = v19) | state.token[4] = v20) | state.token[4] = v21) | state.token[4] = v22)) & (((((((((state.token[5] = v12 | state.token[5] = v14) | state.token[5] = v15) | state.token[5] = v16) | state.token[5] = v17) | state.token[5] = v18) | state.token[5] = v19) | state.token[5] = v20) | state.token[5] = v21) | state.token[5] = v22)) & (((((((((state.token[6] = v12 | state.token[6] = v14) | state.token[6] = v15) | state.token[6] = v16) | state.token[6] = v17) | state.token[6] = v18) | state.token[6] = v19) | state.token[6] = v20) | state.token[6] = v21) | state.token[6] = v22)) & (((((((((state.token[7] = v12 | state.token[7] = v14) | state.token[7] = v15) | state.token[7] = v16) | state.token[7] = v17) | state.token[7] = v18) | state.token[7] = v19) | state.token[7] = v20) | state.token[7] = v21) | state.token[7] = v22)) & (((((((((state.token[8] = v12 | state.token[8] = v14) | state.token[8] = v15) | state.token[8] = v16) | state.token[8] = v17) | state.token[8] = v18) | state.token[8] = v19) | state.token[8] = v20) | state.token[8] = v21) | state.token[8] = v22)) & (((((((((state.token[9] = v12 | state.token[9] = v14) | state.token[9] = v15) | state.token[9] = v16) | state.token[9] = v17) | state.token[9] = v18) | state.token[9] = v19) | state.token[9] = v20) | state.token[9] = v21) | state.token[9] = v22)) & (((((((((state.token[10] = v12 | state.token[10] = v14) | state.token[10] = v15) | state.token[10] = v16) | state.token[10] = v17) | state.token[10] = v18) | state.token[10] = v19) | state.token[10] = v20) | state.token[10] = v21) | state.token[10] = v22)))    is false
+c -- as demonstrated by the following execution sequence
+c Trace Description: BMC Counterexample 
+c Trace Type: Counterexample 
+c   -> State: 1.1 <-
+c     state.token[1] = 0ud71_19027708494359822464
+c     state.token[2] = 0ud71_1190103240722603843584
+c     state.token[3] = 0ud71_134479924
+c     state.token[4] = 0ud71_1155173579319410688
+c     state.token[5] = 0ud71_142971945091072
+c     state.token[6] = 0ud71_696321572864
+c     state.token[7] = 0ud71_73786977394358222849
+c     state.token[8] = 0ud71_2148012288
+c     state.token[9] = 0ud71_35184439198272
+c     state.token[10] = 0ud71_295382655309930561536
+c     state.tid = 2
+c     state.vid = 1
+c     state.target = 0ud71_0
+c     v23 = 0ud71_9225765209821937760
+c     v22 = 0ud71_295382655309930561536
+c     v21 = 0ud71_35184439198272
+c     v20 = 0ud71_2148012288
+c     v19 = 0ud71_73786977394358222849
+c     v18 = 0ud71_696321572864
+c     v17 = 0ud71_142971945091072
+c     v16 = 0ud71_1155173579319410688
+c     v15 = 0ud71_134479924
+c     v14 = 0ud71_1190103240722603843584
+c     v13 = 0ud71_590295810375885588488
+c     v12 = 0ud71_19027708494359822464
+c     v11 = 0ud71_4612824013499171584
+c     v10 = 0ud71_144194353049378816
+c     v9 = 0ud71_299759595596111937664
+c     v8 = 0ud71_2379307978139371520
+c     v7 = 0ud71_882705531259633664
+c     v6 = 0ud71_562949953815562
+c     v5 = 0ud71_1404294421408427020292
+c     v4 = 0ud71_56529217708202394624
+c     v3 = 0ud71_737878840933059919872
+c     v2 = 0ud71_13809900438159363
+c     v1 = 0ud71_36893492556236668944
+c     v0 = 0ud71_0
+s 12 13 14 15 17 18 19 20 21 22
+t 12 14 15 16 17 18 19 20 21 22
+a YES
+a 12 13 14 15 17 18 19 20 21 22
+a 12 14 15 16 17 18 19 20 21 22

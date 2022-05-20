@@ -1,0 +1,46 @@
+c #BEGIN: [Thu Mar 17 11:43:01 2022]
+c #HOST: mini06.local
+c #TIMELIMIT: 18000
+c #MEMLIMIT: 0
+c #FREQ: 10
+c #SOLVER: isr-bug-finder
+c #CSP: benchmark/graph-instance/core-challenge-2022/color04/DSJC500.1.col benchmark/graph-instance/core-challenge-2022/color04/DSJC500.1_01.dat
+c #COMMAND: /Users/soh/app/scala-2.12.4/bin/scala -J-Xms16g -J-Xmx16g -cp /Users/soh/app/IsrForCompetition220315-22h16m/scop.jar:/Users/soh/app/IsrForCompetition220315-22h16m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj03 benchmark/graph-instance/core-challenge-2022/color04/DSJC500.1.col benchmark/graph-instance/core-challenge-2022/color04/DSJC500.1_01.dat cadical /Users/soh/app/IsrForCompetition220315-22h16m/cadical
+c (0) step 1 UNSAT 3000 31910
+c (0) step 2 UNSAT 5499 50863
+c (0) step 3 SAT 7998 69816
+a YES
+a 9 15 30 50 64 72 86 94 95 103 107 110 124 132 133 146 152 157 169 174 210 214 218 226 245 261 267 275 278 279 297 298 299 301 327 354 362 368 373 375 377 412 419 424 435 442 445 458 461 463 467 469 472 474 480 487 490
+a 9 15 30 50 64 72 86 94 95 103 107 110 124 132 133 152 157 169 174 178 210 214 218 226 245 261 267 275 278 279 297 298 299 301 327 354 362 368 373 375 377 412 419 424 435 442 445 458 461 463 467 469 472 474 480 487 490
+a 9 15 30 50 64 72 86 94 95 103 107 110 124 132 133 152 157 169 174 178 210 214 218 226 245 261 267 275 278 279 297 298 299 301 327 354 362 368 373 375 377 412 419 424 427 435 445 458 461 463 467 469 472 474 480 487 490
+a 9 15 30 50 64 72 86 94 95 103 107 110 124 125 132 133 152 157 169 174 178 210 214 218 226 245 261 267 275 278 279 297 298 299 301 327 354 362 368 373 375 412 419 424 427 435 445 458 461 463 467 469 472 474 480 487 490
+	Command being timed: "/Users/soh/app/scala-2.12.4/bin/scala -J-Xms16g -J-Xmx16g -cp /Users/soh/app/IsrForCompetition220315-22h16m/scop.jar:/Users/soh/app/IsrForCompetition220315-22h16m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj03 benchmark/graph-instance/core-challenge-2022/color04/DSJC500.1.col benchmark/graph-instance/core-challenge-2022/color04/DSJC500.1_01.dat cadical /Users/soh/app/IsrForCompetition220315-22h16m/cadical"
+	User time (seconds): 2.62
+	System time (seconds): 0.15
+	Percent of CPU this job got: 219%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 989708288
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 70747
+	Voluntary context switches: 43
+	Involuntary context switches: 2305
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 49
+	Socket messages received: 0
+	Signals delivered: 5
+	Page size (bytes): 4096
+	Exit status: 0
+c FINISHED CPU 2.77 MEM 0 MAXMEM 0 STALE 1
+c #RESULT: UNK
+c #FIN: FIN
+c #CPU: 2.77
+c #MAXMEM: 0
+c 
+c #END: [Thu Mar 17 11:43:02 2022]

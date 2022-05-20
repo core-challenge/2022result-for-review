@@ -1,0 +1,325 @@
+c model ISR_TJ
+c  /home/toda/src/NuSMV-2.6.0-Linux_untouched/binary/bin/NuSMV -bmc -bmc_length 20 -n 0 /home/toda/2022solver/bin/../tmp/queen13_13_01.smv > queen13_13_01.log
+c ECC Heuristic Algorithm by Alessio Conte, Roberto Grossi and Andrea Marino. University of Pisa.
+c This code is compiled using Java 1.8
+c Parsing: 169
+c Reading graph from file..
+c Removing duplicates.................
+c Done.
+c Algotithm object created, class=it.unipi.di.clq.eps.lists.EPSc
+c Edges: 3328
+c 0 cliques
+c 2 cliques
+c 4 cliques
+c 8 cliques
+c 16 cliques
+c 32 cliques
+c 64 cliques
+c The solution is correct.
+c Cliques: 84
+c Sum: 731
+c MaxSize: 0
+c Time: 48
+c Aborted: false
+c ML = 168
+c SIZE = 169
+c Removed 12 cliques to minimalize solution.
+c Result saved!
+c Clique size distribution: {[2,4][3,4][4,4][5,4][6,4][7,4][8,4][9,4][10,4][11,4][12,4][13,28]}
+c NODE covering index distribution:{[3,4][4,165]}
+c EDGE covering index distrubution:{[1,3328]}
+c Total edges:3328
+c Distributions saved!
+c *** This is NuSMV 2.6.0 (compiled on Wed Oct 14 15:36:56 2015)
+c *** Enabled addons are: compass
+c *** For more information on NuSMV see <http://nusmv.fbk.eu>
+c *** or email to <nusmv-users@list.fbk.eu>.
+c *** Please report bugs to <Please report bugs to <nusmv-users@fbk.eu>>
+c 
+c *** Copyright (c) 2010-2014, Fondazione Bruno Kessler
+c 
+c *** This version of NuSMV is linked to the CUDD library version 2.4.1
+c *** Copyright (c) 1995-2004, Regents of the University of Colorado
+c 
+c *** This version of NuSMV is linked to the MiniSat SAT solver. 
+c *** See http://minisat.se/MiniSat.html
+c *** Copyright (c) 2003-2006, Niklas Een, Niklas Sorensson
+c *** Copyright (c) 2007-2010, Niklas Sorensson
+c 
+c -- no counterexample found with bound 0
+c -- no counterexample found with bound 1
+c -- no counterexample found with bound 2
+c -- no counterexample found with bound 3
+c -- no counterexample found with bound 4
+c -- no counterexample found with bound 5
+c -- no counterexample found with bound 6
+c -- no counterexample found with bound 7
+c -- no counterexample found with bound 8
+c -- no counterexample found with bound 9
+c -- no counterexample found with bound 10
+c -- no counterexample found with bound 11
+c -- specification  G ((((((((((((state.token[1] = v5 & state.token[2] = v30) & state.token[3] = v45) & state.token[4] = v62) & state.token[5] = v78) & state.token[6] = v79) & state.token[7] = v94) & state.token[8] = v112) & state.token[9] = v119) & state.token[10] = v137) & state.token[11] = v152) & state.token[12] = v167) ->  G !((((((((((((((((((((((state.token[1] = v5 | state.token[1] = v21) | state.token[1] = v39) | state.token[1] = v42) | state.token[1] = v71) | state.token[1] = v79) | state.token[1] = v100) | state.token[1] = v108) | state.token[1] = v129) | state.token[1] = v137) | state.token[1] = v145) | state.token[1] = v166) & (((((((((((state.token[2] = v5 | state.token[2] = v21) | state.token[2] = v39) | state.token[2] = v42) | state.token[2] = v71) | state.token[2] = v79) | state.token[2] = v100) | state.token[2] = v108) | state.token[2] = v129) | state.token[2] = v137) | state.token[2] = v145) | state.token[2] = v166)) & (((((((((((state.token[3] = v5 | state.token[3] = v21) | state.token[3] = v39) | state.token[3] = v42) | state.token[3] = v71) | state.token[3] = v79) | state.token[3] = v100) | state.token[3] = v108) | state.token[3] = v129) | state.token[3] = v137) | state.token[3] = v145) | state.token[3] = v166)) & (((((((((((state.token[4] = v5 | state.token[4] = v21) | state.token[4] = v39) | state.token[4] = v42) | state.token[4] = v71) | state.token[4] = v79) | state.token[4] = v100) | state.token[4] = v108) | state.token[4] = v129) | state.token[4] = v137) | state.token[4] = v145) | state.token[4] = v166)) & (((((((((((state.token[5] = v5 | state.token[5] = v21) | state.token[5] = v39) | state.token[5] = v42) | state.token[5] = v71) | state.token[5] = v79) | state.token[5] = v100) | state.token[5] = v108) | state.token[5] = v129) | state.token[5] = v137) | state.token[5] = v145) | state.token[5] = v166)) & (((((((((((state.token[6] = v5 | state.token[6] = v21) | state.token[6] = v39) | state.token[6] = v42) | state.token[6] = v71) | state.token[6] = v79) | state.token[6] = v100) | state.token[6] = v108) | state.token[6] = v129) | state.token[6] = v137) | state.token[6] = v145) | state.token[6] = v166)) & (((((((((((state.token[7] = v5 | state.token[7] = v21) | state.token[7] = v39) | state.token[7] = v42) | state.token[7] = v71) | state.token[7] = v79) | state.token[7] = v100) | state.token[7] = v108) | state.token[7] = v129) | state.token[7] = v137) | state.token[7] = v145) | state.token[7] = v166)) & (((((((((((state.token[8] = v5 | state.token[8] = v21) | state.token[8] = v39) | state.token[8] = v42) | state.token[8] = v71) | state.token[8] = v79) | state.token[8] = v100) | state.token[8] = v108) | state.token[8] = v129) | state.token[8] = v137) | state.token[8] = v145) | state.token[8] = v166)) & (((((((((((state.token[9] = v5 | state.token[9] = v21) | state.token[9] = v39) | state.token[9] = v42) | state.token[9] = v71) | state.token[9] = v79) | state.token[9] = v100) | state.token[9] = v108) | state.token[9] = v129) | state.token[9] = v137) | state.token[9] = v145) | state.token[9] = v166)) & (((((((((((state.token[10] = v5 | state.token[10] = v21) | state.token[10] = v39) | state.token[10] = v42) | state.token[10] = v71) | state.token[10] = v79) | state.token[10] = v100) | state.token[10] = v108) | state.token[10] = v129) | state.token[10] = v137) | state.token[10] = v145) | state.token[10] = v166)) & (((((((((((state.token[11] = v5 | state.token[11] = v21) | state.token[11] = v39) | state.token[11] = v42) | state.token[11] = v71) | state.token[11] = v79) | state.token[11] = v100) | state.token[11] = v108) | state.token[11] = v129) | state.token[11] = v137) | state.token[11] = v145) | state.token[11] = v166)) & (((((((((((state.token[12] = v5 | state.token[12] = v21) | state.token[12] = v39) | state.token[12] = v42) | state.token[12] = v71) | state.token[12] = v79) | state.token[12] = v100) | state.token[12] = v108) | state.token[12] = v129) | state.token[12] = v137) | state.token[12] = v145) | state.token[12] = v166)))    is false
+c -- as demonstrated by the following execution sequence
+c Trace Description: BMC Counterexample 
+c Trace Type: Counterexample 
+c   -> State: 1.1 <-
+c     state.token[1] = 0ud72_52778705617920
+c     state.token[2] = 0ud72_565149245177856
+c     state.token[3] = 0ud72_296012666676552138752
+c     state.token[4] = 0ud72_20266232683954176
+c     state.token[5] = 0ud72_2361183663647287673344
+c     state.token[6] = 0ud72_9223380832952025088
+c     state.token[7] = 0ud72_1125904204169216
+c     state.token[8] = 0ud72_1297036898841133056
+c     state.token[9] = 0ud72_1180591621268240861184
+c     state.token[10] = 0ud72_2305843026410864640
+c     state.token[11] = 0ud72_18451247673873797120
+c     state.token[12] = 0ud72_73786976569783222336
+c     state.tid = 1
+c     state.vid = 51
+c     state.target = 0ud72_0
+c     v169 = 0ud72_2435042275323698741248
+c     v168 = 0ud72_73823005160576647172
+c     v167 = 0ud72_73786976569783222336
+c     v166 = 0ud72_73786976303966060544
+c     v165 = 0ud72_73791479894482354304
+c     v164 = 0ud72_74939897803740024832
+c     v163 = 0ud72_76092819304190312448
+c     v162 = 0ud72_78398732682009772544
+c     v161 = 0ud72_73786976296986216448
+c     v160 = 0ud72_73931093681937318144
+c     v159 = 0ud72_73788102194778603522
+c     v158 = 0ud72_1254378597046609256448
+c     v157 = 0ud72_110680473238350331904
+c     v156 = 0ud72_2379630548458485579780
+c     v155 = 0ud72_18554830464766443584
+c     v154 = 0ud72_18446744425896869888
+c     v153 = 0ud72_18446744073777709184
+c     v152 = 0ud72_18451247673873797120
+c     v151 = 0ud72_19599665578467393536
+c     v150 = 0ud72_20752587087218213376
+c     v149 = 0ud72_18446814442458447872
+c     v148 = 0ud72_23202545282360279040
+c     v147 = 0ud72_18446746272766363648
+c     v146 = 0ud72_18447870007976132864
+c     v145 = 0ud72_1235931852938539958274
+c     v144 = 0ud72_18455760069057323008
+c     v143 = 0ud72_2361759702204305899584
+c     v142 = 0ud72_36591772742189056
+c     v141 = 0ud72_72057886095704192
+c     v140 = 0ud72_85900398592
+c     v139 = 0ud72_4503617008566272
+c     v138 = 0ud72_1152921522323587584
+c     v137 = 0ud72_2305843026410864640
+c     v136 = 0ud72_144185578294870016
+c     v135 = 0ud72_19365101568
+c     v134 = 0ud72_4611688268990251008
+c     v133 = 0ud72_36894614064505817088
+c     v132 = 0ud72_1180600627933845913856
+c     v131 = 0ud72_8814346633218
+c     v130 = 0ud72_2951479052351874007040
+c     v129 = 0ud72_612490099078201472
+c     v128 = 0ud72_563774587146240
+c     v127 = 0ud72_72058143929008128
+c     v126 = 0ud72_4504218102661632
+c     v125 = 0ud72_1152922054430294016
+c     v124 = 0ud72_2449958747582234624
+c     v123 = 0ud72_70918550323200
+c     v122 = 0ud72_590558003200
+c     v121 = 0ud72_36893490896202366976
+c     v120 = 0ud72_4621819667344785408
+c     v119 = 0ud72_1180591621268240861184
+c     v118 = 0ud72_9345849098496
+c     v117 = 0ud72_2361183259164447604864
+c     v116 = 0ud72_590331839293163573248
+c     v115 = 0ud72_576461164754501632
+c     v114 = 0ud72_563087393423872
+c     v113 = 0ud72_76561331104776192
+c     v112 = 0ud72_1297036898841133056
+c     v111 = 0ud72_2305843146753310720
+c     v110 = 0ud72_70541079740416
+c     v109 = 0ud72_36893488287022317568
+c     v108 = 0ud72_9009540011917312
+c     v107 = 0ud72_1126038423732224
+c     v106 = 0ud72_1185203306873277906944
+c     v105 = 0ud72_288239309683689472
+c     v104 = 0ud72_2361185493234638393344
+c     v103 = 0ud72_36046389341323264
+c     v102 = 0ud72_590295810633585656320
+c     v101 = 0ud72_576460752307093504
+c     v100 = 0ud72_149181737658744832
+c     v99 = 0ud72_1224979098680426496
+c     v98 = 0ud72_2305843112295006208
+c     v97 = 0ud72_36893558516232486912
+c     v96 = 0ud72_9007201941192704
+c     v95 = 0ud72_2200115871744
+c     v94 = 0ud72_1125904204169216
+c     v93 = 0ud72_1180879851093569306624
+c     v92 = 0ud72_4611699212569018368
+c     v91 = 0ud72_2370406614571323228160
+c     v90 = 0ud72_9261652633687425536
+c     v89 = 0ud72_9223389903919251456
+c     v88 = 0ud72_599663297583637331968
+c     v87 = 0ud72_9804336388819124224
+c     v86 = 0ud72_10376856525774782464
+c     v85 = 0ud72_48494760787525500928
+c     v84 = 0ud72_9232449673573171200
+c     v83 = 0ud72_9223372040143110144
+c     v82 = 0ud72_9223374236415164416
+c     v81 = 0ud72_9512728312930107392
+c     v80 = 0ud72_1189814997156607557632
+c     v79 = 0ud72_9223380832952025088
+c     v78 = 0ud72_2361183663647287673344
+c     v77 = 0ud72_36170634019471360
+c     v76 = 0ud72_146508000255803392
+c     v75 = 0ud72_158329709002752
+c     v74 = 0ud72_590300454730181115904
+c     v73 = 0ud72_38623011141817729024
+c     v72 = 0ud72_2315553895910211584
+c     v71 = 0ud72_72268701344202752
+c     v70 = 0ud72_140808355577856
+c     v69 = 0ud72_288373312730431488
+c     v68 = 0ud72_1271035978579968
+c     v67 = 0ud72_1180591761454916468736
+c     v66 = 0ud72_149537876410368
+c     v65 = 0ud72_2361201255833332613152
+c     v64 = 0ud72_198439858581012480
+c     v63 = 0ud72_18015772932571136
+c     v62 = 0ud72_20266232683954176
+c     v61 = 0ud72_36916023737742000128
+c     v60 = 0ud72_591475753461076721664
+c     v59 = 0ud72_2900318161100341248
+c     v58 = 0ud72_18647717207343104
+c     v57 = 0ud72_378302370846605312
+c     v56 = 0ud72_18021064298725376
+c     v55 = 0ud72_19140298483466240
+c     v54 = 0ud72_1180609635116457721856
+c     v53 = 0ud72_18023194619282432
+c     v52 = 0ud72_2656475261802251419648
+c     v51 = 0ud72_295183933976405344288
+c     v50 = 0ud72_295148186963567181824
+c     v49 = 0ud72_332041394426284605440
+c     v48 = 0ud72_295163667778048622592
+c     v47 = 0ud72_296300844277219459072
+c     v46 = 0ud72_887749558547272433664
+c     v45 = 0ud72_296012666676552138752
+c     v44 = 0ud72_295148472529500241920
+c     v43 = 0ud72_295219964972414042112
+c     v42 = 0ud72_295149031147979210752
+c     v41 = 0ud72_1475739525896831239168
+c     v40 = 0ud72_295147913975982735360
+c     v39 = 0ud72_2361183241435132985344
+c     v38 = 0ud72_36028831647268864
+c     v37 = 0ud72_36893488422565445664
+c     v36 = 0ud72_9288674500935680
+c     v35 = 0ud72_4504700481175552
+c     v34 = 0ud72_1155173304689229824
+c     v33 = 0ud72_2594090977819885568
+c     v32 = 0ud72_590295885125764775936
+c     v31 = 0ud72_576460754719375360
+c     v30 = 0ud72_565149245177856
+c     v29 = 0ud72_73183494213207040
+c     v28 = 0ud72_1180591620786399232000
+c     v27 = 0ud72_8796428566544
+c     v26 = 0ud72_2508757194058858758152
+c     v25 = 0ud72_184503469534122868736
+c     v24 = 0ud72_147582960063809191936
+c     v23 = 0ud72_147573952590751203360
+c     v22 = 0ud72_147578737664280756224
+c     v21 = 0ud72_149015105569946599424
+c     v20 = 0ud72_149882051796750303232
+c     v19 = 0ud72_147574040550606667776
+c     v18 = 0ud72_737869762950529613824
+c     v17 = 0ud72_148150415541003092992
+c     v16 = 0ud72_147575641439536693248
+c     v15 = 0ud72_1328237630901125644304
+c     v14 = 0ud72_147573961454488911873
+c     v13 = 0ud72_2398076764766613798912
+c     v12 = 0ud72_45071180645793800
+c     v11 = 0ud72_35460332126208
+c     v10 = 0ud72_35184373530624
+c     v9 = 0ud72_292769160151171104
+c     v8 = 0ud72_1153242562002157568
+c     v7 = 0ud72_2305879293097443328
+c     v6 = 0ud72_2357352930017280
+c     v5 = 0ud72_52778705617920
+c     v4 = 0ud72_590295847742101012480
+c     v3 = 0ud72_577621836582354960
+c     v2 = 0ud72_1180592218851736813569
+c     v1 = 0ud72_72101574503038976
+c     v0 = 0ud72_0
+c   -> State: 1.2 <-
+c     state.tid = 3
+c     state.vid = 21
+c     state.target = 0ud72_295183933976405344288
+c   -> State: 1.3 <-
+c     state.token[3] = 0ud72_295183933976405344288
+c     state.tid = 8
+c     state.vid = 32
+c     state.target = 0ud72_149015105569946599424
+c   -> State: 1.4 <-
+c     state.token[8] = 0ud72_149015105569946599424
+c     state.tid = 2
+c     state.vid = 108
+c     state.target = 0ud72_590295885125764775936
+c   -> State: 1.5 <-
+c     state.token[2] = 0ud72_590295885125764775936
+c     state.tid = 7
+c     state.vid = 42
+c     state.target = 0ud72_9009540011917312
+c   -> State: 1.6 <-
+c     state.token[7] = 0ud72_9009540011917312
+c     state.tid = 3
+c     state.vid = 129
+c     state.target = 0ud72_295149031147979210752
+c   -> State: 1.7 <-
+c     state.token[3] = 0ud72_295149031147979210752
+c     state.tid = 9
+c     state.vid = 100
+c     state.target = 0ud72_612490099078201472
+c   -> State: 1.8 <-
+c     state.token[9] = 0ud72_612490099078201472
+c     state.tid = 11
+c     state.vid = 145
+c     state.target = 0ud72_149181737658744832
+c   -> State: 1.9 <-
+c     state.token[11] = 0ud72_149181737658744832
+c     state.tid = 2
+c     state.vid = 71
+c     state.target = 0ud72_1235931852938539958274
+c   -> State: 1.10 <-
+c     state.token[2] = 0ud72_1235931852938539958274
+c     state.tid = 5
+c     state.vid = 39
+c     state.target = 0ud72_72268701344202752
+c   -> State: 1.11 <-
+c     state.token[5] = 0ud72_72268701344202752
+c     state.tid = 4
+c     state.vid = 166
+c     state.target = 0ud72_2361183241435132985344
+c   -> State: 1.12 <-
+c     state.token[4] = 0ud72_2361183241435132985344
+c     state.tid = 12
+c     state.vid = 96
+c     state.target = 0ud72_73786976303966060544
+c   -> State: 1.13 <-
+c     state.token[12] = 0ud72_73786976303966060544
+c     state.tid = 1
+c     state.vid = 1
+c     state.target = 0ud72_9007201941192704
+s 25 30 45 62 78 79 94 112 119 137 152 167
+t 5 21 39 42 71 79 100 108 129 137 145 166
+a YES
+a 25 30 45 62 78 79 94 112 119 137 152 167
+a 5 30 45 62 78 79 94 112 119 137 152 167
+a 5 30 51 62 78 79 94 112 119 137 152 167
+a 5 21 30 51 62 78 79 94 119 137 152 167
+a 5 21 32 51 62 78 79 94 119 137 152 167
+a 5 21 32 51 62 78 79 108 119 137 152 167
+a 5 21 32 42 62 78 79 108 119 137 152 167
+a 5 21 32 42 62 78 79 108 129 137 152 167
+a 5 21 32 42 62 78 79 100 108 129 137 167
+a 5 21 42 62 78 79 100 108 129 137 145 167
+a 5 21 42 62 71 79 100 108 129 137 145 167
+a 5 21 39 42 71 79 100 108 129 137 145 167
+a 5 21 39 42 71 79 100 108 129 137 145 166

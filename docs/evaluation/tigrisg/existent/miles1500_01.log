@@ -1,0 +1,6 @@
+c nb_vertices=128 nb_token=5
+c LENGTH 2
+a YES
+a 17 22 51 106 112 
+a 17 22 97 106 112 
+a 17 97 106 112 118 

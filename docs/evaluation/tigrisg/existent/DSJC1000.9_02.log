@@ -1,0 +1,6 @@
+c nb_vertices=1000 nb_token=5
+c LENGTH 2
+a YES
+a 145 184 672 793 805 
+a 145 184 719 793 805 
+a 145 674 719 793 805 

@@ -1,0 +1,54 @@
+c #BEGIN: [Thu Mar 17 11:43:18 2022]
+c #HOST: mini14.local
+c #TIMELIMIT: 18000
+c #MEMLIMIT: 0
+c #FREQ: 10
+c #SOLVER: isr-bug-finder
+c #CSP: benchmark/graph-instance/core-challenge-2022/color04/queen16_16.col benchmark/graph-instance/core-challenge-2022/color04/queen16_16_02.dat
+c #COMMAND: /Users/soh/app/scala-2.12.4/bin/scala -J-Xms16g -J-Xmx16g -cp /Users/soh/app/IsrForCompetition220315-22h16m/scop.jar:/Users/soh/app/IsrForCompetition220315-22h16m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj03 benchmark/graph-instance/core-challenge-2022/color04/queen16_16.col benchmark/graph-instance/core-challenge-2022/color04/queen16_16_02.dat cadical /Users/soh/app/IsrForCompetition220315-22h16m/cadical
+c (0) step 1 UNSAT 1536 16218
+c (0) step 2 UNSAT 2815 25861
+c (0) step 3 UNSAT 4094 35504
+c (0) step 4 UNSAT 5373 45147
+c (0) step 5 UNSAT 6652 54790
+c (0) step 6 UNSAT 7931 64433
+c (0) step 7 SAT 9210 74076
+a YES
+a 10 22 51 77 88 101 127 140 160 162 183 201 219 225 244
+a 10 22 46 51 77 88 101 127 140 160 162 183 201 219 244
+a 10 22 46 51 77 88 101 113 140 160 162 183 201 219 244
+a 10 22 46 51 88 101 113 140 160 162 183 201 219 239 244
+a 10 22 45 51 88 101 113 140 160 162 183 201 219 239 244
+a 10 22 45 51 88 101 113 142 160 162 183 201 219 239 244
+a 10 22 45 51 76 88 101 113 142 162 183 201 219 239 244
+a 10 32 45 51 76 88 101 113 142 162 183 201 219 239 244
+	Command being timed: "/Users/soh/app/scala-2.12.4/bin/scala -J-Xms16g -J-Xmx16g -cp /Users/soh/app/IsrForCompetition220315-22h16m/scop.jar:/Users/soh/app/IsrForCompetition220315-22h16m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj03 benchmark/graph-instance/core-challenge-2022/color04/queen16_16.col benchmark/graph-instance/core-challenge-2022/color04/queen16_16_02.dat cadical /Users/soh/app/IsrForCompetition220315-22h16m/cadical"
+	User time (seconds): 2.34
+	System time (seconds): 0.14
+	Percent of CPU this job got: 206%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 880181248
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 64730
+	Voluntary context switches: 42
+	Involuntary context switches: 2388
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 47
+	Socket messages received: 0
+	Signals delivered: 5
+	Page size (bytes): 4096
+	Exit status: 0
+c FINISHED CPU 2.48 MEM 0 MAXMEM 0 STALE 1
+c #RESULT: UNK
+c #FIN: FIN
+c #CPU: 2.48
+c #MAXMEM: 0
+c 
+c #END: [Thu Mar 17 11:43:19 2022]

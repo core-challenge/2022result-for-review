@@ -1,0 +1,48 @@
+c #BEGIN: [Thu Mar 17 11:43:01 2022]
+c #HOST: mini08.local
+c #TIMELIMIT: 18000
+c #MEMLIMIT: 0
+c #FREQ: 10
+c #SOLVER: isr-bug-finder
+c #CSP: benchmark/graph-instance/core-challenge-2022/color04/DSJR500.1c.col benchmark/graph-instance/core-challenge-2022/color04/DSJR500.1c_02.dat
+c #COMMAND: /Users/soh/app/scala-2.12.4/bin/scala -J-Xms16g -J-Xmx16g -cp /Users/soh/app/IsrForCompetition220315-22h16m/scop.jar:/Users/soh/app/IsrForCompetition220315-22h16m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj03 benchmark/graph-instance/core-challenge-2022/color04/DSJR500.1c.col benchmark/graph-instance/core-challenge-2022/color04/DSJR500.1c_02.dat cadical /Users/soh/app/IsrForCompetition220315-22h16m/cadical
+c (0) step 1 UNSAT 3000 249544
+c (0) step 2 UNSAT 5499 377314
+c (0) step 3 UNSAT 7998 505084
+c (0) step 4 SAT 10497 632854
+a YES
+a 1 8 35 61 83 148 201 234 284 301 382 472
+a 1 3 35 61 83 148 201 234 284 301 382 472
+a 3 35 61 83 148 201 234 284 301 382 459 472
+a 3 35 61 148 201 234 284 301 382 383 459 472
+a 28 35 61 148 201 234 284 301 382 383 459 472
+	Command being timed: "/Users/soh/app/scala-2.12.4/bin/scala -J-Xms16g -J-Xmx16g -cp /Users/soh/app/IsrForCompetition220315-22h16m/scop.jar:/Users/soh/app/IsrForCompetition220315-22h16m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj03 benchmark/graph-instance/core-challenge-2022/color04/DSJR500.1c.col benchmark/graph-instance/core-challenge-2022/color04/DSJR500.1c_02.dat cadical /Users/soh/app/IsrForCompetition220315-22h16m/cadical"
+	User time (seconds): 4.62
+	System time (seconds): 0.38
+	Percent of CPU this job got: 200%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.50
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3676143616
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 240977
+	Voluntary context switches: 49
+	Involuntary context switches: 5035
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 63
+	Socket messages received: 0
+	Signals delivered: 6
+	Page size (bytes): 4096
+	Exit status: 0
+c FINISHED CPU 5 MEM 0 MAXMEM 0 STALE 1
+c #RESULT: UNK
+c #FIN: FIN
+c #CPU: 5
+c #MAXMEM: 0
+c 
+c #END: [Thu Mar 17 11:43:04 2022]

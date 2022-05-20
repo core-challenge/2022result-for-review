@@ -1,0 +1,1642 @@
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/square/hc-square-012-002.col
+c Target file: benchmark/square/hc-square-012-002_01.dat
+c Size of independent set: 50
+c Number of nodes of graph: 124
+c Number of edges of graph: 183
+c Average degree of graph: 2.95
+s 2 4 6 9 11 14 16 19 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+t 1 3 7 8 12 13 17 18 22 23 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+c BFS found 13 new nodes in level 1 (total 14/244032232)
+c BFS found 78 new nodes in level 2 (total 92/244032232)
+c BFS found 287 new nodes in level 3 (total 379/244032232)
+c BFS found 727 new nodes in level 4 (total 1105/244032232)
+c BFS found 1353 new nodes in level 5 (total 2445/244032232)
+c BFS found 1937 new nodes in level 6 (total 4304/244032232)
+c BFS found 2222 new nodes in level 7 (total 6232/244032232)
+c BFS found 2135 new nodes in level 8 (total 7636/244032232)
+c BFS found 1815 new nodes in level 9 (total 8094/244032232)
+c BFS found 1465 new nodes in level 10 (total 7647/244032232)
+c BFS found 1223 new nodes in level 11 (total 6655/244032232)
+c BFS found 1148 new nodes in level 12 (total 5695/244032232)
+c BFS found 1268 new nodes in level 13 (total 5211/244032232)
+c BFS found 1596 new nodes in level 14 (total 5362/244032232)
+c BFS found 2082 new nodes in level 15 (total 6254/244032232)
+c BFS found 2572 new nodes in level 16 (total 7719/244032232)
+c BFS found 2853 new nodes in level 17 (total 9328/244032232)
+c BFS found 2769 new nodes in level 18 (total 10529/244032232)
+c BFS found 2327 new nodes in level 19 (total 10816/244032232)
+c BFS found 1712 new nodes in level 20 (total 9974/244032232)
+c BFS found 1187 new nodes in level 21 (total 8312/244032232)
+c BFS found 954 new nodes in level 22 (total 6511/244032232)
+c BFS found 1089 new nodes in level 23 (total 5298/244032232)
+c BFS found 1571 new nodes in level 24 (total 5138/244032232)
+c BFS found 2318 new nodes in level 25 (total 6251/244032232)
+c BFS found 3177 new nodes in level 26 (total 8422/244032232)
+c BFS found 3930 new nodes in level 27 (total 11248/244032232)
+c BFS found 4370 new nodes in level 28 (total 14028/244032232)
+c BFS found 4397 new nodes in level 29 (total 16165/244032232)
+c BFS found 4071 new nodes in level 30 (total 17083/244032232)
+c BFS found 3596 new nodes in level 31 (total 16763/244032232)
+c BFS found 3214 new nodes in level 32 (total 15637/244032232)
+c R=50
+c BFS found 3056 new nodes in level 33 (total 14359/244032232)
+c BFS found 3074 new nodes in level 34 (total 13424/244032232)
+c R=51
+c BFS found 3108 new nodes in level 35 (total 12996/244032232)
+c BFS found 3024 new nodes in level 36 (total 12830/244032232)
+c R=52
+c BFS found 2829 new nodes in level 37 (total 12599/244032232)
+c BFS found 2688 new nodes in level 38 (total 12232/244032232)
+c R=53
+c BFS found 2826 new nodes in level 39 (total 12018/244032232)
+c BFS found 3384 new nodes in level 40 (total 12434/244032232)
+c R=54
+c BFS found 4321 new nodes in level 41 (total 13948/244032232)
+c R=55
+c BFS found 5415 new nodes in level 42 (total 16673/244032232)
+c BFS found 6362 new nodes in level 43 (total 20115/244032232)
+c R=56
+c BFS found 6909 new nodes in level 44 (total 23517/244032232)
+c R=57
+c BFS found 6953 new nodes in level 45 (total 26099/244032232)
+c R=58
+c BFS found 6586 new nodes in level 46 (total 27276/244032232)
+c BFS found 6057 new nodes in level 47 (total 26991/244032232)
+c R=59
+c BFS found 5638 new nodes in level 48 (total 25763/244032232)
+c BFS found 5491 new nodes in level 49 (total 24392/244032232)
+c R=60
+c BFS found 5630 new nodes in level 50 (total 23584/244032232)
+c BFS found 5942 new nodes in level 51 (total 23573/244032232)
+c R=61
+c BFS found 6228 new nodes in level 52 (total 24300/244032232)
+c BFS found 6292 new nodes in level 53 (total 25165/244032232)
+c R=62
+c BFS found 6049 new nodes in level 54 (total 25504/244032232)
+c BFS found 5578 new nodes in level 55 (total 25209/244032232)
+c R=63
+c BFS found 5112 new nodes in level 56 (total 24134/244032232)
+c BFS found 4975 new nodes in level 57 (total 22777/244032232)
+c BFS found 5451 new nodes in level 58 (total 22175/244032232)
+c BFS found 6631 new nodes in level 59 (total 23173/244032232)
+c R=64
+c BFS found 8334 new nodes in level 60 (total 26337/244032232)
+c BFS found 10145 new nodes in level 61 (total 31504/244032232)
+c R=65
+c BFS found 11562 new nodes in level 62 (total 37767/244032232)
+c R=66
+c BFS found 12208 new nodes in level 63 (total 43512/244032232)
+c BFS found 11999 new nodes in level 64 (total 47332/244032232)
+c R=67
+c BFS found 11171 new nodes in level 65 (total 48459/244032232)
+c R=68
+c BFS found 10166 new nodes in level 66 (total 47094/244032232)
+c BFS found 9430 new nodes in level 67 (total 44342/244032232)
+c R=69
+c BFS found 9211 new nodes in level 68 (total 41587/244032232)
+c BFS found 9478 new nodes in level 69 (total 39929/244032232)
+c R=70
+c BFS found 9997 new nodes in level 70 (total 39870/244032232)
+c BFS found 10483 new nodes in level 71 (total 40941/244032232)
+c R=71
+c BFS found 10755 new nodes in level 72 (total 42572/244032232)
+c BFS found 10834 new nodes in level 73 (total 43990/244032232)
+c R=72
+c BFS found 10893 new nodes in level 74 (total 44987/244032232)
+c BFS found 11081 new nodes in level 75 (total 45708/244032232)
+c R=73
+c BFS found 11400 new nodes in level 76 (total 46443/244032232)
+c BFS found 11731 new nodes in level 77 (total 47213/244032232)
+c R=74
+c BFS found 11937 new nodes in level 78 (total 48067/244032232)
+c BFS found 11977 new nodes in level 79 (total 48882/244032232)
+c BFS found 11988 new nodes in level 80 (total 49453/244032232)
+c R=75
+c BFS found 12251 new nodes in level 81 (total 50043/244032232)
+c BFS found 13044 new nodes in level 82 (total 51238/244032232)
+c R=76
+c BFS found 14500 new nodes in level 83 (total 53948/244032232)
+c BFS found 16522 new nodes in level 84 (total 58682/244032232)
+c R=77
+c BFS found 18744 new nodes in level 85 (total 65419/244032232)
+c BFS found 20601 new nodes in level 86 (total 73312/244032232)
+c R=78
+c BFS found 21555 new nodes in level 87 (total 80545/244032232)
+c R=79
+c BFS found 21367 new nodes in level 88 (total 85407/244032232)
+c BFS found 20244 new nodes in level 89 (total 86744/244032232)
+c R=80
+c BFS found 18772 new nodes in level 90 (total 84715/244032232)
+c BFS found 17648 new nodes in level 91 (total 80847/244032232)
+c R=81
+c BFS found 17338 new nodes in level 92 (total 77119/244032232)
+c BFS found 17870 new nodes in level 93 (total 75299/244032232)
+c R=82
+c BFS found 18881 new nodes in level 94 (total 75956/244032232)
+c BFS found 19852 new nodes in level 95 (total 78645/244032232)
+c R=83
+c BFS found 20389 new nodes in level 96 (total 81912/244032232)
+c BFS found 20413 new nodes in level 97 (total 84780/244032232)
+c R=84
+c BFS found 20151 new nodes in level 98 (total 86528/244032232)
+c BFS found 19960 new nodes in level 99 (total 87051/244032232)
+c R=85
+c BFS found 20143 new nodes in level 100 (total 86917/244032232)
+c BFS found 20834 new nodes in level 101 (total 87229/244032232)
+c R=86
+c BFS found 21931 new nodes in level 102 (total 88698/244032232)
+c BFS found 23115 new nodes in level 103 (total 91599/244032232)
+c R=87
+c BFS found 23993 new nodes in level 104 (total 95284/244032232)
+c BFS found 24292 new nodes in level 105 (total 98867/244032232)
+c BFS found 24021 new nodes in level 106 (total 101255/244032232)
+c R=88
+c BFS found 23550 new nodes in level 107 (total 102043/244032232)
+c BFS found 23509 new nodes in level 108 (total 102066/244032232)
+c R=89
+c BFS found 24483 new nodes in level 109 (total 102877/244032232)
+c BFS found 26696 new nodes in level 110 (total 105878/244032232)
+c R=90
+c BFS found 29893 new nodes in level 111 (total 112408/244032232)
+c BFS found 33423 new nodes in level 112 (total 122325/244032232)
+c R=91
+c BFS found 36458 new nodes in level 113 (total 134316/244032232)
+c R=92
+c BFS found 38327 new nodes in level 114 (total 145690/244032232)
+c R=93
+c BFS found 38826 new nodes in level 115 (total 154467/244032232)
+c BFS found 38279 new nodes in level 116 (total 159451/244032232)
+c R=94
+c BFS found 37320 new nodes in level 117 (total 160762/244032232)
+c BFS found 36562 new nodes in level 118 (total 159552/244032232)
+c R=95
+c BFS found 36313 new nodes in level 119 (total 157797/244032232)
+c R=96
+c BFS found 36476 new nodes in level 120 (total 156872/244032232)
+c BFS found 36710 new nodes in level 121 (total 156812/244032232)
+c R=97
+c BFS found 36721 new nodes in level 122 (total 157486/244032232)
+c R=98
+c BFS found 36452 new nodes in level 123 (total 158123/244032232)
+c BFS found 36097 new nodes in level 124 (total 158507/244032232)
+c R=99
+c BFS found 35998 new nodes in level 125 (total 158580/244032232)
+c BFS found 36472 new nodes in level 126 (total 159024/244032232)
+c R=100
+c BFS found 37634 new nodes in level 127 (total 160195/244032232)
+c BFS found 39325 new nodes in level 128 (total 163450/244032232)
+c R=101
+c BFS found 41185 new nodes in level 129 (total 168223/244032232)
+c BFS found 42816 new nodes in level 130 (total 174311/244032232)
+c R=102
+c BFS found 43968 new nodes in level 131 (total 180674/244032232)
+c BFS found 44665 new nodes in level 132 (total 186404/244032232)
+c R=103
+c BFS found 45164 new nodes in level 133 (total 191027/244032232)
+c R=104
+c BFS found 45747 new nodes in level 134 (total 194800/244032232)
+c BFS found 46507 new nodes in level 135 (total 198334/244032232)
+c R=105
+c BFS found 47286 new nodes in level 136 (total 202342/244032232)
+c BFS found 47807 new nodes in level 137 (total 206404/244032232)
+c R=106
+c BFS found 47955 new nodes in level 138 (total 209848/244032232)
+c BFS found 48035 new nodes in level 139 (total 212263/244032232)
+c R=107
+c BFS found 48749 new nodes in level 140 (total 214047/244032232)
+c BFS found 50844 new nodes in level 141 (total 217356/244032232)
+c R=108
+c BFS found 54682 new nodes in level 142 (total 224245/244032232)
+c BFS found 59971 new nodes in level 143 (total 236095/244032232)
+c R=109
+c BFS found 65745 new nodes in level 144 (total 253406/244032232)
+c R=110
+c BFS found 70657 new nodes in level 145 (total 273286/244032232)
+c BFS found 73536 new nodes in level 146 (total 292516/244032232)
+c R=111
+c BFS found 73916 new nodes in level 147 (total 306584/244032232)
+c R=112
+c BFS found 72239 new nodes in level 148 (total 313396/244032232)
+c BFS found 69666 new nodes in level 149 (total 313086/244032232)
+c R=113
+c BFS found 67580 new nodes in level 150 (total 307807/244032232)
+c R=114
+c BFS found 66962 new nodes in level 151 (total 301759/244032232)
+c BFS found 67970 new nodes in level 152 (total 298268/244032232)
+c R=115
+c BFS found 69988 new nodes in level 153 (total 299179/244032232)
+c BFS found 72058 new nodes in level 154 (total 303769/244032232)
+c R=116
+c BFS found 73386 new nodes in level 155 (total 310358/244032232)
+c R=117
+c BFS found 73705 new nodes in level 156 (total 316171/244032232)
+c BFS found 73377 new nodes in level 157 (total 319776/244032232)
+c R=118
+c BFS found 73156 new nodes in level 158 (total 321107/244032232)
+c R=119
+c BFS found 73740 new nodes in level 159 (total 321673/244032232)
+c BFS found 75426 new nodes in level 160 (total 323018/244032232)
+c R=120
+c BFS found 78030 new nodes in level 161 (total 326948/244032232)
+c BFS found 81007 new nodes in level 162 (total 333931/244032232)
+c R=121
+c BFS found 83709 new nodes in level 163 (total 343508/244032232)
+c R=122
+c BFS found 85711 new nodes in level 164 (total 353910/244032232)
+c BFS found 87013 new nodes in level 165 (total 363650/244032232)
+c R=123
+c BFS found 87985 new nodes in level 166 (total 371742/244032232)
+c BFS found 89120 new nodes in level 167 (total 378502/244032232)
+c R=124
+c BFS found 90723 new nodes in level 168 (total 384735/244032232)
+c BFS found 92678 new nodes in level 169 (total 391466/244032232)
+c R=125
+c BFS found 94476 new nodes in level 170 (total 398606/244032232)
+c R=126
+c BFS found 95548 new nodes in level 171 (total 405369/244032232)
+c BFS found 95689 new nodes in level 172 (total 409668/244032232)
+c R=127
+c BFS found 95308 new nodes in level 173 (total 412305/244032232)
+c BFS found 95382 new nodes in level 174 (total 412903/244032232)
+c R=128
+c BFS found 97103 new nodes in level 175 (total 415034/244032232)
+c BFS found 101322 new nodes in level 176 (total 421194/244032232)
+c R=129
+c BFS found 108064 new nodes in level 177 (total 434783/244032232)
+c R=130
+c BFS found 116400 new nodes in level 178 (total 456745/244032232)
+c BFS found 124739 new nodes in level 179 (total 485224/244032232)
+c R=131
+c BFS found 131401 new nodes in level 180 (total 516248/244032232)
+c R=132
+c BFS found 135265 new nodes in level 181 (total 544678/244032232)
+c BFS found 136224 new nodes in level 182 (total 566242/244032232)
+c R=133
+c BFS found 135186 new nodes in level 183 (total 578690/244032232)
+c R=134
+c BFS found 133603 new nodes in level 184 (total 582950/244032232)
+c BFS found 132799 new nodes in level 185 (total 582490/244032232)
+c R=135
+c BFS found 133416 new nodes in level 186 (total 580953/244032232)
+c R=136
+c BFS found 135213 new nodes in level 187 (total 582238/244032232)
+c BFS found 137353 new nodes in level 188 (total 586767/244032232)
+c R=137
+c BFS found 139031 new nodes in level 189 (total 593881/244032232)
+c R=138
+c BFS found 139985 new nodes in level 190 (total 601433/244032232)
+c BFS found 140564 new nodes in level 191 (total 607809/244032232)
+c R=139
+c BFS found 141443 new nodes in level 192 (total 612190/244032232)
+c R=140
+c BFS found 143217 new nodes in level 193 (total 617165/244032232)
+c BFS found 146050 new nodes in level 194 (total 623829/244032232)
+c R=141
+c BFS found 149585 new nodes in level 195 (total 633695/244032232)
+c BFS found 153203 new nodes in level 196 (total 646086/244032232)
+c R=142
+c BFS found 156401 new nodes in level 197 (total 660277/244032232)
+c R=143
+c BFS found 159005 new nodes in level 198 (total 674351/244032232)
+c BFS found 161183 new nodes in level 199 (total 687514/244032232)
+c R=144
+c BFS found 163327 new nodes in level 200 (total 699473/244032232)
+c BFS found 165818 new nodes in level 201 (total 711050/244032232)
+c R=145
+c BFS found 168776 new nodes in level 202 (total 722326/244032232)
+c R=146
+c BFS found 171991 new nodes in level 203 (total 734388/244032232)
+c BFS found 175076 new nodes in level 204 (total 747609/244032232)
+c R=147
+c BFS found 177707 new nodes in level 205 (total 760924/244032232)
+c R=148
+c BFS found 179845 new nodes in level 206 (total 772393/244032232)
+c BFS found 181853 new nodes in level 207 (total 782669/244032232)
+c R=149
+c BFS found 184354 new nodes in level 208 (total 791220/244032232)
+c BFS found 187822 new nodes in level 209 (total 800737/244032232)
+c R=150
+c BFS found 192203 new nodes in level 210 (total 812728/244032232)
+c R=151
+c BFS found 196878 new nodes in level 211 (total 827183/244032232)
+c BFS found 200998 new nodes in level 212 (total 843688/244032232)
+c R=152
+c BFS found 204031 new nodes in level 213 (total 860549/244032232)
+c R=153
+c BFS found 206270 new nodes in level 214 (total 876082/244032232)
+c BFS found 208930 new nodes in level 215 (total 890183/244032232)
+c R=154
+c BFS found 213606 new nodes in level 216 (total 905163/244032232)
+c BFS found 221359 new nodes in level 217 (total 924926/244032232)
+c R=155
+c BFS found 231987 new nodes in level 218 (total 953642/244032232)
+c R=156
+c BFS found 243882 new nodes in level 219 (total 991562/244032232)
+c BFS found 254594 new nodes in level 220 (total 1035028/244032232)
+c R=157
+c BFS found 261915 new nodes in level 221 (total 1077854/244032232)
+c R=158
+c BFS found 264925 new nodes in level 222 (total 1112244/244032232)
+c R=159
+c BFS found 264392 new nodes in level 223 (total 1134681/244032232)
+c BFS found 262342 new nodes in level 224 (total 1144273/244032232)
+c R=160
+c BFS found 261076 new nodes in level 225 (total 1145366/244032232)
+c R=161
+c BFS found 262117 new nodes in level 226 (total 1144149/244032232)
+c BFS found 265607 new nodes in level 227 (total 1146702/244032232)
+c R=162
+c BFS found 270475 new nodes in level 228 (total 1156135/244032232)
+c R=163
+c BFS found 275211 new nodes in level 229 (total 1171344/244032232)
+c BFS found 278725 new nodes in level 230 (total 1188610/244032232)
+c R=164
+c BFS found 280866 new nodes in level 231 (total 1205220/244032232)
+c R=165
+c BFS found 282456 new nodes in level 232 (total 1218980/244032232)
+c BFS found 284845 new nodes in level 233 (total 1230758/244032232)
+c R=166
+c BFS found 289159 new nodes in level 234 (total 1242780/244032232)
+c R=167
+c BFS found 295637 new nodes in level 235 (total 1259252/244032232)
+c BFS found 303442 new nodes in level 236 (total 1280916/244032232)
+c R=168
+c BFS found 311032 new nodes in level 237 (total 1308561/244032232)
+c R=169
+c BFS found 316910 new nodes in level 238 (total 1337841/244032232)
+c BFS found 320426 new nodes in level 239 (total 1364782/244032232)
+c R=170
+c BFS found 322183 new nodes in level 240 (total 1385364/244032232)
+c R=171
+c BFS found 323716 new nodes in level 241 (total 1399639/244032232)
+c BFS found 326617 new nodes in level 242 (total 1410659/244032232)
+c R=172
+c BFS found 331697 new nodes in level 243 (total 1422622/244032232)
+c R=173
+c BFS found 338652 new nodes in level 244 (total 1439529/244032232)
+c BFS found 346324 new nodes in level 245 (total 1461998/244032232)
+c R=174
+c BFS found 353408 new nodes in level 246 (total 1488475/244032232)
+c R=175
+c BFS found 359233 new nodes in level 247 (total 1515144/244032232)
+c BFS found 364102 new nodes in level 248 (total 1540362/244032232)
+c R=176
+c BFS found 368990 new nodes in level 249 (total 1563632/244032232)
+c R=177
+c BFS found 374899 new nodes in level 250 (total 1585884/244032232)
+c BFS found 382243 new nodes in level 251 (total 1610127/244032232)
+c R=178
+c BFS found 390479 new nodes in level 252 (total 1637453/244032232)
+c R=179
+c BFS found 398226 new nodes in level 253 (total 1667937/244032232)
+c BFS found 403993 new nodes in level 254 (total 1697816/244032232)
+c R=180
+c BFS found 407161 new nodes in level 255 (total 1724000/244032232)
+c R=181
+c BFS found 408601 new nodes in level 256 (total 1742685/244032232)
+c BFS found 410560 new nodes in level 257 (total 1756284/244032232)
+c R=182
+c BFS found 415820 new nodes in level 258 (total 1769386/244032232)
+c R=183
+c BFS found 426422 new nodes in level 259 (total 1790386/244032232)
+c BFS found 442555 new nodes in level 260 (total 1826252/244032232)
+c R=184
+c BFS found 462264 new nodes in level 261 (total 1879995/244032232)
+c R=185
+c BFS found 482168 new nodes in level 262 (total 1948605/244032232)
+c BFS found 498777 new nodes in level 263 (total 2023823/244032232)
+c R=186
+c BFS found 509813 new nodes in level 264 (total 2095139/244032232)
+c R=187
+c BFS found 515028 new nodes in level 265 (total 2152946/244032232)
+c R=188
+c BFS found 516167 new nodes in level 266 (total 2192453/244032232)
+c BFS found 516047 new nodes in level 267 (total 2214752/244032232)
+c R=189
+c BFS found 517247 new nodes in level 268 (total 2227343/244032232)
+c R=190
+c BFS found 521092 new nodes in level 269 (total 2237699/244032232)
+c BFS found 527360 new nodes in level 270 (total 2253105/244032232)
+c R=191
+c BFS found 534748 new nodes in level 271 (total 2275771/244032232)
+c R=192
+c BFS found 541839 new nodes in level 272 (total 2305270/244032232)
+c R=193
+c BFS found 548003 new nodes in level 273 (total 2337906/244032232)
+c BFS found 553661 new nodes in level 274 (total 2371021/244032232)
+c R=194
+c BFS found 559827 new nodes in level 275 (total 2404658/244032232)
+c R=195
+c BFS found 567369 new nodes in level 276 (total 2438560/244032232)
+c BFS found 576457 new nodes in level 277 (total 2475899/244032232)
+c R=196
+c BFS found 586454 new nodes in level 278 (total 2516074/244032232)
+c R=197
+c BFS found 596322 new nodes in level 279 (total 2557588/244032232)
+c R=198
+c BFS found 605305 new nodes in level 280 (total 2599919/244032232)
+c BFS found 613383 new nodes in level 281 (total 2641154/244032232)
+c R=199
+c BFS found 621204 new nodes in level 282 (total 2681215/244032232)
+c R=200
+c BFS found 629629 new nodes in level 283 (total 2721112/244032232)
+c BFS found 639166 new nodes in level 284 (total 2763331/244032232)
+c R=201
+c BFS found 649567 new nodes in level 285 (total 2808085/244032232)
+c R=202
+c BFS found 659882 new nodes in level 286 (total 2854703/244032232)
+c BFS found 669024 new nodes in level 287 (total 2901196/244032232)
+c R=203
+c BFS found 676480 new nodes in level 288 (total 2944561/244032232)
+c R=204
+c BFS found 682717 new nodes in level 289 (total 2981652/244032232)
+c BFS found 689091 new nodes in level 290 (total 3012741/244032232)
+c R=205
+c BFS found 697281 new nodes in level 291 (total 3041449/244032232)
+c R=206
+c BFS found 708444 new nodes in level 292 (total 3073272/244032232)
+c R=207
+c BFS found 722543 new nodes in level 293 (total 3112916/244032232)
+c BFS found 738306 new nodes in level 294 (total 3162475/244032232)
+c R=208
+c BFS found 753836 new nodes in level 295 (total 3220758/244032232)
+c R=209
+c BFS found 767480 new nodes in level 296 (total 3282420/244032232)
+c R=210
+c BFS found 778545 new nodes in level 297 (total 3342184/244032232)
+c BFS found 787564 new nodes in level 298 (total 3395180/244032232)
+c R=211
+c BFS found 795916 new nodes in level 299 (total 3440570/244032232)
+c R=212
+c BFS found 804944 new nodes in level 300 (total 3480972/244032232)
+c BFS found 815159 new nodes in level 301 (total 3518802/244032232)
+c R=213
+c BFS found 826098 new nodes in level 302 (total 3557831/244032232)
+c R=214
+c BFS found 836904 new nodes in level 303 (total 3598766/244032232)
+c R=215
+c BFS found 847269 new nodes in level 304 (total 3641002/244032232)
+c BFS found 858226 new nodes in level 305 (total 3683170/244032232)
+c R=216
+c BFS found 872238 new nodes in level 306 (total 3729794/244032232)
+c R=217
+c BFS found 892288 new nodes in level 307 (total 3787223/244032232)
+c BFS found 920321 new nodes in level 308 (total 3862426/244032232)
+c R=218
+c BFS found 955884 new nodes in level 309 (total 3964450/244032232)
+c R=219
+c BFS found 995670 new nodes in level 310 (total 4092249/244032232)
+c R=220
+c BFS found 1034261 new nodes in level 311 (total 4239909/244032232)
+c BFS found 1065980 new nodes in level 312 (total 4391764/244032232)
+c R=221
+c BFS found 1087202 new nodes in level 313 (total 4529068/244032232)
+c R=222
+c BFS found 1097930 new nodes in level 314 (total 4638943/244032232)
+c R=223
+c BFS found 1101724 new nodes in level 315 (total 4715631/244032232)
+c R=224
+c BFS found 1104037 new nodes in level 316 (total 4763412/244032232)
+c BFS found 1109789 new nodes in level 317 (total 4794383/244032232)
+c R=225
+c BFS found 1121281 new nodes in level 318 (total 4823454/244032232)
+c R=226
+c BFS found 1137511 new nodes in level 319 (total 4862523/244032232)
+c R=227
+c BFS found 1155290 new nodes in level 320 (total 4916940/244032232)
+c BFS found 1171427 new nodes in level 321 (total 4981939/244032232)
+c R=228
+c BFS found 1184622 new nodes in level 322 (total 5048773/244032232)
+c R=229
+c BFS found 1196104 new nodes in level 323 (total 5112424/244032232)
+c BFS found 1208851 new nodes in level 324 (total 5170422/244032232)
+c R=230
+c BFS found 1225888 new nodes in level 325 (total 5228570/244032232)
+c R=231
+c BFS found 1248600 new nodes in level 326 (total 5296427/244032232)
+c R=232
+c BFS found 1276013 new nodes in level 327 (total 5381665/244032232)
+c BFS found 1305365 new nodes in level 328 (total 5486330/244032232)
+c R=233
+c BFS found 1333500 new nodes in level 329 (total 5602875/244032232)
+c R=234
+c BFS found 1358318 new nodes in level 330 (total 5722465/244032232)
+c R=235
+c BFS found 1379641 new nodes in level 331 (total 5838125/244032232)
+c R=236
+c BFS found 1399088 new nodes in level 332 (total 5944564/244032232)
+c BFS found 1418987 new nodes in level 333 (total 6043610/244032232)
+c R=237
+c BFS found 1440962 new nodes in level 334 (total 6141668/244032232)
+c R=238
+c BFS found 1465069 new nodes in level 335 (total 6243285/244032232)
+c R=239
+c BFS found 1489949 new nodes in level 336 (total 6352231/244032232)
+c BFS found 1513856 new nodes in level 337 (total 6466608/244032232)
+c R=240
+c BFS found 1535988 new nodes in level 338 (total 6580367/244032232)
+c R=241
+c BFS found 1557319 new nodes in level 339 (total 6690245/244032232)
+c R=242
+c BFS found 1580294 new nodes in level 340 (total 6798803/244032232)
+c R=243
+c BFS found 1607476 new nodes in level 341 (total 6911146/244032232)
+c BFS found 1639987 new nodes in level 342 (total 7031819/244032232)
+c R=244
+c BFS found 1676668 new nodes in level 343 (total 7168028/244032232)
+c R=245
+c BFS found 1714416 new nodes in level 344 (total 7319782/244032232)
+c R=246
+c BFS found 1749620 new nodes in level 345 (total 7478663/244032232)
+c R=247
+c BFS found 1780054 new nodes in level 346 (total 7633449/244032232)
+c BFS found 1806139 new nodes in level 347 (total 7777917/244032232)
+c R=248
+c BFS found 1830756 new nodes in level 348 (total 7908839/244032232)
+c R=249
+c BFS found 1857732 new nodes in level 349 (total 8030938/244032232)
+c R=250
+c BFS found 1889836 new nodes in level 350 (total 8157180/244032232)
+c R=251
+c BFS found 1927262 new nodes in level 351 (total 8294361/244032232)
+c R=252
+c BFS found 1967438 new nodes in level 352 (total 8447280/244032232)
+c BFS found 2006448 new nodes in level 353 (total 8612262/244032232)
+c R=253
+c BFS found 2041338 new nodes in level 354 (total 8781224/244032232)
+c R=254
+c BFS found 2071939 new nodes in level 355 (total 8943355/244032232)
+c R=255
+c BFS found 2101180 new nodes in level 356 (total 9094109/244032232)
+c R=256
+c BFS found 2133676 new nodes in level 357 (total 9236877/244032232)
+c BFS found 2173167 new nodes in level 358 (total 9381967/244032232)
+c R=257
+c BFS found 2220096 new nodes in level 359 (total 9540886/244032232)
+c R=258
+c BFS found 2270831 new nodes in level 360 (total 9721996/244032232)
+c R=259
+c BFS found 2319171 new nodes in level 361 (total 9922298/244032232)
+c R=260
+c BFS found 2359361 new nodes in level 362 (total 10125402/244032232)
+c BFS found 2388976 new nodes in level 363 (total 10310710/244032232)
+c R=261
+c BFS found 2410150 new nodes in level 364 (total 10467177/244032232)
+c R=262
+c BFS found 2428407 new nodes in level 365 (total 10593418/244032232)
+c R=263
+c BFS found 2449642 new nodes in level 366 (total 10702249/244032232)
+c R=264
+c BFS found 2477023 new nodes in level 367 (total 10806258/244032232)
+c R=265
+c BFS found 2509712 new nodes in level 368 (total 10920523/244032232)
+c BFS found 2544000 new nodes in level 369 (total 11051202/244032232)
+c R=266
+c BFS found 2575918 new nodes in level 370 (total 11194814/244032232)
+c R=267
+c BFS found 2603739 new nodes in level 371 (total 11341429/244032232)
+c R=268
+c BFS found 2629056 new nodes in level 372 (total 11478101/244032232)
+c R=269
+c BFS found 2655891 new nodes in level 373 (total 11603624/244032232)
+c BFS found 2688386 new nodes in level 374 (total 11728454/244032232)
+c R=270
+c BFS found 2728473 new nodes in level 375 (total 11863858/244032232)
+c R=271
+c BFS found 2774801 new nodes in level 376 (total 12020242/244032232)
+c R=272
+c BFS found 2823312 new nodes in level 377 (total 12199080/244032232)
+c R=273
+c BFS found 2869085 new nodes in level 378 (total 12392712/244032232)
+c BFS found 2908646 new nodes in level 379 (total 12586717/244032232)
+c R=274
+c BFS found 2941638 new nodes in level 380 (total 12768877/244032232)
+c R=275
+c BFS found 2970865 new nodes in level 381 (total 12929719/244032232)
+c R=276
+c BFS found 3000625 new nodes in level 382 (total 13075405/244032232)
+c R=277
+c BFS found 3034303 new nodes in level 383 (total 13212526/244032232)
+c BFS found 3072540 new nodes in level 384 (total 13352596/244032232)
+c R=278
+c BFS found 3112958 new nodes in level 385 (total 13505031/244032232)
+c R=279
+c BFS found 3151724 new nodes in level 386 (total 13666185/244032232)
+c R=280
+c BFS found 3186156 new nodes in level 387 (total 13829123/244032232)
+c BFS found 3216659 new nodes in level 388 (total 13985199/244032232)
+c R=281
+c History resize
+c History level 26 41943040
+c History resize
+c History level 27 62914560
+c BFS found 3246614 new nodes in level 389 (total 14131722/244032232)
+c R=282
+c BFS found 3280299 new nodes in level 390 (total 14273874/244032232)
+c BFS found 3320140 new nodes in level 391 (total 14422664/244032232)
+c R=283
+c BFS found 3364885 new nodes in level 392 (total 14584106/244032232)
+c R=284
+c BFS found 3409863 new nodes in level 393 (total 14758847/244032232)
+c BFS found 3449389 new nodes in level 394 (total 14940584/244032232)
+c R=285
+c BFS found 3479967 new nodes in level 395 (total 15115180/244032232)
+c R=286
+c BFS found 3502347 new nodes in level 396 (total 15269044/244032232)
+c R=287
+c BFS found 3521272 new nodes in level 397 (total 15400009/244032232)
+c BFS found 3543132 new nodes in level 398 (total 15514635/244032232)
+c R=288
+c BFS found 3572766 new nodes in level 399 (total 15628559/244032232)
+c R=289
+c BFS found 3611036 new nodes in level 400 (total 15756672/244032232)
+c R=290
+c BFS found 3654454 new nodes in level 401 (total 15907947/244032232)
+c BFS found 3697058 new nodes in level 402 (total 16078768/244032232)
+c R=291
+c BFS found 3733478 new nodes in level 403 (total 16254789/244032232)
+c R=292
+c BFS found 3761557 new nodes in level 404 (total 16418490/244032232)
+c R=293
+c BFS found 3783217 new nodes in level 405 (total 16560875/244032232)
+c BFS found 3803138 new nodes in level 406 (total 16677276/244032232)
+c R=294
+c BFS found 3825923 new nodes in level 407 (total 16777862/244032232)
+c R=295
+c BFS found 3853346 new nodes in level 408 (total 16873336/244032232)
+c R=296
+c BFS found 3883338 new nodes in level 409 (total 16976221/244032232)
+c BFS found 3911324 new nodes in level 410 (total 17085384/244032232)
+c R=297
+c BFS found 3933074 new nodes in level 411 (total 17193875/244032232)
+c R=298
+c BFS found 3947352 new nodes in level 412 (total 17288925/244032232)
+c R=299
+c BFS found 3956771 new nodes in level 413 (total 17363854/244032232)
+c BFS found 3966312 new nodes in level 414 (total 17420867/244032232)
+c R=300
+c BFS found 3980408 new nodes in level 415 (total 17469371/244032232)
+c R=301
+c BFS found 4000411 new nodes in level 416 (total 17521645/244032232)
+c R=302
+c BFS found 4023944 new nodes in level 417 (total 17584804/244032232)
+c BFS found 4046413 new nodes in level 418 (total 17660599/244032232)
+c R=303
+c BFS found 4063736 new nodes in level 419 (total 17739005/244032232)
+c R=304
+c BFS found 4074756 new nodes in level 420 (total 17810549/244032232)
+c BFS found 4081986 new nodes in level 421 (total 17866899/244032232)
+c R=305
+c BFS found 4090255 new nodes in level 422 (total 17910059/244032232)
+c R=306
+c BFS found 4104030 new nodes in level 423 (total 17947636/244032232)
+c BFS found 4124874 new nodes in level 424 (total 17996350/244032232)
+c R=307
+c BFS found 4150333 new nodes in level 425 (total 18063658/244032232)
+c R=308
+c BFS found 4174881 new nodes in level 426 (total 18148991/244032232)
+c R=309
+c BFS found 4192621 new nodes in level 427 (total 18237342/244032232)
+c BFS found 4200388 new nodes in level 428 (total 18312458/244032232)
+c R=310
+c BFS found 4199475 new nodes in level 429 (total 18360870/244032232)
+c R=311
+c BFS found 4194981 new nodes in level 430 (total 18379980/244032232)
+c BFS found 4193131 new nodes in level 431 (total 18380309/244032232)
+c R=312
+c BFS found 4197942 new nodes in level 432 (total 18377869/244032232)
+c R=313
+c BFS found 4209052 new nodes in level 433 (total 18387850/244032232)
+c BFS found 4222094 new nodes in level 434 (total 18414740/244032232)
+c R=314
+c BFS found 4231469 new nodes in level 435 (total 18451710/244032232)
+c BFS found 4233748 new nodes in level 436 (total 18486170/244032232)
+c R=315
+c BFS found 4229625 new nodes in level 437 (total 18508932/244032232)
+c R=316
+c BFS found 4223373 new nodes in level 438 (total 18512261/244032232)
+c BFS found 4220154 new nodes in level 439 (total 18500748/244032232)
+c R=317
+c BFS found 4222720 new nodes in level 440 (total 18489096/244032232)
+c R=318
+c BFS found 4229556 new nodes in level 441 (total 18487557/244032232)
+c BFS found 4235690 new nodes in level 442 (total 18494868/244032232)
+c R=319
+c BFS found 4235570 new nodes in level 443 (total 18502884/244032232)
+c History resize
+c BFS found 4226159 new nodes in level 444 (total 18496116/244032232)
+c History level 28 125829120
+c R=320
+c BFS found 4208580 new nodes in level 445 (total 18465583/244032232)
+c BFS found 4187571 new nodes in level 446 (total 18408556/244032232)
+c R=321
+c BFS found 4169007 new nodes in level 447 (total 18337075/244032232)
+c BFS found 4156761 new nodes in level 448 (total 18261887/244032232)
+c R=322
+c BFS found 4150696 new nodes in level 449 (total 18198135/244032232)
+c BFS found 4146885 new nodes in level 450 (total 18151387/244032232)
+c R=323
+c BFS found 4139767 new nodes in level 451 (total 18116411/244032232)
+c BFS found 4125068 new nodes in level 452 (total 18078256/244032232)
+c BFS found 4102130 new nodes in level 453 (total 18026022/244032232)
+c R=324
+c BFS found 4074409 new nodes in level 454 (total 17950140/244032232)
+c BFS found 4047638 new nodes in level 455 (total 17856264/244032232)
+c R=325
+c BFS found 4026609 new nodes in level 456 (total 17756423/244032232)
+c BFS found 4012520 new nodes in level 457 (total 17667042/244032232)
+c R=326
+c BFS found 4002378 new nodes in level 458 (total 17595363/244032232)
+c BFS found 3990685 new nodes in level 459 (total 17535204/244032232)
+c BFS found 3972529 new nodes in level 460 (total 17478637/244032232)
+c R=327
+c BFS found 3946406 new nodes in level 461 (total 17409011/244032232)
+c BFS found 3914980 new nodes in level 462 (total 17318556/244032232)
+c R=328
+c BFS found 3883239 new nodes in level 463 (total 17206357/244032232)
+c BFS found 3855405 new nodes in level 464 (total 17084293/244032232)
+c BFS found 3832639 new nodes in level 465 (total 16968418/244032232)
+c R=329
+c BFS found 3812669 new nodes in level 466 (total 16863685/244032232)
+c BFS found 3791302 new nodes in level 467 (total 16767403/244032232)
+c R=330
+c BFS found 3765009 new nodes in level 468 (total 16673579/244032232)
+c BFS found 3733114 new nodes in level 469 (total 16568491/244032232)
+c BFS found 3698145 new nodes in level 470 (total 16449004/244032232)
+c R=331
+c BFS found 3664219 new nodes in level 471 (total 16312126/244032232)
+c BFS found 3634687 new nodes in level 472 (total 16169683/244032232)
+c BFS found 3610298 new nodes in level 473 (total 16033262/244032232)
+c R=332
+c BFS found 3588589 new nodes in level 474 (total 15911169/244032232)
+c BFS found 3564946 new nodes in level 475 (total 15797850/244032232)
+c BFS found 3535083 new nodes in level 476 (total 15685143/244032232)
+c R=333
+c BFS found 3497497 new nodes in level 477 (total 15560476/244032232)
+c BFS found 3454316 new nodes in level 478 (total 15413344/244032232)
+c BFS found 3410178 new nodes in level 479 (total 15243868/244032232)
+c R=334
+c BFS found 3369855 new nodes in level 480 (total 15061438/244032232)
+c BFS found 3335702 new nodes in level 481 (total 14881166/244032232)
+c BFS found 3306279 new nodes in level 482 (total 14712852/244032232)
+c R=335
+c BFS found 3277230 new nodes in level 483 (total 14559444/244032232)
+c BFS found 3243999 new nodes in level 484 (total 14411607/244032232)
+c BFS found 3204498 new nodes in level 485 (total 14259992/244032232)
+c BFS found 3160104 new nodes in level 486 (total 14094655/244032232)
+c R=336
+c BFS found 3114709 new nodes in level 487 (total 13912544/244032232)
+c BFS found 3072455 new nodes in level 488 (total 13719443/244032232)
+c BFS found 3035287 new nodes in level 489 (total 13527445/244032232)
+c R=337
+c BFS found 3001823 new nodes in level 490 (total 13345130/244032232)
+c BFS found 2968376 new nodes in level 491 (total 13174738/244032232)
+c BFS found 2931288 new nodes in level 492 (total 13010923/244032232)
+c BFS found 2888902 new nodes in level 493 (total 12845752/244032232)
+c R=338
+c BFS found 2842257 new nodes in level 494 (total 12667413/244032232)
+c BFS found 2794482 new nodes in level 495 (total 12476955/244032232)
+c BFS found 2749133 new nodes in level 496 (total 12279234/244032232)
+c BFS found 2708205 new nodes in level 497 (total 12083290/244032232)
+c BFS found 2671098 new nodes in level 498 (total 11896391/244032232)
+c R=339
+c BFS found 2635204 new nodes in level 499 (total 11721942/244032232)
+c BFS found 2597494 new nodes in level 500 (total 11554506/244032232)
+c BFS found 2556139 new nodes in level 501 (total 11386541/244032232)
+c BFS found 2511596 new nodes in level 502 (total 11210916/244032232)
+c R=340
+c BFS found 2466579 new nodes in level 503 (total 11024792/244032232)
+c BFS found 2424513 new nodes in level 504 (total 10836656/244032232)
+c BFS found 2387282 new nodes in level 505 (total 10655049/244032232)
+c BFS found 2353943 new nodes in level 506 (total 10483859/244032232)
+c BFS found 2321213 new nodes in level 507 (total 10323346/244032232)
+c BFS found 2285198 new nodes in level 508 (total 10168592/244032232)
+c R=341
+c BFS found 2243474 new nodes in level 509 (total 10008545/244032232)
+c BFS found 2196576 new nodes in level 510 (total 9834234/244032232)
+c BFS found 2147813 new nodes in level 511 (total 9642102/244032232)
+c BFS found 2101265 new nodes in level 512 (total 9439652/244032232)
+c BFS found 2059455 new nodes in level 513 (total 9239705/244032232)
+c BFS found 2022304 new nodes in level 514 (total 9050156/244032232)
+c R=342
+c BFS found 1987555 new nodes in level 515 (total 8875534/244032232)
+c BFS found 1952081 new nodes in level 516 (total 8713176/244032232)
+c BFS found 1913603 new nodes in level 517 (total 8555820/244032232)
+c BFS found 1872010 new nodes in level 518 (total 8392485/244032232)
+c BFS found 1829282 new nodes in level 519 (total 8222489/244032232)
+c BFS found 1788101 new nodes in level 520 (total 8048456/244032232)
+c BFS found 1750315 new nodes in level 521 (total 7874473/244032232)
+c R=343
+c BFS found 1716050 new nodes in level 522 (total 7707887/244032232)
+c BFS found 1683558 new nodes in level 523 (total 7551460/244032232)
+c BFS found 1649976 new nodes in level 524 (total 7404708/244032232)
+c BFS found 1612974 new nodes in level 525 (total 7257101/244032232)
+c BFS found 1572269 new nodes in level 526 (total 7101494/244032232)
+c BFS found 1529805 new nodes in level 527 (total 6934947/244032232)
+c BFS found 1488623 new nodes in level 528 (total 6762931/244032232)
+c BFS found 1451314 new nodes in level 529 (total 6590122/244032232)
+c BFS found 1418705 new nodes in level 530 (total 6424989/244032232)
+c R=344
+c BFS found 1389293 new nodes in level 531 (total 6275106/244032232)
+c BFS found 1360033 new nodes in level 532 (total 6139279/244032232)
+c BFS found 1328230 new nodes in level 533 (total 6007771/244032232)
+c BFS found 1293119 new nodes in level 534 (total 5871979/244032232)
+c BFS found 1256050 new nodes in level 535 (total 5729206/244032232)
+c BFS found 1219539 new nodes in level 536 (total 5578283/244032232)
+c BFS found 1185917 new nodes in level 537 (total 5424658/244032232)
+c BFS found 1156056 new nodes in level 538 (total 5277684/244032232)
+c BFS found 1128828 new nodes in level 539 (total 5140563/244032232)
+c BFS found 1101887 new nodes in level 540 (total 5011701/244032232)
+c BFS found 1073232 new nodes in level 541 (total 4888991/244032232)
+c BFS found 1042248 new nodes in level 542 (total 4765430/244032232)
+c R=345
+c BFS found 1009735 new nodes in level 543 (total 4636707/244032232)
+c BFS found 977382 new nodes in level 544 (total 4501453/244032232)
+c BFS found 946962 new nodes in level 545 (total 4364753/244032232)
+c BFS found 919357 new nodes in level 546 (total 4232492/244032232)
+c BFS found 894059 new nodes in level 547 (total 4106630/244032232)
+c BFS found 869677 new nodes in level 548 (total 3987607/244032232)
+c BFS found 844917 new nodes in level 549 (total 3875865/244032232)
+c BFS found 819212 new nodes in level 550 (total 3765108/244032232)
+c BFS found 792938 new nodes in level 551 (total 3650894/244032232)
+c BFS found 767321 new nodes in level 552 (total 3536142/244032232)
+c BFS found 743729 new nodes in level 553 (total 3425126/244032232)
+c BFS found 722560 new nodes in level 554 (total 3318253/244032232)
+c BFS found 702789 new nodes in level 555 (total 3216970/244032232)
+c BFS found 682648 new nodes in level 556 (total 3121069/244032232)
+c BFS found 660684 new nodes in level 557 (total 3026539/244032232)
+c BFS found 636476 new nodes in level 558 (total 2929069/244032232)
+c BFS found 610932 new nodes in level 559 (total 2826224/244032232)
+c BFS found 585967 new nodes in level 560 (total 2720092/244032232)
+c BFS found 563405 new nodes in level 561 (total 2614583/244032232)
+c BFS found 543868 new nodes in level 562 (total 2513983/244032232)
+c BFS found 526629 new nodes in level 563 (total 2421211/244032232)
+c R=346
+c BFS found 510285 new nodes in level 564 (total 2337564/244032232)
+c BFS found 493472 new nodes in level 565 (total 2260111/244032232)
+c BFS found 475403 new nodes in level 566 (total 2184548/244032232)
+c BFS found 456272 new nodes in level 567 (total 2106212/244032232)
+c BFS found 437168 new nodes in level 568 (total 2025225/244032232)
+c BFS found 419361 new nodes in level 569 (total 1942557/244032232)
+c BFS found 403569 new nodes in level 570 (total 1862649/244032232)
+c BFS found 389727 new nodes in level 571 (total 1787919/244032232)
+c BFS found 377084 new nodes in level 572 (total 1721499/244032232)
+c BFS found 364454 new nodes in level 573 (total 1661028/244032232)
+c BFS found 350801 new nodes in level 574 (total 1603694/244032232)
+c BFS found 335944 new nodes in level 575 (total 1545122/244032232)
+c BFS found 320681 new nodes in level 576 (total 1483508/244032232)
+c BFS found 306180 new nodes in level 577 (total 1420712/244032232)
+c BFS found 293265 new nodes in level 578 (total 1359502/244032232)
+c BFS found 282041 new nodes in level 579 (total 1302445/244032232)
+c BFS found 271822 new nodes in level 580 (total 1250187/244032232)
+c BFS found 261442 new nodes in level 581 (total 1202759/244032232)
+c BFS found 250018 new nodes in level 582 (total 1155907/244032232)
+c BFS found 237613 new nodes in level 583 (total 1106664/244032232)
+c BFS found 225132 new nodes in level 584 (total 1054903/244032232)
+c BFS found 213636 new nodes in level 585 (total 1002995/244032232)
+c BFS found 203760 new nodes in level 586 (total 952923/244032232)
+c BFS found 195465 new nodes in level 587 (total 907775/244032232)
+c BFS found 188037 new nodes in level 588 (total 868274/244032232)
+c BFS found 180456 new nodes in level 589 (total 833239/244032232)
+c BFS found 172067 new nodes in level 590 (total 799268/244032232)
+c BFS found 162963 new nodes in level 591 (total 764448/244032232)
+c BFS found 153744 new nodes in level 592 (total 727596/244032232)
+c BFS found 145074 new nodes in level 593 (total 689674/244032232)
+c BFS found 137448 new nodes in level 594 (total 652326/244032232)
+c BFS found 131038 new nodes in level 595 (total 617765/244032232)
+c BFS found 125551 new nodes in level 596 (total 587822/244032232)
+c BFS found 120378 new nodes in level 597 (total 561740/244032232)
+c BFS found 115008 new nodes in level 598 (total 537859/244032232)
+c BFS found 109274 new nodes in level 599 (total 514432/244032232)
+c BFS found 103316 new nodes in level 600 (total 490373/244032232)
+c BFS found 97503 new nodes in level 601 (total 465319/244032232)
+c BFS found 92287 new nodes in level 602 (total 440325/244032232)
+c BFS found 87856 new nodes in level 603 (total 416798/244032232)
+c BFS found 83908 new nodes in level 604 (total 396034/244032232)
+c BFS found 79892 new nodes in level 605 (total 377357/244032232)
+c BFS found 75434 new nodes in level 606 (total 358735/244032232)
+c BFS found 70512 new nodes in level 607 (total 339168/244032232)
+c BFS found 65415 new nodes in level 608 (total 318066/244032232)
+c BFS found 60630 new nodes in level 609 (total 296623/244032232)
+c BFS found 56581 new nodes in level 610 (total 276372/244032232)
+c BFS found 53324 new nodes in level 611 (total 258416/244032232)
+c BFS found 50537 new nodes in level 612 (total 243234/244032232)
+c BFS found 47817 new nodes in level 613 (total 229698/244032232)
+c BFS found 44926 new nodes in level 614 (total 217307/244032232)
+c BFS found 41827 new nodes in level 615 (total 205141/244032232)
+c BFS found 38663 new nodes in level 616 (total 192363/244032232)
+c BFS found 35729 new nodes in level 617 (total 179634/244032232)
+c BFS found 33326 new nodes in level 618 (total 167124/244032232)
+c BFS found 31554 new nodes in level 619 (total 156382/244032232)
+c BFS found 30248 new nodes in level 620 (total 147396/244032232)
+c BFS found 29080 new nodes in level 621 (total 140366/244032232)
+c BFS found 27692 new nodes in level 622 (total 134188/244032232)
+c BFS found 25834 new nodes in level 623 (total 127884/244032232)
+c BFS found 23521 new nodes in level 624 (total 120715/244032232)
+c BFS found 21064 new nodes in level 625 (total 112081/244032232)
+c BFS found 18865 new nodes in level 626 (total 102458/244032232)
+c BFS found 17154 new nodes in level 627 (total 93250/244032232)
+c BFS found 15909 new nodes in level 628 (total 84900/244032232)
+c BFS found 14945 new nodes in level 629 (total 78215/244032232)
+c BFS found 14034 new nodes in level 630 (total 72905/244032232)
+c BFS found 13027 new nodes in level 631 (total 67889/244032232)
+c BFS found 11954 new nodes in level 632 (total 63129/244032232)
+c BFS found 10988 new nodes in level 633 (total 58103/244032232)
+c BFS found 10272 new nodes in level 634 (total 53142/244032232)
+c BFS found 9793 new nodes in level 635 (total 49150/244032232)
+c BFS found 9407 new nodes in level 636 (total 45806/244032232)
+c BFS found 8928 new nodes in level 637 (total 43021/244032232)
+c BFS found 8212 new nodes in level 638 (total 40210/244032232)
+c BFS found 7247 new nodes in level 639 (total 37079/244032232)
+c BFS found 6185 new nodes in level 640 (total 33177/244032232)
+c BFS found 5237 new nodes in level 641 (total 29031/244032232)
+c BFS found 4532 new nodes in level 642 (total 25045/244032232)
+c BFS found 4094 new nodes in level 643 (total 21622/244032232)
+c BFS found 3892 new nodes in level 644 (total 19067/244032232)
+c BFS found 3840 new nodes in level 645 (total 17507/244032232)
+c BFS found 3789 new nodes in level 646 (total 16634/244032232)
+c BFS found 3598 new nodes in level 647 (total 16109/244032232)
+c BFS found 3217 new nodes in level 648 (total 15333/244032232)
+c BFS found 2696 new nodes in level 649 (total 14081/244032232)
+c BFS exiting found=true count=10315 max_count=244032232
+c Found with: Breadth First Search
+a YES
+a 2 4 6 9 11 14 16 19 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 4 6 9 11 14 16 19 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 6 9 11 14 16 19 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 16 19 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 8 11 14 16 19 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 7 8 11 14 16 19 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 4 7 8 11 14 16 19 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 11 14 16 19 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 14 16 19 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 16 19 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 18 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 17 18 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 14 17 18 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 11 14 17 18 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 4 7 8 11 14 17 18 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 7 8 11 14 17 18 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 8 11 14 17 18 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 21 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 24 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 26 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 36 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 46 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 51 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 54 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 56 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 47 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 48 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 61 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 64 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 66 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 51 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 54 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 57 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 58 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 71 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 74 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 76 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 61 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 64 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 67 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 68 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 81 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 84 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 86 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 71 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 74 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 77 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 78 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 91 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 94 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 96 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 99 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 81 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 84 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 87 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 88 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 101 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 104 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 103 106 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 103 105 109 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 103 105 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 103 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 91 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 94 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 97 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 98 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 99 101 104 107 108 111 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 99 101 104 107 108 110 114 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 99 101 104 107 108 110 113 116 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 99 101 104 107 108 110 113 115 119 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 99 101 104 107 108 110 113 115 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 99 101 104 107 108 110 113 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 99 101 104 107 108 110 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 99 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 87 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 88 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 101 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 104 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 103 107 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 103 105 108 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 103 105 109 111 114 117 118 121 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 103 105 109 111 114 117 118 120 124 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 103 105 109 111 114 117 118 120 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 103 105 109 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 103 105 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 103 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 77 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 78 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 91 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 94 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 97 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 98 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 99 101 104 107 108 111 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 99 101 104 107 108 110 114 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 99 101 104 107 108 110 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 99 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 95 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 67 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 68 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 81 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 84 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 87 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 88 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 101 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 104 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 100 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 89 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 85 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 57 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 58 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 71 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 74 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 77 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 78 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 91 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 94 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 90 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 79 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 75 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 47 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 48 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 61 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 64 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 67 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 68 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 81 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 84 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 80 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 69 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 65 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 51 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 54 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 57 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 58 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 71 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 74 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 70 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 59 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 55 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 47 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 48 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 61 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 64 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 60 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 49 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 45 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 51 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 54 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 50 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 19 21 24 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 15 18 21 24 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 17 18 21 24 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 14 17 18 21 24 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 11 14 17 18 21 24 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 4 7 8 11 14 17 18 21 24 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 7 8 11 14 17 18 21 24 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 8 11 14 17 18 21 24 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 21 24 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 24 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 20 23 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 9 11 14 17 18 22 23 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 5 8 11 14 17 18 22 23 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 7 8 11 14 17 18 22 23 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 4 7 8 11 14 17 18 22 23 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 11 14 17 18 22 23 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 14 17 18 22 23 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 10 13 17 18 22 23 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 2 4 7 8 12 13 17 18 22 23 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 4 7 8 12 13 17 18 22 23 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+a 1 3 7 8 12 13 17 18 22 23 27 28 32 33 37 38 42 43 47 48 52 53 57 58 62 63 67 68 72 73 77 78 82 83 87 88 92 93 97 98 102 103 107 108 112 113 117 118 122 123 
+c Length: 650
+	Command being timed: "src/recon_th benchmark/square/hc-square-012-002.col benchmark/square/hc-square-012-002_01.dat"
+	User time (seconds): 22345.57
+	System time (seconds): 6.89
+	Percent of CPU this job got: 199%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:06:18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7941056
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3023150
+	Voluntary context switches: 381
+	Involuntary context switches: 41242
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

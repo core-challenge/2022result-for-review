@@ -1,0 +1,48 @@
+c array.sh: col:      /home/froleyks/reconf/2022benchmark/benchmark/color04/miles1000.col
+c array.sh: dat:      /home/froleyks/reconf/2022benchmark/benchmark/color04/miles1000_02.dat
+c array.sh: name:     miles1000_02
+c array.sh: task:     122
+c array.sh: host:     c3n17
+c array.sh: uname:    Linux c3n17 5.4.0-104-generic #118-Ubuntu SMP Wed Mar 2 19:02:41 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+c array.sh: start:    Thu 24 Mar 2022 12:52:22 PM CET
+c array.sh: noturbo:  1
+c array.sh: governor: 32 performance
+c array.sh: tmp:      1%
+c 0.0030: solving existent 21701617-122-miles1000_02
+c 0.0080: Wrote /tmp/21701617-122-miles1000_02.aag
+c 0.0150: Wrote /tmp/21701617-122-miles1000_02.aig
+c 0.8410: Wrote /tmp/21701617-122-miles1000_02.trace
+c 0.8410: Found solution, Length: 6
+s 14 15 17 22 34 106 119
+t 8 22 48 60 85 119 121
+a YES
+a 14 15 17 22 34 106 119
+a 14 15 17 22 34 60 119
+a 8 15 17 22 34 60 119
+a 8 15 22 34 60 85 119
+a 8 22 34 48 60 85 119
+a 8 22 48 60 85 119 121
+c array.sh: end:      Thu 24 Mar 2022 12:52:23 PM CET
+confaigeration /tmp/21701617-122-miles1000_02.col /tmp/21701617-122-miles1000_02.dat existent"
+	User time (seconds): 0.67
+	System time (seconds): 0.18
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.87
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 38640
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43850
+	Voluntary context switches: 914
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 952
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

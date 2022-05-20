@@ -1,0 +1,78 @@
+c #BEGIN: [Sat Mar 19 16:51:03 2022]
+c #HOST: mini03.local
+c #TIMELIMIT: 18000
+c #MEMLIMIT: 0
+c #FREQ: 10
+c #SOLVER: isr-bug-finder
+c #CSP: benchmark/graph-instance/core-challenge-2022/power/hc-power-006-002.col benchmark/graph-instance/core-challenge-2022/power/hc-power-006-002_01.dat
+c #COMMAND: /Users/soh/app/scala-2.12.4/bin/scala -J-Xms16g -J-Xmx16g -cp /Users/soh/app/IsrForCompetition220315-22h16m/scop.jar:/Users/soh/app/IsrForCompetition220315-22h16m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj03 benchmark/graph-instance/core-challenge-2022/power/hc-power-006-002.col benchmark/graph-instance/core-challenge-2022/power/hc-power-006-002_01.dat cadical /Users/soh/app/IsrForCompetition220315-22h16m/cadical
+c (0) step 1 UNSAT 564 1592
+c (0) step 2 UNSAT 1033 2950
+c (0) step 3 UNSAT 1502 4308
+c (0) step 4 UNSAT 1971 5666
+c (0) step 5 UNSAT 2440 7024
+c (0) step 6 UNSAT 2909 8382
+c (0) step 7 UNSAT 3378 9740
+c (0) step 8 UNSAT 3847 11098
+c (0) step 9 UNSAT 4316 12456
+c (0) step 10 UNSAT 4785 13814
+c (0) step 11 UNSAT 5254 15172
+c (1) step 12 UNSAT 5723 16530
+c (2) step 13 UNSAT 6192 17888
+c (2) step 14 UNSAT 6661 19246
+c (4) step 15 UNSAT 7130 20604
+c (5) step 16 UNSAT 7599 21962
+c (15) step 17 UNSAT 8068 23320
+c (18) step 18 UNSAT 8537 24678
+c (25) step 19 UNSAT 9006 26036
+c (31) step 20 UNSAT 9475 27394
+c (43) step 21 UNSAT 9944 28752
+c (64) step 22 UNSAT 10413 30110
+c (90) step 23 UNSAT 10882 31468
+c (121) step 24 UNSAT 11351 32826
+c (155) step 25 UNSAT 11820 34184
+c (196) step 26 UNSAT 12289 35542
+c (234) step 27 UNSAT 12758 36900
+c (281) step 28 UNSAT 13227 38258
+c (339) step 29 UNSAT 13696 39616
+c (411) step 30 UNSAT 14165 40974
+c (601) step 31 UNSAT 14634 42332
+c (656) step 32 UNSAT 15103 43690
+c (732) step 33 UNSAT 15572 45048
+c (795) step 34 UNSAT 16041 46406
+c (1132) step 35 UNSAT 16510 47764
+c (1209) step 36 UNSAT 16979 49122
+c (1299) step 37 UNSAT 17448 50480
+c (1339) step 38 UNSAT 17917 51838
+c (1416) step 39 UNSAT 18386 53196
+c (1466) step 40 UNSAT 18855 54554
+c (1531) step 41 UNSAT 19324 55912
+c (1627) step 42 UNSAT 19793 57270
+c (1710) step 43 UNSAT 20262 58628
+c (1829) step 44 UNSAT 20731 59986
+c (2002) step 45 UNSAT 21200 61344
+c (2268) step 46 UNSAT 21669 62702
+c (2622) step 47 UNSAT 22138 64060
+c (2943) step 48 UNSAT 22607 65418
+c (3396) step 49 UNSAT 23076 66776
+c (3954) step 50 UNSAT 23545 68134
+c (5880) step 51 UNSAT 24014 69492
+c (6148) step 52 UNSAT 24483 70850
+c (6617) step 53 UNSAT 24952 72208
+c (6990) step 54 UNSAT 25421 73566
+c (7575) step 55 UNSAT 25890 74924
+c (8313) step 56 UNSAT 26359 76282
+c (8813) step 57 UNSAT 26828 77640
+c (9517) step 58 UNSAT 27297 78998
+c (10161) step 59 UNSAT 27766 80356
+c (10854) step 60 UNSAT 28235 81714
+c (12224) step 61 UNSAT 28704 83072
+c (14384) step 62 UNSAT 29173 84430
+c (16725) step 63 UNSAT 29642 85788
+TIMEOUT CPU 18000 MEM 0 MAXMEM 0
+c #RESULT: UNK
+c #FIN: TO
+c #CPU: 18000
+c #MAXMEM: 0
+c 00373 killed(2). 00387 killed(2). 00374 killed(2). 00373 killed(9). 00387 killed(9). 00374 killed(9). 
+c #END: [Sat Mar 19 21:51:04 2022]

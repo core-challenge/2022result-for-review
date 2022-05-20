@@ -1,0 +1,55 @@
+s 196 259 381 442 
+t 268 451 469 474
+c UNKNOWN
+a YES
+a 196 259 381 442
+a 196 259 317 381
+a 196 259 317 442
+a 259 317 371 442
+a 259 371 442 449
+a 259 381 442 449
+a 259 317 381 442
+a 196 317 381 442
+a 196 317 381 395
+a 196 381 395 469
+a 303 381 395 469
+a 268 303 381 469
+a 196 268 381 469
+a 196 197 268 469
+a 196 268 451 469
+a 196 451 464 469
+a 121 196 464 469
+a 196 268 464 469
+a 196 268 451 464
+a 268 451 464 469
+a 119 268 464 469
+a 16 268 464 469
+a 16 268 34 469
+a 268 34 469 69
+a 109 268 34 469
+a 268 34 469 474
+a 268 451 469 474
+Command exited with non-zero status 65
+	Command being timed: "/Users/macpro/.pyenv/versions/anaconda3-2021.11/bin/clingo ../solver/core_compet2.lp -c core_stop="UNKNOWN" --stats --quiet=1,0 --time-limit=10800 ../encoding/isrpTJ_exact1_noloop_d1d2.lp ../../benchmark/3rd-benchmark/asp/DSJC500.9.lp ../../benchmark/3rd-benchmark/asp/DSJC500.9_01.lp -c core_max=2427"
+	User time (seconds): 10790.94
+	System time (seconds): 18.76
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:00:10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16624964
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4387365
+	Voluntary context switches: 3
+	Involuntary context switches: 10554
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 1
+	Page size (bytes): 4096
+	Exit status: 65

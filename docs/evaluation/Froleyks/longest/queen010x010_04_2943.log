@@ -1,0 +1,58 @@
+c array.sh: col:      /home/froleyks/reconf/2022benchmark/benchmark/queen/queen010x010.col
+c array.sh: dat:      /home/froleyks/reconf/2022benchmark/benchmark/queen/queen010x010_04_2943.dat
+c array.sh: name:     queen010x010_04_2943
+c array.sh: task:     282
+c array.sh: host:     c3n08
+c array.sh: uname:    Linux c3n08 5.4.0-104-generic #118-Ubuntu SMP Wed Mar 2 19:02:41 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+c array.sh: start:    Thu 24 Mar 2022 04:46:07 PM CET
+c array.sh: noturbo:  1
+c array.sh: governor: 32 performance
+c array.sh: tmp:      1%
+c 0.0010: solving existent 21701617-282-queen010x010_04_2943
+c 0.0040: Wrote /tmp/21701617-282-queen010x010_04_2943.aag
+c 0.0100: Wrote /tmp/21701617-282-queen010x010_04_2943.aig
+c 0.8730: Wrote /tmp/21701617-282-queen010x010_04_2943.trace
+c 0.8730: Found solution, Length: 16
+s 1 14 29 35 60 63 76 82 97
+t 5 26 31 43 57 69 74 82 100
+a YES
+a 1 14 29 35 60 63 76 82 97
+a 1 29 35 48 60 63 76 82 97
+a 11 29 35 48 60 63 76 82 97
+a 11 29 34 48 60 63 76 82 97
+a 5 11 29 34 48 63 76 82 97
+a 5 29 34 48 51 63 76 82 97
+a 5 29 34 50 51 63 76 82 97
+a 5 13 29 34 50 51 76 82 97
+a 5 13 34 50 51 69 76 82 97
+a 5 18 34 50 51 69 76 82 97
+a 5 18 26 34 50 51 69 82 97
+a 5 18 26 50 51 69 74 82 97
+a 5 18 26 43 51 69 74 82 97
+a 5 18 26 43 51 69 74 82 100
+a 5 18 26 31 43 69 74 82 100
+a 5 26 31 43 57 69 74 82 100
+c array.sh: end:      Thu 24 Mar 2022 04:46:08 PM CET
+confaigeration /tmp/21701617-282-queen010x010_04_2943.col /tmp/21701617-282-queen010x010_04_2943.dat existent"
+	User time (seconds): 1.55
+	System time (seconds): 0.28
+	Percent of CPU this job got: 202%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.90
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 39228
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 46901
+	Voluntary context switches: 933
+	Involuntary context switches: 16
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 616
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

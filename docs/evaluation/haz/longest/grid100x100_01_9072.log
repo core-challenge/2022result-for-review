@@ -1,0 +1,26 @@
+c Running for 10 seconds: python3 /SOLVER/mip/check-unsolvability.py /BENCHMARKS/benchmark/grid/grid100x100.col /BENCHMARKS/benchmark/grid/grid100x100_01_9072.dat
+c Running for 4200 seconds: python3 /SOLVER/symk/fast-downward.py --overall-memory-limit 16G --plan-file results/grid100x100_01_9072/sas_plan results/grid100x100_01_9072/output.sas --search "sym-fw()"
+a NO
+	Command being timed: "python3 /SOLVER/shortest/run.py submission sas split /BENCHMARKS/benchmark/grid/grid100x100.col /BENCHMARKS/benchmark/grid/grid100x100_01_9072.dat"
+	User time (seconds): 1854.48
+	System time (seconds): 1.68
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:45.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2435048
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 870397
+	Voluntary context switches: 1309
+	Involuntary context switches: 182265
+	Swaps: 0
+	File system inputs: 144
+	File system outputs: 5056
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,241 @@
+c model ISR_TJ
+c  /home/toda/src/NuSMV-2.6.0-Linux_untouched/binary/bin/NuSMV -bmc -bmc_length 100 -n 0 /home/toda/2022solver/bin/../tmp/hc-power-11_01.smv > hc-power-11_01.log
+c ECC Heuristic Algorithm by Alessio Conte, Roberto Grossi and Andrea Marino. University of Pisa.
+c This code is compiled using Java 1.8
+c Parsing: 21
+c Reading graph from file..
+c Removing duplicates.................
+c Done.
+c Algotithm object created, class=it.unipi.di.clq.eps.lists.EPSc
+c Edges: 28
+c 0 cliques
+c 2 cliques
+c 4 cliques
+c 8 cliques
+c 16 cliques
+c The solution is correct.
+c Cliques: 22
+c Sum: 47
+c MaxSize: 0
+c Time: 11
+c Aborted: false
+c ML = 20
+c SIZE = 21
+c Removed 0 cliques to minimalize solution.
+c Result saved!
+c Clique size distribution: {[2,19][3,3]}
+c NODE covering index distribution:{[2,16][3,5]}
+c EDGE covering index distrubution:{[1,28]}
+c Total edges:28
+c Distributions saved!
+c *** This is NuSMV 2.6.0 (compiled on Wed Oct 14 15:36:56 2015)
+c *** Enabled addons are: compass
+c *** For more information on NuSMV see <http://nusmv.fbk.eu>
+c *** or email to <nusmv-users@list.fbk.eu>.
+c *** Please report bugs to <Please report bugs to <nusmv-users@fbk.eu>>
+c 
+c *** Copyright (c) 2010-2014, Fondazione Bruno Kessler
+c 
+c *** This version of NuSMV is linked to the CUDD library version 2.4.1
+c *** Copyright (c) 1995-2004, Regents of the University of Colorado
+c 
+c *** This version of NuSMV is linked to the MiniSat SAT solver. 
+c *** See http://minisat.se/MiniSat.html
+c *** Copyright (c) 2003-2006, Niklas Een, Niklas Sorensson
+c *** Copyright (c) 2007-2010, Niklas Sorensson
+c 
+c -- no counterexample found with bound 0
+c -- no counterexample found with bound 1
+c -- no counterexample found with bound 2
+c -- no counterexample found with bound 3
+c -- no counterexample found with bound 4
+c -- no counterexample found with bound 5
+c -- no counterexample found with bound 6
+c -- no counterexample found with bound 7
+c -- no counterexample found with bound 8
+c -- no counterexample found with bound 9
+c -- no counterexample found with bound 10
+c -- no counterexample found with bound 11
+c -- no counterexample found with bound 12
+c -- no counterexample found with bound 13
+c -- no counterexample found with bound 14
+c -- no counterexample found with bound 15
+c -- no counterexample found with bound 16
+c -- no counterexample found with bound 17
+c -- no counterexample found with bound 18
+c -- no counterexample found with bound 19
+c -- no counterexample found with bound 20
+c -- no counterexample found with bound 21
+c -- specification  G (((((((((state.token[1] = v1 & state.token[2] = v3) & state.token[3] = v5) & state.token[4] = v11) & state.token[5] = v13) & state.token[6] = v15) & state.token[7] = v16) & state.token[8] = v18) & state.token[9] = v20) ->  G !((((((((((((((((state.token[1] = v1 | state.token[1] = v3) | state.token[1] = v5) | state.token[1] = v10) | state.token[1] = v12) | state.token[1] = v14) | state.token[1] = v17) | state.token[1] = v19) | state.token[1] = v21) & ((((((((state.token[2] = v1 | state.token[2] = v3) | state.token[2] = v5) | state.token[2] = v10) | state.token[2] = v12) | state.token[2] = v14) | state.token[2] = v17) | state.token[2] = v19) | state.token[2] = v21)) & ((((((((state.token[3] = v1 | state.token[3] = v3) | state.token[3] = v5) | state.token[3] = v10) | state.token[3] = v12) | state.token[3] = v14) | state.token[3] = v17) | state.token[3] = v19) | state.token[3] = v21)) & ((((((((state.token[4] = v1 | state.token[4] = v3) | state.token[4] = v5) | state.token[4] = v10) | state.token[4] = v12) | state.token[4] = v14) | state.token[4] = v17) | state.token[4] = v19) | state.token[4] = v21)) & ((((((((state.token[5] = v1 | state.token[5] = v3) | state.token[5] = v5) | state.token[5] = v10) | state.token[5] = v12) | state.token[5] = v14) | state.token[5] = v17) | state.token[5] = v19) | state.token[5] = v21)) & ((((((((state.token[6] = v1 | state.token[6] = v3) | state.token[6] = v5) | state.token[6] = v10) | state.token[6] = v12) | state.token[6] = v14) | state.token[6] = v17) | state.token[6] = v19) | state.token[6] = v21)) & ((((((((state.token[7] = v1 | state.token[7] = v3) | state.token[7] = v5) | state.token[7] = v10) | state.token[7] = v12) | state.token[7] = v14) | state.token[7] = v17) | state.token[7] = v19) | state.token[7] = v21)) & ((((((((state.token[8] = v1 | state.token[8] = v3) | state.token[8] = v5) | state.token[8] = v10) | state.token[8] = v12) | state.token[8] = v14) | state.token[8] = v17) | state.token[8] = v19) | state.token[8] = v21)) & ((((((((state.token[9] = v1 | state.token[9] = v3) | state.token[9] = v5) | state.token[9] = v10) | state.token[9] = v12) | state.token[9] = v14) | state.token[9] = v17) | state.token[9] = v19) | state.token[9] = v21)))    is false
+c -- as demonstrated by the following execution sequence
+c Trace Description: BMC Counterexample 
+c Trace Type: Counterexample 
+c   -> State: 1.1 <-
+c     state.token[1] = 0ud22_262161
+c     state.token[2] = 0ud22_139264
+c     state.token[3] = 0ud22_32772
+c     state.token[4] = 0ud22_96
+c     state.token[5] = 0ud22_524544
+c     state.token[6] = 0ud22_2113536
+c     state.token[7] = 0ud22_2056
+c     state.token[8] = 0ud22_1118208
+c     state.token[9] = 0ud22_1154
+c     state.tid = 1
+c     state.vid = 6
+c     state.target = 0ud22_0
+c     v21 = 0ud22_2097280
+c     v20 = 0ud22_1154
+c     v19 = 0ud22_5376
+c     v18 = 0ud22_1118208
+c     v17 = 0ud22_1048616
+c     v16 = 0ud22_2056
+c     v15 = 0ud22_2113536
+c     v14 = 0ud22_16386
+c     v13 = 0ud22_524544
+c     v12 = 0ud22_589824
+c     v11 = 0ud22_96
+c     v10 = 0ud22_2112
+c     v9 = 0ud22_16400
+c     v8 = 0ud22_524800
+c     v7 = 0ud22_65
+c     v6 = 0ud22_516
+c     v5 = 0ud22_32772
+c     v4 = 0ud22_40960
+c     v3 = 0ud22_139264
+c     v2 = 0ud22_393216
+c     v1 = 0ud22_262161
+c     v0 = 0ud22_0
+c   -> State: 1.2 <-
+c     state.tid = 3
+c     state.vid = 4
+c     state.target = 0ud22_516
+c   -> State: 1.3 <-
+c     state.token[3] = 0ud22_516
+c     state.tid = 2
+c     state.vid = 2
+c     state.target = 0ud22_40960
+c   -> State: 1.4 <-
+c     state.token[2] = 0ud22_40960
+c     state.tid = 1
+c     state.vid = 9
+c     state.target = 0ud22_393216
+c   -> State: 1.5 <-
+c     state.token[1] = 0ud22_393216
+c     state.tid = 6
+c     state.vid = 21
+c     state.target = 0ud22_16400
+c   -> State: 1.6 <-
+c     state.token[6] = 0ud22_16400
+c     state.tid = 9
+c     state.vid = 14
+c     state.target = 0ud22_2097280
+c   -> State: 1.7 <-
+c     state.token[9] = 0ud22_2097280
+c     state.tid = 6
+c     state.vid = 1
+c     state.target = 0ud22_16386
+c   -> State: 1.8 <-
+c     state.token[6] = 0ud22_16386
+c     state.tid = 1
+c     state.vid = 3
+c     state.target = 0ud22_262161
+c   -> State: 1.9 <-
+c     state.token[1] = 0ud22_262161
+c     state.tid = 2
+c     state.vid = 5
+c     state.target = 0ud22_139264
+c   -> State: 1.10 <-
+c     state.token[2] = 0ud22_139264
+c     state.tid = 3
+c     state.vid = 8
+c     state.target = 0ud22_32772
+c   -> State: 1.11 <-
+c     state.token[3] = 0ud22_32772
+c     state.tid = 5
+c     state.vid = 19
+c     state.target = 0ud22_524800
+c   -> State: 1.12 <-
+c     state.token[5] = 0ud22_524800
+c     state.tid = 8
+c     state.vid = 12
+c     state.target = 0ud22_5376
+c   -> State: 1.13 <-
+c     state.token[8] = 0ud22_5376
+c     state.tid = 5
+c     state.vid = 6
+c     state.target = 0ud22_589824
+c   -> State: 1.14 <-
+c     state.token[5] = 0ud22_589824
+c     state.tid = 3
+c     state.vid = 4
+c     state.target = 0ud22_516
+c   -> State: 1.15 <-
+c     state.token[3] = 0ud22_516
+c     state.tid = 2
+c     state.vid = 2
+c     state.target = 0ud22_40960
+c   -> State: 1.16 <-
+c     state.token[2] = 0ud22_40960
+c     state.tid = 1
+c     state.vid = 7
+c     state.target = 0ud22_393216
+c   -> State: 1.17 <-
+c     state.token[1] = 0ud22_393216
+c     state.tid = 4
+c     state.vid = 17
+c     state.target = 0ud22_65
+c   -> State: 1.18 <-
+c     state.token[4] = 0ud22_65
+c     state.tid = 7
+c     state.vid = 10
+c     state.target = 0ud22_1048616
+c   -> State: 1.19 <-
+c     state.token[7] = 0ud22_1048616
+c     state.tid = 4
+c     state.vid = 1
+c     state.target = 0ud22_2112
+c   -> State: 1.20 <-
+c     state.token[4] = 0ud22_2112
+c     state.tid = 1
+c     state.vid = 3
+c     state.target = 0ud22_262161
+c   -> State: 1.21 <-
+c     state.token[1] = 0ud22_262161
+c     state.tid = 2
+c     state.vid = 5
+c     state.target = 0ud22_139264
+c   -> State: 1.22 <-
+c     state.token[2] = 0ud22_139264
+c     state.tid = 3
+c     state.vid = 8
+c     state.target = 0ud22_32772
+c   -> State: 1.23 <-
+c     state.token[3] = 0ud22_32772
+c     state.tid = 1
+c     state.vid = 1
+c     state.target = 0ud22_524800
+s 1 3 5 11 13 15 16 18 20
+t 1 3 5 10 12 14 17 19 21
+a YES
+a 1 3 5 11 13 15 16 18 20
+a 1 3 6 11 13 15 16 18 20
+a 1 4 6 11 13 15 16 18 20
+a 2 4 6 11 13 15 16 18 20
+a 2 4 6 9 11 13 16 18 20
+a 2 4 6 9 11 13 16 18 21
+a 2 4 6 11 13 14 16 18 21
+a 1 4 6 11 13 14 16 18 21
+a 1 3 6 11 13 14 16 18 21
+a 1 3 5 11 13 14 16 18 21
+a 1 3 5 8 11 14 16 18 21
+a 1 3 5 8 11 14 16 19 21
+a 1 3 5 11 12 14 16 19 21
+a 1 3 6 11 12 14 16 19 21
+a 1 4 6 11 12 14 16 19 21
+a 2 4 6 11 12 14 16 19 21
+a 2 4 6 7 12 14 16 19 21
+a 2 4 6 7 12 14 17 19 21
+a 2 4 6 10 12 14 17 19 21
+a 1 4 6 10 12 14 17 19 21
+a 1 3 6 10 12 14 17 19 21
+a 1 3 5 10 12 14 17 19 21

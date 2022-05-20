@@ -1,0 +1,142 @@
+c model ISR_TJ
+c  /home/toda/src/NuSMV-2.6.0-Linux_untouched/binary/bin/NuSMV -bmc -bmc_length 20 -n 0 /home/toda/2022solver/bin/../tmp/queen5_5_01.smv > queen5_5_01.log
+c ECC Heuristic Algorithm by Alessio Conte, Roberto Grossi and Andrea Marino. University of Pisa.
+c This code is compiled using Java 1.8
+c Parsing: 25
+c Reading graph from file..
+c Removing duplicates.................
+c Done.
+c Algotithm object created, class=it.unipi.di.clq.eps.lists.EPSc
+c Edges: 160
+c 0 cliques
+c 2 cliques
+c 4 cliques
+c 8 cliques
+c 16 cliques
+c The solution is correct.
+c Cliques: 27
+c Sum: 112
+c MaxSize: 0
+c Time: 14
+c Aborted: false
+c ML = 24
+c SIZE = 25
+c Removed 0 cliques to minimalize solution.
+c Result saved!
+c Clique size distribution: {[2,5][3,3][4,2][5,17]}
+c NODE covering index distribution:{[3,1][4,13][5,9][6,2]}
+c EDGE covering index distrubution:{[1,126][2,32][3,2]}
+c Total edges:160
+c Distributions saved!
+c *** This is NuSMV 2.6.0 (compiled on Wed Oct 14 15:36:56 2015)
+c *** Enabled addons are: compass
+c *** For more information on NuSMV see <http://nusmv.fbk.eu>
+c *** or email to <nusmv-users@list.fbk.eu>.
+c *** Please report bugs to <Please report bugs to <nusmv-users@fbk.eu>>
+c 
+c *** Copyright (c) 2010-2014, Fondazione Bruno Kessler
+c 
+c *** This version of NuSMV is linked to the CUDD library version 2.4.1
+c *** Copyright (c) 1995-2004, Regents of the University of Colorado
+c 
+c *** This version of NuSMV is linked to the MiniSat SAT solver. 
+c *** See http://minisat.se/MiniSat.html
+c *** Copyright (c) 2003-2006, Niklas Een, Niklas Sorensson
+c *** Copyright (c) 2007-2010, Niklas Sorensson
+c 
+c -- no counterexample found with bound 0
+c -- no counterexample found with bound 1
+c -- no counterexample found with bound 2
+c -- no counterexample found with bound 3
+c -- no counterexample found with bound 4
+c -- no counterexample found with bound 5
+c -- no counterexample found with bound 6
+c -- no counterexample found with bound 7
+c -- specification  G ((((state.token[1] = v4 & state.token[2] = v6) & state.token[3] = v13) & state.token[4] = v20) ->  G !((((((state.token[1] = v5 | state.token[1] = v8) | state.token[1] = v11) | state.token[1] = v24) & (((state.token[2] = v5 | state.token[2] = v8) | state.token[2] = v11) | state.token[2] = v24)) & (((state.token[3] = v5 | state.token[3] = v8) | state.token[3] = v11) | state.token[3] = v24)) & (((state.token[4] = v5 | state.token[4] = v8) | state.token[4] = v11) | state.token[4] = v24)))    is false
+c -- as demonstrated by the following execution sequence
+c Trace Description: BMC Counterexample 
+c Trace Type: Counterexample 
+c   -> State: 1.1 <-
+c     state.token[1] = 0ud27_69649
+c     state.token[2] = 0ud27_12591110
+c     state.token[3] = 0ud27_34488352
+c     state.token[4] = 0ud27_3147392
+c     state.tid = 1
+c     state.vid = 22
+c     state.target = 0ud27_0
+c     v25 = 0ud27_165376
+c     v24 = 0ud27_67146754
+c     v23 = 0ud27_297216
+c     v22 = 0ud27_83918920
+c     v21 = 0ud27_41975808
+c     v20 = 0ud27_3147392
+c     v19 = 0ud27_1184000
+c     v18 = 0ud27_74711040
+c     v17 = 0ud27_51382272
+c     v16 = 0ud27_13631568
+c     v15 = 0ud27_17184
+c     v14 = 0ud27_69210272
+c     v13 = 0ud27_34488352
+c     v12 = 0ud27_88080432
+c     v11 = 0ud27_8914976
+c     v10 = 0ud27_2105865
+c     v9 = 0ud27_33583104
+c     v8 = 0ud27_6561936
+c     v7 = 0ud27_17440768
+c     v6 = 0ud27_12591110
+c     v5 = 0ud27_33636864
+c     v4 = 0ud27_69649
+c     v3 = 0ud27_868352
+c     v2 = 0ud27_16842884
+c     v1 = 0ud27_9109504
+c     v0 = 0ud27_0
+c   -> State: 1.2 <-
+c     state.tid = 3
+c     state.vid = 3
+c     state.target = 0ud27_83918920
+c   -> State: 1.3 <-
+c     state.token[3] = 0ud27_83918920
+c     state.tid = 1
+c     state.vid = 19
+c     state.target = 0ud27_868352
+c   -> State: 1.4 <-
+c     state.token[1] = 0ud27_868352
+c     state.tid = 4
+c     state.vid = 5
+c     state.target = 0ud27_1184000
+c   -> State: 1.5 <-
+c     state.token[4] = 0ud27_1184000
+c     state.tid = 1
+c     state.vid = 11
+c     state.target = 0ud27_33636864
+c   -> State: 1.6 <-
+c     state.token[1] = 0ud27_33636864
+c     state.tid = 2
+c     state.vid = 8
+c     state.target = 0ud27_8914976
+c   -> State: 1.7 <-
+c     state.token[2] = 0ud27_8914976
+c     state.tid = 3
+c     state.vid = 24
+c     state.target = 0ud27_6561936
+c   -> State: 1.8 <-
+c     state.token[3] = 0ud27_6561936
+c     state.tid = 4
+c     state.vid = 6
+c     state.target = 0ud27_67146754
+c   -> State: 1.9 <-
+c     state.token[4] = 0ud27_67146754
+c     state.tid = 1
+c     state.vid = 1
+c     state.target = 0ud27_12591110
+s 4 6 13 20
+t 5 8 11 24
+a YES
+a 4 6 13 20
+a 4 6 20 22
+a 3 6 20 22
+a 3 6 19 22
+a 5 6 19 22
+a 5 11 19 22
+a 5 8 11 19
+a 5 8 11 24

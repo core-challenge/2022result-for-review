@@ -1,0 +1,62 @@
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/queen/queen008x008.col
+c Target file: benchmark/queen/queen008x008_02_8804.dat
+c Size of independent set: 7
+c Number of nodes of graph: 64
+c Number of edges of graph: 728
+c Average degree of graph: 22.75
+s 4 15 17 32 37 54 59 
+t 5 10 24 25 47 51 62 
+c BFS found 10 new nodes in level 1 (total 11/244032232)
+c BFS found 8 new nodes in level 2 (total 19/244032232)
+c BFS found 20 new nodes in level 3 (total 39/244032232)
+c BFS found 51 new nodes in level 4 (total 86/244032232)
+c BFS found 89 new nodes in level 5 (total 175/244032232)
+c BFS found 192 new nodes in level 6 (total 363/244032232)
+c BFS found 289 new nodes in level 7 (total 639/244032232)
+c BFS found 379 new nodes in level 8 (total 1005/244032232)
+c BFS found 534 new nodes in level 9 (total 1483/244032232)
+c BFS found 600 new nodes in level 10 (total 1970/244032232)
+c BFS exiting found=true count=2103 max_count=244032232
+c R=7
+c Found with: Breadth First Search
+a YES
+a 4 15 17 32 37 54 59 
+a 4 15 32 37 42 54 59 
+a 15 20 32 37 42 54 59 
+a 15 20 25 37 42 54 59 
+a 5 15 20 25 42 54 59 
+a 5 15 20 25 40 42 59 
+a 5 15 20 25 40 42 62 
+a 5 15 20 25 40 51 62 
+a 5 10 20 25 40 51 62 
+a 5 10 20 25 39 51 62 
+a 5 10 24 25 39 51 62 
+a 5 10 24 25 47 51 62 
+c Length: 11
+	Command being timed: "src/recon_th benchmark/queen/queen008x008.col benchmark/queen/queen008x008_02_8804.dat"
+	User time (seconds): 0.01
+	System time (seconds): 0.05
+	Percent of CPU this job got: 103%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 264396
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 65692
+	Voluntary context switches: 6
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,179 @@
+
+s 5 9 24 28 32 
+t 3 16 19 29 32
+a YES
+a 24 28 32 5 9
+a 13 24 32 5 9
+a 13 28 32 5 9
+a 13 28 36 5 9
+a 13 26 36 5 9
+a 13 24 26 5 9
+a 13 22 26 5 9
+a 18 22 26 5 9
+a 18 26 34 5 9
+a 18 26 34 5 7
+a 18 22 26 5 7
+a 18 22 26 3 7
+a 18 26 3 34 7
+a 23 26 3 34 7
+a 12 23 26 3 34
+a 12 23 25 3 34
+a 12 14 23 25 3
+a 12 14 25 3 34
+a 11 14 25 3 34
+a 14 23 25 3 34
+a 12 14 23 25 34
+a 12 14 23 3 34
+a 1 12 14 23 34
+a 1 12 23 26 34
+a 12 15 23 26 34
+a 15 23 26 34 7
+a 15 23 26 4 7
+a 23 26 36 4 7
+a 13 23 26 36 4
+a 12 13 23 26 4
+a 12 13 26 35 4
+a 12 15 26 35 4
+a 15 24 26 35 4
+a 13 24 26 35 4
+a 13 24 26 35 9
+a 13 22 26 35 9
+a 13 22 35 6 9
+a 22 25 35 6 9
+a 18 22 25 35 9
+a 18 2 22 25 35
+a 18 22 25 3 35
+a 18 22 26 3 35
+a 18 22 26 35 9
+a 1 18 26 35 9
+a 1 10 18 26 35
+a 1 10 18 27 35
+a 10 18 2 27 35
+a 10 18 19 2 35
+a 10 18 19 2 29
+a 10 18 2 29 31
+a 10 18 2 27 31
+a 10 18 19 2 27
+a 10 19 2 27 36
+a 11 19 2 27 36
+a 11 19 2 28 36
+a 11 15 19 2 28
+a 12 15 19 2 28
+a 12 15 2 28 31
+a 15 2 24 28 31
+a 11 15 2 24 28
+a 11 13 2 24 28
+a 11 13 2 24 33
+a 11 2 24 25 33
+a 11 14 24 25 33
+a 11 14 22 25 33
+a 11 2 22 25 33
+a 11 13 2 22 33
+a 11 13 22 30 33
+a 13 22 30 33 5
+a 22 30 33 5 7
+a 14 22 30 33 5
+a 11 14 22 30 33
+a 1 11 14 30 33
+a 1 11 14 30 34
+a 11 14 3 30 34
+a 11 19 3 30 34
+a 11 15 19 30 34
+a 11 15 19 30 32
+a 11 19 3 30 32
+a 11 19 28 3 32
+a 11 15 19 28 32
+a 11 15 24 28 32
+a 1 11 24 28 32
+a 11 13 24 28 32
+a 13 24 28 32 5
+a 13 24 28 32 9
+a 13 24 28 5 9
+a 24 28 31 5 9
+a 24 28 31 5 8
+a 24 27 31 5 8
+a 16 24 27 5 8
+a 16 24 27 5 7
+a 16 24 33 5 7
+a 16 24 33 5 8
+a 16 24 25 33 8
+a 16 24 25 35 8
+a 24 25 35 4 8
+a 24 27 35 4 8
+a 16 24 27 35 8
+a 16 19 27 35 8
+a 19 27 35 6 8
+a 10 19 27 35 6
+a 10 19 2 27 35
+a 10 18 19 27 35
+a 18 19 2 27 35
+a 18 19 27 35 8
+a 18 19 27 5 8
+a 18 19 34 5 8
+a 19 30 34 5 8
+a 17 19 30 34 8
+a 17 21 30 34 8
+a 21 30 34 5 8
+a 18 21 34 5 8
+a 18 21 25 34 8
+a 18 2 21 25 34
+a 12 2 21 25 34
+a 17 2 21 25 34
+a 17 21 25 34 8
+a 17 25 34 6 8
+a 17 25 33 6 8
+a 17 25 33 4 8
+a 17 30 33 4 8
+a 17 30 33 4 7
+a 20 30 33 4 7
+a 17 20 30 33 4
+a 1 17 20 30 33
+a 17 20 30 33 7
+a 17 20 33 4 7
+a 17 20 33 6 7
+a 20 29 33 6 7
+a 20 29 33 4 7
+a 16 20 29 33 7
+a 12 16 20 29 33
+a 12 20 29 33 4
+a 12 13 29 33 4
+a 12 13 21 29 4
+a 12 13 2 21 29
+a 10 13 2 21 29
+a 10 18 2 21 29
+a 10 18 21 29 32
+a 1 10 18 21 32
+a 1 10 21 30 32
+a 10 13 21 30 32
+a 13 21 30 32 5
+a 13 21 30 32 4
+a 13 21 29 32 4
+a 10 13 21 29 32
+a 10 13 29 32 6
+a 10 19 29 32 6
+a 10 18 19 29 32
+a 18 19 29 3 32
+a 16 19 29 3 32
+	Command being timed: "python3 /SOLVER/longest/run.py submission sas split /BENCHMARKS/benchmark/color04/queen6_6.col /BENCHMARKS/benchmark/color04/queen6_6_01.dat"
+	User time (seconds): 0.30
+	System time (seconds): 0.02
+	Percent of CPU this job got: 0%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:10:00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17484
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13096
+	Voluntary context switches: 318
+	Involuntary context switches: 33
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

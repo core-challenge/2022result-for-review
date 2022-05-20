@@ -1,0 +1,51 @@
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/color04/school1_nsh.col
+c Target file: benchmark/color04/school1_nsh_02.dat
+c Size of independent set: 38
+c Number of nodes of graph: 352
+c Number of edges of graph: 14612
+c Average degree of graph: 83.02
+s 9 13 29 44 47 68 71 86 88 99 119 131 133 136 139 140 142 162 176 185 187 189 193 208 236 241 248 263 269 284 290 292 308 309 314 315 316 328 
+t 13 22 29 44 47 68 71 86 88 93 118 131 133 135 136 137 139 140 142 158 168 185 187 189 193 208 236 241 248 269 284 290 292 308 309 313 316 328 
+c BFS found 53 new nodes in level 1 (total 54/178956970)
+c BFS found 681 new nodes in level 2 (total 735/178956970)
+c BFS found 4341 new nodes in level 3 (total 5076/178956970)
+c R=8
+c Found with: Iterative A*-Search
+a YES
+a 9 13 29 44 47 68 71 86 88 99 119 131 133 136 139 140 142 162 176 185 187 189 193 208 236 241 248 263 269 284 290 292 308 309 314 315 316 328 
+a 9 13 29 44 47 68 71 86 88 99 119 131 133 136 139 140 142 162 176 185 187 189 193 208 236 241 248 263 269 284 290 292 308 309 313 315 316 328 
+a 9 13 29 44 47 68 71 86 88 99 119 131 133 136 139 140 142 158 176 185 187 189 193 208 236 241 248 263 269 284 290 292 308 309 313 315 316 328 
+a 9 13 29 44 47 68 71 86 88 99 119 131 133 136 137 139 140 142 158 176 185 187 189 193 208 236 241 248 263 269 284 290 292 308 309 313 316 328 
+a 9 13 29 44 47 68 71 86 88 99 119 131 133 135 136 137 139 140 142 158 176 185 187 189 193 208 236 241 248 269 284 290 292 308 309 313 316 328 
+a 9 13 29 44 47 68 71 86 88 99 118 131 133 135 136 137 139 140 142 158 176 185 187 189 193 208 236 241 248 269 284 290 292 308 309 313 316 328 
+a 9 13 29 44 47 68 71 86 88 93 118 131 133 135 136 137 139 140 142 158 176 185 187 189 193 208 236 241 248 269 284 290 292 308 309 313 316 328 
+a 9 13 22 29 44 47 68 71 86 88 93 118 131 133 135 136 137 139 140 142 158 185 187 189 193 208 236 241 248 269 284 290 292 308 309 313 316 328 
+a 13 22 29 44 47 68 71 86 88 93 118 131 133 135 136 137 139 140 142 158 168 185 187 189 193 208 236 241 248 269 284 290 292 308 309 313 316 328 
+c Length: 8
+	Command being timed: "src/recon_th benchmark/color04/school1_nsh.col benchmark/color04/school1_nsh_02.dat"
+	User time (seconds): 0.05
+	System time (seconds): 0.04
+	Percent of CPU this job got: 185%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 266896
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 66340
+	Voluntary context switches: 4
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

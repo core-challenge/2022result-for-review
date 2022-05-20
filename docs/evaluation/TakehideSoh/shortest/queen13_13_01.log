@@ -1,0 +1,64 @@
+c #BEGIN: [Thu Mar 17 11:43:15 2022]
+c #HOST: mini14.local
+c #TIMELIMIT: 18000
+c #MEMLIMIT: 0
+c #FREQ: 10
+c #SOLVER: isr-bug-finder
+c #CSP: benchmark/graph-instance/core-challenge-2022/color04/queen13_13.col benchmark/graph-instance/core-challenge-2022/color04/queen13_13_01.dat
+c #COMMAND: /Users/soh/app/scala-2.12.4/bin/scala -J-Xms16g -J-Xmx16g -cp /Users/soh/app/IsrForCompetition220315-22h16m/scop.jar:/Users/soh/app/IsrForCompetition220315-22h16m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj03 benchmark/graph-instance/core-challenge-2022/color04/queen13_13.col benchmark/graph-instance/core-challenge-2022/color04/queen13_13_01.dat cadical /Users/soh/app/IsrForCompetition220315-22h16m/cadical
+c (0) step 1 UNSAT 1014 9016
+c (0) step 2 UNSAT 1858 14536
+c (0) step 3 UNSAT 2702 20056
+c (0) step 4 UNSAT 3546 25576
+c (0) step 5 UNSAT 4390 31096
+c (0) step 6 UNSAT 5234 36616
+c (0) step 7 UNSAT 6078 42136
+c (0) step 8 UNSAT 6922 47656
+c (0) step 9 UNSAT 7766 53176
+c (1) step 10 UNSAT 8610 58696
+c (1) step 11 UNSAT 9454 64216
+c (2) step 12 SAT 10298 69736
+a YES
+a 25 30 45 62 78 79 94 112 119 137 152 167
+a 5 25 30 62 78 79 94 112 119 137 152 167
+a 5 25 32 62 78 79 94 112 119 137 152 167
+a 5 32 51 62 78 79 94 112 119 137 152 167
+a 5 21 32 51 62 78 79 94 119 137 152 167
+a 5 21 32 51 62 78 79 108 119 137 152 167
+a 5 21 32 51 62 78 79 100 108 119 137 167
+a 5 21 32 51 62 78 79 100 108 137 145 167
+a 5 21 32 42 62 78 79 100 108 137 145 167
+a 5 21 32 42 62 79 100 108 129 137 145 167
+a 5 21 42 62 71 79 100 108 129 137 145 167
+a 5 21 39 42 62 71 79 100 108 129 137 145
+a 5 21 39 42 71 79 100 108 129 137 145 166
+	Command being timed: "/Users/soh/app/scala-2.12.4/bin/scala -J-Xms16g -J-Xmx16g -cp /Users/soh/app/IsrForCompetition220315-22h16m/scop.jar:/Users/soh/app/IsrForCompetition220315-22h16m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj03 benchmark/graph-instance/core-challenge-2022/color04/queen13_13.col benchmark/graph-instance/core-challenge-2022/color04/queen13_13_01.dat cadical /Users/soh/app/IsrForCompetition220315-22h16m/cadical"
+	User time (seconds): 4.25
+	System time (seconds): 0.15
+	Percent of CPU this job got: 141%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 913473536
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 68220
+	Voluntary context switches: 40
+	Involuntary context switches: 2654
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 47
+	Socket messages received: 0
+	Signals delivered: 5
+	Page size (bytes): 4096
+	Exit status: 0
+c FINISHED CPU 4.4 MEM 0 MAXMEM 0 STALE 1
+c #RESULT: UNK
+c #FIN: FIN
+c #CPU: 4.4
+c #MAXMEM: 0
+c 
+c #END: [Thu Mar 17 11:43:18 2022]

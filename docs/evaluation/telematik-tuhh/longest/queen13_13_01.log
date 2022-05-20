@@ -1,0 +1,64 @@
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/color04/queen13_13.col
+c Target file: benchmark/color04/queen13_13_01.dat
+c Size of independent set: 12
+c Number of nodes of graph: 169
+c Number of edges of graph: 3328
+c Average degree of graph: 39.38
+s 25 30 45 62 78 79 94 112 119 137 152 167 
+t 5 21 39 42 71 79 100 108 129 137 145 166 
+c BFS found 15 new nodes in level 1 (total 16/223696213)
+c BFS found 23 new nodes in level 2 (total 39/223696213)
+c BFS found 50 new nodes in level 3 (total 89/223696213)
+c BFS found 121 new nodes in level 4 (total 207/223696213)
+c BFS found 306 new nodes in level 5 (total 512/223696213)
+c BFS found 732 new nodes in level 6 (total 1240/223696213)
+c BFS found 1721 new nodes in level 7 (total 2947/223696213)
+c BFS found 4095 new nodes in level 8 (total 7011/223696213)
+c BFS found 9290 new nodes in level 9 (total 16218/223696213)
+c R=10
+c BFS found 20009 new nodes in level 10 (total 36018/223696213)
+c R=11
+c R=12
+c Found with: Iterative A*-Search
+a YES
+a 25 30 45 62 78 79 94 112 119 137 152 167 
+a 5 25 30 45 62 78 79 94 119 137 152 167 
+a 5 25 30 45 62 78 79 99 119 137 152 167 
+a 5 25 45 62 78 79 99 108 119 137 152 167 
+a 5 25 42 62 78 79 99 108 119 137 152 167 
+a 5 25 32 42 62 78 79 99 108 119 137 167 
+a 5 25 32 42 62 78 79 100 108 119 137 167 
+a 5 21 32 42 62 78 79 100 108 119 137 167 
+a 5 21 32 42 62 78 79 100 108 137 145 167 
+a 5 21 32 42 62 79 100 108 129 137 145 167 
+a 5 21 42 62 71 79 100 108 129 137 145 167 
+a 5 21 39 42 62 71 79 100 108 129 137 145 
+a 5 21 39 42 71 79 100 108 129 137 145 166 
+c Length: 12
+	Command being timed: "src/recon_th benchmark/color04/queen13_13.col benchmark/color04/queen13_13_01.dat"
+	User time (seconds): 0.11
+	System time (seconds): 0.04
+	Percent of CPU this job got: 190%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 270372
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 67209
+	Voluntary context switches: 7
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 72
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

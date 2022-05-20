@@ -1,0 +1,215 @@
+c model ISR_TJ
+c  /home/toda/src/NuSMV-2.6.0-Linux_untouched/binary/bin/NuSMV -bmc -bmc_length 20 -n 0 /home/toda/2022solver/bin/../tmp/queen008x008_04_4441.smv > queen008x008_04_4441.log
+c ECC Heuristic Algorithm by Alessio Conte, Roberto Grossi and Andrea Marino. University of Pisa.
+c This code is compiled using Java 1.8
+c Parsing: 64
+c Reading graph from file..
+c Removing duplicates.................
+c Done.
+c Algotithm object created, class=it.unipi.di.clq.eps.lists.EPSc
+c Edges: 728
+c 0 cliques
+c 2 cliques
+c 4 cliques
+c 8 cliques
+c 16 cliques
+c 32 cliques
+c The solution is correct.
+c Cliques: 57
+c Sum: 322
+c MaxSize: 0
+c Time: 25
+c Aborted: false
+c ML = 63
+c SIZE = 64
+c Removed 7 cliques to minimalize solution.
+c Result saved!
+c Clique size distribution: {[2,5][3,2][4,7][5,11][6,3][7,4][8,18]}
+c NODE covering index distribution:{[3,2][4,36][5,19][6,5][7,2]}
+c EDGE covering index distrubution:{[1,660][2,68]}
+c Total edges:728
+c Distributions saved!
+c *** This is NuSMV 2.6.0 (compiled on Wed Oct 14 15:36:56 2015)
+c *** Enabled addons are: compass
+c *** For more information on NuSMV see <http://nusmv.fbk.eu>
+c *** or email to <nusmv-users@list.fbk.eu>.
+c *** Please report bugs to <Please report bugs to <nusmv-users@fbk.eu>>
+c 
+c *** Copyright (c) 2010-2014, Fondazione Bruno Kessler
+c 
+c *** This version of NuSMV is linked to the CUDD library version 2.4.1
+c *** Copyright (c) 1995-2004, Regents of the University of Colorado
+c 
+c *** This version of NuSMV is linked to the MiniSat SAT solver. 
+c *** See http://minisat.se/MiniSat.html
+c *** Copyright (c) 2003-2006, Niklas Een, Niklas Sorensson
+c *** Copyright (c) 2007-2010, Niklas Sorensson
+c 
+c -- no counterexample found with bound 0
+c -- no counterexample found with bound 1
+c -- no counterexample found with bound 2
+c -- no counterexample found with bound 3
+c -- no counterexample found with bound 4
+c -- no counterexample found with bound 5
+c -- no counterexample found with bound 6
+c -- no counterexample found with bound 7
+c -- no counterexample found with bound 8
+c -- no counterexample found with bound 9
+c -- no counterexample found with bound 10
+c -- no counterexample found with bound 11
+c -- specification  G (((((((state.token[1] = v4 & state.token[2] = v15) & state.token[3] = v21) & state.token[4] = v32) & state.token[5] = v34) & state.token[6] = v54) & state.token[7] = v59) ->  G !((((((((((((state.token[1] = v4 | state.token[1] = v24) | state.token[1] = v26) | state.token[1] = v39) | state.token[1] = v14) | state.token[1] = v61) | state.token[1] = v41) & ((((((state.token[2] = v4 | state.token[2] = v24) | state.token[2] = v26) | state.token[2] = v39) | state.token[2] = v14) | state.token[2] = v61) | state.token[2] = v41)) & ((((((state.token[3] = v4 | state.token[3] = v24) | state.token[3] = v26) | state.token[3] = v39) | state.token[3] = v14) | state.token[3] = v61) | state.token[3] = v41)) & ((((((state.token[4] = v4 | state.token[4] = v24) | state.token[4] = v26) | state.token[4] = v39) | state.token[4] = v14) | state.token[4] = v61) | state.token[4] = v41)) & ((((((state.token[5] = v4 | state.token[5] = v24) | state.token[5] = v26) | state.token[5] = v39) | state.token[5] = v14) | state.token[5] = v61) | state.token[5] = v41)) & ((((((state.token[6] = v4 | state.token[6] = v24) | state.token[6] = v26) | state.token[6] = v39) | state.token[6] = v14) | state.token[6] = v61) | state.token[6] = v41)) & ((((((state.token[7] = v4 | state.token[7] = v24) | state.token[7] = v26) | state.token[7] = v39) | state.token[7] = v14) | state.token[7] = v61) | state.token[7] = v41)))    is false
+c -- as demonstrated by the following execution sequence
+c Trace Description: BMC Counterexample 
+c Trace Type: Counterexample 
+c   -> State: 1.1 <-
+c     state.token[1] = 0ud50_1099511922752
+c     state.token[2] = 0ud50_70712354144256
+c     state.token[3] = 0ud50_985196795005440
+c     state.token[4] = 0ud50_35184472825856
+c     state.token[5] = 0ud50_13958660096
+c     state.token[6] = 0ud50_4400193999104
+c     state.token[7] = 0ud50_2199025483792
+c     state.tid = 1
+c     state.vid = 17
+c     state.target = 0ud50_0
+c     v64 = 0ud50_28587302330368
+c     v63 = 0ud50_6871947674624
+c     v62 = 0ud50_20340965117952
+c     v61 = 0ud50_283682589901056
+c     v60 = 0ud50_3298534948992
+c     v59 = 0ud50_2199025483792
+c     v58 = 0ud50_2217277390848
+c     v57 = 0ud50_2268011167744
+c     v56 = 0ud50_2281710592
+c     v55 = 0ud50_26665304457216
+c     v54 = 0ud50_4400193999104
+c     v53 = 0ud50_282026880073728
+c     v52 = 0ud50_1110249177088
+c     v51 = 0ud50_19329974400
+c     v50 = 0ud50_89120571408
+c     v49 = 0ud50_19612565504
+c     v48 = 0ud50_17729692115456
+c     v47 = 0ud50_412451078400
+c     v46 = 0ud50_26525718089728
+c     v45 = 0ud50_286010462306304
+c     v44 = 0ud50_1786706919424
+c     v43 = 0ud50_214750461952
+c     v42 = 0ud50_155709341824
+c     v41 = 0ud50_137707405328
+c     v40 = 0ud50_4295237888
+c     v39 = 0ud50_563229126361600
+c     v38 = 0ud50_4429320192
+c     v37 = 0ud50_853225318645760
+c     v36 = 0ud50_5570572582912
+c     v35 = 0ud50_554069655552
+c     v34 = 0ud50_13958660096
+c     v33 = 0ud50_4563402912
+c     v32 = 0ud50_35184472825856
+c     v31 = 0ud50_274911854592
+c     v30 = 0ud50_562984415399936
+c     v29 = 0ud50_281543863959552
+c     v28 = 0ud50_9930014720000
+c     v27 = 0ud50_4398083227648
+c     v26 = 0ud50_550863110176
+c     v25 = 0ud50_8891924544
+c     v24 = 0ud50_140737496883201
+c     v23 = 0ud50_739146692296704
+c     v22 = 0ud50_211174952275968
+c     v21 = 0ud50_985196795005440
+c     v20 = 0ud50_141837134217216
+c     v19 = 0ud50_149534120345632
+c     v18 = 0ud50_145136608608320
+c     v17 = 0ud50_141287512606722
+c     v16 = 0ud50_80224264
+c     v15 = 0ud50_70712354144256
+c     v14 = 0ud50_105587496980480
+c     v13 = 0ud50_351843725361152
+c     v12 = 0ud50_1134412431904
+c     v11 = 0ud50_677380160
+c     v10 = 0ud50_8797707829250
+c     v9 = 0ud50_4398319140868
+c     v8 = 0ud50_68727906304
+c     v7 = 0ud50_274894716936
+c     v6 = 0ud50_70368745279489
+c     v5 = 0ud50_316659348832288
+c     v4 = 0ud50_1099511922752
+c     v3 = 0ud50_540051968
+c     v2 = 0ud50_1207992324
+c     v1 = 0ud50_8796361490432
+c     v0 = 0ud50_0
+c   -> State: 1.2 <-
+c     state.tid = 3
+c     state.vid = 48
+c     state.target = 0ud50_141287512606722
+c   -> State: 1.3 <-
+c     state.token[3] = 0ud50_141287512606722
+c     state.tid = 4
+c     state.vid = 29
+c     state.target = 0ud50_17729692115456
+c   -> State: 1.4 <-
+c     state.token[4] = 0ud50_17729692115456
+c     state.tid = 2
+c     state.vid = 14
+c     state.target = 0ud50_281543863959552
+c   -> State: 1.5 <-
+c     state.token[2] = 0ud50_281543863959552
+c     state.tid = 6
+c     state.vid = 63
+c     state.target = 0ud50_105587496980480
+c   -> State: 1.6 <-
+c     state.token[6] = 0ud50_105587496980480
+c     state.tid = 7
+c     state.vid = 51
+c     state.target = 0ud50_6871947674624
+c   -> State: 1.7 <-
+c     state.token[7] = 0ud50_6871947674624
+c     state.tid = 3
+c     state.vid = 24
+c     state.target = 0ud50_19329974400
+c   -> State: 1.8 <-
+c     state.token[3] = 0ud50_19329974400
+c     state.tid = 4
+c     state.vid = 41
+c     state.target = 0ud50_140737496883201
+c   -> State: 1.9 <-
+c     state.token[4] = 0ud50_140737496883201
+c     state.tid = 5
+c     state.vid = 39
+c     state.target = 0ud50_137707405328
+c   -> State: 1.10 <-
+c     state.token[5] = 0ud50_137707405328
+c     state.tid = 7
+c     state.vid = 61
+c     state.target = 0ud50_563229126361600
+c   -> State: 1.11 <-
+c     state.token[7] = 0ud50_563229126361600
+c     state.tid = 2
+c     state.vid = 26
+c     state.target = 0ud50_283682589901056
+c   -> State: 1.12 <-
+c     state.token[2] = 0ud50_283682589901056
+c     state.tid = 3
+c     state.vid = 51
+c     state.target = 0ud50_550863110176
+c   -> State: 1.13 <-
+c     state.token[3] = 0ud50_550863110176
+c     state.tid = 1
+c     state.vid = 1
+c     state.target = 0ud50_19329974400
+s 59 21 32 34 54 15 44
+t 4 24 26 39 14 61 41
+a YES
+a 15 21 32 34 44 54 59
+a 4 15 21 32 34 54 59
+a 4 15 17 32 34 54 59
+a 4 15 17 34 48 54 59
+a 4 17 29 34 48 54 59
+a 4 14 17 29 34 48 59
+a 4 14 17 29 34 48 63
+a 4 14 17 29 34 48 51
+a 4 14 29 34 48 51 63
+a 4 14 24 29 34 51 63
+a 4 14 24 29 41 51 63
+a 4 14 24 29 39 41 51
+a 4 14 24 39 41 51 61
+a 4 14 24 26 39 41 61

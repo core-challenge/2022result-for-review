@@ -1,0 +1,61 @@
+s 1 8 14 21
+t 7 13 14 21
+a YES
+a 1 14 21 8
+a 14 2 21 8
+a 14 2 21 9
+a 14 21 3 9
+a 10 14 21 3
+a 10 15 21 3
+a 10 15 21 4
+a 10 15 22 4
+a 10 16 22 4
+a 10 16 23 4
+a 10 17 23 4
+a 10 17 24 4
+a 10 18 24 4
+a 10 18 25 4
+a 10 19 25 4
+a 10 19 26 4
+a 10 20 26 4
+a 11 20 26 4
+a 11 20 26 5
+a 12 20 26 5
+a 12 19 26 5
+a 12 19 25 5
+a 12 19 25 6
+a 12 18 25 6
+a 12 18 24 6
+a 12 17 24 6
+a 12 17 23 6
+a 12 16 23 6
+a 12 16 22 6
+a 12 15 22 6
+a 12 15 21 6
+a 12 14 21 6
+a 13 14 21 6
+a 13 14 21 7
+Command exited with non-zero status 10
+	Command being timed: "/Users/macpro/.pyenv/versions/anaconda3-2021.11/bin/clingo ../solver/core_compet2.lp --stats --quiet=1,0 --time-limit=7200 ../encoding/isrpTJ_exact1_allhint_inc.lp --heu=domain ../../benchmark/3rd-benchmark/asp/sp002.lp ../../benchmark/3rd-benchmark/asp/sp002_01.lp"
+	User time (seconds): 1.55
+	System time (seconds): 0.01
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.56
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 20732
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5371
+	Voluntary context switches: 2
+	Involuntary context switches: 14
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 10

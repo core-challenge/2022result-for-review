@@ -1,0 +1,33 @@
+c #BEGIN: [Sat Mar 19 16:51:02 2022]
+c #HOST: mini01.local
+c #TIMELIMIT: 18000
+c #MEMLIMIT: 0
+c #FREQ: 10
+c #SOLVER: isr-bug-finder
+c #CSP: benchmark/graph-instance/core-challenge-2022/color04/wap04a.col benchmark/graph-instance/core-challenge-2022/color04/wap04a_02.dat
+c #COMMAND: /Users/soh/app/scala-2.12.4/bin/scala -J-Xms16g -J-Xmx16g -cp /Users/soh/app/IsrForCompetition220315-22h16m/scop.jar:/Users/soh/app/IsrForCompetition220315-22h16m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj03 benchmark/graph-instance/core-challenge-2022/color04/wap04a.col benchmark/graph-instance/core-challenge-2022/color04/wap04a_02.dat cadical /Users/soh/app/IsrForCompetition220315-22h16m/cadical
+c (1) step 1 UNSAT 31386 663032
+c (1) step 2 UNSAT 57540 1025932
+c (2) step 3 UNSAT 83694 1388832
+c (2) step 4 UNSAT 109848 1751732
+c (3) step 5 UNSAT 136002 2114632
+c (4) step 6 UNSAT 162156 2477532
+c (5) step 7 UNSAT 188310 2840432
+c (8) step 8 UNSAT 214464 3203332
+c (23) step 9 UNSAT 240618 3566232
+c (37) step 10 UNSAT 266772 3929132
+c (74) step 11 UNSAT 292926 4292032
+c (150) step 12 UNSAT 319080 4654932
+c (355) step 13 UNSAT 345234 5017832
+c (736) step 14 UNSAT 371388 5380732
+c (1517) step 15 UNSAT 397542 5743632
+c (2716) step 16 UNSAT 423696 6106532
+c (6020) step 17 UNSAT 449850 6469432
+c (11374) step 18 UNSAT 476004 6832332
+TIMEOUT CPU 18000 MEM 0 MAXMEM 0
+c #RESULT: UNK
+c #FIN: TO
+c #CPU: 18000
+c #MAXMEM: 0
+c 00398 killed(2). 00384 killed(2). 00385 killed(2). 00398 killed(9). 00384 killed(9). 00385 killed(9). 
+c #END: [Sat Mar 19 21:51:03 2022]

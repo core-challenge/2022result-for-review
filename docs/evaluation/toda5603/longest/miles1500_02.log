@@ -1,0 +1,195 @@
+c model ISR_TJ
+c  /home/toda/src/NuSMV-2.6.0-Linux_untouched/binary/bin/NuSMV -bmc -bmc_length 20 -n 0 /home/toda/2022solver/bin/../tmp/miles1500_02.smv > miles1500_02.log
+c ECC Heuristic Algorithm by Alessio Conte, Roberto Grossi and Andrea Marino. University of Pisa.
+c This code is compiled using Java 1.8
+c Parsing: 128
+c Reading graph from file..
+c Removing duplicates.................
+c Done.
+c Algotithm object created, class=it.unipi.di.clq.eps.lists.EPSc
+c Edges: 5198
+c 0 cliques
+c 2 cliques
+c 4 cliques
+c 8 cliques
+c 16 cliques
+c 32 cliques
+c The solution is correct.
+c Cliques: 54
+c Sum: 707
+c MaxSize: 0
+c Time: 73
+c Aborted: false
+c ML = 127
+c SIZE = 128
+c Removed 0 cliques to minimalize solution.
+c Result saved!
+c Clique size distribution: {[2,11][3,4][4,2][5,5][6,4][7,4][8,2][10,4][11,1][12,1][15,1][16,1][17,1][20,2][21,1][23,1][24,2][27,1][29,1][40,1][49,1][51,1][65,1][68,1]}
+c NODE covering index distribution:{[2,3][3,17][4,18][5,25][6,28][7,20][8,8][9,9]}
+c EDGE covering index distrubution:{[1,2165][2,1541][3,899][4,375][5,115][6,55][7,45][8,3]}
+c Total edges:5198
+c Distributions saved!
+c *** This is NuSMV 2.6.0 (compiled on Wed Oct 14 15:36:56 2015)
+c *** Enabled addons are: compass
+c *** For more information on NuSMV see <http://nusmv.fbk.eu>
+c *** or email to <nusmv-users@list.fbk.eu>.
+c *** Please report bugs to <Please report bugs to <nusmv-users@fbk.eu>>
+c 
+c *** Copyright (c) 2010-2014, Fondazione Bruno Kessler
+c 
+c *** This version of NuSMV is linked to the CUDD library version 2.4.1
+c *** Copyright (c) 1995-2004, Regents of the University of Colorado
+c 
+c *** This version of NuSMV is linked to the MiniSat SAT solver. 
+c *** See http://minisat.se/MiniSat.html
+c *** Copyright (c) 2003-2006, Niklas Een, Niklas Sorensson
+c *** Copyright (c) 2007-2010, Niklas Sorensson
+c 
+c -- specification  G ((((state.token[1] = v36 & state.token[2] = v51) & state.token[3] = v85) & state.token[4] = v119) ->  G !((((((state.token[1] = v36 | state.token[1] = v51) | state.token[1] = v85) | state.token[1] = v119) & (((state.token[2] = v36 | state.token[2] = v51) | state.token[2] = v85) | state.token[2] = v119)) & (((state.token[3] = v36 | state.token[3] = v51) | state.token[3] = v85) | state.token[3] = v119)) & (((state.token[4] = v36 | state.token[4] = v51) | state.token[4] = v85) | state.token[4] = v119)))    is false
+c -- as demonstrated by the following execution sequence
+c Trace Description: BMC Counterexample 
+c Trace Type: Counterexample 
+c   -> State: 1.1 <-
+c     state.token[1] = 0ud54_4785074604114944
+c     state.token[2] = 0ud54_675100139454464
+c     state.token[3] = 0ud54_2251799880794112
+c     state.token[4] = 0ud54_1267736906825729
+c     state.tid = 4
+c     state.vid = 128
+c     state.target = 0ud54_0
+c     v128 = 0ud54_13723556537958402
+c     v127 = 0ud54_13651553684553728
+c     v126 = 0ud54_13721905114644480
+c     v125 = 0ud54_9927490487189504
+c     v124 = 0ud54_2260604496642048
+c     v123 = 0ud54_13721905131421696
+c     v122 = 0ud54_13652635882094592
+c     v121 = 0ud54_603082196000776
+c     v120 = 0ud54_1197372591841280
+c     v119 = 0ud54_1267736906825729
+c     v118 = 0ud54_4785074872516608
+c     v117 = 0ud54_9646239117213696
+c     v116 = 0ud54_4802683969994752
+c     v115 = 0ud54_13654010275823624
+c     v114 = 0ud54_13586665184428032
+c     v113 = 0ud54_13528408248156160
+c     v112 = 0ud54_1126080295469152
+c     v111 = 0ud54_13528391068286977
+c     v110 = 0ud54_13726337520893952
+c     v109 = 0ud54_10366196700479488
+c     v108 = 0ud54_13726337520893952
+c     v107 = 0ud54_13721905131421696
+c     v106 = 0ud54_158329674432512
+c     v105 = 0ud54_9681251690610688
+c     v104 = 0ud54_2260604496642048
+c     v103 = 0ud54_9219439896035328
+c     v102 = 0ud54_10207883134304256
+c     v101 = 0ud54_9360694398943744
+c     v100 = 0ud54_13582819049603072
+c     v99 = 0ud54_13722454887235584
+c     v98 = 0ud54_10344205394125072
+c     v97 = 0ud54_676216833048580
+c     v96 = 0ud54_13651536506781696
+c     v95 = 0ud54_4644338323685376
+c     v94 = 0ud54_13530590091411456
+c     v93 = 0ud54_13528408248156160
+c     v92 = 0ud54_13723556529569792
+c     v91 = 0ud54_13723556529569792
+c     v90 = 0ud54_9083118438843392
+c     v89 = 0ud54_13651536538238976
+c     v88 = 0ud54_13723556529569792
+c     v87 = 0ud54_3945084227682304
+c     v86 = 0ud54_4785074872549376
+c     v85 = 0ud54_2251799880794112
+c     v84 = 0ud54_13651536370466816
+c     v83 = 0ud54_13512997909561344
+c     v82 = 0ud54_4785075948388352
+c     v81 = 0ud54_2814887206060032
+c     v80 = 0ud54_10207888500850688
+c     v79 = 0ud54_13726337520893952
+c     v78 = 0ud54_9364540533785088
+c     v77 = 0ud54_3377699720527872
+c     v76 = 0ud54_13723556529569792
+c     v75 = 0ud54_13651553684553856
+c     v74 = 0ud54_9364574893523456
+c     v73 = 0ud54_13582819049603072
+c     v72 = 0ud54_1267736907087872
+c     v71 = 0ud54_13651536540336128
+c     v70 = 0ud54_13652635882094592
+c     v69 = 0ud54_13530590095736832
+c     v68 = 0ud54_13723556529569792
+c     v67 = 0ud54_9236998527156256
+c     v66 = 0ud54_13721905131429888
+c     v65 = 0ud54_676216898060288
+c     v64 = 0ud54_13723004626272256
+c     v63 = 0ud54_2814749767122944
+c     v62 = 0ud54_13723556529569792
+c     v61 = 0ud54_4785074872614912
+c     v60 = 0ud54_4644338323751424
+c     v59 = 0ud54_2260595907760192
+c     v58 = 0ud54_4802683969995008
+c     v57 = 0ud54_9237031544684544
+c     v56 = 0ud54_4644338323750912
+c     v55 = 0ud54_9237031544684544
+c     v54 = 0ud54_3377700257398784
+c     v53 = 0ud54_4802683970519040
+c     v52 = 0ud54_13722454887235584
+c     v51 = 0ud54_675100139454464
+c     v50 = 0ud54_2287052905250816
+c     v49 = 0ud54_2260595907760192
+c     v48 = 0ud54_3945082080198658
+c     v47 = 0ud54_1131545674907648
+c     v46 = 0ud54_4802683969994752
+c     v45 = 0ud54_13530590095736833
+c     v44 = 0ud54_1337281017413632
+c     v43 = 0ud54_13723556537958400
+c     v42 = 0ud54_2295780278796288
+c     v41 = 0ud54_4802668134924288
+c     v40 = 0ud54_2260604496642048
+c     v39 = 0ud54_9364540533850112
+c     v38 = 0ud54_4802668134400000
+c     v37 = 0ud54_1703143511425024
+c     v36 = 0ud54_4785074604114944
+c     v35 = 0ud54_3945631836012544
+c     v34 = 0ud54_603082194948096
+c     v33 = 0ud54_1806497671544960
+c     v32 = 0ud54_1738330114883584
+c     v31 = 0ud54_1341958240995328
+c     v30 = 0ud54_13528408248025088
+c     v29 = 0ud54_3377700257398784
+c     v28 = 0ud54_13722457017942016
+c     v27 = 0ud54_13723588741824512
+c     v26 = 0ud54_2260604496642048
+c     v25 = 0ud54_4802683969994752
+c     v24 = 0ud54_13528408248025088
+c     v23 = 0ud54_13651811416145920
+c     v22 = 0ud54_4785074604081152
+c     v21 = 0ud54_2260604497690624
+c     v20 = 0ud54_13528408248027136
+c     v19 = 0ud54_9360694399008768
+c     v18 = 0ud54_2260604496642048
+c     v17 = 0ud54_2251799814737920
+c     v16 = 0ud54_4012667689762816
+c     v15 = 0ud54_2260608791871488
+c     v14 = 0ud54_9291423010521600
+c     v13 = 0ud54_13651536504684544
+c     v12 = 0ud54_1769389086998528
+c     v11 = 0ud54_2251799880794116
+c     v10 = 0ud54_13528408248156160
+c     v9 = 0ud54_2260733346713600
+c     v8 = 0ud54_13723556537958400
+c     v7 = 0ud54_13513822555865088
+c     v6 = 0ud54_13651536538238976
+c     v5 = 0ud54_3945082088587264
+c     v4 = 0ud54_2260604496642048
+c     v3 = 0ud54_2819289547538448
+c     v2 = 0ud54_13651553550336000
+c     v1 = 0ud54_10366195626672128
+c     v0 = 0ud54_0
+s 17 22 51 112
+t 36 51 85 119
+a YES
+a 17 22 51 112
+a 22 51 85 112
+a 36 51 85 112
+a 36 51 85 119

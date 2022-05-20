@@ -1,0 +1,74 @@
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/queen/queen020x020.col
+c Target file: benchmark/queen/queen020x020_04_0961.dat
+c Size of independent set: 19
+c Number of nodes of graph: 400
+c Number of edges of graph: 12540
+c Average degree of graph: 62.70
+s 9 52 68 91 107 138 146 179 193 216 234 260 270 285 303 321 344 362 397 
+t 16 31 49 72 86 108 138 147 179 193 237 260 270 285 303 321 344 362 394 
+c BFS found 24 new nodes in level 1 (total 25/167772160)
+c BFS found 58 new nodes in level 2 (total 83/167772160)
+c BFS found 279 new nodes in level 3 (total 362/167772160)
+c BFS found 843 new nodes in level 4 (total 1198/167772160)
+c BFS found 2730 new nodes in level 5 (total 3927/167772160)
+c BFS found 8718 new nodes in level 6 (total 12606/167772160)
+c R=9
+c R=10
+c R=11
+c R=12
+c BFS found 27414 new nodes in level 7 (total 39970/167772160)
+c R=13
+c R=14
+c R=15
+c R=16
+c R=17
+c R=18
+c Found with: Iterative A*-Search
+a YES
+a 9 52 68 91 107 138 146 179 193 216 234 260 270 285 303 321 344 362 397 
+a 9 52 68 91 107 138 146 179 193 216 234 260 270 295 303 321 344 362 397 
+a 9 52 68 91 107 138 146 179 193 216 225 260 270 295 303 321 344 362 397 
+a 9 52 68 91 107 138 146 179 193 216 225 260 270 295 303 321 344 362 394 
+a 9 57 68 91 107 138 146 179 193 216 225 260 270 295 303 321 344 362 394 
+a 9 57 68 91 107 138 146 179 193 216 225 260 270 295 303 332 344 362 394 
+a 9 57 61 91 107 138 146 179 193 216 225 260 270 295 303 332 344 362 394 
+a 9 26 57 61 91 107 138 179 193 216 225 260 270 295 303 332 344 362 394 
+a 9 26 57 61 91 138 147 179 193 216 225 260 270 295 303 332 344 362 394 
+a 9 26 57 61 108 138 147 179 193 216 225 260 270 295 303 332 344 362 394 
+a 9 57 61 86 108 138 147 179 193 216 225 260 270 295 303 332 344 362 394 
+a 9 31 57 61 86 108 138 147 179 193 216 225 260 270 295 303 344 362 394 
+a 9 31 57 86 108 138 147 179 193 216 225 260 270 295 303 321 344 362 394 
+a 31 57 72 86 108 138 147 179 193 216 225 260 270 295 303 321 344 362 394 
+a 31 49 72 86 108 138 147 179 193 216 225 260 270 295 303 321 344 362 394 
+a 5 31 49 72 86 108 138 147 179 193 216 260 270 295 303 321 344 362 394 
+a 5 31 49 72 86 108 138 147 179 193 237 260 270 295 303 321 344 362 394 
+a 16 31 49 72 86 108 138 147 179 193 237 260 270 295 303 321 344 362 394 
+a 16 31 49 72 86 108 138 147 179 193 237 260 270 285 303 321 344 362 394 
+c Length: 18
+	Command being timed: "src/recon_th benchmark/queen/queen020x020.col benchmark/queen/queen020x020_04_0961.dat"
+	User time (seconds): 0.45
+	System time (seconds): 0.04
+	Percent of CPU this job got: 196%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 278652
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69295
+	Voluntary context switches: 4
+	Involuntary context switches: 10
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

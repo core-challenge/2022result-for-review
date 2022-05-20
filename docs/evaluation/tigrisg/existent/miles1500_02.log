@@ -1,0 +1,7 @@
+c nb_vertices=128 nb_token=4
+c LENGTH 3
+a YES
+a 17 22 51 112 
+a 17 36 51 112 
+a 17 36 51 119 
+a 36 51 85 119 

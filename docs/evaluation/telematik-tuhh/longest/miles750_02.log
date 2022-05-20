@@ -1,0 +1,50 @@
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/color04/miles750.col
+c Target file: benchmark/color04/miles750_02.dat
+c Size of independent set: 11
+c Number of nodes of graph: 128
+c Number of edges of graph: 2113
+c Average degree of graph: 33.02
+s 3 14 17 22 33 34 40 64 72 111 112 
+t 7 22 34 42 64 72 77 87 95 111 117 
+c BFS found 31 new nodes in level 1 (total 32/223696213)
+c BFS found 323 new nodes in level 2 (total 355/223696213)
+c BFS found 1631 new nodes in level 3 (total 1986/223696213)
+c BFS found 5398 new nodes in level 4 (total 7379/223696213)
+c R=6
+c Found with: Iterative A*-Search
+a YES
+a 3 14 17 22 33 34 40 64 72 111 112 
+a 3 14 17 22 34 40 64 72 111 112 117 
+a 3 14 17 22 34 40 64 72 95 111 117 
+a 14 17 22 34 40 64 72 87 95 111 117 
+a 14 17 22 34 64 72 77 87 95 111 117 
+a 14 22 34 42 64 72 77 87 95 111 117 
+a 7 22 34 42 64 72 77 87 95 111 117 
+c Length: 6
+	Command being timed: "src/recon_th benchmark/color04/miles750.col benchmark/color04/miles750_02.dat"
+	User time (seconds): 0.06
+	System time (seconds): 0.03
+	Percent of CPU this job got: 190%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 266888
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 66338
+	Voluntary context switches: 4
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

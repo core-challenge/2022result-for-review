@@ -1,0 +1,91 @@
+c model ISR_TJ
+c  /home/toda/src/NuSMV-2.6.0-Linux_untouched/binary/bin/NuSMV -bmc -bmc_length 100 -n 0 /home/toda/2022solver/bin/../tmp/hc-toyyes-01_01.smv > hc-toyyes-01_01.log
+c ECC Heuristic Algorithm by Alessio Conte, Roberto Grossi and Andrea Marino. University of Pisa.
+c This code is compiled using Java 1.8
+c Parsing: 7
+c Reading graph from file..
+c Removing duplicates.................
+c Done.
+c Algotithm object created, class=it.unipi.di.clq.eps.lists.EPSc
+c Edges: 7
+c 0 cliques
+c 2 cliques
+c 4 cliques
+c The solution is correct.
+c Cliques: 7
+c Sum: 14
+c MaxSize: 0
+c Time: 9
+c Aborted: false
+c ML = 6
+c SIZE = 7
+c Removed 0 cliques to minimalize solution.
+c Result saved!
+c Clique size distribution: {[2,7]}
+c NODE covering index distribution:{[1,1][2,5][3,1]}
+c EDGE covering index distrubution:{[1,7]}
+c Total edges:7
+c Distributions saved!
+c *** This is NuSMV 2.6.0 (compiled on Wed Oct 14 15:36:56 2015)
+c *** Enabled addons are: compass
+c *** For more information on NuSMV see <http://nusmv.fbk.eu>
+c *** or email to <nusmv-users@list.fbk.eu>.
+c *** Please report bugs to <Please report bugs to <nusmv-users@fbk.eu>>
+c 
+c *** Copyright (c) 2010-2014, Fondazione Bruno Kessler
+c 
+c *** This version of NuSMV is linked to the CUDD library version 2.4.1
+c *** Copyright (c) 1995-2004, Regents of the University of Colorado
+c 
+c *** This version of NuSMV is linked to the MiniSat SAT solver. 
+c *** See http://minisat.se/MiniSat.html
+c *** Copyright (c) 2003-2006, Niklas Een, Niklas Sorensson
+c *** Copyright (c) 2007-2010, Niklas Sorensson
+c 
+c -- no counterexample found with bound 0
+c -- no counterexample found with bound 1
+c -- no counterexample found with bound 2
+c -- no counterexample found with bound 3
+c -- specification  G (((state.token[1] = v3 & state.token[2] = v6) & state.token[3] = v7) ->  G !((((state.token[1] = v4 | state.token[1] = v5) | state.token[1] = v7) & ((state.token[2] = v4 | state.token[2] = v5) | state.token[2] = v7)) & ((state.token[3] = v4 | state.token[3] = v5) | state.token[3] = v7)))    is false
+c -- as demonstrated by the following execution sequence
+c Trace Description: BMC Counterexample 
+c Trace Type: Counterexample 
+c   -> State: 1.1 <-
+c     state.token[1] = 0ud7_25
+c     state.token[2] = 0ud7_34
+c     state.token[3] = 0ud7_4
+c     state.tid = 1
+c     state.vid = 1
+c     state.target = 0ud7_0
+c     v7 = 0ud7_4
+c     v6 = 0ud7_34
+c     v5 = 0ud7_3
+c     v4 = 0ud7_40
+c     v3 = 0ud7_25
+c     v2 = 0ud7_68
+c     v1 = 0ud7_80
+c     v0 = 0ud7_0
+c   -> State: 1.2 <-
+c     state.vid = 5
+c     state.target = 0ud7_80
+c   -> State: 1.3 <-
+c     state.token[1] = 0ud7_80
+c     state.tid = 2
+c     state.vid = 4
+c     state.target = 0ud7_3
+c   -> State: 1.4 <-
+c     state.token[2] = 0ud7_3
+c     state.tid = 1
+c     state.vid = 3
+c     state.target = 0ud7_40
+c   -> State: 1.5 <-
+c     state.token[1] = 0ud7_40
+c     state.vid = 1
+c     state.target = 0ud7_25
+s 3 6 7
+t 4 5 7
+a YES
+a 3 6 7
+a 1 6 7
+a 1 5 7
+a 4 5 7

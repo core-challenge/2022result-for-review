@@ -1,0 +1,106 @@
+c #BEGIN: [Sun Mar 20 02:52:58 2022]
+c #HOST: mini01.local
+c #TIMELIMIT: 18000
+c #MEMLIMIT: 0
+c #FREQ: 10
+c #SOLVER: isr-bug-finder
+c #CSP: benchmark/graph-instance/core-challenge-2022/sp/sp002.col benchmark/graph-instance/core-challenge-2022/sp/sp002_01.dat
+c #COMMAND: /Users/soh/app/scala-2.12.4/bin/scala -J-Xms16g -J-Xmx16g -cp /Users/soh/app/IsrForCompetition220315-22h16m/scop.jar:/Users/soh/app/IsrForCompetition220315-22h16m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj03 benchmark/graph-instance/core-challenge-2022/sp/sp002.col benchmark/graph-instance/core-challenge-2022/sp/sp002_01.dat cadical /Users/soh/app/IsrForCompetition220315-22h16m/cadical
+c (0) step 1 UNSAT 156 658
+c (0) step 2 UNSAT 285 1141
+c (0) step 3 UNSAT 414 1624
+c (0) step 4 UNSAT 543 2107
+c (0) step 5 UNSAT 672 2590
+c (0) step 6 UNSAT 801 3073
+c (0) step 7 UNSAT 930 3556
+c (0) step 8 UNSAT 1059 4039
+c (0) step 9 UNSAT 1188 4522
+c (0) step 10 UNSAT 1317 5005
+c (0) step 11 UNSAT 1446 5488
+c (0) step 12 UNSAT 1575 5971
+c (0) step 13 UNSAT 1704 6454
+c (0) step 14 UNSAT 1833 6937
+c (0) step 15 UNSAT 1962 7420
+c (0) step 16 UNSAT 2091 7903
+c (0) step 17 UNSAT 2220 8386
+c (0) step 18 UNSAT 2349 8869
+c (0) step 19 UNSAT 2478 9352
+c (0) step 20 UNSAT 2607 9835
+c (0) step 21 UNSAT 2736 10318
+c (0) step 22 UNSAT 2865 10801
+c (0) step 23 UNSAT 2994 11284
+c (0) step 24 UNSAT 3123 11767
+c (0) step 25 UNSAT 3252 12250
+c (0) step 26 UNSAT 3381 12733
+c (0) step 27 UNSAT 3510 13216
+c (0) step 28 UNSAT 3639 13699
+c (0) step 29 UNSAT 3768 14182
+c (0) step 30 UNSAT 3897 14665
+c (0) step 31 UNSAT 4026 15148
+c (0) step 32 UNSAT 4155 15631
+c (0) step 33 SAT 4284 16114
+a YES
+a 1 8 14 21
+a 2 8 14 21
+a 2 9 14 21
+a 3 9 14 21
+a 3 10 14 21
+a 3 10 15 21
+a 3 10 15 22
+a 3 10 16 22
+a 3 10 16 23
+a 3 10 17 23
+a 3 10 17 24
+a 3 10 18 24
+a 3 10 18 25
+a 3 10 19 25
+a 3 10 19 26
+a 3 10 20 26
+a 4 10 20 26
+a 4 11 20 26
+a 5 11 20 26
+a 5 12 20 26
+a 5 12 19 26
+a 5 12 19 25
+a 5 12 18 25
+a 5 12 18 24
+a 5 12 17 24
+a 5 12 17 23
+a 5 12 16 23
+a 5 12 16 22
+a 5 12 15 22
+a 5 12 15 21
+a 5 12 14 21
+a 6 12 14 21
+a 6 13 14 21
+a 7 13 14 21
+	Command being timed: "/Users/soh/app/scala-2.12.4/bin/scala -J-Xms16g -J-Xmx16g -cp /Users/soh/app/IsrForCompetition220315-22h16m/scop.jar:/Users/soh/app/IsrForCompetition220315-22h16m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj03 benchmark/graph-instance/core-challenge-2022/sp/sp002.col benchmark/graph-instance/core-challenge-2022/sp/sp002_01.dat cadical /Users/soh/app/IsrForCompetition220315-22h16m/cadical"
+	User time (seconds): 2.18
+	System time (seconds): 0.12
+	Percent of CPU this job got: 142%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 675905536
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 49376
+	Voluntary context switches: 41
+	Involuntary context switches: 3725
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 42
+	Socket messages received: 0
+	Signals delivered: 6
+	Page size (bytes): 4096
+	Exit status: 0
+c FINISHED CPU 2.3 MEM 0 MAXMEM 0 STALE 1
+c #RESULT: UNK
+c #FIN: FIN
+c #CPU: 2.3
+c #MAXMEM: 0
+c 
+c #END: [Sun Mar 20 02:53:00 2022]

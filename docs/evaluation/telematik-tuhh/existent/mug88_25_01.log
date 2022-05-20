@@ -1,0 +1,51 @@
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/color04/mug88_25.col
+c Target file: benchmark/color04/mug88_25_01.dat
+c Size of independent set: 29
+c Number of nodes of graph: 88
+c Number of edges of graph: 146
+c Average degree of graph: 3.32
+s 3 7 8 11 16 19 22 24 26 29 34 37 40 43 46 49 50 55 58 59 63 67 70 73 76 77 80 85 88 
+t 3 7 8 11 16 18 21 22 24 26 29 34 37 39 42 46 49 50 55 56 59 63 66 69 73 77 80 85 88 
+c BFS found 31 new nodes in level 1 (total 32/244032232)
+c BFS found 459 new nodes in level 2 (total 491/244032232)
+c BFS found 4332 new nodes in level 3 (total 4823/244032232)
+c BFS found 29344 new nodes in level 4 (total 34166/244032232)
+c R=7
+c Found with: Iterative A*-Search
+a YES
+a 3 7 8 11 16 19 22 24 26 29 34 37 40 43 46 49 50 55 58 59 63 67 70 73 76 77 80 85 88 
+a 3 7 8 11 16 19 22 24 26 29 34 37 40 43 46 49 50 55 58 59 63 67 69 73 76 77 80 85 88 
+a 3 7 8 11 16 19 22 24 26 29 34 37 40 43 46 49 50 55 58 59 63 66 69 73 76 77 80 85 88 
+a 3 7 8 11 16 19 22 24 26 29 34 37 40 43 46 49 50 55 56 59 63 66 69 73 76 77 80 85 88 
+a 3 7 8 11 16 19 22 24 26 29 34 37 40 42 46 49 50 55 56 59 63 66 69 73 76 77 80 85 88 
+a 3 7 8 11 16 19 22 24 26 29 34 37 39 42 46 49 50 55 56 59 63 66 69 73 76 77 80 85 88 
+a 3 7 8 11 16 19 21 22 24 26 29 34 37 39 42 46 49 50 55 56 59 63 66 69 73 77 80 85 88 
+a 3 7 8 11 16 18 21 22 24 26 29 34 37 39 42 46 49 50 55 56 59 63 66 69 73 77 80 85 88 
+c Length: 7
+	Command being timed: "src/recon_th benchmark/color04/mug88_25.col benchmark/color04/mug88_25_01.dat"
+	User time (seconds): 0.07
+	System time (seconds): 0.03
+	Percent of CPU this job got: 187%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 268356
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 66682
+	Voluntary context switches: 5
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

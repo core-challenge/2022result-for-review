@@ -1,0 +1,87 @@
+c model ISR_TJ
+c  /home/toda/src/NuSMV-2.6.0-Linux_untouched/binary/bin/NuSMV -bmc -bmc_length 100 -n 0 /home/toda/2022solver/bin/../tmp/myciel3_01.smv > myciel3_01.log
+c ECC Heuristic Algorithm by Alessio Conte, Roberto Grossi and Andrea Marino. University of Pisa.
+c This code is compiled using Java 1.8
+c Parsing: 11
+c Reading graph from file..
+c Removing duplicates.................
+c Done.
+c Algotithm object created, class=it.unipi.di.clq.eps.lists.EPSc
+c Edges: 20
+c 0 cliques
+c 2 cliques
+c 4 cliques
+c 8 cliques
+c 16 cliques
+c The solution is correct.
+c Cliques: 20
+c Sum: 40
+c MaxSize: 0
+c Time: 10
+c Aborted: false
+c ML = 10
+c SIZE = 11
+c Removed 0 cliques to minimalize solution.
+c Result saved!
+c Clique size distribution: {[2,20]}
+c NODE covering index distribution:{[3,5][4,5][5,1]}
+c EDGE covering index distrubution:{[1,20]}
+c Total edges:20
+c Distributions saved!
+c *** This is NuSMV 2.6.0 (compiled on Wed Oct 14 15:36:56 2015)
+c *** Enabled addons are: compass
+c *** For more information on NuSMV see <http://nusmv.fbk.eu>
+c *** or email to <nusmv-users@list.fbk.eu>.
+c *** Please report bugs to <Please report bugs to <nusmv-users@fbk.eu>>
+c 
+c *** Copyright (c) 2010-2014, Fondazione Bruno Kessler
+c 
+c *** This version of NuSMV is linked to the CUDD library version 2.4.1
+c *** Copyright (c) 1995-2004, Regents of the University of Colorado
+c 
+c *** This version of NuSMV is linked to the MiniSat SAT solver. 
+c *** See http://minisat.se/MiniSat.html
+c *** Copyright (c) 2003-2006, Niklas Een, Niklas Sorensson
+c *** Copyright (c) 2007-2010, Niklas Sorensson
+c 
+c -- no counterexample found with bound 0
+c -- no counterexample found with bound 1
+c -- specification  G ((((state.token[1] = v3 & state.token[2] = v6) & state.token[3] = v8) & state.token[4] = v9) ->  G !((((((state.token[1] = v3 | state.token[1] = v4) | state.token[1] = v8) | state.token[1] = v9) & (((state.token[2] = v3 | state.token[2] = v4) | state.token[2] = v8) | state.token[2] = v9)) & (((state.token[3] = v3 | state.token[3] = v4) | state.token[3] = v8) | state.token[3] = v9)) & (((state.token[4] = v3 | state.token[4] = v4) | state.token[4] = v8) | state.token[4] = v9)))    is false
+c -- as demonstrated by the following execution sequence
+c Trace Description: BMC Counterexample 
+c Trace Type: Counterexample 
+c   -> State: 1.1 <-
+c     state.token[1] = 0ud20_33304
+c     state.token[2] = 0ud20_397312
+c     state.token[3] = 0ud20_70
+c     state.token[4] = 0ud20_67840
+c     state.tid = 1
+c     state.vid = 4
+c     state.target = 0ud20_0
+c     v11 = 0ud20_150530
+c     v10 = 0ud20_49153
+c     v9 = 0ud20_67840
+c     v8 = 0ud20_70
+c     v7 = 0ud20_1072
+c     v6 = 0ud20_397312
+c     v5 = 0ud20_456
+c     v4 = 0ud20_786561
+c     v3 = 0ud20_33304
+c     v2 = 0ud20_12804
+c     v1 = 0ud20_598048
+c     v0 = 0ud20_0
+c   -> State: 1.2 <-
+c     state.tid = 2
+c     state.vid = 5
+c     state.target = 0ud20_786561
+c   -> State: 1.3 <-
+c     state.token[2] = 0ud20_786561
+c     state.tid = 1
+c     state.vid = 1
+c     state.target = 0ud20_456
+s 6 8 9 10
+t 3 4 8 9
+a YES
+a 6 8 9 10
+a 3 6 8 9
+a 3 4 8 9

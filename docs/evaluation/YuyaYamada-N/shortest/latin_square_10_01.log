@@ -1,0 +1,29 @@
+s 62 151 243 327 440 615 702 786 894 
+t 62 151 243 327 440 531 615 702 786
+a YES
+a 151 243 327 440 615 62 702 786 894
+a 151 243 327 440 531 615 62 702 786
+Command exited with non-zero status 10
+	Command being timed: "/Users/macpro/.pyenv/versions/anaconda3-2021.11/bin/clingo ../solver/core_compet2.lp --stats --quiet=1,0 --time-limit=7200 ../encoding/isrpTJ_exact1_allhint_inc.lp --heu=domain ../../benchmark/3rd-benchmark/asp/latin_square_10.lp ../../benchmark/3rd-benchmark/asp/latin_square_10_01.lp"
+	User time (seconds): 4.75
+	System time (seconds): 0.23
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.99
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 287612
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72356
+	Voluntary context switches: 4
+	Involuntary context switches: 21
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 10

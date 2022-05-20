@@ -1,0 +1,42 @@
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/color04/le450_5c.col
+c Target file: benchmark/color04/le450_5c_01.dat
+c Size of independent set: 89
+c Number of nodes of graph: 450
+c Number of edges of graph: 9803
+c Average degree of graph: 43.57
+s 2 7 12 17 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 122 127 132 137 142 147 152 157 162 167 172 177 182 187 192 197 202 207 212 217 222 227 232 237 242 247 252 257 262 267 272 277 282 287 292 297 302 307 312 317 322 327 332 342 347 352 357 362 367 372 377 382 387 392 397 402 407 412 417 422 427 432 437 442 447 
+t 2 7 12 17 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 122 127 132 137 142 147 152 157 162 167 172 177 182 187 192 197 202 207 212 217 222 227 232 237 242 247 252 257 262 267 272 282 287 292 297 302 307 312 317 322 327 332 337 342 347 352 357 362 367 372 377 382 387 392 397 402 407 412 417 422 427 432 437 442 447 
+c BFS exiting found=true count=34 max_count=157903209
+c R=1
+c Found with: Breadth First Search
+a YES
+a 2 7 12 17 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 122 127 132 137 142 147 152 157 162 167 172 177 182 187 192 197 202 207 212 217 222 227 232 237 242 247 252 257 262 267 272 277 282 287 292 297 302 307 312 317 322 327 332 342 347 352 357 362 367 372 377 382 387 392 397 402 407 412 417 422 427 432 437 442 447 
+a 2 7 12 17 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 122 127 132 137 142 147 152 157 162 167 172 177 182 187 192 197 202 207 212 217 222 227 232 237 242 247 252 257 262 267 272 282 287 292 297 302 307 312 317 322 327 332 337 342 347 352 357 362 367 372 377 382 387 392 397 402 407 412 417 422 427 432 437 442 447 
+c Length: 1
+	Command being timed: "src/recon_th benchmark/color04/le450_5c.col benchmark/color04/le450_5c_01.dat"
+	User time (seconds): 0.01
+	System time (seconds): 0.03
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 264240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 65643
+	Voluntary context switches: 5
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 192
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
