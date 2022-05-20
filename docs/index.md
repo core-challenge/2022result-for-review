@@ -2,7 +2,7 @@
 # Summary
 
 
-- This page is private and only for reviewing purpose for a while. 
+- This page is only for reviewing purpose. 
 
 - Raw results in this page are currently under review. 
 
