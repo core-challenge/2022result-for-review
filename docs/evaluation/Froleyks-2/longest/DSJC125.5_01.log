@@ -1,0 +1,117 @@
+c array.sh: col:      /home/froleyks/reconf/2022benchmark/benchmark/color04/DSJC125.5.col
+c array.sh: dat:      /home/froleyks/reconf/2022benchmark/benchmark/color04/DSJC125.5_01.dat
+c array.sh: name:     DSJC125.5_01
+c array.sh: task:     9
+c array.sh: host:     c3n12
+c array.sh: uname:    Linux c3n12 5.4.0-110-generic #124-Ubuntu SMP Thu Apr 14 19:46:19 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+c array.sh: start:    Fri 27 May 2022 03:13:38 PM CEST
+c array.sh: noturbo:  1
+c array.sh: governor: 32 performance
+c array.sh: tmp:      1%
+c 0.0080: solving longest 21950178-9-DSJC125_5_01
+c 0.0080: Upper bound on solution length 1000000000
+c 0.0080: Makespan 1
+c 0.0110: Makespan 2
+c 0.0160: Makespan 3
+c 0.0210: Makespan 4
+c 0.0270: Found solution, length 5
+c 0.0280: Makespan 5
+c 0.0380: Found solution, length 6
+c 0.0390: Makespan 6
+c 0.0470: Found solution, length 7
+c 0.0480: Makespan 7
+c 0.0550: Found solution, length 8
+c 0.0560: Makespan 8
+c 0.0690: Found solution, length 9
+c 0.0700: Makespan 9
+c 0.0880: Found solution, length 10
+c 0.0890: Makespan 10
+c 0.1020: Found solution, length 11
+c 0.1030: Makespan 11
+c 0.1230: Found solution, length 12
+c 0.1240: Makespan 12
+c 0.2040: Found solution, length 13
+c 0.2050: Makespan 13
+c 0.2700: Found solution, length 14
+c 0.2720: Makespan 14
+c 0.3400: Found solution, length 15
+c 0.3410: Makespan 15
+c 0.6260: Found solution, length 16
+c 0.6280: Makespan 16
+c 0.8030: Found solution, length 17
+c 0.8050: Makespan 17
+c 0.8800: Found solution, length 18
+c 0.8820: Makespan 18
+c 0.9170: Found solution, length 19
+c 0.9190: Makespan 19
+c 1.2040: Found solution, length 20
+c 1.2050: Makespan 20
+c 1.8990: Found solution, length 21
+c 1.9010: Makespan 21
+c 2.8920: Found solution, length 22
+c 2.8930: Makespan 22
+c 4.2090: Found solution, length 23
+c 4.2110: Makespan 23
+c 4.3580: Found solution, length 24
+c 4.3590: Makespan 24
+c 5.0560: Found solution, length 25
+c 5.0570: Makespan 25
+c 7.2390: Found solution, length 26
+c 7.2410: Makespan 26
+c 7.6770: Found solution, length 27
+c 7.6790: Makespan 27
+c 7.7350: Found solution, length 28
+c 7.7360: Makespan 28
+c 10.3710: Found solution, length 29
+c 10.3720: Makespan 29
+c 25.6820: Found solution, length 30
+c 25.6840: Makespan 30
+c 29.2910: Found solution, length 31
+c 29.2930: Makespan 31
+c 32.7400: Found solution, length 32
+c 32.7420: Makespan 32
+c 36.2880: Found solution, length 33
+c 36.2900: Makespan 33
+c 116.6370: Found solution, length 34
+c 116.6390: Makespan 34
+c 923.9850: Found solution, length 35
+c 923.9880: Makespan 35
+c array.sh: end:      Fri 27 May 2022 04:36:58 PM CEST
+s 6 14 15 25 45 87 88 107 113
+t 6 14 25 33 63 76 87 107 122
+a YES
+a 6 14 15 25 45 87 88 107 113
+a 6 14 15 25 45 76 88 107 113
+a 6 14 15 25 45 76 87 88 113
+a 6 14 15 25 76 87 88 107 113
+a 6 14 25 76 87 88 107 113 117
+a 14 25 76 87 88 107 111 113 117
+a 14 25 63 76 87 88 107 113 117
+a 6 14 25 63 76 87 88 107 117
+a 6 14 63 76 87 88 107 113 117
+a 6 14 63 76 86 88 107 113 117
+a 6 14 63 76 83 86 88 113 117
+a 6 14 25 63 76 83 88 113 117
+a 6 14 25 63 76 87 88 113 117
+a 6 14 25 63 76 87 107 113 117
+a 6 14 25 63 87 88 107 113 117
+a 6 25 57 63 87 88 107 113 117
+a 6 25 57 63 74 87 88 107 117
+a 6 25 63 74 76 87 88 107 117
+a 6 25 63 76 87 88 107 113 117
+a 6 14 25 63 76 88 107 113 117
+a 6 14 25 62 63 76 88 107 113
+a 6 14 15 25 62 76 88 107 113
+a 14 15 25 62 76 88 107 111 113
+a 14 15 25 76 87 88 107 111 113
+a 15 25 76 87 88 107 111 113 123
+a 15 25 45 76 87 88 107 113 123
+a 14 15 25 45 76 87 88 107 113
+a 6 14 15 25 45 76 87 88 107
+a 6 14 15 45 76 87 88 107 113
+a 6 15 25 45 76 87 88 107 113
+a 6 14 15 25 45 76 87 107 113
+a 6 14 25 45 76 87 88 107 113
+a 6 14 25 63 76 87 88 107 113
+a 6 14 25 33 63 76 87 107 113
+a 6 14 25 33 63 76 87 107 122

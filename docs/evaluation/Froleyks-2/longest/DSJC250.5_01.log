@@ -1,0 +1,57 @@
+c array.sh: col:      /home/froleyks/reconf/2022benchmark/benchmark/color04/DSJC250.5.col
+c array.sh: dat:      /home/froleyks/reconf/2022benchmark/benchmark/color04/DSJC250.5_01.dat
+c array.sh: name:     DSJC250.5_01
+c array.sh: task:     15
+c array.sh: host:     c3n28
+c array.sh: uname:    Linux c3n28 5.4.0-110-generic #124-Ubuntu SMP Thu Apr 14 19:46:19 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+c array.sh: start:    Fri 27 May 2022 03:14:18 PM CEST
+c array.sh: noturbo:  1
+c array.sh: governor: 32 performance
+c array.sh: tmp:      1%
+c 0.0370: solving longest 21950178-15-DSJC250_5_01
+c 0.0380: Upper bound on solution length 1000000000
+c 0.0380: Makespan 1
+c 0.0450: Found solution, length 2
+c 0.0460: Makespan 2
+c 0.0530: Found solution, length 3
+c 0.0540: Makespan 3
+c 0.0630: Found solution, length 4
+c 0.0640: Makespan 4
+c 0.0740: Found solution, length 5
+c 0.0750: Makespan 5
+c 0.0850: Found solution, length 6
+c 0.0860: Makespan 6
+c 0.0980: Found solution, length 7
+c 0.0990: Makespan 7
+c 0.1110: Found solution, length 8
+c 0.1130: Makespan 8
+c 0.1260: Found solution, length 9
+c 0.1270: Makespan 9
+c 0.1440: Found solution, length 10
+c 0.1460: Makespan 10
+c 0.1720: Found solution, length 11
+c 0.1730: Makespan 11
+c 0.2210: Found solution, length 12
+c 0.2230: Makespan 12
+c 0.3280: Found solution, length 13
+c 0.3300: Makespan 13
+c 0.4840: Found solution, length 14
+c 0.4860: Makespan 14
+c array.sh: end:      Fri 27 May 2022 04:37:39 PM CEST
+s 53 80 97 100 105 113 128 142 166 233 246
+t 53 80 91 97 100 105 113 128 142 166 246
+a YES
+a 53 80 97 100 105 113 128 142 166 233 246
+a 53 80 97 100 105 113 128 142 166 210 233
+a 53 80 100 105 113 128 142 166 210 233 246
+a 53 97 100 105 113 128 142 166 210 233 246
+a 80 97 100 105 113 128 142 166 210 233 246
+a 80 97 100 105 113 128 166 188 210 233 246
+a 53 80 97 100 105 113 128 166 210 233 246
+a 53 80 97 100 105 113 142 166 210 233 246
+a 53 80 97 100 113 128 142 166 210 233 246
+a 53 80 97 105 113 128 142 166 210 233 246
+a 53 80 97 100 105 128 142 166 210 233 246
+a 53 80 97 100 105 113 128 142 210 233 246
+a 53 80 97 100 105 113 128 142 166 210 246
+a 53 80 91 97 100 105 113 128 142 166 246

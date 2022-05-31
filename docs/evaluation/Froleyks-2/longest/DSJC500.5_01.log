@@ -1,0 +1,63 @@
+c array.sh: col:      /home/froleyks/reconf/2022benchmark/benchmark/color04/DSJC500.5.col
+c array.sh: dat:      /home/froleyks/reconf/2022benchmark/benchmark/color04/DSJC500.5_01.dat
+c array.sh: name:     DSJC500.5_01
+c array.sh: task:     21
+c array.sh: host:     c3n26
+c array.sh: uname:    Linux c3n26 5.4.0-110-generic #124-Ubuntu SMP Thu Apr 14 19:46:19 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+c array.sh: start:    Fri 27 May 2022 03:14:30 PM CEST
+c array.sh: noturbo:  1
+c array.sh: governor: 32 performance
+c array.sh: tmp:      1%
+c 0.0980: solving longest 21950178-21-DSJC500_5_01
+c 0.1000: Upper bound on solution length 1000000000
+c 0.1000: Makespan 1
+c 0.1210: Found solution, length 2
+c 0.1220: Makespan 2
+c 0.1460: Found solution, length 3
+c 0.1470: Makespan 3
+c 0.1750: Found solution, length 4
+c 0.1760: Makespan 4
+c 0.2150: Found solution, length 5
+c 0.2160: Makespan 5
+c 0.2460: Found solution, length 6
+c 0.2470: Makespan 6
+c 0.2800: Found solution, length 7
+c 0.2810: Makespan 7
+c 0.3140: Found solution, length 8
+c 0.3150: Makespan 8
+c 0.3530: Found solution, length 9
+c 0.3550: Makespan 9
+c 0.3950: Found solution, length 10
+c 0.3960: Makespan 10
+c 0.4400: Found solution, length 11
+c 0.4410: Makespan 11
+c 0.4880: Found solution, length 12
+c 0.4890: Makespan 12
+c 0.5370: Found solution, length 13
+c 0.5380: Makespan 13
+c 0.6060: Found solution, length 14
+c 0.6080: Makespan 14
+c 0.6610: Found solution, length 15
+c 0.6630: Makespan 15
+c 0.7330: Found solution, length 16
+c 0.7350: Makespan 16
+c array.sh: end:      Fri 27 May 2022 04:37:50 PM CEST
+s 12 108 127 189 196 260 293 374 389 396 476 490
+t 12 127 189 196 260 293 334 374 389 396 476 490
+a YES
+a 12 108 127 189 196 260 293 374 389 396 476 490
+a 12 97 108 127 189 196 260 293 374 389 396 476
+a 12 97 108 189 196 260 293 374 389 396 476 490
+a 12 97 108 127 189 260 293 374 389 396 476 490
+a 12 97 108 127 189 196 293 374 389 396 476 490
+a 97 108 127 189 196 260 293 374 389 396 476 490
+a 12 97 108 127 189 196 260 293 374 396 476 490
+a 12 97 108 127 189 196 260 293 389 396 476 490
+a 12 97 108 127 189 196 260 293 374 389 396 490
+a 12 97 108 127 189 196 260 293 374 389 476 490
+a 12 97 127 189 196 260 293 374 389 396 476 490
+a 12 97 108 127 189 196 260 374 389 396 476 490
+a 12 97 108 127 196 260 293 374 389 396 476 490
+a 12 92 97 127 196 260 293 374 389 396 476 490
+a 12 92 127 196 260 293 334 374 389 396 476 490
+a 12 127 189 196 260 293 334 374 389 396 476 490

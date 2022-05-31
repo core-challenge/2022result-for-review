@@ -1,0 +1,38 @@
+c Running for 10 seconds: python3 /SOLVER/mip/check-unsolvability.py /BENCHMARKS/benchmark/color04/queen12_12.col /BENCHMARKS/benchmark/color04/queen12_12_02.dat
+c Running for 4200 seconds: python3 /SOLVER/fd/fast-downward.py --overall-memory-limit 16G --plan-file results/queen12_12_02/sas_plan results/queen12_12_02/output.sas --landmarks "lmg=lm_merged([lm_rhw(use_orders=true), lm_hm(use_orders=true, m=1)])" --evaluator "hlm=lmcount(lmg, admissible=true, pref=false, cost_partitioning=suboptimal, greedy=false, reuse_costs=false)" --search "astar(hlm)"
+s 11 14 30 39 60 80 89 97 112 129 139 
+t 10 16 30 37 60 80 86 101 111 129 143
+a YES
+a 11 112 129 139 14 30 39 60 80 89 97
+a 11 112 129 139 30 39 60 70 80 89 97
+a 11 129 139 16 30 39 60 70 80 89 97
+a 109 11 129 139 16 30 39 60 70 80 89
+a 109 11 129 139 16 30 39 60 70 80 86
+a 101 109 11 129 139 16 30 60 70 80 86
+a 101 11 129 139 16 30 37 60 70 80 86
+a 101 111 129 139 16 30 37 60 70 80 86
+a 10 101 111 129 139 16 30 37 60 80 86
+a 10 101 111 129 143 16 30 37 60 80 86
+	Command being timed: "python3 /SOLVER/shortest/run.py submission sas split /BENCHMARKS/benchmark/color04/queen12_12.col /BENCHMARKS/benchmark/color04/queen12_12_02.dat"
+	User time (seconds): 1.03
+	System time (seconds): 0.14
+	Percent of CPU this job got: 10%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:11.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 48040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 38000
+	Voluntary context switches: 1458
+	Involuntary context switches: 1149
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 144
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

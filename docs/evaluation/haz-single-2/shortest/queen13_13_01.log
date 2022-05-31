@@ -1,0 +1,43 @@
+c Running for 4200 seconds: python3 /SOLVER/fd/fast-downward.py --overall-memory-limit 16G --plan-file results/queen13_13_01/sas_plan results/queen13_13_01/output.sas --landmarks lmg="lm_hm(use_orders=False, m=1)" --evaluator "hlm=lmcount(lmg, admissible=True, pref=false)" --search "eager(single(hlm),reopen_closed=False)"
+s 25 30 45 62 78 79 94 112 119 137 152 167 
+t 5 21 39 42 71 79 100 108 129 137 145 166
+a YES
+a 112 119 137 152 167 25 30 45 62 78 79 94
+a 112 119 137 152 167 30 45 5 62 78 79 94
+a 112 119 137 152 167 25 45 5 62 78 79 94
+a 112 119 137 152 167 25 32 5 62 78 79 94
+a 112 119 137 152 167 32 5 51 62 78 79 94
+a 119 137 152 167 21 32 5 51 62 78 79 94
+a 108 119 137 152 167 21 32 5 51 62 78 79
+a 100 108 119 137 167 21 32 5 51 62 78 79
+a 100 108 137 145 167 21 32 5 51 62 78 79
+a 100 108 127 137 145 167 21 32 5 51 78 79
+a 100 108 127 137 145 167 21 32 42 5 78 79
+a 100 108 129 137 145 167 21 32 42 5 78 79
+a 100 108 129 137 145 167 21 32 42 5 62 79
+a 100 108 129 137 145 167 21 42 5 62 71 79
+a 100 108 129 137 145 21 39 42 5 62 71 79
+a 100 108 129 137 145 166 21 39 42 5 71 79
+	Command being timed: "python3 /SOLVER/shortest/run.py submission sas split /BENCHMARKS/benchmark/color04/queen13_13.col /BENCHMARKS/benchmark/color04/queen13_13_01.dat"
+	User time (seconds): 0.21
+	System time (seconds): 0.04
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 18116
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10388
+	Voluntary context switches: 84
+	Involuntary context switches: 28
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 168
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

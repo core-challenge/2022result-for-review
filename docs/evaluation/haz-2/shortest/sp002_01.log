@@ -1,0 +1,62 @@
+c Running for 10 seconds: python3 /SOLVER/mip/check-unsolvability.py /BENCHMARKS/benchmark/sp/sp002.col /BENCHMARKS/benchmark/sp/sp002_01.dat
+c Running for 4200 seconds: python3 /SOLVER/fd/fast-downward.py --overall-memory-limit 16G --plan-file results/sp002_01/sas_plan results/sp002_01/output.sas --landmarks "lmg=lm_merged([lm_rhw(use_orders=true), lm_hm(use_orders=true, m=1)])" --evaluator "hlm=lmcount(lmg, admissible=true, pref=false, cost_partitioning=suboptimal, greedy=false, reuse_costs=false)" --search "astar(hlm)"
+s 1 8 14 21
+t 7 13 14 21
+a YES
+a 1 14 21 8
+a 14 2 21 8
+a 14 2 21 9
+a 14 21 3 9
+a 10 14 21 3
+a 10 15 21 3
+a 10 15 22 3
+a 10 16 22 3
+a 10 16 23 3
+a 10 17 23 3
+a 10 17 24 3
+a 10 18 24 3
+a 10 18 25 3
+a 10 19 25 3
+a 10 19 26 3
+a 10 19 26 4
+a 10 20 26 4
+a 11 20 26 4
+a 11 20 26 5
+a 12 20 26 5
+a 12 19 26 5
+a 12 19 25 5
+a 12 18 25 5
+a 12 18 24 5
+a 12 17 24 5
+a 12 17 23 5
+a 12 16 23 5
+a 12 16 22 5
+a 12 15 22 5
+a 12 15 21 5
+a 12 14 21 5
+a 12 14 21 6
+a 13 14 21 6
+a 13 14 21 7
+	Command being timed: "python3 /SOLVER/shortest/run.py submission sas split /BENCHMARKS/benchmark/sp/sp002.col /BENCHMARKS/benchmark/sp/sp002_01.dat"
+	User time (seconds): 0.69
+	System time (seconds): 0.15
+	Percent of CPU this job got: 102%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 43920
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 41478
+	Voluntary context switches: 3765
+	Involuntary context switches: 90
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

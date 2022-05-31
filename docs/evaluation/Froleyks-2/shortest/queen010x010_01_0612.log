@@ -1,0 +1,73 @@
+c array.sh: col:      /home/froleyks/reconf/2022benchmark/benchmark/queen/queen010x010.col
+c array.sh: dat:      /home/froleyks/reconf/2022benchmark/benchmark/queen/queen010x010_01_0612.dat
+c array.sh: name:     queen010x010_01_0612
+c array.sh: task:     279
+c array.sh: host:     c3n10
+c array.sh: uname:    Linux c3n10 5.4.0-104-generic #118-Ubuntu SMP Wed Mar 2 19:02:41 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+c array.sh: start:    Thu 24 Mar 2022 04:46:05 PM CET
+c array.sh: noturbo:  1
+c array.sh: governor: 32 performance
+c array.sh: tmp:      1%
+c 0.0010: solving existent 21701617-279-queen010x010_01_0612
+c 0.0050: Wrote /tmp/21701617-279-queen010x010_01_0612.aag
+c 0.0100: Wrote /tmp/21701617-279-queen010x010_01_0612.aig
+c 1.5520: Wrote /tmp/21701617-279-queen010x010_01_0612.trace
+c 1.5520: Found solution, Length: 31
+s 1 14 29 35 48 60 63 82 97
+t 4 18 23 35 51 69 76 82 97
+a YES
+a 1 14 29 35 48 60 63 82 97
+a 1 14 35 48 60 63 76 82 97
+a 1 14 22 35 48 60 63 76 97
+a 14 22 35 48 60 63 76 89 97
+a 6 14 22 35 48 60 63 89 97
+a 6 14 22 35 48 60 63 89 91
+a 7 14 22 35 48 60 63 89 91
+a 7 14 35 48 60 63 76 89 91
+a 7 14 35 42 60 63 76 89 91
+a 7 14 30 35 42 63 76 89 91
+a 7 14 30 35 42 63 76 88 91
+a 7 14 30 35 42 56 63 88 91
+a 7 14 30 35 42 59 63 88 91
+a 14 30 35 42 59 63 76 88 91
+a 7 14 30 35 42 59 63 76 88
+a 7 14 35 42 59 63 76 88 100
+a 7 14 35 42 59 63 76 88 91
+a 7 20 35 42 59 63 76 88 91
+a 7 20 23 35 42 59 76 88 91
+a 7 20 23 35 42 69 76 88 91
+a 4 20 23 35 42 69 76 88 91
+a 4 20 23 35 52 69 76 88 91
+a 4 23 35 50 52 69 76 88 91
+a 4 27 35 50 52 69 76 88 91
+a 4 27 35 50 52 69 76 83 91
+a 4 18 35 50 52 69 76 83 91
+a 4 18 35 50 52 69 76 83 97
+a 4 18 35 50 51 69 76 83 97
+a 4 18 35 50 51 69 76 82 97
+a 4 18 23 35 50 51 69 82 97
+a 4 18 23 35 51 69 76 82 97
+c array.sh: end:      Thu 24 Mar 2022 04:46:06 PM CET
+confaigeration /tmp/21701617-279-queen010x010_01_0612.col /tmp/21701617-279-queen010x010_01_0612.dat existent"
+	User time (seconds): 9.77
+	System time (seconds): 0.43
+	Percent of CPU this job got: 643%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 43016
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 60170
+	Voluntary context switches: 571
+	Involuntary context switches: 29
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 864
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

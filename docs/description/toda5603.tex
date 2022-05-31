@@ -1,0 +1,75 @@
+% Created 2019-06-27 木 15:54
+% Intended LaTeX compiler: pdflatex
+\documentclass{article}
+
+\usepackage{authblk}
+\usepackage{url}
+\usepackage[dvipdfmx]{graphicx}
+
+\date{\today}
+\title{Greedy BMC Solver for the Independent Set Reconfiguration Problem}
+\pagenumbering{gobble}
+
+\author[1]{Takahisa Toda}
+%\author[2]{yyy}
+%\author[1]{zzz}
+\affil[1]{Graduate School of Informatics and Engineering, The University of Electro-Communications}
+%\affil[2]{affil2}
+
+\begin{document}
+\maketitle
+
+\section{Solver Description}
+Our solver, named \emph{greedy BMC solver}, is implemented as the integration of a greedy heuristic search and bounded model checking.  
+If the greedy search finds a reconfiguration sequence in success, the solver returns it, and otherwise, goes into the BMC computation with the inititial state replaced by the end state of the "incomplete" sequence, i.e. the sequence that is not reachable to the target state.
+In the BMC computation, it first transforms independent-set-reconfiguration problem instances into bounded model checking instances, then applies a bounded model checker with a fixed bound, and obtains reconfiguration sequences as counterexamples to the LTL formulas~\cite{weko_216133_1}.
+To boost the performance, the modeling phase into BMC is done by exploiting a small edge clique cover for the input graph.
+The solver is often powerful in such graphs as having a large number of edges but covered by a small number of cliques, as confirmed in some benchmark instances of this challenge.
+
+For the bounded model checking and the edge clique cover computation, our solver uses the following programs inside it.
+\begin{itemize}
+\item ECC 8: the program for the edge clique cover computation~\cite{CONTE2020104464}, obtained from \url{https://github.com/Pronte/ECC} .
+\item NuSMV version 2.6.0: the program for the bounded model checking~\cite{CAV02}, obtained from \url{https://nusmv.fbk.eu/}.
+\end{itemize}
+
+As is the case for bounded model checking, our solver needs a maximum number of transitions to be fixed and it is able to answer yes or no only for the existence of reconfiguration sequences of length less than or equal to the step size.
+As stated above, our solver is combined with the heuristic search and hence, the obtained sequence are no longer quaranteed to be the shortest.
+
+\section{Metric}
+\begin{itemize}
+\item (solver\#existent) 
+\item (solver\#shortest)
+\item (solver\#longest) 
+\end{itemize}
+
+\section{Computation Environment}
+\begin{itemize}
+\item Intel(R) Xeon(R) CPU E5-2609 v4 @ 1.70GHz
+\item 32G bytes memory
+\item Ubuntu 20.04
+\end{itemize}
+
+\section{Usage}
+ECC8.jar and NuSMV are not included in this submission:
+\begin{verbatim}
+~/2022solver# ls bin/
+col2nde  compact  ecc2mat  greedy  greedy_bmc-solver_ecc.sh  
+id-tj-ecc  out2ans_uniform.awk  postproc  st2ltl.awk
+\end{verbatim}
+So, at first, obtain the above two programs and place them in bin.
+
+Check if there exists tmp in /2022solver, where our solver generates various temporary files.
+\begin{verbatim}
+~/2022solver$ ls
+README.md  bin  example  run.sh  tmp
+\end{verbatim}
+
+Run run.sh as follows.
+\begin{verbatim}
+~/2022solver$ ./run.sh example/hc-toyyes-01.col example/hc-toyyes-01_01.dat
+\end{verbatim}
+
+\bibliographystyle{plain}
+\bibliography{example}
+\end{document}
+

@@ -1,0 +1,391 @@
+c array.sh: col:      /home/froleyks/reconf/2022benchmark/benchmark/color04/DSJC500.9.col
+c array.sh: dat:      /home/froleyks/reconf/2022benchmark/benchmark/color04/DSJC500.9_01.dat
+c array.sh: name:     DSJC500.9_01
+c array.sh: task:     23
+c array.sh: host:     c3n01
+c array.sh: uname:    Linux c3n01 5.4.0-110-generic #124-Ubuntu SMP Thu Apr 14 19:46:19 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+c array.sh: start:    Fri 27 May 2022 03:14:31 PM CEST
+c array.sh: noturbo:  1
+c array.sh: governor: 32 performance
+c array.sh: tmp:      1%
+c 0.1940: solving longest 21950178-23-DSJC500_9_01
+c 0.1960: Upper bound on solution length 1000000000
+c 0.1960: Makespan 1
+c 0.2320: Makespan 2
+c 0.2700: Makespan 3
+c 0.3090: Makespan 4
+c 0.3510: Makespan 5
+c 0.4130: Makespan 6
+c 0.4880: Found solution, length 7
+c 0.4900: Makespan 7
+c 0.5420: Found solution, length 8
+c 0.5430: Makespan 8
+c 0.7650: Found solution, length 9
+c 0.7660: Makespan 9
+c 0.9150: Found solution, length 10
+c 0.9170: Makespan 10
+c 1.0730: Found solution, length 11
+c 1.0750: Makespan 11
+c 1.1660: Found solution, length 12
+c 1.1680: Makespan 12
+c 1.3410: Found solution, length 13
+c 1.3430: Makespan 13
+c 2.2870: Found solution, length 14
+c 2.2890: Makespan 14
+c 2.4150: Found solution, length 15
+c 2.4170: Makespan 15
+c 3.1150: Found solution, length 16
+c 3.1170: Makespan 16
+c 4.0680: Found solution, length 17
+c 4.0690: Makespan 17
+c 4.2340: Found solution, length 18
+c 4.2360: Makespan 18
+c 9.9910: Found solution, length 19
+c 9.9930: Makespan 19
+c 17.1230: Found solution, length 20
+c 17.1250: Makespan 20
+c 20.5000: Found solution, length 21
+c 20.5020: Makespan 21
+c 41.4580: Found solution, length 22
+c 41.4610: Makespan 22
+c 83.5590: Found solution, length 23
+c 83.5620: Makespan 23
+c 136.6850: Found solution, length 24
+c 136.6870: Makespan 24
+c 149.8710: Found solution, length 25
+c 149.8740: Makespan 25
+c 160.1090: Found solution, length 26
+c 160.1120: Makespan 26
+c 170.9970: Found solution, length 27
+c 171.0000: Makespan 27
+c 234.3350: Makespan 28
+c 253.1530: Makespan 29
+c 273.1890: Makespan 30
+c 282.8470: Makespan 31
+c 293.9560: Makespan 32
+c 306.5350: Makespan 33
+c 319.8240: Makespan 34
+c 330.7320: Makespan 35
+c 351.0820: Makespan 36
+c 361.0380: Makespan 37
+c 370.4530: Makespan 38
+c 385.8920: Makespan 39
+c 393.5000: Makespan 40
+c 400.1190: Makespan 41
+c 409.7790: Makespan 42
+c 428.0790: Makespan 43
+c 432.6800: Makespan 44
+c 436.3930: Makespan 45
+c 440.3230: Makespan 46
+c 448.2840: Makespan 47
+c 450.3680: Makespan 48
+c 452.6370: Makespan 49
+c 454.8340: Makespan 50
+c 458.0940: Makespan 51
+c 460.5530: Makespan 52
+c 465.2760: Makespan 53
+c 467.9930: Makespan 54
+c 471.8350: Makespan 55
+c 476.7410: Makespan 56
+c 479.5390: Makespan 57
+c 507.3800: Makespan 58
+c 514.8760: Makespan 59
+c 518.5530: Makespan 60
+c 527.9210: Makespan 61
+c 531.4200: Makespan 62
+c 533.8150: Makespan 63
+c 538.4050: Makespan 64
+c 541.5040: Makespan 65
+c 543.8200: Makespan 66
+c 548.7120: Makespan 67
+c 551.6240: Makespan 68
+c 556.3680: Makespan 69
+c 559.9550: Makespan 70
+c 563.6580: Makespan 71
+c 569.4500: Makespan 72
+c 607.5180: Makespan 73
+c 611.8370: Makespan 74
+c 627.3530: Makespan 75
+c 629.3990: Makespan 76
+c 631.0360: Makespan 77
+c 633.5120: Makespan 78
+c 635.0640: Makespan 79
+c 639.7830: Makespan 80
+c 641.9540: Makespan 81
+c 644.1510: Makespan 82
+c 647.1840: Makespan 83
+c 649.8030: Makespan 84
+c 652.2440: Makespan 85
+c 656.4730: Makespan 86
+c 663.2550: Makespan 87
+c 674.3970: Makespan 88
+c 678.1230: Makespan 89
+c 681.7960: Makespan 90
+c 686.0870: Makespan 91
+c 741.7330: Makespan 92
+c 757.4090: Makespan 93
+c 761.1000: Makespan 94
+c 769.0310: Makespan 95
+c 773.5250: Makespan 96
+c 775.8240: Makespan 97
+c 779.0650: Makespan 98
+c 780.9710: Makespan 99
+c 785.0620: Makespan 100
+c 788.4310: Makespan 101
+c 793.5320: Makespan 102
+c 796.7110: Makespan 103
+c 800.9100: Makespan 104
+c 808.9770: Makespan 105
+c 812.0210: Makespan 106
+c 817.4520: Makespan 107
+c 821.2970: Makespan 108
+c 824.3380: Makespan 109
+c 830.2080: Makespan 110
+c 915.4660: Makespan 111
+c 937.1390: Makespan 112
+c 940.2660: Makespan 113
+c 942.8650: Makespan 114
+c 951.6650: Makespan 115
+c 954.5890: Makespan 116
+c 958.5780: Makespan 117
+c 962.3110: Makespan 118
+c 965.0390: Makespan 119
+c 970.1510: Makespan 120
+c 972.9550: Makespan 121
+c 976.9650: Makespan 122
+c 982.7010: Makespan 123
+c 985.5090: Makespan 124
+c 996.2180: Makespan 125
+c 1000.1420: Makespan 126
+c 1004.5390: Makespan 127
+c 1010.2500: Makespan 128
+c 1013.1540: Makespan 129
+c 1118.7120: Makespan 130
+c 1122.5480: Makespan 131
+c 1151.3880: Makespan 132
+c 1155.0250: Makespan 133
+c 1158.5400: Makespan 134
+c 1169.9210: Makespan 135
+c 1174.2790: Makespan 136
+c 1179.3370: Makespan 137
+c 1181.7520: Makespan 138
+c 1185.2740: Makespan 139
+c 1189.8150: Makespan 140
+c 1195.9370: Makespan 141
+c 1202.7180: Makespan 142
+c 1205.3170: Makespan 143
+c 1208.7580: Makespan 144
+c 1214.5450: Makespan 145
+c 1227.8520: Makespan 146
+c 1231.5300: Makespan 147
+c 1236.3040: Makespan 148
+c 1241.2030: Makespan 149
+c 1382.9880: Makespan 150
+c 1387.3360: Makespan 151
+c 1390.7340: Makespan 152
+c 1394.4030: Makespan 153
+c 1427.2880: Makespan 154
+c 1430.8340: Makespan 155
+c 1432.9320: Makespan 156
+c 1435.2310: Makespan 157
+c 1437.7260: Makespan 158
+c 1451.6890: Makespan 159
+c 1455.8420: Makespan 160
+c 1458.8200: Makespan 161
+c 1461.3620: Makespan 162
+c 1464.8100: Makespan 163
+c 1470.7220: Makespan 164
+c 1474.7370: Makespan 165
+c 1479.9590: Makespan 166
+c 1483.9320: Makespan 167
+c 1488.9360: Makespan 168
+c 1491.8610: Makespan 169
+c 1506.9070: Makespan 170
+c 1510.9490: Makespan 171
+c 1515.5340: Makespan 172
+c 1756.2280: Makespan 173
+c 1763.5090: Makespan 174
+c 1767.8050: Makespan 175
+c 1815.4430: Makespan 176
+c 1819.2310: Makespan 177
+c 1821.9310: Makespan 178
+c 1827.6760: Makespan 179
+c 1845.3760: Makespan 180
+c 1848.8220: Makespan 181
+c 1853.1030: Makespan 182
+c 1858.5360: Makespan 183
+c 1863.3230: Makespan 184
+c 1868.1150: Makespan 185
+c 1873.6210: Makespan 186
+c 1878.7770: Makespan 187
+c 1883.9690: Makespan 188
+c 1887.4770: Makespan 189
+c 1891.3500: Makespan 190
+c 1897.3290: Makespan 191
+c 2173.0120: Makespan 192
+c 2192.2230: Makespan 193
+c 2196.8000: Makespan 194
+c 2200.0020: Makespan 195
+c 2203.4020: Makespan 196
+c 2206.5940: Makespan 197
+c 2211.0780: Makespan 198
+c 2215.1200: Makespan 199
+c 2218.4800: Makespan 200
+c 2279.0960: Makespan 201
+c 2283.4760: Makespan 202
+c 2285.9250: Makespan 203
+c 2289.1360: Makespan 204
+c 2292.0120: Makespan 205
+c 2296.3090: Makespan 206
+c 2299.8850: Makespan 207
+c 2302.5340: Makespan 208
+c 2323.0150: Makespan 209
+c 2326.5960: Makespan 210
+c 2328.6580: Makespan 211
+c 2331.0850: Makespan 212
+c 2333.7440: Makespan 213
+c 2337.0110: Makespan 214
+c 2340.8760: Makespan 215
+c 2344.8810: Makespan 216
+c 2349.2800: Makespan 217
+c 2353.2450: Makespan 218
+c 2356.5570: Makespan 219
+c 2362.0760: Makespan 220
+c 2669.0330: Makespan 221
+c 2672.5640: Makespan 222
+c 2676.4950: Makespan 223
+c 2683.2570: Makespan 224
+c 2686.4840: Makespan 225
+c 2689.1850: Makespan 226
+c 2712.4650: Makespan 227
+c 2719.4170: Makespan 228
+c 2723.6030: Makespan 229
+c 2726.6570: Makespan 230
+c 2730.4040: Makespan 231
+c 2803.9370: Makespan 232
+c 2807.9960: Makespan 233
+c 2811.7010: Makespan 234
+c 2814.7570: Makespan 235
+c 2818.2760: Makespan 236
+c 2820.8800: Makespan 237
+c 2823.5740: Makespan 238
+c 2827.5760: Makespan 239
+c 2830.0040: Makespan 240
+c 2833.4940: Makespan 241
+c 2836.6040: Makespan 242
+c 2861.3950: Makespan 243
+c 2865.3370: Makespan 244
+c 2867.6870: Makespan 245
+c 2870.2310: Makespan 246
+c 2873.0270: Makespan 247
+c 2877.5260: Makespan 248
+c 2884.3670: Makespan 249
+c 3269.1630: Makespan 250
+c 3274.9790: Makespan 251
+c 3279.5620: Makespan 252
+c 3284.0810: Makespan 253
+c 3287.3360: Makespan 254
+c 3290.5060: Makespan 255
+c 3293.8380: Makespan 256
+c 3296.7840: Makespan 257
+c 3301.2180: Makespan 258
+c 3305.8040: Makespan 259
+c 3310.6330: Makespan 260
+c 3338.2910: Makespan 261
+c 3343.1160: Makespan 262
+c 3348.4060: Makespan 263
+c 3437.8770: Makespan 264
+c 3445.1570: Makespan 265
+c 3450.5300: Makespan 266
+c 3454.1000: Makespan 267
+c 3458.8630: Makespan 268
+c 3462.0510: Makespan 269
+c 3465.3850: Makespan 270
+c 3468.1690: Makespan 271
+c 3470.6590: Makespan 272
+c 3474.2850: Makespan 273
+c 3477.1540: Makespan 274
+c 3479.8830: Makespan 275
+c 3484.7890: Makespan 276
+c 3949.3870: Makespan 277
+c 3955.5750: Makespan 278
+c 3960.3370: Makespan 279
+c 3970.2630: Makespan 280
+c 3973.8140: Makespan 281
+c 3979.8150: Makespan 282
+c 3983.0900: Makespan 283
+c 3989.3180: Makespan 284
+c 3993.7550: Makespan 285
+c 3997.3560: Makespan 286
+c 4001.8540: Makespan 287
+c 4004.8760: Makespan 288
+c 4008.3120: Makespan 289
+c 4013.5330: Makespan 290
+c 4016.3270: Makespan 291
+c 4021.6240: Makespan 292
+c 4156.7240: Makespan 293
+c 4160.8400: Makespan 294
+c 4163.7540: Makespan 295
+c 4167.1050: Makespan 296
+c 4171.6690: Makespan 297
+c 4174.8030: Makespan 298
+c 4178.0450: Makespan 299
+c 4181.7400: Makespan 300
+c 4185.0190: Makespan 301
+c 4188.2930: Makespan 302
+c 4192.2120: Makespan 303
+c 4721.6400: Makespan 304
+c 4725.6060: Makespan 305
+c 4729.7910: Makespan 306
+c 4733.1630: Makespan 307
+c 4736.9440: Makespan 308
+c 4741.6070: Makespan 309
+c 4779.0820: Makespan 310
+c 4784.4420: Makespan 311
+c 4787.7250: Makespan 312
+c 4791.6950: Makespan 313
+c 4796.6830: Makespan 314
+c 4800.6160: Makespan 315
+c 4806.6890: Makespan 316
+c 4810.8020: Makespan 317
+c 4814.9480: Makespan 318
+c 4818.7940: Makespan 319
+c 4826.2490: Makespan 320
+c 4830.4590: Makespan 321
+c 4834.8940: Makespan 322
+c 4838.3040: Makespan 323
+c 4969.4150: Makespan 324
+c 4974.4950: Makespan 325
+c 4978.0370: Makespan 326
+c 4981.0460: Makespan 327
+c array.sh: end:      Fri 27 May 2022 04:37:51 PM CEST
+s 196 259 381 442
+t 268 451 469 474
+a YES
+a 196 259 381 442
+a 196 259 317 381
+a 259 317 381 442
+a 259 381 442 449
+a 259 371 442 449
+a 259 317 371 442
+a 196 259 317 442
+a 196 317 381 442
+a 196 317 381 395
+a 196 381 395 469
+a 303 381 395 469
+a 268 303 381 469
+a 196 268 381 469
+a 196 197 268 469
+a 196 268 451 469
+a 196 268 451 464
+a 196 451 464 469
+a 121 196 464 469
+a 196 268 464 469
+a 119 268 464 469
+a 268 451 464 469
+a 16 268 464 469
+a 16 34 268 469
+a 34 69 268 469
+a 34 109 268 469
+a 34 268 469 474
+a 268 451 469 474

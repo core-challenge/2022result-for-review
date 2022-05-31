@@ -1,0 +1,34 @@
+c Running for 10 seconds: python3 /SOLVER/mip/check-unsolvability.py /BENCHMARKS/benchmark/color04/DSJC250.9.col /BENCHMARKS/benchmark/color04/DSJC250.9_01.dat
+c Running for 4200 seconds: python3 /SOLVER/symk/fast-downward.py --overall-memory-limit 16G --plan-file results/DSJC250/sas_plan results/DSJC250/output.sas --search "sym-fw()"
+s 69 88 154 223 
+t 39 131 136 238
+a YES
+a 154 223 69 88
+a 154 3 69 88
+a 238 3 69 88
+a 131 238 3 88
+a 131 238 3 39
+a 131 136 238 39
+	Command being timed: "python3 /SOLVER/shortest/run.py submission sas split /BENCHMARKS/benchmark/color04/DSJC250.9.col /BENCHMARKS/benchmark/color04/DSJC250.9_01.dat"
+	User time (seconds): 13.39
+	System time (seconds): 0.64
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1014956
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 316541
+	Voluntary context switches: 2082
+	Involuntary context switches: 1418
+	Swaps: 0
+	File system inputs: 1216
+	File system outputs: 736
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

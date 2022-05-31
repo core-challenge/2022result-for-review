@@ -1,0 +1,149 @@
+c array.sh: col:      /home/froleyks/reconf/2022benchmark/benchmark/color04/DSJC250.5.col
+c array.sh: dat:      /home/froleyks/reconf/2022benchmark/benchmark/color04/DSJC250.5_02.dat
+c array.sh: name:     DSJC250.5_02
+c array.sh: task:     16
+c array.sh: host:     c3n28
+c array.sh: uname:    Linux c3n28 5.4.0-110-generic #124-Ubuntu SMP Thu Apr 14 19:46:19 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+c array.sh: start:    Fri 27 May 2022 03:14:18 PM CEST
+c array.sh: noturbo:  1
+c array.sh: governor: 32 performance
+c array.sh: tmp:      1%
+c 0.0370: solving longest 21950178-16-DSJC250_5_02
+c 0.0380: Upper bound on solution length 1000000000
+c 0.0380: Makespan 1
+c 0.0450: Makespan 2
+c 0.0520: Makespan 3
+c 0.0600: Makespan 4
+c 0.0700: Makespan 5
+c 0.0810: Found solution, length 6
+c 0.0820: Makespan 6
+c 0.1050: Found solution, length 7
+c 0.1070: Makespan 7
+c 0.1240: Found solution, length 8
+c 0.1250: Makespan 8
+c 0.1530: Found solution, length 9
+c 0.1540: Makespan 9
+c 0.1770: Found solution, length 10
+c 0.1780: Makespan 10
+c 0.1960: Found solution, length 11
+c 0.1970: Makespan 11
+c 0.2650: Found solution, length 12
+c 0.2660: Makespan 12
+c 0.2920: Found solution, length 13
+c 0.2930: Makespan 13
+c 0.3800: Found solution, length 14
+c 0.3810: Makespan 14
+c 0.4820: Found solution, length 15
+c 0.4830: Makespan 15
+c 0.5200: Found solution, length 16
+c 0.5210: Makespan 16
+c 0.5570: Found solution, length 17
+c 0.5580: Makespan 17
+c 0.5910: Found solution, length 18
+c 0.5930: Makespan 18
+c 0.6270: Found solution, length 19
+c 0.6280: Makespan 19
+c 0.6650: Found solution, length 20
+c 0.6670: Makespan 20
+c 0.8910: Found solution, length 21
+c 0.8930: Makespan 21
+c 0.9350: Found solution, length 22
+c 0.9370: Makespan 22
+c 1.7790: Found solution, length 23
+c 1.7810: Makespan 23
+c 1.8360: Found solution, length 24
+c 1.8380: Makespan 24
+c 1.8930: Found solution, length 25
+c 1.8950: Makespan 25
+c 4.8100: Found solution, length 26
+c 4.8120: Makespan 26
+c 8.1670: Found solution, length 27
+c 8.1690: Makespan 27
+c 9.0070: Found solution, length 28
+c 9.0100: Makespan 28
+c 11.4610: Found solution, length 29
+c 11.4630: Makespan 29
+c 16.4490: Found solution, length 30
+c 16.4520: Makespan 30
+c 23.7650: Found solution, length 31
+c 23.7670: Makespan 31
+c 27.9550: Found solution, length 32
+c 27.9580: Makespan 32
+c 30.1020: Found solution, length 33
+c 30.1060: Makespan 33
+c 32.8220: Found solution, length 34
+c 32.8250: Makespan 34
+c 58.4840: Found solution, length 35
+c 58.4870: Makespan 35
+c 63.5090: Found solution, length 36
+c 63.5120: Makespan 36
+c 75.0090: Found solution, length 37
+c 75.0120: Makespan 37
+c 109.3150: Found solution, length 38
+c 109.3180: Makespan 38
+c 277.6580: Found solution, length 39
+c 277.6620: Makespan 39
+c 287.7080: Found solution, length 40
+c 287.7120: Makespan 40
+c 307.0250: Found solution, length 41
+c 307.0290: Makespan 41
+c 482.0930: Found solution, length 42
+c 482.0970: Makespan 42
+c 640.9010: Found solution, length 43
+c 640.9060: Makespan 43
+c 878.7140: Found solution, length 44
+c 878.7180: Makespan 44
+c 1878.1960: Found solution, length 45
+c 1878.2000: Makespan 45
+c 2682.7710: Found solution, length 46
+c 2682.7760: Makespan 46
+c array.sh: end:      Fri 27 May 2022 04:37:39 PM CEST
+s 58 60 85 108 109 110 192 221 234 239 249
+t 22 28 50 58 60 85 108 109 137 214 221
+a YES
+a 58 60 85 108 109 110 192 221 234 239 249
+a 7 58 60 108 109 110 192 221 234 239 249
+a 22 58 60 108 109 110 192 221 234 239 249
+a 22 58 60 85 108 109 110 192 234 239 249
+a 22 60 85 108 109 110 192 209 234 239 249
+a 22 60 85 108 109 110 120 192 209 234 239
+a 22 60 85 108 109 110 120 192 221 234 239
+a 22 60 85 108 109 110 192 221 234 239 249
+a 22 58 60 85 108 109 110 192 221 239 249
+a 22 60 85 108 109 110 187 192 221 239 249
+a 22 60 85 108 109 110 187 192 209 239 249
+a 22 50 60 85 108 109 110 187 209 239 249
+a 22 50 60 85 108 109 110 187 221 239 249
+a 22 28 50 60 85 108 109 110 187 221 239
+a 22 28 50 60 85 108 109 187 214 221 239
+a 22 28 50 60 85 108 109 137 187 214 221
+a 22 50 60 85 108 109 137 169 187 214 221
+a 22 60 85 108 109 137 169 187 202 214 221
+a 22 60 85 108 109 137 169 202 214 221 234
+a 22 60 81 85 108 109 169 202 214 221 234
+a 22 60 81 85 108 109 169 187 202 214 221
+a 22 50 60 81 85 108 109 169 187 214 221
+a 22 50 60 81 85 108 109 169 187 204 214
+a 22 50 60 85 108 109 137 169 187 204 214
+a 22 50 60 85 108 109 110 137 169 187 204
+a 22 50 60 85 108 109 110 137 169 187 221
+a 22 28 50 60 85 108 109 110 137 187 221
+a 22 50 60 85 108 109 110 137 187 221 249
+a 22 50 58 60 85 108 109 110 137 221 249
+a 22 28 50 58 60 85 108 109 110 137 221
+a 22 28 50 58 60 85 108 109 110 221 239
+a 22 50 58 60 85 108 109 110 221 239 249
+a 22 58 60 85 108 109 110 221 234 239 249
+a 22 58 60 85 108 109 192 221 234 239 249
+a 22 58 60 85 108 110 192 221 234 239 249
+a 22 58 85 108 109 110 192 221 234 239 249
+a 22 58 60 85 108 109 110 192 221 234 239
+a 22 58 60 85 109 110 192 221 234 239 249
+a 22 52 58 60 85 109 110 192 221 234 249
+a 22 58 60 85 108 109 110 192 221 234 249
+a 22 58 60 85 108 109 110 137 221 234 249
+a 22 52 58 60 85 109 110 137 221 234 249
+a 22 50 52 58 60 85 109 110 137 221 249
+a 22 28 50 52 58 60 85 109 110 137 221
+a 22 28 50 52 58 60 85 109 137 214 221
+a 22 28 50 58 60 85 108 109 137 214 221

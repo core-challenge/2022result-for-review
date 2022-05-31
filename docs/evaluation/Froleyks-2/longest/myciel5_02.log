@@ -1,0 +1,44 @@
+c array.sh: col:      /home/froleyks/reconf/2022benchmark/benchmark/color04/myciel5.col
+c array.sh: dat:      /home/froleyks/reconf/2022benchmark/benchmark/color04/myciel5_02.dat
+c array.sh: name:     myciel5_02
+c array.sh: task:     142
+c array.sh: host:     c3n17
+c array.sh: uname:    Linux c3n17 5.4.0-104-generic #118-Ubuntu SMP Wed Mar 2 19:02:41 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+c array.sh: start:    Thu 24 Mar 2022 12:52:32 PM CET
+c array.sh: noturbo:  1
+c array.sh: governor: 32 performance
+c array.sh: tmp:      1%
+c 0.0000: solving existent 21701617-142-myciel5_02
+c 0.0010: Wrote /tmp/21701617-142-myciel5_02.aag
+c 0.0060: Wrote /tmp/21701617-142-myciel5_02.aig
+c 0.7720: Wrote /tmp/21701617-142-myciel5_02.trace
+c 0.7720: Found solution, Length: 2
+s 24 25 26 27 28 29 30 31 32 33 34 35 36 38 39 40 41 42 43 44 45 46
+t 24 25 26 27 28 29 30 31 32 33 34 36 37 38 39 40 41 42 43 44 45 46
+a YES
+a 24 25 26 27 28 29 30 31 32 33 34 35 36 38 39 40 41 42 43 44 45 46
+a 24 25 26 27 28 29 30 31 32 33 34 36 37 38 39 40 41 42 43 44 45 46
+c array.sh: end:      Thu 24 Mar 2022 12:52:33 PM CET
+confaigeration /tmp/21701617-142-myciel5_02.col /tmp/21701617-142-myciel5_02.dat existent"
+	User time (seconds): 0.27
+	System time (seconds): 0.12
+	Percent of CPU this job got: 49%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 36316
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29735
+	Voluntary context switches: 926
+	Involuntary context switches: 9
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 280
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

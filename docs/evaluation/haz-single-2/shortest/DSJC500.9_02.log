@@ -1,0 +1,37 @@
+c Running for 4200 seconds: python3 /SOLVER/fd/fast-downward.py --overall-memory-limit 16G --plan-file results/DSJC500.9_02/sas_plan results/DSJC500.9_02/output.sas --landmarks lmg="lm_hm(use_orders=False, m=1)" --evaluator "hlm=lmcount(lmg, admissible=True, pref=false)" --search "eager(single(hlm),reopen_closed=False)"
+s 97 179 194 467 
+t 144 445 471 477
+a YES
+a 179 194 467 97
+a 194 467 65 97
+a 455 467 65 97
+a 160 455 467 97
+a 160 440 455 467
+a 160 236 440 467
+a 160 236 440 477
+a 160 236 445 477
+a 236 445 471 477
+a 144 445 471 477
+	Command being timed: "python3 /SOLVER/shortest/run.py submission sas split /BENCHMARKS/benchmark/color04/DSJC500.9.col /BENCHMARKS/benchmark/color04/DSJC500.9_02.dat"
+	User time (seconds): 1.32
+	System time (seconds): 0.03
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 56748
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25625
+	Voluntary context switches: 72
+	Involuntary context switches: 138
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 2776
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

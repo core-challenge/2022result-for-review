@@ -1,0 +1,50 @@
+c array.sh: col:      /home/froleyks/reconf/2022benchmark/benchmark/color04/games120.col
+c array.sh: dat:      /home/froleyks/reconf/2022benchmark/benchmark/color04/games120_01.dat
+c array.sh: name:     games120_01
+c array.sh: task:     91
+c array.sh: host:     c3n17
+c array.sh: uname:    Linux c3n17 5.4.0-104-generic #118-Ubuntu SMP Wed Mar 2 19:02:41 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+c array.sh: start:    Thu 24 Mar 2022 12:51:49 PM CET
+c array.sh: noturbo:  1
+c array.sh: governor: 32 performance
+c array.sh: tmp:      1%
+c 0.0000: solving existent 21701617-91-games120_01
+c 0.0020: Wrote /tmp/21701617-91-games120_01.aag
+c 0.0070: Wrote /tmp/21701617-91-games120_01.aig
+c 0.7680: Wrote /tmp/21701617-91-games120_01.trace
+c 0.7680: Found solution, Length: 8
+s 2 5 9 27 29 42 50 57 59 64 73 79 80 81 83 87 93 98 102 109 110 115
+t 2 4 5 9 15 27 29 43 44 48 57 64 68 73 78 80 81 87 93 98 110 115
+a YES
+a 2 5 9 27 29 42 50 57 59 64 73 79 80 81 83 87 93 98 102 109 110 115
+a 2 5 9 27 29 42 48 50 57 59 64 73 79 80 81 87 93 98 102 109 110 115
+a 2 5 9 15 27 29 42 48 50 57 64 73 79 80 81 87 93 98 102 109 110 115
+a 2 4 5 9 15 27 29 42 48 57 64 73 79 80 81 87 93 98 102 109 110 115
+a 2 4 5 9 15 27 29 44 48 57 64 73 79 80 81 87 93 98 102 109 110 115
+a 2 4 5 9 15 27 29 44 48 57 64 68 73 79 80 81 87 93 98 102 110 115
+a 2 4 5 9 15 27 29 44 48 57 64 68 73 78 80 81 87 93 98 102 110 115
+a 2 4 5 9 15 27 29 43 44 48 57 64 68 73 78 80 81 87 93 98 110 115
+c array.sh: end:      Thu 24 Mar 2022 12:51:50 PM CET
+confaigeration /tmp/21701617-91-games120_01.col /tmp/21701617-91-games120_01.dat existent"
+	User time (seconds): 1.03
+	System time (seconds): 0.20
+	Percent of CPU this job got: 153%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 36960
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 42532
+	Voluntary context switches: 930
+	Involuntary context switches: 14
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 536
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

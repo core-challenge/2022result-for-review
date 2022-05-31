@@ -1,0 +1,45 @@
+c array.sh: col:      /home/froleyks/reconf/2022benchmark/benchmark/color04/le450_5b.col
+c array.sh: dat:      /home/froleyks/reconf/2022benchmark/benchmark/color04/le450_5b_02.dat
+c array.sh: name:     le450_5b_02
+c array.sh: task:     116
+c array.sh: host:     c3n17
+c array.sh: uname:    Linux c3n17 5.4.0-104-generic #118-Ubuntu SMP Wed Mar 2 19:02:41 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+c array.sh: start:    Thu 24 Mar 2022 12:52:18 PM CET
+c array.sh: noturbo:  1
+c array.sh: governor: 32 performance
+c array.sh: tmp:      1%
+c 0.0070: solving existent 21701617-116-le450_5b_02
+c 0.0170: Wrote /tmp/21701617-116-le450_5b_02.aag
+c 0.0280: Wrote /tmp/21701617-116-le450_5b_02.aig
+c 1.0790: Wrote /tmp/21701617-116-le450_5b_02.trace
+c 1.0790: Found solution, Length: 3
+s 7 12 17 22 32 37 47 56 57 61 62 66 71 72 76 77 81 82 85 87 97 102 107 112 122 127 137 147 152 162 167 171 172 176 177 181 186 187 191 192 196 197 202 212 217 227 229 237 242 257 262 267 281 282 286 287 291 292 296 301 302 306 307 317 327 332 342 347 352 357 367 372 377 382 392 396 397 401 406 407 411 416 417 421 422 432 437 442 447
+t 7 12 17 22 32 37 47 56 57 61 62 66 71 72 76 77 81 82 85 87 97 102 107 112 122 127 137 147 152 162 167 171 172 176 177 181 186 187 191 192 196 197 202 212 217 227 229 237 257 262 267 277 281 282 286 287 291 292 296 301 302 306 307 317 327 342 347 352 357 367 372 374 377 382 392 396 397 401 406 407 411 416 417 421 422 432 437 442 447
+a YES
+a 7 12 17 22 32 37 47 56 57 61 62 66 71 72 76 77 81 82 85 87 97 102 107 112 122 127 137 147 152 162 167 171 172 176 177 181 186 187 191 192 196 197 202 212 217 227 229 237 242 257 262 267 281 282 286 287 291 292 296 301 302 306 307 317 327 332 342 347 352 357 367 372 377 382 392 396 397 401 406 407 411 416 417 421 422 432 437 442 447
+a 7 12 17 22 32 37 47 56 57 61 62 66 71 72 76 77 81 82 85 87 97 102 107 112 122 127 137 147 152 162 167 171 172 176 177 181 186 187 191 192 196 197 202 212 217 227 229 237 257 262 267 277 281 282 286 287 291 292 296 301 302 306 307 317 327 332 342 347 352 357 367 372 377 382 392 396 397 401 406 407 411 416 417 421 422 432 437 442 447
+a 7 12 17 22 32 37 47 56 57 61 62 66 71 72 76 77 81 82 85 87 97 102 107 112 122 127 137 147 152 162 167 171 172 176 177 181 186 187 191 192 196 197 202 212 217 227 229 237 257 262 267 277 281 282 286 287 291 292 296 301 302 306 307 317 327 342 347 352 357 367 372 374 377 382 392 396 397 401 406 407 411 416 417 421 422 432 437 442 447
+c array.sh: end:      Thu 24 Mar 2022 12:52:19 PM CET
+confaigeration /tmp/21701617-116-le450_5b_02.col /tmp/21701617-116-le450_5b_02.dat existent"
+	User time (seconds): 1.16
+	System time (seconds): 0.21
+	Percent of CPU this job got: 122%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 44444
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 56252
+	Voluntary context switches: 914
+	Involuntary context switches: 13
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 2344
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

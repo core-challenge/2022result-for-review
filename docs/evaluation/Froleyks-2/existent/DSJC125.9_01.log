@@ -1,0 +1,44 @@
+c array.sh: col:      /home/froleyks/reconf/2022benchmark/benchmark/color04/DSJC125.9.col
+c array.sh: dat:      /home/froleyks/reconf/2022benchmark/benchmark/color04/DSJC125.9_01.dat
+c array.sh: name:     DSJC125.9_01
+c array.sh: task:     11
+c array.sh: host:     c3n24
+c array.sh: uname:    Linux c3n24 5.4.0-110-generic #124-Ubuntu SMP Thu Apr 14 19:46:19 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+c array.sh: start:    Fri 27 May 2022 03:13:06 PM CEST
+c array.sh: noturbo:  1
+c array.sh: governor: 32 performance
+c array.sh: tmp:      1%
+c 0.0140: solving existent 21950101-11-DSJC125_9_01
+c 0.0340: Wrote /tmp/21950101-11-DSJC125_9_01.aag
+c 0.0570: Wrote /tmp/21950101-11-DSJC125_9_01.aig
+c 3.6470: Wrote /tmp/21950101-11-DSJC125_9_01.trace
+c 3.6470: Found solution, Length: 2
+s 5 33 63 103
+t 5 23 33 103
+a YES
+a 5 33 63 103
+a 5 23 33 103
+c array.sh: end:      Fri 27 May 2022 03:13:10 PM CEST
+ration/reconfaigeration /tmp/21950101-11-DSJC125.9_01.col /tmp/21950101-11-DSJC125.9_01.dat existent"
+	User time (seconds): 0.89
+	System time (seconds): 0.31
+	Percent of CPU this job got: 32%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 39916
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 142
+	Minor (reclaiming a frame) page faults: 43222
+	Voluntary context switches: 2963
+	Involuntary context switches: 32
+	Swaps: 0
+	File system inputs: 38608
+	File system outputs: 1592
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
