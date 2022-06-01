@@ -1,0 +1,51 @@
+c Running for 10 seconds: python3 /SOLVER/mip/check-unsolvability.py /BENCHMARKS/benchmark/queen/queen020x020.col /BENCHMARKS/benchmark/queen/queen020x020_02_4815.dat
+c Running for 4200 seconds: python3 /SOLVER/fd/fast-downward.py --overall-memory-limit 16G --plan-file results/queen020x020_02_4815/sas_plan results/queen020x020_02_4815/output.sas --landmarks "lmg=lm_merged([lm_rhw(use_orders=true), lm_hm(use_orders=true, m=1)])" --evaluator "hlm=lmcount(lmg, admissible=true, pref=false, cost_partitioning=suboptimal, greedy=false, reuse_costs=false)" --search "astar(hlm)"
+s 240 12 193 397 34 344 127 86 158 362 168 119 49 303 321 255 285 216 71
+t 196 13 285 258 394 88 270 35 157 303 179 321 47 106 344 212 129 362 240
+a YES
+a 119 12 127 158 168 193 216 240 255 285 303 321 34 344 362 397 49 71 86
+a 119 12 127 158 168 193 216 240 255 270 285 303 321 34 344 362 397 49 86
+a 119 12 127 158 168 193 216 240 255 270 285 303 321 34 344 397 49 62 86
+a 119 12 127 158 168 193 216 240 255 270 285 303 321 344 371 397 49 62 86
+a 119 12 127 158 168 193 216 240 255 270 285 303 321 344 371 394 49 62 86
+a 12 127 158 168 193 216 240 255 270 285 303 321 344 371 39 394 49 62 86
+a 12 127 157 168 193 216 240 255 270 285 303 321 344 371 39 394 49 62 86
+a 12 127 157 168 193 218 240 255 270 285 303 321 344 371 39 394 49 62 86
+a 116 12 127 157 168 193 218 240 255 270 285 303 321 371 39 394 49 62 86
+a 116 12 127 157 168 193 218 240 255 270 285 303 321 349 371 39 394 62 86
+a 116 12 157 168 193 218 240 255 270 285 303 321 349 371 39 394 47 62 86
+a 116 12 124 157 168 193 218 240 255 270 285 303 321 349 371 39 394 47 62
+a 106 12 124 157 168 193 218 240 255 270 285 303 321 349 371 39 394 47 62
+a 106 12 124 157 168 196 218 240 255 270 285 303 321 349 371 39 394 47 62
+a 106 124 13 157 168 196 218 240 255 270 285 303 321 349 371 39 394 47 62
+a 106 124 13 157 196 218 240 255 270 285 303 321 349 371 39 394 47 62 88
+a 106 124 13 157 196 212 240 255 270 285 303 321 349 371 39 394 47 62 88
+a 106 124 13 157 196 212 240 258 270 285 303 321 349 371 39 394 47 62 88
+a 106 124 13 157 179 196 212 240 258 270 285 303 321 349 371 394 47 62 88
+a 106 13 157 179 196 212 240 258 270 285 303 321 349 35 371 394 47 62 88
+a 106 129 13 157 179 196 212 240 258 270 285 303 321 35 371 394 47 62 88
+a 106 129 13 157 179 196 212 240 258 270 285 303 321 344 35 371 394 47 88
+a 106 129 13 157 179 196 212 240 258 270 285 303 321 344 35 362 394 47 88
+	Command being timed: "python3 /SOLVER/shortest/run.py submission sas split /BENCHMARKS/benchmark/queen/queen020x020.col /BENCHMARKS/benchmark/queen/queen020x020_02_4815.dat"
+	User time (seconds): 124.79
+	System time (seconds): 0.91
+	Percent of CPU this job got: 240%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:52.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 144104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 126137
+	Voluntary context switches: 18011
+	Involuntary context switches: 13174
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 480
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

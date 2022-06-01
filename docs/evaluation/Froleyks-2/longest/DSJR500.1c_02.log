@@ -1,0 +1,168 @@
+c array.sh: col:      /home/froleyks/reconf/2022benchmark/benchmark/color04/DSJR500.1c.col
+c array.sh: dat:      /home/froleyks/reconf/2022benchmark/benchmark/color04/DSJR500.1c_02.dat
+c array.sh: name:     DSJR500.1c_02
+c array.sh: task:     28
+c array.sh: host:     c3n11
+c array.sh: uname:    Linux c3n11 5.4.0-110-generic #124-Ubuntu SMP Thu Apr 14 19:46:19 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+c array.sh: start:    Fri 27 May 2022 03:18:55 PM CEST
+c array.sh: noturbo:  1
+c array.sh: governor: 32 performance
+c array.sh: tmp:      1%
+c 0.1930: solving longest 21950178-28-DSJR500_1c_02
+c 0.1960: Upper bound on solution length 1000000000
+c 0.1960: Makespan 1
+c 0.2400: Makespan 2
+c 0.2810: Makespan 3
+c 0.3240: Makespan 4
+c 0.3660: Found solution, length 5
+c 0.3670: Makespan 5
+c 0.4140: Found solution, length 6
+c 0.4150: Makespan 6
+c 0.4620: Found solution, length 7
+c 0.4630: Makespan 7
+c 0.5200: Found solution, length 8
+c 0.5210: Makespan 8
+c 0.5960: Found solution, length 9
+c 0.5970: Makespan 9
+c 0.6600: Found solution, length 10
+c 0.6610: Makespan 10
+c 0.7220: Found solution, length 11
+c 0.7230: Makespan 11
+c 0.7840: Found solution, length 12
+c 0.7860: Makespan 12
+c 0.8550: Found solution, length 13
+c 0.8560: Makespan 13
+c 0.9380: Found solution, length 14
+c 0.9400: Makespan 14
+c 1.0210: Found solution, length 15
+c 1.0230: Makespan 15
+c 1.1160: Found solution, length 16
+c 1.1180: Makespan 16
+c 1.2020: Found solution, length 17
+c 1.2040: Makespan 17
+c 1.4550: Found solution, length 18
+c 1.4570: Makespan 18
+c 1.5990: Found solution, length 19
+c 1.6010: Makespan 19
+c 1.6910: Found solution, length 20
+c 1.6930: Makespan 20
+c 1.8110: Found solution, length 21
+c 1.8130: Makespan 21
+c 1.9210: Found solution, length 22
+c 1.9230: Makespan 22
+c 2.0520: Found solution, length 23
+c 2.0540: Makespan 23
+c 2.9140: Found solution, length 24
+c 2.9160: Makespan 24
+c 4.0080: Found solution, length 25
+c 4.0100: Makespan 25
+c 4.5340: Found solution, length 26
+c 4.5360: Makespan 26
+c 4.9720: Found solution, length 27
+c 4.9740: Makespan 27
+c 5.1950: Found solution, length 28
+c 5.1990: Makespan 28
+c 6.4030: Found solution, length 29
+c 6.4060: Makespan 29
+c 10.6910: Found solution, length 30
+c 10.6940: Makespan 30
+c 10.9890: Found solution, length 31
+c 10.9930: Makespan 31
+c 28.9490: Found solution, length 32
+c 28.9530: Makespan 32
+c 35.9150: Found solution, length 33
+c 35.9190: Makespan 33
+c 45.0010: Found solution, length 34
+c 45.0050: Makespan 34
+c 70.6810: Found solution, length 35
+c 70.6850: Makespan 35
+c 79.1110: Found solution, length 36
+c 79.1150: Makespan 36
+c 82.5870: Found solution, length 37
+c 82.5910: Makespan 37
+c 142.2260: Found solution, length 38
+c 142.2310: Makespan 38
+c 157.8610: Found solution, length 39
+c 157.8660: Makespan 39
+c 159.0950: Found solution, length 40
+c 159.0990: Makespan 40
+c 163.4650: Found solution, length 41
+c 163.4700: Makespan 41
+c 221.4850: Found solution, length 42
+c 221.4900: Makespan 42
+c 340.8070: Found solution, length 43
+c 340.8120: Makespan 43
+c 503.0400: Found solution, length 44
+c 503.0450: Makespan 44
+c 557.4280: Found solution, length 45
+c 557.4390: Makespan 45
+c 562.9730: Found solution, length 46
+c 562.9800: Makespan 46
+c 633.8190: Found solution, length 47
+c 633.8250: Makespan 47
+c 736.5500: Found solution, length 48
+c 736.5570: Makespan 48
+c 1133.8680: Found solution, length 49
+c 1133.8760: Makespan 49
+c 1363.3690: Found solution, length 50
+c 1363.3790: Makespan 50
+c 1563.5430: Found solution, length 51
+c 1563.5510: Makespan 51
+c 1925.6520: Found solution, length 52
+c 1925.6640: Makespan 52
+c array.sh: end:      Fri 27 May 2022 04:42:16 PM CEST
+s 1 8 35 61 83 148 201 234 284 301 382 472
+t 28 35 61 148 201 234 284 301 382 383 459 472
+a YES
+a 1 8 35 61 83 148 201 234 284 301 382 472
+a 3 8 35 61 83 148 201 234 284 301 382 472
+a 3 8 35 61 83 201 234 284 301 341 382 472
+a 1 8 35 61 83 201 234 284 301 341 382 472
+a 1 3 8 35 61 83 201 234 284 301 341 472
+a 1 3 8 35 83 201 234 284 301 341 382 472
+a 1 3 8 35 83 148 201 234 284 301 382 472
+a 1 3 8 35 61 148 201 234 284 301 382 472
+a 1 3 8 35 61 201 234 284 301 341 382 472
+a 1 3 8 35 61 83 201 234 284 341 382 472
+a 1 3 8 35 61 83 201 284 301 341 382 472
+a 1 3 8 35 61 83 234 284 301 341 382 472
+a 1 3 8 61 83 201 234 284 301 341 382 472
+a 1 3 8 35 61 83 201 234 301 341 382 472
+a 1 3 8 35 61 83 148 201 234 301 382 472
+a 1 3 8 61 83 148 201 234 284 301 382 472
+a 1 3 8 35 61 83 148 234 284 301 382 472
+a 1 3 35 61 83 148 201 234 284 301 382 472
+a 1 3 8 35 61 83 148 201 234 284 301 472
+a 1 3 8 35 61 83 148 201 284 301 382 472
+a 1 3 8 35 61 83 148 201 234 284 301 382
+a 1 3 8 35 61 83 148 201 234 284 382 472
+a 1 3 8 35 61 83 201 234 284 301 382 472
+a 1 3 8 35 61 83 201 234 284 301 341 382
+a 1 3 35 61 83 201 234 284 301 341 382 472
+a 3 35 61 83 201 234 284 301 341 382 459 472
+a 3 35 61 83 148 201 234 284 301 382 459 472
+a 3 28 35 61 83 201 234 284 301 382 459 472
+a 3 28 35 83 148 201 234 284 301 382 459 472
+a 28 35 61 83 148 201 234 284 301 382 459 472
+a 3 28 35 61 83 148 201 234 284 301 382 472
+a 3 28 35 61 83 148 234 284 301 382 459 472
+a 3 28 35 61 148 234 284 301 382 383 459 472
+a 3 28 35 61 148 201 284 301 382 383 459 472
+a 3 28 35 61 148 201 234 284 382 383 459 472
+a 3 28 35 61 148 201 234 301 382 383 459 472
+a 3 28 35 61 148 201 234 284 301 383 459 472
+a 3 28 35 148 201 234 284 301 382 383 459 472
+a 3 28 35 148 201 234 263 284 301 382 383 472
+a 3 28 35 61 148 201 234 284 301 382 383 472
+a 3 28 61 148 201 234 284 301 382 383 459 472
+a 3 28 35 61 201 234 284 301 382 383 459 472
+a 3 28 35 61 148 201 234 284 301 382 383 459
+a 3 28 35 61 83 148 201 234 284 301 382 459
+a 3 28 35 61 83 148 201 234 284 301 459 472
+a 3 28 35 61 83 148 201 234 301 382 459 472
+a 3 28 35 61 83 148 201 234 284 382 459 472
+a 3 28 61 83 148 201 234 284 301 382 459 472
+a 3 28 35 61 83 148 201 284 301 382 459 472
+a 3 28 35 61 148 201 234 284 301 382 459 472
+a 3 35 61 148 201 234 284 301 382 383 459 472
+a 28 35 61 148 201 234 284 301 382 383 459 472

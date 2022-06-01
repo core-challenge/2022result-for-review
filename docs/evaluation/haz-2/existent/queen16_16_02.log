@@ -1,0 +1,36 @@
+c Running for 10 seconds: python3 /SOLVER/mip/check-unsolvability.py /BENCHMARKS/benchmark/color04/queen16_16.col /BENCHMARKS/benchmark/color04/queen16_16_02.dat
+c Running for 4200 seconds: python3 /SOLVER/fd/fast-downward.py --overall-memory-limit 16G --plan-file results/queen16_16_02/sas_plan results/queen16_16_02/output.sas --landmarks "lmg=lm_merged([lm_rhw(use_orders=true), lm_hm(use_orders=true, m=1)])" --evaluator "hlm=lmcount(lmg, admissible=true, pref=false, cost_partitioning=suboptimal, greedy=false, reuse_costs=false)" --search "astar(hlm)"
+s 10 22 51 77 88 101 127 140 160 162 183 201 219 225 244 
+t 10 32 45 51 76 88 101 113 142 162 183 201 219 239 244
+a YES
+a 10 101 127 140 160 162 183 201 219 22 225 244 51 77 88
+a 10 101 140 160 162 183 201 219 22 225 244 46 51 77 88
+a 10 101 113 140 160 162 183 201 219 22 244 46 51 77 88
+a 10 101 113 140 160 162 183 201 219 22 239 244 51 77 88
+a 10 101 113 140 160 162 183 201 219 22 239 244 45 51 88
+a 10 101 113 142 160 162 183 201 219 22 239 244 45 51 88
+a 10 101 113 142 160 162 183 201 219 239 244 45 51 76 88
+a 10 101 113 142 162 183 201 219 239 244 32 45 51 76 88
+	Command being timed: "python3 /SOLVER/shortest/run.py submission sas split /BENCHMARKS/benchmark/color04/queen16_16.col /BENCHMARKS/benchmark/color04/queen16_16_02.dat"
+	User time (seconds): 1.98
+	System time (seconds): 0.19
+	Percent of CPU this job got: 19%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:11.34
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 51480
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43590
+	Voluntary context switches: 1813
+	Involuntary context switches: 900
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 272
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

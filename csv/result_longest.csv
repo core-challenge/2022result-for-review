@@ -1,4 +1,4 @@
-col,dat,Froleyks,TakehideSoh,YuyaYamada-N,haz,haz-single,junkawahara,telematik-tuhh,tigrisg,toda5603
+col,dat,Froleyks-2,TakehideSoh,YuyaYamada-N,haz-2,haz-single-2,junkawahara,telematik-tuhh,tigrisg,toda5603
 benchmark/color04/1-FullIns_3.col,benchmark/color04/1-FullIns_3_01.dat,1,1,1,1,1,1,1,1,1
 benchmark/color04/1-FullIns_3.col,benchmark/color04/1-FullIns_3_02.dat,3,3,34,29,29,3,3,3,3
 benchmark/color04/1-FullIns_4.col,benchmark/color04/1-FullIns_4_01.dat,1,1,1,1,1,1,1,1,1
@@ -49,36 +49,36 @@ benchmark/color04/5-FullIns_3.col,benchmark/color04/5-FullIns_3_01.dat,1,1,35,33
 benchmark/color04/5-FullIns_3.col,benchmark/color04/5-FullIns_3_02.dat,6,5,59,468,470,N.A.,5,5,6
 benchmark/color04/5-FullIns_4.col,benchmark/color04/5-FullIns_4_01.dat,1,1,30,10,10,N.A.,1,1,1
 benchmark/color04/5-FullIns_4.col,benchmark/color04/5-FullIns_4_02.dat,8,6,41,98,113,N.A.,6,6,490
-benchmark/color04/DSJC1000.1.col,benchmark/color04/DSJC1000.1_01.dat,N.A.,1,1,N.A.,N.A.,N.A.,1,1,1
-benchmark/color04/DSJC1000.1.col,benchmark/color04/DSJC1000.1_02.dat,N.A.,3,26,N.A.,N.A.,N.A.,3,3,58
-benchmark/color04/DSJC1000.5.col,benchmark/color04/DSJC1000.5_01.dat,N.A.,6,23,N.A.,N.A.,N.A.,6,6,11
-benchmark/color04/DSJC1000.5.col,benchmark/color04/DSJC1000.5_02.dat,N.A.,2,18,N.A.,27,N.A.,2,2,2
-benchmark/color04/DSJC1000.9.col,benchmark/color04/DSJC1000.9_01.dat,N.A.,2,6,N.A.,N.A.,N.A.,2,2,2
-benchmark/color04/DSJC1000.9.col,benchmark/color04/DSJC1000.9_02.dat,N.A.,2,8,8,N.A.,N.A.,2,2,2
-benchmark/color04/DSJC125.1.col,benchmark/color04/DSJC125.1_01.dat,N.A.,3,5,N.A.,N.A.,N.A.,3,3,3
-benchmark/color04/DSJC125.1.col,benchmark/color04/DSJC125.1_02.dat,N.A.,5,59,N.A.,N.A.,N.A.,5,5,10
-benchmark/color04/DSJC125.5.col,benchmark/color04/DSJC125.5_01.dat,N.A.,4,34,N.A.,N.A.,4,4,4,4
-benchmark/color04/DSJC125.5.col,benchmark/color04/DSJC125.5_02.dat,N.A.,2,33,N.A.,N.A.,2,2,2,2
-benchmark/color04/DSJC125.9.col,benchmark/color04/DSJC125.9_01.dat,N.A.,1,1,1,N.A.,1,1,1,1
-benchmark/color04/DSJC125.9.col,benchmark/color04/DSJC125.9_02.dat,N.A.,8,84,N.A.,179,8,8,8,8
-benchmark/color04/DSJC250.1.col,benchmark/color04/DSJC250.1_01.dat,N.A.,1,1,N.A.,N.A.,N.A.,1,1,1
-benchmark/color04/DSJC250.1.col,benchmark/color04/DSJC250.1_02.dat,N.A.,1,27,118,N.A.,N.A.,1,1,14
-benchmark/color04/DSJC250.5.col,benchmark/color04/DSJC250.5_01.dat,N.A.,1,13,N.A.,N.A.,N.A.,1,1,1
-benchmark/color04/DSJC250.5.col,benchmark/color04/DSJC250.5_02.dat,N.A.,5,30,N.A.,N.A.,N.A.,5,5,N.A.
-benchmark/color04/DSJC250.9.col,benchmark/color04/DSJC250.9_01.dat,N.A.,5,15,N.A.,15,5,5,5,5
-benchmark/color04/DSJC250.9.col,benchmark/color04/DSJC250.9_02.dat,N.A.,5,15,N.A.,N.A.,5,5,5,5
-benchmark/color04/DSJC500.1.col,benchmark/color04/DSJC500.1_01.dat,N.A.,3,9,N.A.,N.A.,N.A.,3,3,3
-benchmark/color04/DSJC500.1.col,benchmark/color04/DSJC500.1_02.dat,N.A.,6,35,N.A.,N.A.,N.A.,6,6,18
-benchmark/color04/DSJC500.5.col,benchmark/color04/DSJC500.5_01.dat,N.A.,1,15,N.A.,15,N.A.,1,1,1
-benchmark/color04/DSJC500.5.col,benchmark/color04/DSJC500.5_02.dat,N.A.,1,25,N.A.,N.A.,N.A.,1,1,1
-benchmark/color04/DSJC500.9.col,benchmark/color04/DSJC500.9_01.dat,N.A.,6,26,23,N.A.,N.A.,6,6,6
-benchmark/color04/DSJC500.9.col,benchmark/color04/DSJC500.9_02.dat,N.A.,9,27,N.A.,N.A.,N.A.,9,9,9
-benchmark/color04/DSJR500.1.col,benchmark/color04/DSJR500.1_01.dat,N.A.,8,23,N.A.,N.A.,N.A.,8,8,8
-benchmark/color04/DSJR500.1.col,benchmark/color04/DSJR500.1_02.dat,N.A.,13,41,N.A.,N.A.,N.A.,13,13,179
-benchmark/color04/DSJR500.1c.col,benchmark/color04/DSJR500.1c_01.dat,N.A.,1,1,N.A.,N.A.,1,1,1,1
-benchmark/color04/DSJR500.1c.col,benchmark/color04/DSJR500.1c_02.dat,N.A.,4,51,N.A.,N.A.,4,4,4,4
-benchmark/color04/DSJR500.5.col,benchmark/color04/DSJR500.5_01.dat,N.A.,2,13,15,15,N.A.,2,2,2
-benchmark/color04/DSJR500.5.col,benchmark/color04/DSJR500.5_02.dat,N.A.,6,94,N.A.,N.A.,N.A.,6,6,7
+benchmark/color04/DSJC1000.1.col,benchmark/color04/DSJC1000.1_01.dat,1,1,1,UNK (11),1,N.A.,1,1,1
+benchmark/color04/DSJC1000.1.col,benchmark/color04/DSJC1000.1_02.dat,67,3,26,20,20,N.A.,3,3,58
+benchmark/color04/DSJC1000.5.col,benchmark/color04/DSJC1000.5_01.dat,32,6,23,23,23,N.A.,6,6,11
+benchmark/color04/DSJC1000.5.col,benchmark/color04/DSJC1000.5_02.dat,27,2,18,27,27,N.A.,2,2,2
+benchmark/color04/DSJC1000.9.col,benchmark/color04/DSJC1000.9_01.dat,6,2,6,N.A.,6,N.A.,2,2,2
+benchmark/color04/DSJC1000.9.col,benchmark/color04/DSJC1000.9_02.dat,8,2,8,8,8,N.A.,2,2,2
+benchmark/color04/DSJC125.1.col,benchmark/color04/DSJC125.1_01.dat,5,3,5,5,5,N.A.,3,3,3
+benchmark/color04/DSJC125.1.col,benchmark/color04/DSJC125.1_02.dat,129,5,59,215,215,N.A.,5,5,10
+benchmark/color04/DSJC125.5.col,benchmark/color04/DSJC125.5_01.dat,34,4,34,21,21,4,4,4,4
+benchmark/color04/DSJC125.5.col,benchmark/color04/DSJC125.5_02.dat,33,2,33,32,32,2,2,2,2
+benchmark/color04/DSJC125.9.col,benchmark/color04/DSJC125.9_01.dat,1,1,1,UNK (11),1,1,1,1,1
+benchmark/color04/DSJC125.9.col,benchmark/color04/DSJC125.9_02.dat,122,8,84,179,179,8,8,8,8
+benchmark/color04/DSJC250.1.col,benchmark/color04/DSJC250.1_01.dat,1,1,1,UNK (11),1,N.A.,1,1,1
+benchmark/color04/DSJC250.1.col,benchmark/color04/DSJC250.1_02.dat,81,1,27,136,134,N.A.,1,1,14
+benchmark/color04/DSJC250.5.col,benchmark/color04/DSJC250.5_01.dat,13,1,13,12,12,N.A.,1,1,1
+benchmark/color04/DSJC250.5.col,benchmark/color04/DSJC250.5_02.dat,45,5,30,37,37,N.A.,5,5,N.A.
+benchmark/color04/DSJC250.9.col,benchmark/color04/DSJC250.9_01.dat,15,5,15,15,15,5,5,5,5
+benchmark/color04/DSJC250.9.col,benchmark/color04/DSJC250.9_02.dat,15,5,15,15,15,5,5,5,5
+benchmark/color04/DSJC500.1.col,benchmark/color04/DSJC500.1_01.dat,9,3,9,9,9,N.A.,3,3,3
+benchmark/color04/DSJC500.1.col,benchmark/color04/DSJC500.1_02.dat,86,6,35,78,77,N.A.,6,6,18
+benchmark/color04/DSJC500.5.col,benchmark/color04/DSJC500.5_01.dat,15,1,15,15,15,N.A.,1,1,1
+benchmark/color04/DSJC500.5.col,benchmark/color04/DSJC500.5_02.dat,37,1,25,36,36,N.A.,1,1,1
+benchmark/color04/DSJC500.9.col,benchmark/color04/DSJC500.9_01.dat,26,6,26,24,24,N.A.,6,6,6
+benchmark/color04/DSJC500.9.col,benchmark/color04/DSJC500.9_02.dat,27,9,27,22,22,N.A.,9,9,9
+benchmark/color04/DSJR500.1.col,benchmark/color04/DSJR500.1_01.dat,87,8,23,54,54,N.A.,8,8,8
+benchmark/color04/DSJR500.1.col,benchmark/color04/DSJR500.1_02.dat,68,13,41,N.A.,19,N.A.,13,13,179
+benchmark/color04/DSJR500.1c.col,benchmark/color04/DSJR500.1c_01.dat,1,1,1,UNK (11),1,1,1,1,1
+benchmark/color04/DSJR500.1c.col,benchmark/color04/DSJR500.1c_02.dat,51,4,51,42,42,4,4,4,4
+benchmark/color04/DSJR500.5.col,benchmark/color04/DSJR500.5_01.dat,15,2,13,15,15,N.A.,2,2,2
+benchmark/color04/DSJR500.5.col,benchmark/color04/DSJR500.5_02.dat,165,6,94,198,198,N.A.,6,6,7
 benchmark/color04/anna.col,benchmark/color04/anna_01.dat,5,5,29,172,206,N.A.,5,5,5
 benchmark/color04/anna.col,benchmark/color04/anna_02.dat,14,13,79,251,291,N.A.,13,13,53
 benchmark/color04/ash331GPIA.col,benchmark/color04/ash331GPIA_01.dat,1,1,30,22,22,N.A.,1,1,123
@@ -145,14 +145,14 @@ benchmark/color04/myciel6.col,benchmark/color04/myciel6_01.dat,1,1,46,46,46,1,1,
 benchmark/color04/myciel6.col,benchmark/color04/myciel6_02.dat,1,1,46,46,46,1,1,1,1
 benchmark/color04/myciel7.col,benchmark/color04/myciel7_01.dat,1,1,94,94,94,N.A.,1,1,3
 benchmark/color04/myciel7.col,benchmark/color04/myciel7_02.dat,1,1,94,94,94,N.A.,1,1,1
-benchmark/color04/qg.order100.col,benchmark/color04/qg.order100_01.dat,N.A.,UNK (11),N.A.,97,N.A.,N.A.,97,97,N.A.
-benchmark/color04/qg.order100.col,benchmark/color04/qg.order100_02.dat,N.A.,UNK (11),N.A.,N.A.,N.A.,N.A.,98,98,N.A.
-benchmark/color04/qg.order30.col,benchmark/color04/qg.order30_01.dat,N.A.,UNK (11),67,N.A.,N.A.,N.A.,30,30,30
-benchmark/color04/qg.order30.col,benchmark/color04/qg.order30_02.dat,N.A.,UNK (11),62,N.A.,UNK (11),N.A.,29,29,29
-benchmark/color04/qg.order40.col,benchmark/color04/qg.order40_01.dat,N.A.,UNK (11),N.A.,N.A.,N.A.,N.A.,40,40,N.A.
-benchmark/color04/qg.order40.col,benchmark/color04/qg.order40_02.dat,N.A.,UNK (11),N.A.,N.A.,N.A.,N.A.,39,39,40
-benchmark/color04/qg.order60.col,benchmark/color04/qg.order60_01.dat,N.A.,UNK (11),N.A.,N.A.,N.A.,N.A.,59,59,59
-benchmark/color04/qg.order60.col,benchmark/color04/qg.order60_02.dat,N.A.,UNK (11),N.A.,N.A.,N.A.,N.A.,58,58,N.A.
+benchmark/color04/qg.order100.col,benchmark/color04/qg.order100_01.dat,N.A.,UNK (11),N.A.,UNK (11),UNK (11),N.A.,97,97,N.A.
+benchmark/color04/qg.order100.col,benchmark/color04/qg.order100_02.dat,N.A.,UNK (11),N.A.,UNK (11),UNK (11),N.A.,98,98,N.A.
+benchmark/color04/qg.order30.col,benchmark/color04/qg.order30_01.dat,N.A.,UNK (11),67,UNK (11),UNK (11),N.A.,30,30,30
+benchmark/color04/qg.order30.col,benchmark/color04/qg.order30_02.dat,N.A.,UNK (11),62,UNK (11),UNK (11),N.A.,29,29,29
+benchmark/color04/qg.order40.col,benchmark/color04/qg.order40_01.dat,N.A.,UNK (11),N.A.,UNK (11),UNK (11),N.A.,40,40,N.A.
+benchmark/color04/qg.order40.col,benchmark/color04/qg.order40_02.dat,N.A.,UNK (11),N.A.,UNK (11),UNK (11),N.A.,39,39,40
+benchmark/color04/qg.order60.col,benchmark/color04/qg.order60_01.dat,N.A.,UNK (11),N.A.,UNK (11),UNK (11),N.A.,59,59,59
+benchmark/color04/qg.order60.col,benchmark/color04/qg.order60_02.dat,N.A.,UNK (11),N.A.,UNK (11),UNK (11),N.A.,58,58,N.A.
 benchmark/color04/queen10_10.col,benchmark/color04/queen10_10_01.dat,14,8,34,547,643,8,8,8,8
 benchmark/color04/queen10_10.col,benchmark/color04/queen10_10_02.dat,13,11,38,517,518,11,11,11,14
 benchmark/color04/queen11_11.col,benchmark/color04/queen11_11_01.dat,10,8,30,68,90,N.A.,8,8,9
@@ -368,4 +368,4 @@ benchmark/square/hc-square-017-002.col,benchmark/square/hc-square-017-002_01.dat
 benchmark/square/hc-square-018-002.col,benchmark/square/hc-square-018-002_01.dat,N.A.,UNK (11),N.A.,1406,UNK (11),1406,N.A.,N.A.,N.A.
 benchmark/square/hc-square-019-002.col,benchmark/square/hc-square-019-002_01.dat,N.A.,UNK (11),N.A.,1560,UNK (11),1560,N.A.,N.A.,N.A.
 benchmark/square/hc-square-020-002.col,benchmark/square/hc-square-020-002_01.dat,N.A.,UNK (11),N.A.,1722,UNK (11),1722,N.A.,N.A.,N.A.
-#Longest,,29,13,122,83,132,21,27,26,32
+#Longest,,54,13,115,90,143,21,27,26,31

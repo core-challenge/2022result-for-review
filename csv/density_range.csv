@@ -1,5 +1,0 @@
-range,#problem,solver1#existent,solver1#longest,solver1#shortest,solver2#existent,solver2#longest,solver2#shortest,solver3#existent,solver3#longest,solver3#shortest
-0-0.1,236,0,0,0,0,0,0,0,0,0
-0.1-0.3,86,3,3,3,3,3,3,2,2,2
-0.3-0.5,21,0,0,0,0,0,0,0,0,0
->0.5,26,0,0,0,0,0,0,0,0,0

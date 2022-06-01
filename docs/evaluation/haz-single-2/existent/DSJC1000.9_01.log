@@ -1,0 +1,30 @@
+c Running for 4200 seconds: python3 /SOLVER/fd/fast-downward.py --overall-memory-limit 16G --plan-file results/DSJC1000.9_01/sas_plan results/DSJC1000.9_01/output.sas --landmarks lmg="lm_hm(use_orders=False, m=1)" --evaluator "hlm=lmcount(lmg, admissible=True, pref=false)" --search "eager(single(hlm),reopen_closed=False)"
+s 52 54 319 501 704 
+t 52 54 175 214 704
+a YES
+a 319 501 52 54 704
+a 175 501 52 54 704
+a 175 214 52 54 704
+	Command being timed: "python3 /SOLVER/shortest/run.py submission sas split /BENCHMARKS/benchmark/color04/DSJC1000.9.col /BENCHMARKS/benchmark/color04/DSJC1000.9_01.dat"
+	User time (seconds): 6.40
+	System time (seconds): 0.12
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 149020
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 65831
+	Voluntary context switches: 70
+	Involuntary context switches: 674
+	Swaps: 0
+	File system inputs: 168
+	File system outputs: 10992
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

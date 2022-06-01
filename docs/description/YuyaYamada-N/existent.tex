@@ -1,0 +1,71 @@
+% 2022-03-24 banabra
+\documentclass[a4paper,dvipdfmx]{article}
+
+\usepackage{authblk}
+\usepackage{graphicx}
+\usepackage{url}
+
+\newcommand{\clingo}{\textit{clingo}}
+\newcommand{\recongo}{\textit{recongo}}
+
+\date{}
+\title{{\recongo}: ASP-based Combinatorial Reconfiguration Problem Solver}
+\pagenumbering{gobble}
+
+\author[1]{Yuya Yamada}
+\author[2]{Masato Kato}
+\author[2]{Shuji Kosuge}
+\author[1]{Raito Takeuchi}
+\author[1]{Mutsunori Banbara}
+\affil[1]{Graduate School of Informatics, Nagoya University, Japan}
+\affil[2]{School of Informatics, Nagoya University, Japan}
+
+\begin{document}
+\maketitle
+
+\section{Metric}
+\begin{itemize}
+  \item solver{\#}existent
+\end{itemize}
+
+\section{Engine: Core Solver or Algorithm}
+Answer Set Programming (ASP) is an approach to declarative problem solving.
+ASP provides a rich language and 
+is well suited for modeling combinatorial problems 
+in Artificial Intelligence and Computer Science.
+Recent improvements in the effectiveness of ASP systems
+have encouraged researchers to use ASP for solving problems in diverse
+areas, such as
+automated planning,
+constraint satisfaction,
+model checking, etc.
+
+The {\recongo} solver is an ASP-based combinatorial reconfiguration
+problem solver.
+{\recongo} reads a problem instance and converts it into ASP facts.
+In turn, these facts are combined with a first-order encoding for
+problem solving, which is subsequently solved by a general-purpose ASP
+system, in our case {\clingo}.
+For CoRe Challenge 2022, we develop a basic ASP encoding and some
+additional hints for solving independent set reconfiguration problems.
+
+\begin{itemize}
+\item single-engine
+\end{itemize}
+
+\section{Computation Environment}
+\begin{itemize}
+\item OS: Mac OS
+\item CPU: 3.3GHz 12core Intel Xeon W
+\item MEM: 96GB
+\item ASP system: {\clingo}-5.5.1~\footnote{\url{https://potassco.org/clingo/}}
+\end{itemize}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+
+% LocalWords:  combinatorial CoRe Xeon MEM

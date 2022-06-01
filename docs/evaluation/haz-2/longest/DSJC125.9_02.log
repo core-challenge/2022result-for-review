@@ -1,0 +1,207 @@
+
+s 30 90 125 
+t 20 85 109
+a YES
+a 125 30 90
+a 125 73 90
+a 125 51 90
+a 125 51 55
+a 125 36 55
+a 125 36 41
+a 125 41 80
+a 125 17 41
+a 120 125 17
+a 125 17 51
+a 125 30 51
+a 30 51 90
+a 30 58 90
+a 30 88 90
+a 3 88 90
+a 43 88 90
+a 125 43 90
+a 125 43 84
+a 125 72 84
+a 115 72 84
+a 115 19 84
+a 107 115 84
+a 107 115 72
+a 107 72 74
+a 107 24 72
+a 107 15 72
+a 107 6 72
+a 107 72 84
+a 117 72 84
+a 117 71 72
+a 117 15 72
+a 117 15 4
+a 117 15 62
+a 117 62 63
+a 117 4 63
+a 117 63 98
+a 5 63 98
+a 100 5 98
+a 100 105 98
+a 10 100 105
+a 10 105 35
+a 10 105 124
+a 10 124 17
+a 10 123 17
+a 113 123 17
+a 113 123 3
+a 113 114 123
+a 113 114 65
+a 113 114 28
+a 114 28 97
+a 114 80 97
+a 114 115 80
+a 114 115 97
+a 115 53 97
+a 115 80 97
+a 115 19 80
+a 115 7 80
+a 6 7 80
+a 47 7 80
+a 118 47 80
+a 115 118 80
+a 115 118 44
+a 118 18 44
+a 116 18 44
+a 18 44 59
+a 23 44 59
+a 23 44 5
+a 44 45 5
+a 27 45 5
+a 27 5 94
+a 106 5 94
+a 106 5 75
+a 5 63 75
+a 33 5 63
+a 32 33 63
+a 31 32 33
+a 32 33 54
+a 103 33 54
+a 103 23 33
+a 103 33 5
+a 103 33 63
+a 103 5 63
+a 103 62 63
+a 103 54 62
+a 103 60 62
+a 29 60 62
+a 13 60 62
+a 116 13 60
+a 116 4 60
+a 116 24 60
+a 24 25 60
+a 13 25 60
+a 25 47 60
+a 25 47 91
+a 46 47 91
+a 17 46 91
+a 17 52 91
+a 48 52 91
+a 45 48 91
+a 17 45 91
+a 45 5 91
+a 25 45 91
+a 25 45 86
+a 24 25 45
+a 24 25 31
+a 25 31 55
+a 25 55 9
+a 114 55 9
+a 114 27 55
+a 27 45 55
+a 25 45 55
+a 36 45 55
+a 20 36 45
+a 119 20 36
+a 119 20 85
+a 119 38 85
+a 38 42 85
+a 12 38 42
+a 12 125 38
+a 125 38 85
+a 125 28 85
+a 125 28 67
+a 125 53 67
+a 124 125 53
+a 124 125 17
+a 124 125 55
+a 124 45 55
+a 124 17 45
+a 124 20 45
+a 119 124 20
+a 119 124 53
+a 119 53 67
+a 11 53 67
+a 53 67 8
+a 104 53 8
+a 104 53 97
+a 104 8 97
+a 104 80 97
+a 80 87 97
+a 11 80 87
+a 11 86 87
+a 11 19 86
+a 12 19 86
+a 113 12 86
+a 113 75 86
+a 26 75 86
+a 68 75 86
+a 46 68 75
+a 105 68 75
+a 105 108 68
+a 105 108 110
+a 105 110 49
+a 105 49 52
+a 105 35 52
+a 14 35 52
+a 14 35 42
+a 14 35 64
+a 2 35 64
+a 2 21 64
+a 21 64 96
+a 19 21 96
+a 21 24 96
+a 24 72 96
+a 15 72 96
+a 119 72 96
+a 119 72 77
+a 5 72 77
+a 71 72 77
+a 57 71 77
+a 64 71 77
+a 21 64 77
+a 5 64 77
+a 42 64 77
+a 35 42 64
+a 14 42 64
+a 2 42 64
+a 109 42 64
+a 109 42 63
+a 109 42 85
+a 109 20 85
+	Command being timed: "python3 /SOLVER/longest/run.py submission sas split /BENCHMARKS/benchmark/color04/DSJC125.9.col /BENCHMARKS/benchmark/color04/DSJC125.9_02.dat"
+	User time (seconds): 0.31
+	System time (seconds): 0.04
+	Percent of CPU this job got: 0%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:10:00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 19384
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14107
+	Voluntary context switches: 305
+	Involuntary context switches: 34
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 216
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

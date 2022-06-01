@@ -1,0 +1,50 @@
+
+s 24 25 26 27 28 29 30 31 32 34 35 36 37 38 39 40 41 42 43 44 45 46 
+t 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 42 43 44 45 46
+a YES
+a 24 25 26 27 28 29 30 31 32 34 35 36 37 38 39 40 41 42 43 44 45 46
+a 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45
+a 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 46
+a 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 45 46
+a 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 44 45 46
+a 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 43 44 45 46
+a 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 41 42 43 44 45 46
+a 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 40 41 42 43 44 45 46
+a 24 25 26 27 28 29 30 31 32 33 34 35 36 37 39 40 41 42 43 44 45 46
+a 24 25 26 27 28 29 30 31 32 33 34 35 36 38 39 40 41 42 43 44 45 46
+a 24 25 26 27 28 29 30 31 32 33 34 35 37 38 39 40 41 42 43 44 45 46
+a 24 25 26 27 28 29 30 31 32 33 34 36 37 38 39 40 41 42 43 44 45 46
+a 24 25 26 27 28 29 30 31 32 33 35 36 37 38 39 40 41 42 43 44 45 46
+a 24 25 26 27 28 29 30 31 33 34 35 36 37 38 39 40 41 42 43 44 45 46
+a 24 25 26 27 28 29 30 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46
+a 24 25 26 27 28 29 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46
+a 24 25 26 27 28 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46
+a 24 25 26 27 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46
+a 24 25 26 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46
+a 24 25 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46
+a 24 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46
+a 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46
+a 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 42 43 44 45 46
+	Command being timed: "python3 /SOLVER/longest/run.py submission sas split /BENCHMARKS/benchmark/color04/myciel5.col /BENCHMARKS/benchmark/color04/myciel5_01.dat"
+	User time (seconds): 0.16
+	System time (seconds): 0.03
+	Percent of CPU this job got: 0%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:10:00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 17556
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8539
+	Voluntary context switches: 95
+	Involuntary context switches: 22
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
