@@ -3,21 +3,18 @@
 
 
 - This page is private and only for reviewing purpose for a while. 
-
 - Raw results in this page are currently under review. 
-
 - Tables contain both sequential and portfolio solvers. 
-
 - (Note) TakehideSoh is one of the organizers. So, it is reference and not counted for the competition.
-
 - (Note) tigrisg is disqualified in the Existent metric since it outputs "no" to an instance where a correct reconfiguration sequence exists.
 
 
-| col | dat | [Froleyks-2](../description/Froleyks.pdf) | TakehideSoh | YuyaYamada-N | [haz-2](../description/haz.pdf) | [haz-single-2](../description/haz.pdf) | [junkawahara](../description/junkawahara.pdf) | [telematik-tuhh](../description/telematik-tuhh.pdf) | [tigrisg](../description/tigrisg.pdf) | [toda5603](../description/toda5603.tex) |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| #Existent |  | 257 (245/12) | 216 (216/0) | [244 (238/6)](../description/Yuyayamada-N/existent.tex) | 334 (288/46) | 299 (275/24) | 122 (110/12) | 326 (280/46) | 274 (245/29) | 207 (207/0) |
-| #Shortest |  | 152 | 216 | [238](../description/Yuyayamada-N/shortest.tex) | 275 | 198 | 110 | 280 | 232 | 134 |
-| #Longest |  | 54 | 13 | [115](../description/Yuyayamada-N/longest.tex) | 90 | 143 | 21 | 27 | 26 | 31 |
+| col       | dat | [Froleyks-2](../description/Froleyks.pdf) | TakehideSoh | YuyaYamada-N                                            | [haz-2](../description/haz.pdf) | [haz-single-2](../description/haz.pdf) | [junkawahara](../description/junkawahara.pdf) | [telematik-tuhh](../description/telematik-tuhh.pdf) | [tigrisg](../description/tigrisg.pdf) | [toda5603](../description/toda5603.pdf) |
+|           |     | single                                    | single      | single                                                  | portfolio                       | single                                 | single                                        | single                                              | single                                | single                                        |
+| ---       | --- | ---                                       | ---         | ---                                                     | ---                             | ---                                    | ---                                           | ---                                                 | ---                                   | ---                                     |
+| #Existent |     | 257 (245/12)                              | 216 (216/0) | [244 (238/6)](../description/YuyaYamada-N/existent.pdf) | 334 (288/46)                    | 299 (275/24)                           | 122 (110/12)                                  | 326 (280/46)                                        | 274 (245/29)                          | 207 (207/0)                             |
+| #Shortest |     | 152                                       | 216         | [238](../description/YuyaYamada-N/shortest.pdf)         | 275                             | 198                                    | 110                                           | 280                                                 | 232                                   | 134                                     |
+| #Longest  |     | 54                                        | 13          | [115](../description/YuyaYamada-N/longest.pdf)          | 90                              | 143                                    | 21                                            | 27                                                  | 26                                    | 31                                      |
 
 # Existent
 

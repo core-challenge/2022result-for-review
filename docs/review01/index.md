@@ -13,11 +13,11 @@
 - (Note) tigrisg is disqualified in the Existent metric since it outputs "no" to an instance where a correct reconfiguration sequence exists.
 
 
-| | | [Froleyks](../description/Froleyks.pdf) | TakehideSoh | YuyaYamada-N | [haz](../description/haz.pdf) | [haz-single](../description/haz.pdf) | [junkawahara](../description/junkawahara.pdf) | [telematik-tuhh](../description/telematik-tuhh.pdf) | [tigrisg](../description/tigrisg.pdf) | [toda5603](../description/toda5603.tex) |
+| | | [Froleyks](../description/Froleyks.pdf) | TakehideSoh | YuyaYamada-N | [haz](../description/haz.pdf) | [haz-single](../description/haz.pdf) | [junkawahara](../description/junkawahara.pdf) | [telematik-tuhh](../description/telematik-tuhh.pdf) | [tigrisg](../description/tigrisg.pdf) | [toda5603](../description/toda5603.pdf) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| #Existent |  | 221 (209/12) | 216 (216/0) | [244 (238/6)](../description/Yuyayamada-N/existent.tex) | 304 (258/46) | 267 (243/24) | 122 (110/12) | 326 (280/46) | 274 (245/29) | 207 (207/0) |
-| #Shortest |  | 122 | 216 | [238](../description/Yuyayamada-N/shortest.tex) | 245 | 175 | 110 | 280 | 232 | 134 |
-| #Longest |  | 29 | 13 | [122](../description/Yuyayamada-N/longest.tex) | 83 | 132 | 21 | 27 | 26 | 32 |
+| #Existent |  | 221 (209/12) | 216 (216/0) | [244 (238/6)](../description/YuyaYamada-N/existent.pdf) | 304 (258/46) | 267 (243/24) | 122 (110/12) | 326 (280/46) | 274 (245/29) | 207 (207/0) |
+| #Shortest |  | 122 | 216 | [238](../description/YuyaYamada-N/shortest.pdf) | 245 | 175 | 110 | 280 | 232 | 134 |
+| #Longest |  | 29 | 13 | [122](../description/YuyaYamada-N/longest.pdf) | 83 | 132 | 21 | 27 | 26 | 32 |
 
 # Existent
 
