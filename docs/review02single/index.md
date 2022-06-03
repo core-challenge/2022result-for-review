@@ -15,7 +15,6 @@
 
 | col       | dat | [Froleyks-2](../description/Froleyks.pdf) | TakehideSoh | YuyaYamada-N | [haz-single-2](../description/haz.pdf) | [junkawahara](../description/junkawahara.pdf)  | [telematik-tuhh](../description/telematik-tuhh.pdf) | [tigrisg](../description/tigrisg.pdf)      | [toda5603](../description/toda5603.pdf)    |
 |           |     | single                                    | single      | single                                                  | single                                 | single                                        | single                                              | single                                | single                                        |
-
 | #Existent |     | 257 (245/12) | 216 (216/0) | [244 (238/6)](../description/YuyaYamada-N/existent.pdf) | 299 (275/24) | 122 (110/12) | 326 (280/46)   | 274 (245/29) | 207 (207/0) |
 | #Shortest |     | 152          | 216         | [238](../description/YuyaYamada-N/shortest.pdf)          | 198          | 110          | 280            | 232          | 134         |
 | #Longest  |     | 54           | 13          |  [115](../description/YuyaYamada-N/longest.pdf)           | 144          | 21           | 39             | 26           | 31          |
