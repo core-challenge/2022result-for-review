@@ -44,7 +44,7 @@
   - Mutsunori Banbara (School of Informatics, Nagoya University, Japan)
 - @haz, @haz-single
   - Remo Christen (University of Basel)
-  - Salomée Eriksso (University of Basel)
+  - Salomé Eriksso (University of Basel)
   - Michael Katz (IBM T.J. Watson Research Center)
   - Emil Keyder (Invitae)
   - Christian Muise (Queen's University)
