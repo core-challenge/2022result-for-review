@@ -11,16 +11,22 @@
 | Metric   | 1st           | 2nd           | 3rd           |
 |----------|---------------|---------------|---------------|
 | Existent | @haz-single   | @Froleyks     | @YuyaYamada-N |
+|          | 299 (275/24)  | 257 (245/12)  | 244 (238/6)   |
 | Shortest | @YuyaYamada-N | @tigrisg      | @haz-single   |
+|          | 238           | 232           | 213           |
 | Longest  | @haz-single   | @YuyaYamada-N | @Froleyks     |
+|          | 144           | 115           | 54            |
 
 ### Overall Solvers (including portfolio)
 
 | Metric   | 1st             | 2nd             | 3rd           |
 |----------|-----------------|-----------------|---------------|
 | Existent | @haz            | @telematik-tuhh | @haz-single   |
+|          | 334 (288/46)    | 326 (280/46)    | 299 (276/24)  |
 | Shortest | @telematik-tuhh | @haz            | @YuyaYamada-N |
+|          | 280             | 275             | 238           |
 | Longest  | @haz-single     | @YuyaYamada-N   | @haz          |
+|          | 143             | 115             | 90            |
 
 ### Author List (collected from the descriptions)
 
@@ -38,13 +44,13 @@
   - Mutsunori Banbara (School of Informatics, Nagoya University, Japan)
 - @haz, @haz-single
   - Remo Christen (University of Basel)
-  - Salom´e Eriksso (University of Basel)
+  - Salomée Eriksso (University of Basel)
   - Michael Katz (IBM T.J. Watson Research Center)
   - Emil Keyder (Invitae)
   - Christian Muise (Queen's University)
   - Alice Petrov (Queen's University)
   - Florian Pommerening (University of Basel)
-  - Jendrik Seipp (Link¨oping University)
+  - Jendrik Seipp (Linköping University)
   - Silvan Sievers (University of Basel)
   - David Speck (University of Freiburg)
 - @junkawahara
@@ -54,10 +60,10 @@
   - Volker Turau (Institute of Telematics, Hamburg University of Technology, Hamburg, Germany)
   - Christoph Weyer (Institute of Telematics, Hamburg University of Technology, Hamburg, Germany)
 - @tigrisg
-  - Ulrick BLE´(Ecole Centrale de Nantes)
-  - Xiaoteng CUI (Ecole Centrale de Nantes)
-  - Feibiao WU (Ecole Centrale de Nantes)
-  - Zijie ZHONG (Ecole Centrale de Nantes)
+  - Ulrick BLÉ (École Centrale de Nantes)
+  - Xiaoteng CUI (École Centrale de Nantes)
+  - Feibiao WU (École Centrale de Nantes)
+  - Zijie ZHONG (École Centrale de Nantes)
 - @toda5603
   - Takahisa Toda (Graduate School of Informatics and Engineering, The University
 of Electro-Communications)
