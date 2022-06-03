@@ -6,6 +6,7 @@
 - Tables contain both sequential and portfolio solvers. 
 - (Note) TakehideSoh is one of the organizers. So, it is reference and not counted for the competition.
 - (Note) tigrisg is disqualified in the Existent metric since it outputs "no" to an instance where a correct reconfiguration sequence exists.
+- (Note) Froleyks-2 uses a portfolio solver for Existent track.
 
 | col       | dat | [Froleyks-2](../description/Froleyks.pdf) | TakehideSoh | YuyaYamada-N                                            | [haz-single-2](../description/haz.pdf) | [junkawahara](../description/junkawahara.pdf) | [tigrisg](../description/tigrisg.pdf) | [toda5603](../description/toda5603.pdf) |
 |           |     | single                                    | single      | single                                                  | single                                 | single                                        | single                                | single                                  |

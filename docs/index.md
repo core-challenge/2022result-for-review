@@ -8,14 +8,14 @@
 
 ### Single-engine Solvers
 
-| Metric   | 1st           | 2nd           | 3rd           |
-|----------|---------------|---------------|---------------|
-| Existent | @haz-single   | @Froleyks     | @YuyaYamada-N |
-|          | 299 (275/24)  | 257 (245/12)  | 244 (238/6)   |
-| Shortest | @YuyaYamada-N | @tigrisg      | @haz-single   |
-|          | 238           | 232           | 213           |
-| Longest  | @haz-single   | @YuyaYamada-N | @Froleyks     |
-|          | 144           | 115           | 54            |
+| Metric   | 1st           | 2nd           | 3rd         |
+|----------|---------------|---------------|-------------|
+| Existent | @haz-single   | @YuyaYamada-N | @toda5603   |
+|          | 299 (275/24)  | 244 (238/6)   | 207 (207/0) |
+| Shortest | @YuyaYamada-N | @tigrisg      | @haz-single |
+|          | 238           | 232           | 213         |
+| Longest  | @haz-single   | @YuyaYamada-N | @Froleyks   |
+|          | 144           | 115           | 54          |
 
 ### Overall Solvers (including portfolio)
 
