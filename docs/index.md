@@ -1,12 +1,31 @@
+## Graph Track
+- [Review01](review01g/index.md)
+
+## Graph Track Results
+
+| Metric | 1st             | 2nd          | 3rd           |
+|--------|-----------------|--------------|---------------|
+| 10     | @telematik-tuhh | @tpierron    | @akkyhowa     |
+| 50     | @tpierron       | PARIS (@haz) | @karakasaDcFd |
+| 100    | @tpierron       | PARIS (@haz) | @karakasaDcFd |
+
+- At #10, 
+  - two teams were tied with the length 10, and 
+  - three teams were tied with the length 9.
+  - The tie was broken by the date of submission.
+
+- At #50, 
+  - two teams were tied with the length 3069.
+  - The tie was broken by the date of submission.
+
+- At #100, 
+  - two teams were tied with the length 3145725.
+  - The tie was broken by the date of submission.
 
 ## Solver Track
 - [Review01](review01/index.md)
 - [Review02](review02/index.md)
 - [Review02single](review02single/index.md)
-
-
-## Graph Track
-- [Review01](review01g/index.md)
 
 
 ## Solver Track Results
@@ -66,4 +85,5 @@
 - @toda5603
   - Takahisa Toda (Graduate School of Informatics and Engineering, The University
 of Electro-Communications)
->>>>>>> 5121d7de2787eb2f06c93bd38d97ea0fc696975e
+
+
